@@ -7,12 +7,23 @@ düzenli, her dosyanın bir metadata kaydı var. Depoyu AI agent'ları yönetiyo
 *Course resource archive for Gazi University Computer Engineering, managed by AI agents with human review.
 Agents: start with [`AGENTS.md`](AGENTS.md).*
 
-## İndir
+## İndir ve kur (2 dakika)
 ![Vault tanıtımı](docs/media/tanitim.webp)
 
-**[Obsidian vault'unu indir (son sürüm)](https://github.com/isobed18/gazi-bm-mf-notlar/releases/latest)** → `Gazi-BM-Vault.zip`'i aç,
-Obsidian'da *Open folder as vault*. Agent'ına "indir kur" demek yeterli: adımlar [INSTALL.md](INSTALL.md) içinde.
+1. **[Releases sayfasını aç](https://github.com/isobed18/gazi-bm-mf-notlar/releases/latest)** → *Assets* altındaki
+   **`Gazi-BM-Vault.zip`** dosyasını indir (~1.5 GB). Drive, git veya hesap gerekmez.
+2. Zip'i bir klasöre çıkar.
+3. [Obsidian](https://obsidian.md)'ı aç → *Open folder as vault* → o klasörü seç. `Başlangıç` notundan başla.
+
+Agent'ına "indir kur" demen de yeter: adımlar [INSTALL.md](INSTALL.md) içinde. Yeni sürüm çıkınca aynı şekilde
+indirip klasörü değiştir.
 Dosya göndermek için: [Kaynak Gönder formu](https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform).
+
+## Güncellemeler
+- **10.11.2026**: sohbet gruplarındaki fotoğraf ve belgeler baştan tarandı, 69 yeni kaynak eklendi (toplam 650).
+  Yeni sınavlar: İSG401, PHYS104, CENG206, MAT102, ENG204, FIZ103, CENG316; BM222 ve CENG483 çözümleri; birçok ders
+  için harf notu dağılımları ve öğrenci notları. Ödevler artık her dersin "Ödevler ve Quizler" sayfasında.
+- **09.11.2026**: ilk sürüm.
 
 ## Yapı
 ```
@@ -37,7 +48,8 @@ Dersler/
 ```
 Dönem = müfredattaki yarıyıl (`catalog/curriculum.yaml`).
 
-## Dosyalar nerede?
+## Dosyalar nerede? (bakım yapanlar için)
+*Sadece kullanmak istiyorsan bu bölümü atla, yukarıdaki zip yeterli.*
 Git'te sadece metadata, notlar ve araçlar var. **Dosyaların kendisi (PDF, slayt, fotoğraf) Google Drive aynasında**,
 klasör yapısı depoyla aynı. Ayrıntılar: [docs/STORAGE.md](docs/STORAGE.md).
 
