@@ -8,7 +8,7 @@ düzenli, her dosyanın bir metadata kaydı var. Depoyu AI agent'ları yönetiyo
 Agents: start with [`AGENTS.md`](AGENTS.md).*
 
 ## İndir
-▶ **[Tanıtım videosu (1 dk)](https://github.com/isobed18/gazi-bm-mf-notlar/releases/download/vault-2026-11-09/tanitim.mp4)**
+![Vault tanıtımı](docs/media/tanitim.webp)
 
 **[Obsidian vault'unu indir (son sürüm)](https://github.com/isobed18/gazi-bm-mf-notlar/releases/latest)** → `Gazi-BM-Vault.zip`'i aç,
 Obsidian'da *Open folder as vault*. Agent'ına "indir kur" demek yeterli: adımlar [INSTALL.md](INSTALL.md) içinde.
