@@ -1,0 +1,13 @@
+code: BM102
+name_tr: Bilgisayar Programlama II
+name_en: Computer Programming II
+semester: 2
+category: required
+curriculum: legacy
+replaced_by: CENG106
+aliases:
+- bm102
+- programlama 2
+- programlama ii
+- c#
+- csharp

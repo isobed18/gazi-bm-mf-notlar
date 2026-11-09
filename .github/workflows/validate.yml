@@ -1,0 +1,46 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r tools/requirements.txt
+      - name: Archive validation (schema, names, duplicates, hashes)
+        run: python -X utf8 tools/archive.py validate --deep
+      - name: Install ClamAV
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq clamav > /dev/null
+          sudo systemctl stop clamav-freshclam || true
+          sudo freshclam --quiet || true
+      - name: Scan changed files (type, magic bytes, macros, PDF active content, privacy patterns, antivirus)
+        run: |
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          git diff --name-only --diff-filter=AM "$base" HEAD -- courses general > changed.txt || true
+          fail=0
+          while IFS= read -r f; do
+            case "$f" in *.meta.yaml|*/README.md|*/course.yaml|"") continue;; esac
+            out=$(python -X utf8 tools/archive.py scan "$f")
+            v=$(python -c "import json,sys; print(json.load(sys.stdin)['verdict'])" <<< "$out")
+            echo "$v  $f"
+            if [ "$v" = "block" ]; then echo "$out"; fail=1; fi
+            if [ "$v" = "review" ]; then echo "::warning file=$f::needs human review: $(python -c "import json,sys; print('; '.join(json.load(sys.stdin)['reasons']))" <<< "$out")"; fi
+          done < changed.txt
+          exit $fail
+      - name: Index is up to date
+        run: |
+          python -X utf8 tools/archive.py index
+          git diff --exit-code -- courses/*/README.md || (echo "::error::run 'archive.py index' and commit the result"; exit 1)

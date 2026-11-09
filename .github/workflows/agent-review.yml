@@ -1,0 +1,21 @@
+name: agent-review
+# Placeholder for the maintainer agent. When enabled it runs an AI agent with
+# .agents/skills/maintainer-review/SKILL.md on new issues/PRs and posts one review comment.
+# It never merges; a human approves. Enable after choosing the agent runtime and adding its API key as a secret.
+on:
+  workflow_dispatch:
+  # pull_request_target:
+  #   types: [opened, synchronize]
+  # issues:
+  #   types: [opened]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Maintainer agent not configured yet. See .agents/skills/maintainer-review/SKILL.md and docs/ARCHITECTURE.md."

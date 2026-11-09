@@ -1,0 +1,15 @@
+# private working areas — raw dumps and undecided items never reach git
+inbox/*
+!inbox/README.md
+review/*
+!review/README.md
+quarantine/
+local/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+.obsidian/

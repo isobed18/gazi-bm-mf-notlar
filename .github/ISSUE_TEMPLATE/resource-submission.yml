@@ -1,0 +1,41 @@
+name: Kaynak önerisi / Resource submission
+description: Dosya paylaş; depo agent'ı yerini önerir, bir insan onaylar.
+title: "[kaynak] <ders kodu veya konu>"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dosyaları bu forma sürükleyip bırakabilir ya da bir link verebilirsin. Kişisel veri (sohbet, telefon numarası, kişisel fotoğraf) ekleme.
+        Sınav ve ödev kağıtlarındaki isimler sorun değil.
+  - type: input
+    id: course
+    attributes:
+      label: Ders (biliyorsan) / Course
+      placeholder: "BM218 Algoritma Tasarımı ve Analizi"
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Tür / Kind
+      options: [Çıkmış sınav, Sınav çözümü, Slayt, Ders notu (hoca), Öğrenci notu, Ödev, Lab, Özet, Kod, Diğer / emin değilim]
+  - type: input
+    id: when
+    attributes:
+      label: Yıl ve dönem / Year and term
+      placeholder: "2023-2024 Güz, vize"
+  - type: textarea
+    id: files
+    attributes:
+      label: Dosyalar / Files
+      description: Dosyaları buraya ekle veya link ver (Drive, vb.).
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Onay / Consent
+      options:
+        - label: Bu dosyaları paylaşma hakkım var; herkese açık yayımlanmalarını kabul ediyorum.
+          required: true
+        - label: Dosyalarda kişisel veri (sohbet, telefon, kimlik, kişisel fotoğraf) yok.
+          required: true

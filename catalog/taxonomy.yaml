@@ -1,0 +1,39 @@
+# Resource kinds and their folder names inside courses/<CODE>/.
+# Every file in the archive has exactly one kind.
+kinds:
+  slides:        {dir: slides,         desc: "Lecture slides / presentations (pdf, pptx)"}
+  lecture-notes: {dir: lecture-notes,  desc: "Instructor lecture notes, handouts, course pdf chapters"}
+  student-notes: {dir: student-notes,  optional: true, desc: "Notes written by students (handwritten scans, typed notes). OPTIONAL LAYER: excluded from the 'core' download variant"}
+  exam:          {dir: exams,          desc: "Past exam papers: midterm, final, makeup, quiz (questions only)"}
+  exam-solution: {dir: exam-solutions, desc: "Solutions / answer keys of past exams (link to the exam via related_exam)"}
+  homework:      {dir: homework,       desc: "Assignments and their instructions"}
+  homework-solution: {dir: homework-solutions, desc: "Submitted/solved homework (only if author consents; no personal data)"}
+  lab:           {dir: labs,           desc: "Lab sheets, experiment guides, lab reports templates"}
+  book:          {dir: books,          desc: "Textbooks or chapters. Prefer links over copies for copyrighted books"}
+  summary:       {dir: summaries,      desc: "Cheat sheets, study guides, topic summaries"}
+  code:          {dir: code,           desc: "Example code, project skeletons (zip or folders)"}
+  syllabus:      {dir: syllabus,       desc: "Syllabus, course outline, grading policy"}
+  announcement:  {dir: announcements,  desc: "Exam topics, exam dates/rules announced by the instructor (text only)"}
+  misc:          {dir: misc,           desc: "Anything course-related that fits nowhere else (needs review)"}
+
+# Non-course resources live under general/<category>/ and are ONLY added after human review.
+general_categories:
+  books:       "General CS / math books not tied to one course"
+  career:      "Internship, CV, interview, job related material"
+  internship:  "Internship (staj) forms, report templates"
+  english:     "Proficiency / general English material"
+  tools:       "Software setup guides, cheat sheets for tools"
+  university:  "Regulations, forms, academic calendar"
+  misc:        "Anything else approved by a maintainer"
+
+# Download variants (built by .github/workflows/release.yml and documented in README):
+#   full  = everything
+#   core  = everything except kinds marked optional (student-notes)
+variants:
+  full: {exclude_kinds: []}
+  core: {exclude_kinds: [student-notes]}
+
+exam_types: [midterm, final, makeup, quiz, resit, sample]   # makeup = bütünleme, resit = tek ders
+terms: [fall, spring, summer]                                # güz, bahar, yaz
+languages: [tr, en, mixed]
+statuses: [approved, needs-review, deprecated]

@@ -1,0 +1,89 @@
+# Gazi University — Computer Engineering (Bilgisayar Mühendisliği) course catalog.
+# Source: official 2024 curriculum ("2024-2025 Güz Döneminden İtibaren") + electives and
+# legacy (pre-2024) courses that students in this archive actually took.
+#
+# Fields
+#   code          canonical course code (folder name under courses/)
+#   name_tr / name_en
+#   semester      curriculum semester (1-8). null for electives offered in several semesters.
+#   category      required | technical-elective | non-technical-elective | language | general | internship
+#   curriculum    "2024" (current) or "legacy" (old curriculum, kept because material exists)
+#   aliases       strings that identify this course in file names, chat messages, exam scans.
+#                 Lower-case, without Turkish characters. Used by tools/archive.py for scoring.
+#   replaced_by   for legacy courses: the 2024 course that covers the same content (if any)
+
+courses:
+  # ---------------- 1. yarıyıl ----------------
+  - {code: BM101, name_tr: Bilgisayar Programlama I, name_en: Computer Programming I, semester: 1, category: required, curriculum: "2024", aliases: [bm101, programlama 1, programlama i, c programlama, prog1]}
+  - {code: BM103, name_tr: Bilgisayar Mühendisliğinin Temelleri, name_en: Fundamentals of Computer Engineering, semester: 1, category: required, curriculum: "2024", aliases: [bm103, bilgisayar muhendisligine giris, bilgisayar bilimlerine giris]}
+  - {code: FIZ103, name_tr: Fizik I, name_en: Physics I, semester: 1, category: required, curriculum: "2024", aliases: [fiz103, fiz101, fizik 1, fizik i, physics 1]}
+  - {code: ENG103, name_tr: English I, name_en: English I, semester: 1, category: language, curriculum: "2024", aliases: [eng103, english 1, ingilizce 1]}
+  - {code: MATH101, name_tr: Mathematics I, name_en: Mathematics I, semester: 1, category: required, curriculum: "2024", aliases: [math101, mat101, matematik 1, calculus 1]}
+  - {code: MAT199, name_tr: Lineer Cebir, name_en: Linear Algebra, semester: 1, category: required, curriculum: "2024", aliases: [mat199, lineer cebir, linear algebra]}
+  - {code: TAR101, name_tr: Atatürk İlkeleri ve İnkılap Tarihi I, name_en: Principles of Atatürk and History of Revolution I, semester: 1, category: general, curriculum: "2024", aliases: [tar101, tar-101, inkilap tarihi 1, ataturk ilkeleri 1, tarih 1]}
+
+  # ---------------- 2. yarıyıl ----------------
+  - {code: BM104, name_tr: Bilgisayar Bilimleri İçin Ayrık Matematik, name_en: Discrete Mathematics for Computer Science, semester: 2, category: required, curriculum: "2024", aliases: [bm104, ayrik matematik, ayrik, discrete math]}
+  - {code: CENG106, name_tr: Nesne Yönelimli Programlama, name_en: Object Oriented Programming, semester: 2, category: required, curriculum: "2024", aliases: [ceng106, oop, object oriented, nesne yonelimli]}
+  - {code: PHYS104, name_tr: Fizik II, name_en: Physics II, semester: 2, category: required, curriculum: "2024", aliases: [phys104, fizik 2, fizik ii, physics 2]}
+  - {code: FIZ156, name_tr: Fizik Laboratuvarı, name_en: Physics Laboratory, semester: 2, category: required, curriculum: "2024", aliases: [fiz156, fizik lab, fizik laboratuvari, physics lab]}
+  - {code: ENG104, name_tr: English II, name_en: English II, semester: 2, category: language, curriculum: "2024", aliases: [eng104, english 2, ingilizce 2]}
+  - {code: MAT102, name_tr: Matematik II, name_en: Mathematics II, semester: 2, category: required, curriculum: "2024", aliases: [mat102, math102, matematik 2, calculus 2]}
+  - {code: TAR102, name_tr: Atatürk İlkeleri ve İnkılap Tarihi II, name_en: Principles of Atatürk and History of Revolution II, semester: 2, category: general, curriculum: "2024", aliases: [tar102, tar-102, inkilap tarihi 2, tarih 2]}
+
+  # ---------------- 3. yarıyıl ----------------
+  - {code: BM201, name_tr: İleri Programlama, name_en: Advanced Programming, semester: 3, category: required, curriculum: "2024", aliases: [bm201, ileri programlama]}
+  - {code: CENG205, name_tr: Data Structures, name_en: Data Structures, semester: 3, category: required, curriculum: "2024", aliases: [ceng205, data structures, veri yapilari]}
+  - {code: BM207, name_tr: Olasılık ve İstatistik, name_en: Probability and Statistics, semester: 3, category: required, curriculum: "2024", aliases: [bm207, olasilik, istatistik, probability]}
+  - {code: BM211, name_tr: Elektrik ve Elektronik Devreler, name_en: Electrical and Electronic Circuits, semester: 3, category: required, curriculum: "2024", aliases: [bm211, devre, elektrik elektronik, circuits]}
+  - {code: MATH201, name_tr: Diferansiyel Denklemler, name_en: Differential Equations, semester: 3, category: required, curriculum: "2024", aliases: [math201, diferansiyel, differential equations, diff eq]}
+  - {code: TUR101, name_tr: Türk Dili I, name_en: Turkish Language I, semester: 3, category: general, curriculum: "2024", aliases: [tur101, tur-101, turk dili 1, turkce 1]}
+  - {code: ENG203, name_tr: Academic English I, name_en: Academic English I, semester: 3, category: language, curriculum: "2024", aliases: [eng203, academic english 1]}
+
+  # ---------------- 4. yarıyıl ----------------
+  - {code: CENG206, name_tr: Sayısal Analiz, name_en: Numerical Analysis, semester: 4, category: required, curriculum: "2024", aliases: [ceng206, numerical analysis, sayisal analiz, numerik]}
+  - {code: BM218, name_tr: Algoritma Tasarımı ve Analizi, name_en: Algorithm Design and Analysis, semester: 4, category: required, curriculum: "2024", aliases: [bm218, algoritma, algorithm design, algoritma analizi]}
+  - {code: BM222, name_tr: Sayısal Tasarım, name_en: Digital Design, semester: 4, category: required, curriculum: "2024", aliases: [bm222, sayisal tasarim, digital design, lojik]}
+  - {code: BM224, name_tr: Programlama Dillerinin Prensipleri, name_en: Principles of Programming Languages, semester: 4, category: required, curriculum: "2024", aliases: [bm224, programlama dilleri, haskell, prolog]}
+  - {code: TUR102, name_tr: Türk Dili II, name_en: Turkish Language II, semester: 4, category: general, curriculum: "2024", aliases: [tur102, tur-102, turk dili 2, turkce 2]}
+  - {code: ENG204, name_tr: Academic English II, name_en: Academic English II, semester: 4, category: language, curriculum: "2024", aliases: [eng204, academic english 2]}
+
+  # ---------------- 5. yarıyıl ----------------
+  - {code: BM301, name_tr: Staj I, name_en: Internship I, semester: 5, category: internship, curriculum: "2024", aliases: [bm301, staj 1, staj raporu]}
+  - {code: BM303, name_tr: Biçimsel Diller ve Otomatlar, name_en: Formal Languages and Automata, semester: 5, category: required, curriculum: "2024", aliases: [bm303, bicimsel diller, otomata, automata]}
+  - {code: BM309, name_tr: İşletim Sistemleri, name_en: Operating Systems, semester: 5, category: required, curriculum: "2024", aliases: [bm309, isletim sistemleri, operating systems]}
+  - {code: BM311, name_tr: Bilgisayar Mimarisi, name_en: Computer Architecture, semester: 5, category: required, curriculum: "2024", aliases: [bm311, bilgisayar mimarisi, computer architecture]}
+  - {code: CENG313, name_tr: Introduction to Data Science, name_en: Introduction to Data Science, semester: 5, category: required, curriculum: "2024", aliases: [ceng313, data science, veri bilimi]}
+
+  # ---------------- 6. yarıyıl ----------------
+  - {code: BM314, name_tr: Yazılım Mühendisliği, name_en: Software Engineering, semester: 6, category: required, curriculum: "2024", aliases: [bm314, yazilim muhendisligi, yazilim muh, software engineering]}
+  - {code: CENG316, name_tr: Database Systems, name_en: Database Systems, semester: 6, category: required, curriculum: "2024", aliases: [ceng316, database systems, veritabani, dbase]}
+  - {code: CENG318, name_tr: Microprocessors, name_en: Microprocessors, semester: 6, category: required, curriculum: "2024", aliases: [ceng318, microprocessors, mikroislemciler]}
+
+  # ---------------- 7. yarıyıl ----------------
+  - {code: BM401, name_tr: Staj II, name_en: Internship II, semester: 7, category: internship, curriculum: "2024", aliases: [bm401, staj 2]}
+  - {code: BM405, name_tr: Girişimcilik ve İnovasyon, name_en: Entrepreneurship and Innovation, semester: 7, category: required, curriculum: "2024", aliases: [bm405, girisimcilik ve inovasyon]}
+  - {code: BM495, name_tr: Bilgisayar Mühendisliği Projesi I, name_en: Computer Engineering Project I, semester: 7, category: required, curriculum: "2024", aliases: [bm495, bitirme 1, proje 1, srs]}
+  - {code: ISG401, name_tr: İş Sağlığı ve Güvenliği I, name_en: Occupational Health and Safety I, semester: 7, category: general, curriculum: "2024", aliases: [isg401, is sagligi 1]}
+
+  # ---------------- 8. yarıyıl ----------------
+  - {code: BM402, name_tr: Bilgisayar Ağları, name_en: Computer Networks, semester: 8, category: required, curriculum: "2024", aliases: [bm402, bilgisayar aglari, computer networks, aglar]}
+  - {code: BM496, name_tr: Bilgisayar Mühendisliği Projesi II, name_en: Computer Engineering Project II, semester: 8, category: required, curriculum: "2024", aliases: [bm496, bitirme 2, proje 2]}
+  - {code: ISG402, name_tr: İş Sağlığı ve Güvenliği II, name_en: Occupational Health and Safety II, semester: 8, category: general, curriculum: "2024", aliases: [isg402, is sagligi 2]}
+
+  # ---------------- Technical electives (seen so far) ----------------
+  - {code: BM371, name_tr: Yapay Zekaya Giriş, name_en: Introduction to Artificial Intelligence, semester: null, category: technical-elective, curriculum: "2024", aliases: [bm371, yapay zeka, artificial intelligence]}
+  - {code: BM466, name_tr: Perseptron Ağlar ve Uygulamaları, name_en: Perceptron Networks and Applications, semester: null, category: technical-elective, curriculum: "2024", aliases: [bm466, bm486, perseptron, neural networks, yapay sinir aglari]}
+  - {code: CENG367, name_tr: Scripting Languages, name_en: Scripting Languages, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng367, scripting languages, betik dilleri]}
+  - {code: CENG394, name_tr: File Organization, name_en: File Organization, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng394, bm394, file organization, dosya organizasyonu]}
+  - {code: CENG442, name_tr: Microservice Based Software Development, name_en: Microservice Based Software Development, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng442, microservice, mikroservis]}
+  - {code: CENG454, name_tr: Database Applications, name_en: Database Applications, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng454, database applications, oracle sql, da lecture]}
+  - {code: CENG461, name_tr: Bioinformatics, name_en: Bioinformatics, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng461, bioinformatics, biyoinformatik]}
+  - {code: CENG471, name_tr: Introduction to Image Processing, name_en: Introduction to Image Processing, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng471, image processing, goruntu isleme]}
+
+  # ---------------- Non-technical electives (seen so far) ----------------
+  - {code: ADS125, name_tr: Girişimcilik ve Proje Yönetimi, name_en: Entrepreneurship and Project Management, semester: null, category: non-technical-elective, curriculum: "2024", aliases: [ads125, girisimcilik ve proje yonetimi]}
+  - {code: BM188, name_tr: İşletme Ekonomisi ve Yönetimi, name_en: Business Economics and Management, semester: null, category: non-technical-elective, curriculum: "2024", aliases: [bm188, isletme ekonomisi]}
+
+  # ---------------- Legacy (pre-2024) ----------------
+  - {code: BM102, name_tr: Bilgisayar Programlama II, name_en: Computer Programming II, semester: 2, category: required, curriculum: legacy, replaced_by: CENG106, aliases: [bm102, programlama 2, programlama ii, c#, csharp]}

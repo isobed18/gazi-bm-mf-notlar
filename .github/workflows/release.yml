@@ -1,0 +1,38 @@
+name: release-variants
+# Builds downloadable zips: full (everything) and core (without the optional student-notes layer).
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r tools/requirements.txt
+      - name: Build zips
+        run: |
+          for v in full core; do
+            python -X utf8 tools/archive.py variant $v > files-$v.txt
+            { echo README.md; echo catalog/curriculum.yaml; echo catalog/index.json; ls courses/*/README.md; } >> files-$v.txt
+            zip -q -@ gazi-bm-mf-notlar-$v.zip < files-$v.txt
+            ls -lh gazi-bm-mf-notlar-$v.zip
+          done
+      - uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: gazi-bm-mf-notlar-*.zip
+      - uses: actions/upload-artifact@v4
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        with:
+          name: variants
+          path: gazi-bm-mf-notlar-*.zip
