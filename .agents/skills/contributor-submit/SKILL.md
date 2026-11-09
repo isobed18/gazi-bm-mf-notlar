@@ -6,7 +6,7 @@ description: For a student's own AI agent - send course files (past exams, solut
 # Contributing (for the contributor's agent)
 
 Files are stored on the maintainers' Google Drive, not in git. The channel is the **Google Form "Gazi BM Kaynak Gönder"**
-(link in README). Every submission = **one course + one kind**; that is what lets the maintainers' agent place files
+(https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform). Every submission = **one course + one kind**; that is what lets the maintainers' agent place files
 without guessing. You do not need git or a GitHub account.
 
 ## 1. Sort the files (locally, read every file)

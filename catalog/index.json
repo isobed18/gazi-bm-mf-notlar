@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T21:21:16",
+ "generated": "2026-11-09T21:53:49",
  "count": 581,
  "resources": [
   {
@@ -10459,19 +10459,18 @@
    "title": "worksheet326 (1)",
    "year": 2023,
    "term": "fall",
-   "week": 3171,
    "handwritten": false,
    "source": {
     "type": "whatsapp",
     "ref": "gazi-ceng-2023-muh"
    },
    "added": "2026-11-09",
-   "status": "needs-review",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "Please confirm this MATH 114/116 worksheet belongs in MAT199.",
+   "notes": "Linear algebra worksheet; course confirmed by the maintainer.",
    "path": "courses/MAT199/homework/MAT199_homework_2023-fall_w3171_worksheet326-1.pdf"
   },
   {

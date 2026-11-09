@@ -9,7 +9,7 @@ Agents: start with [`AGENTS.md`](AGENTS.md).*
 
 ## İndir
 **[Obsidian vault'unu indir (son sürüm)](https://github.com/isobed18/gazi-bm-mf-notlar/releases/latest)** → `Gazi-BM-Vault.zip`'i aç,
-Obsidian'da *Open folder as vault*. Agent'ına "indir kur" demek yeterli: adımlar [INSTALL.md](INSTALL.md) içinde.
+Obsidian'da *Open folder as vault*. Agent'ına "indir kur" demek yeterli. Dosya göndermek için: [Kaynak Gönder formu](https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform): adımlar [INSTALL.md](INSTALL.md) içinde.
 
 ## Yapı
 ```
@@ -58,8 +58,8 @@ kontrol eder, vault'u üretir, denetimden geçerse commit'ler. Agent: agy (Gemin
 `.agents/skills/weekly-maintenance/SKILL.md`.
 
 ## Katkı
-[CONTRIBUTING.md](CONTRIBUTING.md). Kısaca: dosyaları "Kaynak önerisi" issue'su ile gönder; depo agent'ı inceler,
-bir insan onaylar.
+[CONTRIBUTING.md](CONTRIBUTING.md). Kısaca: dosyaları **[Gazi BM Kaynak Gönder formu](https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform)** ile gönder
+(her gönderim tek ders + tek tür; dosyaları AI agent'ına sınıflandırtman önerilir). Depo agent'ı inceler, bir insan onaylar.
 
 ## Gizlilik ve güvenlik
 Sohbet metinleri, telefon numaraları, kişisel fotoğraflar ve kişisel notlar depoya **girmez**; commit öncesi ve

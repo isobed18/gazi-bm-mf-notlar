@@ -1,20 +1,19 @@
 # Katkı rehberi / Contributing
 
 Dosyalar git'te değil, bakımcıların Google Drive aynasında tutulur. **Dosya göndermenin ana yolu "Gazi BM Kaynak Gönder"
-Google Formu** (link README'de): dosyaları yükle, dersi ve türü yaz, gönder. GitHub hesabı gerekmez; gönderdiğin dosyaları
+Google Formu**: https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform: dosyaları yükle, dersi ve türü yaz, gönder. GitHub hesabı gerekmez; gönderdiğin dosyaları
 başkası göremez ya da silemez. Haftalık bakımda bir agent dosyaları tarar (virüs, tür, gizlilik), doğru derse yerleştirir,
 emin olamadığını bir insana sorar. Ayrıntılar: [docs/SUBMISSIONS.md](docs/SUBMISSIONS.md).
 
-GitHub kullananlar "Kaynak önerisi" issue'su da açabilir.
-
-## Kısa yol: agent ile
-1. Depoyu klonla ve kendi agent'ını (Claude Code, Codex, Gemini/agy…) depo klasöründe aç.
-2. "Şu dosyaları depoya öner: …" de. Agent `AGENTS.md` ve `.agents/skills/contributor-submit` yönergelerine göre
-   dosyaları tarar, hangi derse ve türe ait olduklarını belirler ve **"Kaynak önerisi"** issue'sunu dosyalarla birlikte açar.
+## Kısa yol: agent ile (önerilen)
+1. Dosyaları bir klasöre koy ve kendi agent'ını (Claude, ChatGPT, Gemini, Codex…) aç.
+2. "Bu dosyaları Gazi BM arşivine gönder, yönerge: https://github.com/isobed18/gazi-bm-mf-notlar/blob/main/.agents/skills/contributor-submit/SKILL.md"
+   de. Agent dosyaları okur, kişisel veri olanları ayıklar, **ders + tür** gruplarına ayırır ve her grup için formda ne
+   seçileceğini tablo halinde verir; tarayıcı kontrolü varsa formu kendisi doldurur. Her gönderim tek ders + tek tür.
 
 ## Elle
-**Issues → New issue → "Kaynak önerisi / Resource submission"** formunu doldur. Dosyaları sürükleyip bırak ya da bir
-paylaşım linki ver. Ders, tür ve yıl/dönem bilgisini yaz.
+Formu aç, dosyaları yükle (en fazla 10, zip/rar değil), dersi ve türü seç, yıl/dönemi yaz, gönder. Başka ders veya tür
+için "Başka bir yanıt gönder". GitHub kullananlar "Kaynak önerisi" issue'su da açabilir.
 
 ## Pull request ne zaman?
 Sadece metin değişiklikleri için: metadata düzeltmesi, kataloğa yeni bir seçmeli ders eklemek, doküman.
