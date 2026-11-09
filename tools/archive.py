@@ -590,11 +590,12 @@ def cmd_review_open(a):
     rdir = os.path.join(REVIEW, rid)
     os.makedirs(rdir)
     scan = scan_file(src)
+    source = a.source or intake_source(sha256(src)) or "unknown"
     dest = os.path.join(rdir, os.path.basename(src))
     shutil.move(src, dest)
     q = "\n".join("- %s" % x for x in (a.question or [])) or "- (none)"
     fm = {"id": rid, "status": "open", "created": dt.datetime.now().isoformat(timespec="seconds"),
-          "file": os.path.basename(src), "source": a.source or "unknown",
+          "file": os.path.basename(src), "source": source,
           "proposal": {"course": a.course, "kind": a.kind, "general": a.general, "title": a.title,
                        "confidence": a.confidence or "low"},
           "scan_verdict": scan["verdict"]}
@@ -739,13 +740,23 @@ def open_review_ids():
 
 def cmd_review_publish(a):
     """Upload review files to Drive (_review/<id>/) and open ONE GitHub issue listing the items."""
-    ids = a.ids or [i for i in open_review_ids() if not read_review(i)[2].get("issue")]
+    ids = a.ids
     if not ids:
-        print("nothing to publish")
+        unpublished = [i for i in open_review_ids() if not read_review(i)[2].get("issue")]
+        want = a.source or (slugify(a.batch, 200) if a.batch else None)
+
+        def mine(rid):  # only items that came from this agent's source (several agents run in parallel)
+            src = str(read_review(rid)[2].get("source") or "")
+            ref = src.split(":", 1)[-1]
+            return src == want or (ref and ref != "unknown" and ref in (want or ""))
+        ids = [i for i in unpublished if mine(i)] if want else unpublished
+    if not ids:
+        print("nothing to publish (no unpublished items for source %s)" % (a.source or a.batch))
         return
     rows, details = [], []
-    for rid in ids:
+    for n, rid in enumerate(ids, 1):
         p, txt, fm, _, _ = read_review(rid)
+        set_front(p, item=n)
         f = os.path.join(REVIEW, rid, fm["file"])
         try:
             rclone("copy", f, "%s/_review/%s" % (REMOTE, rid))
@@ -756,16 +767,16 @@ def cmd_review_publish(a):
         prop_s = ("general/%s" % prop["general"]) if prop.get("general") else "%s / %s" % (prop.get("course") or "?", prop.get("kind") or "?")
         reason = re.search(r"## Why this needs a human\n(.*?)\n\n## ", txt, re.S)
         qs = re.search(r"## Questions for the maintainer\n(.*?)\n\n## ", txt, re.S)
-        rows.append("| `%s` | %s | %s | %s |" % (rid, fm["file"][:50], prop_s, prop.get("confidence") or "low"))
-        details.append("### `%s` — %s\n- Öneri / proposal: **%s** · başlık: %s\n- Neden / why: %s\n- Sorular / questions:\n%s\n- Dosya / file: %s\n"
-                       % (rid, fm["file"], prop_s, prop.get("title") or "-", (reason.group(1).strip() if reason else "-"),
-                          (qs.group(1).strip() if qs else "- (none)"), where))
-    body = ("Agent'ların emin olamadığı %d dosya. Her satır için yorum yaz, sonra agent `review-sync` çalıştırır.\n\n"
-            "**Komutlar** (her biri ayrı satırda):\n"
-            "```\nR-…: approve\nR-…: place BM218 exam 2023 Vize\nR-…: general career Staj rehberi\nR-…: reject\n"
-            "all: approve        (bu issue'daki kalan bütün maddeler)\n```\n"
-            "Satırın sonuna ` -- yorum` ekleyebilirsin (örn. `R-…: place BM222 exam 2022 Final -- yıl 2022 bahar`).\n\n"
-            "| id | dosya | öneri | güven |\n|---|---|---|---|\n%s\n\n%s") % (len(ids), "\n".join(rows), "\n".join(details))
+        rows.append("| %d | `%s` | %s | %s | %s |" % (n, rid, fm["file"][:50], prop_s, prop.get("confidence") or "low"))
+        details.append("### %d. %s\n- Öneri: **%s** · başlık: %s\n- Neden: %s\n- Sorular:\n%s\n- Dosya: %s\n- id: `%s`\n"
+                       % (n, fm["file"], prop_s, prop.get("title") or "-", (reason.group(1).strip() if reason else "-"),
+                          (qs.group(1).strip() if qs else "- (none)"), where, rid))
+    body = ("Agent'ların emin olamadığı %d dosya.\n\n"
+            "**Nasıl cevaplanır:** Düz Türkçe yorum yazman yeterli, maddelere numarayla değin. Örnek:\n"
+            "> 1 ve 2 BM218'in 2023 güz vizesi. 3 çöp, sil. 4'ü staj klasörüne koy. Geri kalanlar öneri gibi olsun.\n\n"
+            "Bir agent yorumunu okur, uygular ve ne anladığını cevap olarak yazar; emin olamadığını sana tekrar sorar.\n"
+            "(İstersen kısa komut da olur: `3: reject`, `1: place BM218 exam 2023 Vize`, `all: approve`.)\n\n"
+            "| # | id | dosya | öneri | güven |\n|---|---|---|---|---|\n%s\n\n%s") % (len(ids), "\n".join(rows), "\n".join(details))
     title = a.title or "[review] %s — %d dosya" % (a.batch or dt.date.today().isoformat(), len(ids))
     url = gh("issue", "create", "--title", title, "--body-file", "-", "--label", "review", input_text=body).strip()
     num = int(url.rstrip("/").rsplit("/", 1)[1])
@@ -775,61 +786,127 @@ def cmd_review_publish(a):
     print("issue #%d: %s (%d items)" % (num, url, len(ids)))
 
 
-DECISION_LINE = re.compile(r"^\s*/?(R-[\w-]+|all)\s*:\s*(.+?)\s*$", re.I | re.M)
+DECISION_LINE = re.compile(r"^\s*/?(R-[\w-]+|all|#?\d{1,3})\s*[:.)]\s*(approve|place|general|reject|quarantine)\b(.*)$", re.I | re.M)
+SYNC_STATE = os.path.join(LOCAL, "review-sync-state.json")
+AGENT_MARK = "<!-- archive-agent -->"   # comments posted by agents (they use the owner's gh login) carry this mark
 
 
-def cmd_review_sync(a):
-    """Read decisions from issue comments (repo owner/collaborators only), apply them, close finished issues."""
-    owner = gh("repo", "view", "--json", "owner", "-q", ".owner.login").strip()
-    by_issue = {}
+def _sync_state():
+    try:
+        return json.load(open(SYNC_STATE, encoding="utf-8"))
+    except (OSError, ValueError):
+        return {"handled_comments": []}
+
+
+def _save_sync_state(st):
+    os.makedirs(LOCAL, exist_ok=True)
+    json.dump(st, open(SYNC_STATE, "w", encoding="utf-8"), indent=1)
+
+
+def write_decision(rid, dec, com=""):
+    p = os.path.join(REVIEW, rid, "review.md")
+    txt = open(p, encoding="utf-8").read()
+    txt = re.sub(r"^decision:.*$", "decision: %s" % dec, txt, count=1, flags=re.M)
+    txt = re.sub(r"^comment:.*$", "comment: %s" % com, txt, count=1, flags=re.M)
+    open(p, "w", encoding="utf-8", newline="\n").write(txt)
+
+
+def apply_one(rid):
+    class A:
+        pass
+    ns = A()
+    ns.id = rid
+    cmd_review_apply(ns)
+    try:
+        rclone("purge", "%s/_review/%s" % (REMOTE, rid))
+    except RuntimeError:
+        pass
+
+
+def issue_items():
+    """{issue number: {item number: review id}} for open review items."""
+    out = {}
     for rid in open_review_ids():
         fm = read_review(rid)[2]
         if fm.get("issue"):
-            by_issue.setdefault(int(fm["issue"]), []).append(rid)
-    for num, rids in sorted(by_issue.items()):
+            out.setdefault(int(fm["issue"]), {})[int(fm.get("item") or 0)] = rid
+    return out
+
+
+def cmd_review_sync(a):
+    """Apply decisions from issue comments by the owner/collaborators.
+    Short commands (`3: reject`, `R-…: place BM218 exam 2023 Vize`, `all: approve`) are applied here.
+    Plain-language comments are written to local/review-inbox.json for an agent to interpret
+    (skill review-queue); the agent applies them with review-decide and confirms with review-ack."""
+    owner = gh("repo", "view", "--json", "owner", "-q", ".owner.login").strip()
+    st = _sync_state()
+    inbox = []
+    for num, items in sorted(issue_items().items()):
         data = json.loads(gh("issue", "view", str(num), "--json", "comments,state"))
         decisions = {}
         for c in data["comments"]:
             if c["author"]["login"] != owner and c.get("authorAssociation") not in ("OWNER", "COLLABORATOR", "MEMBER"):
                 continue
-            for m in DECISION_LINE.finditer(c["body"]):
-                key, rest = m.group(1), m.group(2)
+            if c.get("id") in st["handled_comments"] or AGENT_MARK in c["body"]:
+                continue
+            found = list(DECISION_LINE.finditer(c["body"]))
+            for m in found:
+                key, rest = m.group(1).lstrip("#"), (m.group(2) + m.group(3)).strip()
                 dec, _, com = rest.partition(" -- ")
                 if key.lower() == "all":
-                    for rid in rids:
+                    for rid in items.values():
                         decisions.setdefault(rid, (dec.strip(), com.strip()))
-                else:
+                elif key.isdigit() and int(key) in items:
+                    decisions[items[int(key)]] = (dec.strip(), com.strip())
+                elif key in items.values():
                     decisions[key] = (dec.strip(), com.strip())
+            if found:
+                st["handled_comments"].append(c.get("id"))
+            else:
+                inbox.append({"issue": num, "comment_id": c.get("id"), "body": c["body"],
+                              "items": {n: {"id": rid, "file": read_review(rid)[2]["file"], "proposal": read_review(rid)[2].get("proposal")}
+                                        for n, rid in sorted(items.items())}})
         done = []
-        for rid in rids:
-            if rid not in decisions:
-                continue
-            dec, com = decisions[rid]
-            p = os.path.join(REVIEW, rid, "review.md")
-            txt = open(p, encoding="utf-8").read()
-            txt = re.sub(r"^decision:.*$", "decision: %s" % dec, txt, count=1, flags=re.M)
-            txt = re.sub(r"^comment:.*$", "comment: %s" % com, txt, count=1, flags=re.M)
-            open(p, "w", encoding="utf-8", newline="\n").write(txt)
-
-            class A:
-                pass
-            ns = A()
-            ns.id = rid
+        for rid, (dec, com) in decisions.items():
+            write_decision(rid, dec, com)
             try:
-                cmd_review_apply(ns)
+                apply_one(rid)
                 done.append("`%s` → %s" % (rid, dec))
-                try:
-                    rclone("purge", "%s/_review/%s" % (REMOTE, rid))
-                except RuntimeError:
-                    pass
             except SystemExit as ex:
                 done.append("`%s` → HATA: %s" % (rid, ex))
         if done:
-            gh("issue", "comment", str(num), "--body", "review-sync uygulandı:\n" + "\n".join("- " + d for d in done))
-        left = [r for r in rids if r not in decisions]
+            gh("issue", "comment", str(num), "--body", "Uygulandı:\n" + "\n".join("- " + d for d in done) + "\n" + AGENT_MARK)
+        left = [r for r in items.values() if r not in decisions]
         if not left and data["state"] == "OPEN":
-            gh("issue", "close", str(num), "--comment", "Bütün maddeler işlendi.")
+            gh("issue", "close", str(num), "--comment", "Bütün maddeler işlendi.\n" + AGENT_MARK)
         print("issue #%d: %d applied, %d waiting" % (num, len(done), len(left)))
+    _save_sync_state(st)
+    with open(os.path.join(LOCAL, "review-inbox.json"), "w", encoding="utf-8") as fh:
+        json.dump(inbox, fh, ensure_ascii=False, indent=1)
+    if inbox:
+        print("%d plain-language comment(s) need interpretation -> local/review-inbox.json (see skill review-queue)" % len(inbox))
+        for x in inbox:
+            print("--- issue #%d comment %s:\n%s" % (x["issue"], x["comment_id"], x["body"][:1500]))
+
+
+def cmd_review_decide(a):
+    """Write one decision (interpreted by an agent from a plain comment) and apply it."""
+    write_decision(a.id, a.decision, a.comment or "")
+    apply_one(a.id)
+    print("%s: %s" % (a.id, a.decision))
+
+
+def cmd_review_ack(a):
+    """Mark a plain-language comment as handled and post the agent's reply (what it understood / did / asks)."""
+    st = _sync_state()
+    if a.comment_id not in st["handled_comments"]:
+        st["handled_comments"].append(a.comment_id)
+    _save_sync_state(st)
+    gh("issue", "comment", str(a.issue), "--body", a.reply + "\n\n" + AGENT_MARK)
+    items = issue_items().get(a.issue, {})
+    if not items:
+        gh("issue", "close", str(a.issue), "--comment", "Bütün maddeler işlendi.\n" + AGENT_MARK)
+    print("acknowledged comment %s on #%d (%d items left)" % (a.comment_id, a.issue, len(items)))
 
 
 # ------------------------------------------------------------------ metadata edits
@@ -1076,7 +1153,7 @@ def cmd_export_obsidian(a):
     items = []
     for dp, f in iter_resources():
         m = load_yaml(os.path.join(dp, f)) or {}
-        if m.get("course") and m.get("kind") not in excl:
+        if m.get("course") and m.get("kind") not in excl and (not a.course or m["course"] in a.course):
             items.append((dp, m))
     copied = 0
     by_course = {}
@@ -1160,8 +1237,15 @@ def main():
 
     s = sp.add_parser("review-list"); s.set_defaults(fn=cmd_review_list)
     s = sp.add_parser("review-publish", help="upload open review items to Drive and open one GitHub issue")
-    s.add_argument("--ids", nargs="*"); s.add_argument("--title"); s.add_argument("--batch"); s.set_defaults(fn=cmd_review_publish)
+    s.add_argument("--ids", nargs="*"); s.add_argument("--title")
+    s.add_argument("--batch", help="free text; items whose source slug appears in it are published (e.g. 'gazi-bm-2021 documents')")
+    s.add_argument("--source", help="exact source, e.g. whatsapp:gazi-bm-2021"); s.set_defaults(fn=cmd_review_publish)
     s = sp.add_parser("review-sync", help="apply decisions written as comments on review issues"); s.set_defaults(fn=cmd_review_sync)
+    s = sp.add_parser("review-decide", help="apply one decision interpreted from a plain comment")
+    s.add_argument("id"); s.add_argument("decision", help='e.g. "place BM218 exam 2023 Vize", "reject", "general internship Staj rehberi"')
+    s.add_argument("--comment"); s.set_defaults(fn=cmd_review_decide)
+    s = sp.add_parser("review-ack", help="mark a plain comment handled and reply on the issue")
+    s.add_argument("issue", type=int); s.add_argument("comment_id"); s.add_argument("--reply", required=True); s.set_defaults(fn=cmd_review_ack)
     s = sp.add_parser("meta-set", help="edit editable sidecar fields: key=value ...")
     s.add_argument("path"); s.add_argument("set", nargs="+"); s.set_defaults(fn=cmd_meta_set)
     s = sp.add_parser("review-apply"); s.add_argument("id"); s.set_defaults(fn=cmd_review_apply)
@@ -1176,7 +1260,8 @@ def main():
     s = sp.add_parser("whatsapp-index"); s.add_argument("export", help="WhatsApp export folder or .zip"); s.add_argument("--out", required=True)
     s.set_defaults(fn=cmd_whatsapp_index)
     s = sp.add_parser("export-obsidian"); s.add_argument("--vault", required=True); s.add_argument("--variant", default="full", choices=["full", "core"])
-    s.add_argument("--dry-run", action="store_true"); s.set_defaults(fn=cmd_export_obsidian)
+    s.add_argument("--dry-run", action="store_true"); s.add_argument("--course", nargs="*", help="only these course codes")
+    s.set_defaults(fn=cmd_export_obsidian)
     s = sp.add_parser("variant"); s.add_argument("name", choices=["full", "core"]); s.set_defaults(fn=cmd_variant)
 
     a = p.parse_args()

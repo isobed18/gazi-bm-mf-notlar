@@ -56,12 +56,28 @@ R-…: general university Sınav programı
 R-…: reject
 all: approve
 ```
-Then run
+Items in an issue are numbered (1, 2, 3 …). The maintainer usually answers in **plain Turkish**, e.g.
+"1 ve 2 BM218'in 2023 güz vizesi. 3 çöp, sil. 4'ü staj klasörüne koy. Geri kalanlar öneri gibi olsun."
+Short commands also work: `3: reject`, `1: place BM218 exam 2023 Vize`, `all: approve`.
+
+Run at the start of every session (and whenever asked):
 ```
 python -X utf8 tools/archive.py review-sync
 ```
-which applies every decided item (only comments by the repo owner/collaborators count), comments the result and closes
-the issue when nothing is left. Run `review-sync` at the start of every session.
+- Short commands are applied directly; finished issues are closed.
+- Plain-language comments are printed and saved to `local/review-inbox.json` together with the item list
+  (number → id, file, proposal). **You interpret them**:
+  1. For each item the comment clearly decides, run
+     `python -X utf8 tools/archive.py review-decide <R-id> "<decision>" --comment "<what the maintainer said>"`
+     where decision is `approve` | `place <CODE> <kind> [title words]` | `general <category> [title]` | `reject` | `quarantine`.
+     Translate natural phrases: "sil / çöp / gerek yok" → reject; "öneri gibi / olduğu gibi / tamam" → approve;
+     "staj klasörüne" → general internship; "X dersinin vizesi 2023" → place X exam 2023 Vize (+ set year/term/exam type
+     afterwards with `meta-set` if the title is not enough).
+  2. For anything ambiguous, do nothing for that item and ask a short question in your reply.
+  3. Reply once with what you understood and did, then mark the comment handled:
+     `python -X utf8 tools/archive.py review-ack <issue> <comment_id> --reply "Anladığım: 1,2 → BM218 vize 2023 güz (yerleştirildi); 3 → silindi; 5 için: hangi ders?"`
+  The issue is closed automatically when no open items remain.
+- Comments posted by agents carry a hidden marker and are ignored by `review-sync`.
 
 Keep issues useful: be decisive elsewhere so that an issue contains only real questions (typically < 15 items per batch).
 Never put names, phone numbers or chat quotes into reasons/questions — the issue is visible to collaborators.

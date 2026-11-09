@@ -1,5 +1,386 @@
 {
- "generated": "2026-11-09T16:47:56",
- "count": 0,
- "resources": []
+ "generated": "2026-11-09T17:20:10",
+ "count": 19,
+ "resources": [
+  {
+   "file": "BM218_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "03a1d16f02c76d4c6a90adb2d7fd0088bd855495d5a66fe01a9ab387f4b33675",
+   "size": 1444,
+   "course": "BM218",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM218/announcements/BM218_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM224_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "f4c69fed5e7d5c1f1ae1949697303bd140035749589bd714e34eecae783754c9",
+   "size": 852,
+   "course": "BM224",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM224/announcements/BM224_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM303_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "82874b6faccbd406167ee9655d539d8773fd3583cadd7d5afd5208c5bb3559fa",
+   "size": 317,
+   "course": "BM303",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM303/announcements/BM303_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM309_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "185395855efb0adf80a5f6a5eabd1a0b16804e69d93ed311087d75b3fa261fba",
+   "size": 650,
+   "course": "BM309",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM309/announcements/BM309_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM314_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "c83cdbad1c2054532f58c7e3b18230873b1ef6254faa93d902d981a9fa67364f",
+   "size": 401,
+   "course": "BM314",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM314/announcements/BM314_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM371_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "e7ccc78557656538d648d30ca9c7f2a89cff0a7f17e10eda344cfdb7db351b1e",
+   "size": 762,
+   "course": "BM371",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM371/announcements/BM371_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM402_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "31fba7628f40b1dd40d72000d90856556a9f09a11f95cfa756d3eb6fe195a553",
+   "size": 476,
+   "course": "BM402",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM402/announcements/BM402_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM405_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "ff4282c8a6b257173adbf451ef82684046c0dab06cb587eafdf338d81c2bafb8",
+   "size": 550,
+   "course": "BM405",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM405/announcements/BM405_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "BM466_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "a357abe1cca5e3c3f79461bf05a7612d0fccc4e4fc0f2aae895a2af3f1840288",
+   "size": 295,
+   "course": "BM466",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/BM466/announcements/BM466_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG106_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "3d08ecbd599f820890b53ef59834882aa087117ed7118b676fc4c1870134474f",
+   "size": 677,
+   "course": "CENG106",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG106/announcements/CENG106_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG205_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "689e9dcae70af94b4ce33b23a4cfc30d49f375085fda271f2acb28dd71c3b6af",
+   "size": 500,
+   "course": "CENG205",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG205/announcements/CENG205_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG206_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "461058649a010542fd84caa9f9d4e9f7fa7f543f6a0ed90046ab1a4f6acfb3a4",
+   "size": 551,
+   "course": "CENG206",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG206/announcements/CENG206_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG313_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "8e99c3132f4b004842dad35413ec415f1917a892b6c3f7b9d427afc146aa2a7d",
+   "size": 310,
+   "course": "CENG313",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG313/announcements/CENG313_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG316_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "469c767aea25e9259b7d07c8268be2788050b0be2735fa29c140e6ee8ec0eee9",
+   "size": 611,
+   "course": "CENG316",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG316/announcements/CENG316_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG318_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "d0e088f5d2b0d7227e8f2705fce9ec484969a0563172da5732852bbc5f65ad25",
+   "size": 1059,
+   "course": "CENG318",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG318/announcements/CENG318_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG394_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "7c78dd6f87be7bbb3b5db62560f9d8b4e3ad9af000af6d91ec9fedc0f16d67ca",
+   "size": 285,
+   "course": "CENG394",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG394/announcements/CENG394_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG454_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "6ba7d0a86436b54a11814a6f2b464008dcee499a0053ad9311d711d07cfc6710",
+   "size": 430,
+   "course": "CENG454",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG454/announcements/CENG454_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "CENG461_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "7e20d5f8925b8329ba38abcd98fafc0c4e26fccdbf6d939df045a91abb8004ae",
+   "size": 314,
+   "course": "CENG461",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/CENG461/announcements/CENG461_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  },
+  {
+   "file": "ISG401_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md",
+   "sha256": "17195ed76d6598aee557684a6ce27ad64b87647854e3562851398dddba846668",
+   "size": 329,
+   "course": "ISG401",
+   "kind": "announcement",
+   "title": "Sohbetten sınav bilgileri (gazi-bm-2021)",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "path": "courses/ISG401/announcements/ISG401_announcement_sohbetten-sinav-bilgileri-gazi-bm-2021.md"
+  }
+ ]
 }
