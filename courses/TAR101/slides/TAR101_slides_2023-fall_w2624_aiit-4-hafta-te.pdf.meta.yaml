@@ -1,0 +1,18 @@
+file: TAR101_slides_2023-fall_w2624_aiit-4-hafta-te.pdf
+sha256: 256997f28803b043b11b5a06a3656e0eef91519ebc1c9d2e091e8523329d8943
+size: 854928
+course: TAR101
+kind: slides
+title: 4. Hafta – 20. Yüzyıl Başları ve Balkan Savaşları
+year: 2023
+term: fall
+week: 4
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

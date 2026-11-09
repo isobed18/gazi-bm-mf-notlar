@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-02-java-uygulamalarina-giris.pdf
+sha256: 3b54083625c1e0e458055c08685413c93e55bc21427e004e53ea46dfc9bfd338
+size: 1471378
+course: CENG106
+kind: slides
+title: Bölüm 02 – Java Uygulamalarına Giriş
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

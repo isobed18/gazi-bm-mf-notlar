@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-15-ozyineleme-recursion.pdf
+sha256: 6c439b8c0733b07b45cc0bf9ea2562405a95e0a27c7563a0ac02afa69c4aef25
+size: 1397349
+course: CENG106
+kind: slides
+title: Bölüm 15 – Özyineleme (Recursion)
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

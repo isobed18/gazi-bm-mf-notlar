@@ -1,0 +1,19 @@
+file: BM303_exam_2022-spring_midterm_bm-303-bicimsel-diller-ve-otomatlar-ara-sinav-odev.pdf
+sha256: 9d7762a48316c73383b57f76a4aac7f269afc0f753fd2a5e14b6203c9394989f
+size: 514502
+course: BM303
+kind: exam
+title: BM 303 Biçimsel Diller ve Otomatlar Ara Sınav Ödevi 2023
+year: 2022
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: one-off-homework

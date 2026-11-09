@@ -1,0 +1,18 @@
+file: ENG103_syllabus_2003-fall_2003-2004-harf-notu-dagilimi.jpg
+sha256: 9b7f63af17e0fb5eefc0bd6a394d99eedb09131375e1bf9decbc6e957d40e52a
+size: 76489
+course: ENG103
+kind: syllabus
+title: 2003-2004 Harf Notu Dağılımı
+year: 2003
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: private-small-cell

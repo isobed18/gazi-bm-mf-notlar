@@ -1,0 +1,17 @@
+file: ENG203_exam_final_guz-final.pdf
+sha256: 955f4e3de0c6c0db9ae6dfbc3ee075d18227adbf2f2c7435c6ce2834c3b06bd6
+size: 484553
+course: ENG203
+kind: exam
+title: Güz Final
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

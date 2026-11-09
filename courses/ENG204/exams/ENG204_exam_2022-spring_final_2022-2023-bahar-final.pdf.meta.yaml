@@ -1,0 +1,18 @@
+file: ENG204_exam_2022-spring_final_2022-2023-bahar-final.pdf
+sha256: ea0f0cf8bd9ba56d3f07611a905f3830cd7c5705159efdf0f21971198653a50d
+size: 309895
+course: ENG204
+kind: exam
+title: 2022-2023 Bahar Final
+year: 2022
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

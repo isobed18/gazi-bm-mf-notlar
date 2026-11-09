@@ -1,0 +1,16 @@
+file: BM201_slides_bolum-3-duzenli-ifadeler-regex.pdf
+sha256: 04ff617924d4f0cfaae671b4658801b6d9f3335de837e395dd629db64ef91472
+size: 1287653
+course: BM201
+kind: slides
+title: Bölüm 3 - Düzenli İfadeler (RegEx)
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders notu, soru çözümü veya resmi slayt; yerleştirildi.

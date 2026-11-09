@@ -3,4 +3,40 @@
 
 *Numerical Analysis* · required · curriculum semester: 4
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG206_slides_ceng206-numerical-analysis-chapter-3-linear-system.pdf](slides/CENG206_slides_ceng206-numerical-analysis-chapter-3-linear-system.pdf) | Numerical Analysis Systems of Linear Equations |  |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG206_lecturenotes_2024-spring_sayisal-analiz-soru-ve-kod-notu.jpg](lecture-notes/CENG206_lecturenotes_2024-spring_sayisal-analiz-soru-ve-kod-notu.jpg) | Numerical Analysis Problem and Code Notes | 2024 spring |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG206_exam_2024-spring_sayisal-analiz-ornek-sinav-sorulari.pdf](exams/CENG206_exam_2024-spring_sayisal-analiz-ornek-sinav-sorulari.pdf) | Numerical Analysis Sample Exam Questions | 2024 spring | sample |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG206_homework_2023-spring_assignment-ii-lu-decomposition-2.pdf](homework/CENG206_homework_2023-spring_assignment-ii-lu-decomposition-2.pdf) | Assignment II - LU Decomposition | 2023 spring |  |
+| [CENG206_homework_2023-spring_assignment-ii-lu-decomposition.pdf](homework/CENG206_homework_2023-spring_assignment-ii-lu-decomposition.pdf) | Assignment II - LU Decomposition | 2023 spring |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG206_syllabus_2023-spring_ceng206-ders-izlencesi-course-description-form.pdf](syllabus/CENG206_syllabus_2023-spring_ceng206-ders-izlencesi-course-description-form.pdf) | CENG206 Ders İzlencesi (Course Description Form) | 2023 spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG206_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG206_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

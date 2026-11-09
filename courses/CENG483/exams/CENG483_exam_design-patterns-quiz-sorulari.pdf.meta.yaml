@@ -1,0 +1,16 @@
+file: CENG483_exam_design-patterns-quiz-sorulari.pdf
+sha256: 1873d83187572f08c421fb3d4e508ed5f033e7cbc673971a2026ea463548ec6a
+size: 8775816
+course: CENG483
+kind: exam
+title: Design Patterns Quiz Soruları
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Ders adı ve quiz soruları dosyada açık; mevcut ders kodu materyal eşlemesi için kullanıldı.

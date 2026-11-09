@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-5-iso450001.pdf
+sha256: c6b3211b5bbf7aebc370024444dc202d88d78ee99b327223cabb5eb2c3140818
+size: 2077485
+course: ISG401
+kind: slides
+title: Hafta 05 – ISO 45001 Yönetim Sistemleri
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -3,4 +3,38 @@
 
 *Operating Systems* · required · curriculum semester: 5
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM309_slides_2025-fall_w10472_2-genel-isletim-sistemleri.pdf](slides/BM309_slides_2025-fall_w10472_2-genel-isletim-sistemleri.pdf) | Hafta 2 – Genel İşletim Sistemleri | 2024 fall |  |
+| [BM309_slides_2025-fall_w10473_3-prosesler.pdf](slides/BM309_slides_2025-fall_w10473_3-prosesler.pdf) | Hafta 3 – Prosesler ve Proses Yönetimi | 2024 fall |  |
+| [BM309_slides_2025-fall_w10474_4-iplikler.pdf](slides/BM309_slides_2025-fall_w10474_4-iplikler.pdf) | Hafta 4 – İplikler | 2024 fall |  |
+| [BM309_slides_2025-fall_w10476_6-klasik-problemler.pdf](slides/BM309_slides_2025-fall_w10476_6-klasik-problemler.pdf) | Hafta 6 – Klasik Etkileşim Problemleri | 2024 fall |  |
+| [BM309_slides_2025-fall_w10477_7-deadlock.pdf](slides/BM309_slides_2025-fall_w10477_7-deadlock.pdf) | Hafta 7 – Ölümcül Kilitlenme (Deadlock) | 2024 fall |  |
+| [BM309_slides_2025-fall_w10478_8-is-siralama.pdf](slides/BM309_slides_2025-fall_w10478_8-is-siralama.pdf) | Hafta 8 – İş Sıralama | 2024 fall |  |
+| [BM309_slides_2025-fall_w10479_9-bellek-yonetimi-1.pdf](slides/BM309_slides_2025-fall_w10479_9-bellek-yonetimi-1.pdf) | Hafta 9 – Bellek Yönetimi 1 | 2024 fall |  |
+| [BM309_slides_2025-fall_w10480_10-bellek-yonetimi-2.pdf](slides/BM309_slides_2025-fall_w10480_10-bellek-yonetimi-2.pdf) | Hafta 10 – Bellek Yönetimi 2 | 2024 fall |  |
+| [BM309_slides_2025-fall_w10481_11-dosya-sistemi.pdf](slides/BM309_slides_2025-fall_w10481_11-dosya-sistemi.pdf) | Hafta 11 – Dosya Sistemi | 2024 fall |  |
+| [BM309_slides_w10475_5-prosesler-aras-etkilesoim.pdf](slides/BM309_slides_w10475_5-prosesler-aras-etkilesoim.pdf) | Hafta 5 – Prosesler Arası Etkileşim | 2024 fall |  |
+| [BM309_slides_w10482_12-giris-cks.pdf](slides/BM309_slides_w10482_12-giris-cks.pdf) | Hafta 12 – Giriş Çıkış (I/O) | 2024 fall |  |
+| [BM309_slides_w10483_13-sanallastrma-ve-bulut.pdf](slides/BM309_slides_w10483_13-sanallastrma-ve-bulut.pdf) | Hafta 13 – Sanallaştırma ve Bulut | 2024 fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM309_exam_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf](exams/BM309_exam_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf) | Isletim Sistemleri Final Sorusu - Cagri Yigini Cizimi | 2025 fall | final |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM309_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg](syllabus/BM309_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg) | Biçimsel Diller ve Otomatlar Ders İzlencesi ve Not Dağılımı | 2025 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM309_announcement_sohbetten-sinav-bilgileri.md](announcements/BM309_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

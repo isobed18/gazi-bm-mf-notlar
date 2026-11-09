@@ -1,0 +1,18 @@
+file: BM104_slides_2023-spring_makeup_w01_ag9wmflqnhfny0nfk2xyz2jscmnnuqweek1-part2-proposit.pdf
+sha256: 127415f5e007f5acfaaa9c2b318d59218374a0fa3301886d312c40c8f1b249a7
+size: 2103012
+course: BM104
+kind: slides
+title: Hafta 1 Bölüm 2 - Mantıksal Denklikler
+year: 2023
+term: spring
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

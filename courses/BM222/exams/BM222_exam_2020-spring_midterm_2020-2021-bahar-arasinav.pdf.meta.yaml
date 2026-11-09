@@ -1,0 +1,18 @@
+file: BM222_exam_2020-spring_midterm_2020-2021-bahar-arasinav.pdf
+sha256: 1d272db49e0098134a2070feb0fd8ef48e5df5f548cbc9daf07771306c1ab5ae
+size: 299282
+course: BM222
+kind: exam
+title: 2020-2021 Bahar Arasınav
+year: 2020
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

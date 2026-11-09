@@ -1,0 +1,18 @@
+file: BM207_studentnotes_2023-fall_olasilik-ve-istatistik-final-konulari-el-notu.pdf
+sha256: 2bc14fb5d60cb38abbe232afc8f688fa96da233145cc3cd161e054a3c96297fe
+size: 27998619
+course: BM207
+kind: student-notes
+title: Olasılık ve İstatistik Final Konuları El Notu
+year: 2023
+term: fall
+language: tr
+handwritten: true
+source:
+  type: whatsapp
+  ref: gaziuni-mf-ceng23
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

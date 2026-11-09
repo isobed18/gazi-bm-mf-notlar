@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w6483_html3.pdf
+sha256: 1b792d3ba6b927b5b31a3eca9e46d4b4108eed620770d7e25cdc8108205406df
+size: 1786780
+course: BM103
+kind: slides
+title: Hafta 11 – HTML Giriş 3
+year: 2023
+term: fall
+week: 11
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

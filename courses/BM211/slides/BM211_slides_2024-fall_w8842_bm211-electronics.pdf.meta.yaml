@@ -1,0 +1,17 @@
+file: BM211_slides_2024-fall_w8842_bm211-electronics.pdf
+sha256: 09f04a2e575375779955875b9204fd646cacd7d6c094d49f42f65c4710260025
+size: 3322108
+course: BM211
+kind: slides
+title: Elektronik Ders Sunumu
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

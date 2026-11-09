@@ -1,0 +1,16 @@
+file: ENG203_lecturenotes_lecture-notes-on-academic-writing.pdf
+sha256: 554d100a358e8a97a6fa213cbaaec6b6df879c0d28fc29cd4a8ba9c7c49a3d57
+size: 43785442
+course: ENG203
+kind: lecture-notes
+title: Lecture Notes on Academic Writing
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

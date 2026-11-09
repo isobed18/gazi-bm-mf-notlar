@@ -1,0 +1,18 @@
+file: CENG206_exam_2024-spring_sayisal-analiz-ornek-sinav-sorulari.pdf
+sha256: 68b9ca5f4e6c9431ca57f00fbcb9095e79f3f4885d2cfebf83812249b6c9d81f
+size: 178403
+course: CENG206
+kind: exam
+title: Numerical Analysis Sample Exam Questions
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+exam_type: sample

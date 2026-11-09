@@ -1,0 +1,17 @@
+file: CENG316_exam_midterm_arasinavi.pdf
+sha256: cb2c954a48cde9c124c63476fd407e9f336259fe45a45017e9d985c025208983
+size: 266458
+course: CENG316
+kind: exam
+title: Bahar Ara Sınav Soruları
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-2-ishukuku.pdf
+sha256: 3ccb75c229b273e5b6fd574918a3970d2ec8bdf300ad7bff08c71c5e4ab9504b
+size: 2434104
+course: ISG401
+kind: slides
+title: Hafta 02 – İş Hukuku ve İSG
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

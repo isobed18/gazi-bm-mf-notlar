@@ -1,0 +1,17 @@
+file: BM311_exam_midterm_bm311-bilgisayar-mimarisi-vize-sorulari-fotografi.jpg
+sha256: 1ba3a91a3db93ec03845c720cd90b1dd37c787834270002dfcdea881036ea4d4
+size: 86831
+course: BM311
+kind: exam
+title: Vize Sınav Soruları
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

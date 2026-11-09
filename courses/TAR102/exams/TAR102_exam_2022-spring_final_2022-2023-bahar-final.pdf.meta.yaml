@@ -1,0 +1,18 @@
+file: TAR102_exam_2022-spring_final_2022-2023-bahar-final.pdf
+sha256: 044895706e564eb35d9d9225fb3e38846bf4341f36e7d8fa5472bb89b5054f14
+size: 96641
+course: TAR102
+kind: exam
+title: 2022-2023 Bahar Final
+year: 2022
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

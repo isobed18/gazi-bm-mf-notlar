@@ -1,0 +1,18 @@
+file: ENG103_exam_2003-fall_2003-2004-guz.pdf
+sha256: 966109d5cc06df4aab1c3533ab9a7d654daa9b0fe9b8c8a88b713ec008c74344
+size: 290926
+course: ENG103
+kind: exam
+title: 2003-2004 Güz
+year: 2003
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+exam_type: final

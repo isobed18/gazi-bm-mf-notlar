@@ -1,0 +1,17 @@
+file: CENG206_lecturenotes_2024-spring_sayisal-analiz-soru-ve-kod-notu.jpg
+sha256: 3006b2f79a248a9d9eaaa238cc9bd5c0d28954ccd8699cefa16630f9ca25b699
+size: 50094
+course: CENG206
+kind: lecture-notes
+title: Numerical Analysis Problem and Code Notes
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: BM104_exam_2023-spring_midterm_w7087_ayrik-final-online-2023.pdf
+sha256: c153d8a20c6892371be6fc079ea561fe3feeac80c088899ea0b42e0b10a857a1
+size: 243377
+course: BM104
+kind: exam
+title: 2022-2023 Bahar Final Sınavı
+year: 2022
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

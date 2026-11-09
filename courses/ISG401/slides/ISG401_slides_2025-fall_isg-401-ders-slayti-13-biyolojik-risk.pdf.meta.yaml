@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-13-biyolojik-risk.pdf
+sha256: 626a739555abbcc20379a944e15dbe51d7f4b9e06ce52df99083d8dd913d30c8
+size: 1165243
+course: ISG401
+kind: slides
+title: Hafta 13 – Biyolojik Risk Etmenleri
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,17 @@
+file: BM314_exam_2020-spring_2020-2021-bahar.pdf
+sha256: de5d3ccfceef9c98718b3a2e309637dfb6af0e7a6c1bac795af4312e73cfbda6
+size: 165705
+course: BM314
+kind: exam
+title: 2020-2021 Bahar
+year: 2020
+term: spring
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

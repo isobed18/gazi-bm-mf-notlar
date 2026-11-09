@@ -1,0 +1,18 @@
+file: BM309_slides_2025-fall_w10480_10-bellek-yonetimi-2.pdf
+sha256: b9a16be47cccaab0523932b7add73b0b4a4751f63a4a18611c131a3724657830
+size: 598017
+course: BM309
+kind: slides
+title: Hafta 10 – Bellek Yönetimi 2
+year: 2024
+term: fall
+week: 10
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

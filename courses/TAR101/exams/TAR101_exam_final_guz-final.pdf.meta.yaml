@@ -1,0 +1,17 @@
+file: TAR101_exam_final_guz-final.pdf
+sha256: 7da00227a651c5286ce0d2839f1c17228793c4d3afaf13111de439844d19a8d1
+size: 455417
+course: TAR101
+kind: exam
+title: Güz Final
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

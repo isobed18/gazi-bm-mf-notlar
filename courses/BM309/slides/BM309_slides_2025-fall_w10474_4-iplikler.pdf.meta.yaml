@@ -1,0 +1,18 @@
+file: BM309_slides_2025-fall_w10474_4-iplikler.pdf
+sha256: bda0a48901f619389fa0b985e2de5dee2854d474f1ffd782b121f5b1d530276e
+size: 901156
+course: BM309
+kind: slides
+title: Hafta 4 – İplikler
+year: 2024
+term: fall
+week: 4
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

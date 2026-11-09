@@ -1,58 +1,55 @@
 ---
 name: chat-exam-intel
-description: Read EVERY message of an exported group chat in sequential batches and extract exam information written as text (what was asked in exams, exam topics, instructor announcements, exam format, tips) into per-course markdown notes in the archive. Never use keyword search as a substitute for reading. Use for any WhatsApp/Telegram chat export.
+description: Read EVERY message of a class group chat (pre-split into numbered chunks) and record exam information written as text - what was asked, topics, exam style, solution hints, instructor habits, shared past-exam pointers - as structured JSONL findings per chunk. Findings of all chats are merged into one note per course. Never use keyword search instead of reading.
 ---
 
 # Exam information from chat messages
 
-Students often write what came up in an exam ("vizede 3 soru vardı, biri DP", "final konuları 4-9. hafta",
-"hoca açık uçlu sorar", "geçen sene de aynısı çıktı"). This information is valuable and only findable by reading.
+Students write what came up in exams in plain words ("vizede 3 soru vardı biri DP", "ikinci soru ağaçtı",
+"geçen senenin finali aynen geldi", "hoca ispat sorar", "final 4-9. haftalar"). Often without keywords, often as a
+reply several lines after a question. Only reading finds it. This is the most valuable part of a chat.
 
-## The rule
-**Read every message.** Split the chat into consecutive batches (≈300 lines; respect day boundaries) and read each batch
-completely, in order. A keyword search (`çıkmış`, `vize`, `final`, a course name) may be used once at the start to get
-oriented, but it is **not** a substitute: information is often phrased without keywords ("bugünkü sınavda şu geldi",
-"ikinci soru ağaçtı"). Coverage is checked.
+## Pipeline
+```
+python -X utf8 tools/archive.py chat-chunk "<export folder or _chat.txt>" --slug <slug>   # done by the maintainer agent
+#   -> local/chat/<slug>/chunks/NNN.txt  (each line: "<line no>| dd.mm.yyyy hh:mm P012: text"; senders pseudonymized)
+#   -> you write local/chat/<slug>/findings/NNN.jsonl for every chunk you are assigned
+python -X utf8 tools/archive.py chat-coverage            # every chunk must have a findings file
+python -X utf8 tools/archive.py chat-merge               # all findings -> courses/<CODE>/announcements/<CODE>_..._sohbetten-sinav-bilgileri.md
+```
 
-## Setup
-- Chat file: `<export>/_chat.txt` (format `[dd.mm.yyyy, hh:mm:ss] Sender: text`). Count its lines.
-- Progress file: `local/progress/<slug>-chat.md` with one row per batch:
-  `| batch | lines | dates | findings |` — update after every batch. The last batch must end at the last line.
-- Findings log (local, not committed): `local/progress/<slug>-chat-findings.md` — per finding: date, line range,
-  course, type, your own summary. No names, no phone numbers, no verbatim private messages.
+## Reading
+- Open each assigned chunk **completely** and read it top to bottom. Keep the context of the previous chunk in mind
+  (a question at the end of chunk 11 may be answered at the start of chunk 12 — record it in the chunk where the answer is).
+- Use the message date to know which exam period is meant (Nov/Apr = vize, Jan/Jun = final, Jan-Feb/Jul = bütünleme).
+- Identify the course with `catalog/curriculum.yaml` (`aliases`, names, codes; instructor + topic often reveal it:
+  "Lineer" → MAT199, "ayrık" → BM104, "devre" → BM211, "OS/işletim" → BM309, "algoritma" → BM218, "otomata" → BM303).
+  If you cannot tell the course, still record the finding with `"course": null` and a short `"course_hint"`.
 
-## What counts as a finding
-| Type | Example (your own words) |
+## What to record (one JSON object per finding)
+| type | record when students say… |
 |---|---|
-| asked-in-exam | "2023 bahar BM218 vize: 3 soru — Master teoremi, DP (LCS), greedy ispatı" |
-| exam-topics | "CENG206 final: 5–11. haftalar, Newton-Raphson ve interpolasyon ağırlıklı" |
-| exam-format | "MATH201 vize 90 dk, 5 soru, formül kâğıdı yok" |
-| instructor-tip | "BM309 hocası tanım sorar; semaforlar her yıl geliyor" |
-| resource-pointer | "BM222 için 2022 final çözümleri grupta paylaşıldı (dosya: …)" → tell the media agent / note the file name |
-Not findings: social chat, schedules without content, complaints, personal matters, grades of people.
+| `asked-in-exam` | which questions/topics actually came in an exam, how many questions, which was hard, "same as last year" |
+| `exam-topics` | what the exam covers (weeks, chapters, "X dahil değil") as announced or relayed |
+| `exam-format` | duration, number of questions, test/classical, open/closed book, formula sheet, calculator, grading rules |
+| `instructor-tip` | how an instructor asks/grades ("tanım sorar", "slayttan çıkar", "kısmi puan vermez", "her yıl semafor") |
+| `solution-hint` | how a past exam question is solved / its answer, discussed in the chat |
+| `resource-pointer` | a past exam / solution / note was shared (file name in `[ek: …]`) — record course + what it is |
+| `grade-distribution` | anonymous course-wide grade statistics (no individual grades) |
+Do **not** record: schedules, room/date logistics, registration, social chat, complaints, individual grades, anything
+about a person. One message can yield several findings; a long discussion can be one finding.
 
-## Output (after all batches are read)
-For every course with findings, write one markdown file and place it:
+## Findings file format — `local/chat/<slug>/findings/NNN.jsonl`
+One JSON object per line, UTF-8 (write with your file-edit tool; never through PowerShell):
+```json
+{"chunk": 12, "lines": "2850-2871", "date": "21.11.2023", "course": "BM103", "exam": "midterm", "type": "asked-in-exam", "summary": "Vizede minterm/maxterm sadeleştirme ve bilgisayar kuşakları soruldu; lab konuları çıkmadı."}
+{"chunk": 12, "lines": "2903", "date": "22.11.2023", "course": null, "course_hint": "Şerife hocanın dersi", "exam": "final", "type": "exam-topics", "summary": "Final 7. bölüm özdeğer-özvektör dahil, 4-5 soru."}
 ```
-local/tmp/<slug>/<CODE>-sinav-bilgileri.md
-python -X utf8 tools/archive.py place local/tmp/<slug>/<CODE>-sinav-bilgileri.md --copy --course <CODE> --kind announcement \
-  --title "Sohbetten sınav bilgileri (<slug>)" --source whatsapp:<slug> --status unverified
-```
-File format (Turkish, written by you, UTF-8 via your file-edit tool):
-```markdown
-# <CODE> – Sohbetten derlenen sınav bilgileri
-Kaynak: <slug> grup sohbeti · derleme tarihi · doğrulanmadı (unverified)
+- `exam`: `midterm | final | makeup | quiz | resit | null`. `date`: the message date (dd.mm.yyyy).
+- `summary`: Turkish, your own words, **specific** (topics, question types, numbers), ≤ 45 words. Instructor names are
+  fine; never student names, pseudonyms (P012), phone numbers, or verbatim private messages.
+- A chunk with nothing to record gets exactly one line: `{"chunk": 12, "none": true}` — every assigned chunk needs a file.
 
-## 2023-2024 Bahar
-- **Vize** (12.04.2024): 3 soru — Master teoremi, LCS ile DP, greedy ispatı. *(öğrenci aktarımı)*
-- **Final konuları**: 4–9. haftalar.
-
-## Genel ipuçları
-- …
-```
-Group by academic year/term, newest first. Each bullet = one finding, with the message date. If a course is unclear,
-write it into a `GENEL-sinav-bilgileri.md` and open a review item for it (`review-open --general university`).
-
-## Finish
-`validate`, `index`, `review-publish` (if you opened items). Report: total lines, batches read (must cover 1..N),
-findings per course, files placed. Never commit.
+## Quality bar
+Typical class chats yield **2–10 findings per 250 lines during exam periods** and few outside them. If you find
+nothing in an exam-period chunk, read it again. Prefer recording a borderline finding to dropping it.

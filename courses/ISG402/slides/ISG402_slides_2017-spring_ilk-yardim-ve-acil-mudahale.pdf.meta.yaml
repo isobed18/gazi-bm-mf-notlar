@@ -1,0 +1,17 @@
+file: ISG402_slides_2017-spring_ilk-yardim-ve-acil-mudahale.pdf
+sha256: dc08a3c8194b99646a046fc4abd12d7dc2a3571c03dad7e57416dbe7fba2e0aa
+size: 2722496
+course: ISG402
+kind: slides
+title: İlk Yardım ve Acil Müdahale
+year: 2017
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

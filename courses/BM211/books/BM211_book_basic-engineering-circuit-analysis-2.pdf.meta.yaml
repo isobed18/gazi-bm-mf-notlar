@@ -1,0 +1,15 @@
+file: BM211_book_basic-engineering-circuit-analysis-2.pdf
+sha256: f1e7983e8342b87576edc91aef886596f61b2567fbfafe06858f32bbbc458a0e
+size: 13903333
+course: BM211
+kind: book
+title: Basic Engineering Circuit Analysis
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)

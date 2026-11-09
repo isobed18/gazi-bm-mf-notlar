@@ -1,0 +1,17 @@
+file: BM371_slides_2024-spring_yapay-zekaya-giris-ders-2-slaytlari.pdf
+sha256: d8cbd3f4bea277542444ffa364f827618e3d982768f24230a2800d0fda5f57b7
+size: 641980
+course: BM371
+kind: slides
+title: Yapay Zekaya Giriş Ders 2 Slaytları
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

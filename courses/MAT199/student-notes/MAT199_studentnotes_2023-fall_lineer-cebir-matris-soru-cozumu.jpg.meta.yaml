@@ -1,0 +1,17 @@
+file: MAT199_studentnotes_2023-fall_lineer-cebir-matris-soru-cozumu.jpg
+sha256: 2e0b733449b0249c23e99be62fdad437d4788f7ea09261a0338fd39d1a454d99
+size: 167746
+course: MAT199
+kind: student-notes
+title: Matris Tersi Soru Çözümü
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

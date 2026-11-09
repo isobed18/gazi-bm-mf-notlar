@@ -3,4 +3,29 @@
 
 *Computer Programming I* · required · curriculum semester: 1
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM101_lecturenotes_2024-fall_w7571_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf](lecture-notes/BM101_lecturenotes_2024-fall_w7571_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf) | 62d0b916-a99a-4eae-9f18-e23468b5c541-lisans | 2024 fall |  |
+| [BM101_lecturenotes_2024-fall_w7642_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf](lecture-notes/BM101_lecturenotes_2024-fall_w7642_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf) | 62d0b916-a99a-4eae-9f18-e23468b5c541-lisans | 2024 fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM101_exam_2023-fall_makeup_w3201_calisma-sorulari.pdf](exams/BM101_exam_2023-fall_makeup_w3201_calisma-sorulari.pdf) | C Programming Sample Questions | 2023 fall | sample |
+| [BM101_exam_2023-spring_makeup_w7519_39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat-2.pdf](exams/BM101_exam_2023-spring_makeup_w7519_39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat-2.pdf) | 39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat_2 | 2023 spring | makeup |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM101_book_00000251-bm-deitel-c-how-to-program-pdf.pdf](books/BM101_book_00000251-bm-deitel-c-how-to-program-pdf.pdf) | 00000251-BM-Deitel C How to Program.pdf |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM101_announcement_sohbetten-sinav-bilgileri.md](announcements/BM101_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

@@ -1,0 +1,15 @@
+file: CENG313_slides_ceng313-data-science-lecture-slides.pdf
+sha256: 0ad788154fda317697e8f1b175317afbec5104ee1e37387fbb4dbf6e260ae532
+size: 5492634
+course: CENG313
+kind: slides
+title: CENG313 Data Science Lecture Slides
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

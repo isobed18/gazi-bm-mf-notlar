@@ -1,0 +1,17 @@
+file: FIZ103_syllabus_2023-fall_w1882_tbgwqzrmutsoizdtbu5e4wmb58d0484cd46f422f9d6aa58710.pdf
+sha256: 9082dfedd9c92d4a90b13b7d8d83d753a6cff508a6c99fb7b608ebe3f4a1918b
+size: 585842
+course: FIZ103
+kind: syllabus
+title: 2023-2024 Güz Ders İzlencesi
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

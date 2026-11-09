@@ -1,0 +1,17 @@
+file: MATH101_homeworksolution_2023-fall_problem-set-1-2-ve-cozumleri.pdf
+sha256: 1005d0d1c827a5dc56d399926ec5174d1697694d3cfb978a9881cff3142cbd10
+size: 37535903
+course: MATH101
+kind: homework-solution
+title: Problem Set 1-2 ve Çözümleri
+term: fall
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2023

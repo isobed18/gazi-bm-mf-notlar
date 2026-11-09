@@ -1,0 +1,17 @@
+file: ENG104_exam_final_bahar-final.pdf
+sha256: 333fc7af3d2701a446e913d13363e0fa6109598605aeb8b30823aa4d707bba46
+size: 915852
+course: ENG104
+kind: exam
+title: Bahar Final
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

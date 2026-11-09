@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003016-4-etik.pdf
+sha256: 8904b0af437bc84d4091c88146a56b35707c56df3758e72b86e9e04e39835fae
+size: 6273740
+course: ISG401
+kind: slides
+title: 4 – Çalışma Hayatında Etik ve İSG
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

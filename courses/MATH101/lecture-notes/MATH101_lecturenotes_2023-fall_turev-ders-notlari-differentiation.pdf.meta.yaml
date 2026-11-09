@@ -1,0 +1,17 @@
+file: MATH101_lecturenotes_2023-fall_turev-ders-notlari-differentiation.pdf
+sha256: 4a0c03b20259754e5489630ede396341147c9da5bb9ab4a2bdcb84c99ee3bea2
+size: 288840
+course: MATH101
+kind: lecture-notes
+title: Türev Ders Notları (Differentiation)
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

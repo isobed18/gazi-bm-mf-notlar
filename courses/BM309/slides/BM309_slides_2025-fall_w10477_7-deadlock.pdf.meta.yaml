@@ -1,0 +1,18 @@
+file: BM309_slides_2025-fall_w10477_7-deadlock.pdf
+sha256: 9f7ed6b852a1d7a8c105b496964506305c5a7e92b7e0447d25019dd20cff030d
+size: 1205892
+course: BM309
+kind: slides
+title: Hafta 7 – Ölümcül Kilitlenme (Deadlock)
+year: 2024
+term: fall
+week: 7
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

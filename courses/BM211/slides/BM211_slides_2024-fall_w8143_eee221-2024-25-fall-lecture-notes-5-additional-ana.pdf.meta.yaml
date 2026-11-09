@@ -1,0 +1,18 @@
+file: BM211_slides_2024-fall_w8143_eee221-2024-25-fall-lecture-notes-5-additional-ana.pdf
+sha256: e3627d46f202e833572fbe9f8495346c722e344ecdafbe2eec3a86bb83c17628
+size: 4645092
+course: BM211
+kind: slides
+title: Hafta 5 – Ek Analiz Yöntemleri
+year: 2024
+term: fall
+week: 5
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

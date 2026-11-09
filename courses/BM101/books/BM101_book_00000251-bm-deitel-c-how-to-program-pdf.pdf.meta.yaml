@@ -1,0 +1,16 @@
+file: BM101_book_00000251-bm-deitel-c-how-to-program-pdf.pdf
+sha256: 756c8468b46fad7522d4744eb6a9428412f53a9d7a23791138f2aab67e7593fe
+size: 5686265
+course: BM101
+kind: book
+title: 00000251-BM-Deitel C How to Program.pdf
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kursla eşleşen kitap kaynağı; kullanıcı talebiyle eklendi, resmi vault kitapları göstermiyor.

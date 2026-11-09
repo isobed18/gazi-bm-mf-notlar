@@ -1,0 +1,18 @@
+file: FIZ103_lecturenotes_2023-fall_w06_bolum6orneksorular.pdf
+sha256: 00ceb213b4e68d6bf22d5570958418c44400679fd3199f28cbf483dbf8ccd820
+size: 364927
+course: FIZ103
+kind: lecture-notes
+title: Bölüm 6 – Dairesel Hareket Örnek Sorular
+year: 2023
+term: fall
+week: 6
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

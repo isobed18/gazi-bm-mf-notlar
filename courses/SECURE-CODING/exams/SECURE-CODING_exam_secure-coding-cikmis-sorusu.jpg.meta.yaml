@@ -1,0 +1,16 @@
+file: SECURE-CODING_exam_secure-coding-cikmis-sorusu.jpg
+sha256: a05e47e1bda522ce32ae00a21ac7cd5c318b71725749c9b00e1c8ca4c44790a2
+size: 30409
+course: SECURE-CODING
+kind: exam
+title: Secure Coding Çıkmış Sorusu
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kurs adı görselde açık; tarih/kod uydurulmadan yerleştirildi.

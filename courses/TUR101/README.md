@@ -3,4 +3,29 @@
 
 *Turkish Language I* · general · curriculum semester: 3
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR101_exam_2022-fall_midterm_2022-2023-guz-vize-sinavi.pdf](exams/TUR101_exam_2022-fall_midterm_2022-2023-guz-vize-sinavi.pdf) | 2022-2023 Güz Vize Sınavı | 2022 fall | midterm |
+| [TUR101_exam_turk-dili-i-ii-cikmis-sinav-sorulari-ve-cevaplari.pdf](exams/TUR101_exam_turk-dili-i-ii-cikmis-sinav-sorulari-ve-cevaplari.pdf) | Türk Dili I-II Çıkmış Sınav Soruları ve Cevapları |  |  |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumu.pdf](exam-solutions/TUR101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumu.pdf) | 2022-2023 Güz Vize Çözümü | 2022 fall | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR101_gradedistribution_2001-fall_2001-2002-harf-notu-dagilimi.jpg](grade-distributions/TUR101_gradedistribution_2001-fall_2001-2002-harf-notu-dagilimi.jpg) | Ge?mi? Harf Notu Da??l?mlar? |  |  |
+| [TUR101_gradedistribution_2024-fall_2024-2025-harf-notu-dagilimi.png](grade-distributions/TUR101_gradedistribution_2024-fall_2024-2025-harf-notu-dagilimi.png) | Ge?mi? Harf Notu Da??l?mlar? |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR101_announcement_sohbetten-sinav-bilgileri.md](announcements/TUR101_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

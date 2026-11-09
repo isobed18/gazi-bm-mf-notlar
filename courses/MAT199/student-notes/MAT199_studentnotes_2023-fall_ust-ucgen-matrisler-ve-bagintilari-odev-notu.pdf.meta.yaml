@@ -1,0 +1,17 @@
+file: MAT199_studentnotes_2023-fall_ust-ucgen-matrisler-ve-bagintilari-odev-notu.pdf
+sha256: 92c1f5eb4a7551e33c2bf53f66fe60f52f6dccbf96a899bc6d479c44a3b19386
+size: 439551
+course: MAT199
+kind: student-notes
+title: Ust Ucgen Matrisler ve Bagintilari Odev Notu
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

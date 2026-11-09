@@ -1,0 +1,16 @@
+file: CENG374_slides_introduction-to-computer-security-part-4-informati.pdf
+sha256: 0a973cd299560cf5357b69176a535e3db5d33715ab6e683e9f7951bae0548fd0
+size: 1608186
+course: CENG374
+kind: slides
+title: Introduction to Computer Security - Part 4_Information_Security
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı/notu; yerleştirildi.

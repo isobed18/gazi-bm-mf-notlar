@@ -1,0 +1,15 @@
+file: ENG103_book_new-language-leader-upper-intermediate.pdf
+sha256: f726b8ecfb4b7a6fd87b42b0f888901aff89bfb012aec1fa014b6f86d0d2a94f
+size: 59900359
+course: ENG103
+kind: book
+title: New Language Leader Upper Intermediate
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

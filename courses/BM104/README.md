@@ -3,4 +3,32 @@
 
 *Discrete Mathematics for Computer Science* · required · curriculum semester: 2
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM104_slides_2023-spring_makeup_w01_ag9wmflqnhfny0nfk2xyz2jscmnnuqweek1-part2-proposit.pdf](slides/BM104_slides_2023-spring_makeup_w01_ag9wmflqnhfny0nfk2xyz2jscmnnuqweek1-part2-proposit.pdf) | Hafta 1 Bölüm 2 - Mantıksal Denklikler | 2023 spring |  |
+| [BM104_slides_2023-spring_makeup_w01_v25mu084r2x5vksyylhlnk9eqxzxuqweek1-part1-proposit.pdf](slides/BM104_slides_2023-spring_makeup_w01_v25mu084r2x5vksyylhlnk9eqxzxuqweek1-part1-proposit.pdf) | Hafta 1 Bölüm 1 - Önermeler Mantığı | 2023 spring |  |
+| [BM104_slides_bm104-ayrik-matematik-ders-sunumu-2.pdf](slides/BM104_slides_bm104-ayrik-matematik-ders-sunumu-2.pdf) | Hafta 3 - Çıkarım Kuralları ve İspatlar |  |  |
+| [BM104_slides_bm104-ayrik-matematik-ders-sunumu.pdf](slides/BM104_slides_bm104-ayrik-matematik-ders-sunumu.pdf) | Hafta 2 - Yüklemler Mantığı |  |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM104_exam_2022_midterm_w7088_ayrik-matematik-vize-2022-2023.pdf](exams/BM104_exam_2022_midterm_w7088_ayrik-matematik-vize-2022-2023.pdf) | 2022-2023 Bahar Vize Sınavı | 2022 spring | midterm |
+| [BM104_exam_2023-spring_midterm_w7087_ayrik-final-online-2023.pdf](exams/BM104_exam_2023-spring_midterm_w7087_ayrik-final-online-2023.pdf) | 2022-2023 Bahar Final Sınavı | 2022 spring | final |
+| [BM104_exam_2023-spring_midterm_w7089_ayrik-butunleme-2023.pdf](exams/BM104_exam_2023-spring_midterm_w7089_ayrik-butunleme-2023.pdf) | 2022-2023 Bahar Bütünleme Sınavı | 2022 spring | makeup |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM104_book_discrete-mathematics-rosen.pdf](books/BM104_book_discrete-mathematics-rosen.pdf) | Discrete Mathematics Rosen |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM104_announcement_sohbetten-sinav-bilgileri.md](announcements/BM104_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

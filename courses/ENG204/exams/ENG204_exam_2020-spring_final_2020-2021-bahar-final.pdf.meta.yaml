@@ -1,0 +1,18 @@
+file: ENG204_exam_2020-spring_final_2020-2021-bahar-final.pdf
+sha256: caabf89f38084676229c86d4d38a307acf3bfbb650fcbf579e093494df4599ab
+size: 367905
+course: ENG204
+kind: exam
+title: 2020-2021 Bahar Final
+year: 2020
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

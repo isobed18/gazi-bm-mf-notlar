@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w09_bolum-6-4-css-cascading-style-sheets.pdf
+sha256: 11451471821c88ccbb80de01f6f0a7f55fa20920c0e8c575ddb322d43d4c1dde
+size: 2406410
+course: BM201
+kind: slides
+title: Bölüm 6.4 - CSS (Cascading Style Sheets)
+year: 2026
+term: fall
+week: 9
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,17 @@
+file: CENG318_slides_2024-spring_microprocessors-chapter-11-slides.pdf
+sha256: fc3f421fd110a40c0eac0ff36489023427a63a357766114216c20da0b6eb1c17
+size: 808378
+course: CENG318
+kind: slides
+title: Microprocessors Chapter 11 Slides
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

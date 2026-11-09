@@ -1,0 +1,18 @@
+file: CENG106_exam_final_bahar-final.pdf
+sha256: 3a7b37d362a0d497f8d61716759f3635a392878cd5bd67f7e406fd44cdfe7ec2
+size: 230326
+course: CENG106
+kind: exam
+title: 2020-2021 G?z Final
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2020

@@ -1,0 +1,17 @@
+file: BM218_slides_w06_hafta-6-siralama.pdf
+sha256: 472ad0b3341f1e59c5c07190fc2b175e09838cc65075faf363bd015603965d29
+size: 1028994
+course: BM218
+kind: slides
+title: Hafta 6 – Sıralama 2
+week: 6
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

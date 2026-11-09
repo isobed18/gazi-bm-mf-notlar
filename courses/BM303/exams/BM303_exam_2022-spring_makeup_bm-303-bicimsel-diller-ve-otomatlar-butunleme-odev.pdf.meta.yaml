@@ -1,0 +1,19 @@
+file: BM303_exam_2022-spring_makeup_bm-303-bicimsel-diller-ve-otomatlar-butunleme-odev.pdf
+sha256: c580a58d2e22f16d9afabccf8e5adbfc62d8b6a5c48475196b6a78c65c5bd792
+size: 483588
+course: BM303
+kind: exam
+title: BM 303 Biçimsel Diller ve Otomatlar Bütünleme Ödevi 2023
+year: 2022
+term: spring
+exam_type: makeup
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: one-off-homework

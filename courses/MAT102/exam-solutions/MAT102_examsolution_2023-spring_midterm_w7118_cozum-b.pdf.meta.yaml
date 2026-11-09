@@ -1,0 +1,18 @@
+file: MAT102_examsolution_2023-spring_midterm_w7118_cozum-b.pdf
+sha256: ff256d6edd0f809892d68a34f55a588db7eb6cea05b0281ad21060607d1b0e7c
+size: 503138
+course: MAT102
+kind: exam-solution
+title: 2023-2024 Bahar Vize Çözümü B Grubu
+year: 2023
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

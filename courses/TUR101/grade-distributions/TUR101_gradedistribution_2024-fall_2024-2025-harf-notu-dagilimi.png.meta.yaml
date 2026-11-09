@@ -1,0 +1,15 @@
+file: TUR101_gradedistribution_2024-fall_2024-2025-harf-notu-dagilimi.png
+sha256: a06070a65cf0c3ce04c316c63853bfe5f6c38e17e3c7474affcd64d30b1129cc
+size: 76784
+course: TUR101
+kind: grade-distribution
+title: Ge?mi? Harf Notu Da??l?mlar?
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,20 @@
+file: BM101_exam_2023-spring_makeup_w7519_39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat-2.pdf
+sha256: bd44dcab3f5fb6009206487cb55b56579215768e9345969d9c630d35d260c1cf
+size: 220472
+course: BM101
+kind: exam
+title: 39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat_2
+year: 2023
+term: spring
+exam_type: makeup
+week: 7519
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: curriculum

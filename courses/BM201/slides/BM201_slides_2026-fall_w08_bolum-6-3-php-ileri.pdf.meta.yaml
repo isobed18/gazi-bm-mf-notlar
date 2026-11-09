@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w08_bolum-6-3-php-ileri.pdf
+sha256: 6c912364f1045d27ec4d2afffa52dfeb9c220ac275e5ce894b71aa27ce91897e
+size: 960661
+course: BM201
+kind: slides
+title: Bölüm 6.3 - PHP İleri
+year: 2026
+term: fall
+week: 8
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

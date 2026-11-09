@@ -1,0 +1,18 @@
+file: BM314_exam_2020-spring_final_bm-314-yazilim-muhendisligi-final-sinavi-2021.pdf
+sha256: 4f7e5e0e96d53338a87cf5c856fb0204f2edb9dbb1c08b2bec6d19dc2d9c9346
+size: 192823
+course: BM314
+kind: exam
+title: BM 314 Yazılım Mühendisliği Final Sınavı 2021
+year: 2020
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

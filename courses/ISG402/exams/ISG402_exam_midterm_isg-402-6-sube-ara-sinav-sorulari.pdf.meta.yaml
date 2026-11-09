@@ -1,0 +1,17 @@
+file: ISG402_exam_midterm_isg-402-6-sube-ara-sinav-sorulari.pdf
+sha256: 003f491cb1efb307d6908f1af3cb7206a53f459496a28447ada5a407ed049295
+size: 14756780
+course: ISG402
+kind: exam
+title: İSG-402 6. Şube Ara Sınav Soruları
+exam_type: midterm
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

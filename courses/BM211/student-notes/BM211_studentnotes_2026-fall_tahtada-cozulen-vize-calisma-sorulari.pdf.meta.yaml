@@ -1,0 +1,20 @@
+file: BM211_studentnotes_2026-fall_tahtada-cozulen-vize-calisma-sorulari.pdf
+sha256: 12e07b628ba2c0022b65565edc3101c3b7e7c7f9929e68b62fff46de631e8526
+size: 1018543
+course: BM211
+kind: student-notes
+title: Tahtada Çözülen Vize Çalışma Soruları
+year: 2026
+term: fall
+handwritten: true
+topics:
+- Kirchhoff Yasaları
+- Devre Analizi
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

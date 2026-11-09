@@ -1,0 +1,17 @@
+file: ISG402_slides_2025-spring_isg-402-slayt-00004380-3-1-is-ekipmanlari.pdf
+sha256: 7e94a0d45cd425b4e61661749402761d42d5cb7662efccd86b70665c32310cce
+size: 11798043
+course: ISG402
+kind: slides
+title: İSG 402 Slayt - 00004380-3-1-is_ekipmanlari
+year: 2025
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

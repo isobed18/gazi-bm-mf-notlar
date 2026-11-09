@@ -1,0 +1,18 @@
+file: ENG104_exam_2023-spring_final_final-sinavi.pdf
+sha256: b4b23d244af81fbb0f372ee9dc31d3549875d137653547726829350a6dc48f20
+size: 3532119
+course: ENG104
+kind: exam
+title: Final Sınavı
+year: 2023
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

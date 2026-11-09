@@ -1,0 +1,19 @@
+file: FIZ103_syllabus_2023-fall_ders-izlencesi.pdf
+sha256: ce8acb6cacb1196f4f6dfe5b4755a1f03cb41bc1b8add20e251abdccc7a3b570
+size: 1456799
+course: FIZ103
+kind: syllabus
+title: Ders İzlencesi
+year: 2023
+term: fall
+language: tr
+handwritten: false
+source:
+  type: whatsapp
+  ref: gaziuni-mf-ceng23
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

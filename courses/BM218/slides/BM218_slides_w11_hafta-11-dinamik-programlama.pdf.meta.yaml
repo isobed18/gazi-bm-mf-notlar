@@ -1,0 +1,16 @@
+file: BM218_slides_w11_hafta-11-dinamik-programlama.pdf
+sha256: 6bf985b2542ebe51d822c27a1a71d1cd39af932c69fe08e1dc2116efd107c2ca
+size: 948199
+course: BM218
+kind: slides
+title: Hafta 11 - Dinamik Programlama
+week: 11
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

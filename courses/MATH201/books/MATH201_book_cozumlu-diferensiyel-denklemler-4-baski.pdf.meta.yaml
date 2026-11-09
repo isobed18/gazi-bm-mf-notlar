@@ -1,0 +1,15 @@
+file: MATH201_book_cozumlu-diferensiyel-denklemler-4-baski.pdf
+sha256: 7790376c6aa8e31708faf0bb1f6226331089526e1581b70d587181bc0851a01e
+size: 39725955
+course: MATH201
+kind: book
+title: Çözümlü Diferansiyel Denklemler Problemleri (4. Baskı)
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

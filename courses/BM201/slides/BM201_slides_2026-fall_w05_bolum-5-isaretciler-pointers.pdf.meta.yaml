@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w05_bolum-5-isaretciler-pointers.pdf
+sha256: 500d4a626defe72bdd56c6d084e567ddda4b320021b753b59a6993a86650d6b4
+size: 744617
+course: BM201
+kind: slides
+title: Bölüm 5 - İşaretçiler (Pointers)
+year: 2026
+term: fall
+week: 5
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

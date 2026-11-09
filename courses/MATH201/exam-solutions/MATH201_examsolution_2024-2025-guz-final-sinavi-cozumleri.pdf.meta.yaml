@@ -1,0 +1,15 @@
+file: MATH201_examsolution_2024-2025-guz-final-sinavi-cozumleri.pdf
+sha256: 7b9edeb910bc3477504be364f528fe3c65093ecb8ff8bc9cc38943978c0ec0ed
+size: 246939
+course: MATH201
+kind: exam-solution
+title: 2024-2025 Güz Final Sınavı Çözümleri
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)

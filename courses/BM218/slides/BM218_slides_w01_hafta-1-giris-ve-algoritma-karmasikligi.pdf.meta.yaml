@@ -1,0 +1,17 @@
+file: BM218_slides_w01_hafta-1-giris-ve-algoritma-karmasikligi.pdf
+sha256: b3566e35c06317293788d18d86700975ee8d2a7c596155ec357c166d4982bf8b
+size: 926463
+course: BM218
+kind: slides
+title: Hafta 1 – Giriş ve Algoritma Karmaşıklığı
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

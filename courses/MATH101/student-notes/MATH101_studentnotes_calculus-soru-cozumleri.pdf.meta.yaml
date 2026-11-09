@@ -1,0 +1,15 @@
+file: MATH101_studentnotes_calculus-soru-cozumleri.pdf
+sha256: d99338efcbfe4d3c8e5a18e1731281273a230f3686ab5af23844edad87e2e04e
+size: 958173
+course: MATH101
+kind: student-notes
+title: Calculus Soru Çözümleri
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)

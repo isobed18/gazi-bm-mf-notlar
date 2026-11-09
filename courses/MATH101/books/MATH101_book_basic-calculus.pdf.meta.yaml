@@ -1,0 +1,15 @@
+file: MATH101_book_basic-calculus.pdf
+sha256: 4f42d9565c4666d394d0f7fe1a502d60e11200ab5e2301348fe98015679cdb49
+size: 1444855
+course: MATH101
+kind: book
+title: Basic Calculus
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

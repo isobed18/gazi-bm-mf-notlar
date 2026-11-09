@@ -3,4 +3,57 @@
 
 *Differential Equations* · required · curriculum semester: 3
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_lecturenotes_2024-fall_tam-diferansiyel-denklemler-tahta-notu.jpg](lecture-notes/MATH201_lecturenotes_2024-fall_tam-diferansiyel-denklemler-tahta-notu.jpg) | Tam Diferansiyel Denklemler Tahta Notu | 2024 fall |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_studentnotes_2025-fall_diferansiyel-denklemler-1-hafta-ders-notlari-temel.pdf](student-notes/MATH201_studentnotes_2025-fall_diferansiyel-denklemler-1-hafta-ders-notlari-temel.pdf) | Diferansiyel Denklemler 1. Hafta Tahta Notları | fall |  |
+| [MATH201_studentnotes_cozumlu-ornekler-organized.pdf](student-notes/MATH201_studentnotes_cozumlu-ornekler-organized.pdf) | Diferansiyel Denklemler Çözümlü Örnekler | fall |  |
+| [MATH201_studentnotes_guz.pdf](student-notes/MATH201_studentnotes_guz.pdf) | Diferansiyel Denklemler Örnek Soru Çözümleri | fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_exam_2020-fall_midterm_2020-2021-guz-vize.pdf](exams/MATH201_exam_2020-fall_midterm_2020-2021-guz-vize.pdf) | 2020-2021 Güz Vize | 2020 fall | midterm |
+| [MATH201_exam_2023-fall_final_2023-2024-guz-final.pdf](exams/MATH201_exam_2023-fall_final_2023-2024-guz-final.pdf) | 2023-2024 Güz Final | 2023 fall | final |
+| [MATH201_exam_2024-fall_midterm_2024-2025-guz-vize-2.pdf](exams/MATH201_exam_2024-fall_midterm_2024-2025-guz-vize-2.pdf) | 2024-2025 Güz Vize | 2024 fall | midterm |
+| [MATH201_exam_2024-fall_midterm_2024-2025-guz-vize.pdf](exams/MATH201_exam_2024-fall_midterm_2024-2025-guz-vize.pdf) | 2024-2025 Güz Vize Tahta Çözümü | 2024 fall | midterm |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_examsolution_2024-2025-guz-final-sinavi-cozumleri.pdf](exam-solutions/MATH201_examsolution_2024-2025-guz-final-sinavi-cozumleri.pdf) | 2024-2025 Güz Final Sınavı Çözümleri |  |  |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_gradedistribution_2001-fall_2001-2002-harf-notu-dagilimi.jpg](grade-distributions/MATH201_gradedistribution_2001-fall_2001-2002-harf-notu-dagilimi.jpg) | Geçmiş Harf Notu Dağılımı | fall |  |
+| [MATH201_gradedistribution_2024-fall_2024-2025-harf-notu-dagilimi.png](grade-distributions/MATH201_gradedistribution_2024-fall_2024-2025-harf-notu-dagilimi.png) | 2024-2025 Güz Harf Notu Dağılımı | 2024 fall |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_book_cozumlu-diferensiyel-denklemler-4-baski.pdf](books/MATH201_book_cozumlu-diferensiyel-denklemler-4-baski.pdf) | Çözümlü Diferansiyel Denklemler Problemleri (4. Baskı) |  |  |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_summary_diferansiyel-denklemler-soru-cozumleri.pdf](summaries/MATH201_summary_diferansiyel-denklemler-soru-cozumleri.pdf) | Diferansiyel Denklemler Çözümlü Problemler | fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH201_announcement_sohbetten-sinav-bilgileri.md](announcements/MATH201_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

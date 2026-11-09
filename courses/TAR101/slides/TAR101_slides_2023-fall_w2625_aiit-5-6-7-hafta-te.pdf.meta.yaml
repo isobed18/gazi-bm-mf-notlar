@@ -1,0 +1,17 @@
+file: TAR101_slides_2023-fall_w2625_aiit-5-6-7-hafta-te.pdf
+sha256: 68bbb0196e430517b2f77bf960d3c1bd1ccba70a2c6387562a65b702970b7659
+size: 4211271
+course: TAR101
+kind: slides
+title: 5-6-7. Hafta – Birinci Dünya Savaşı
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

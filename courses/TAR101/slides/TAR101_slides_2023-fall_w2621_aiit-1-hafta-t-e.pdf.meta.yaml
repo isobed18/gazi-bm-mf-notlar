@@ -1,0 +1,18 @@
+file: TAR101_slides_2023-fall_w2621_aiit-1-hafta-t-e.pdf
+sha256: b37304b2f8e47adb0be7165d4f1ced6412c3905802a2324e9fbfe93541032983
+size: 516620
+course: TAR101
+kind: slides
+title: 1. Hafta – Giriş ve Tanzimat
+year: 2023
+term: fall
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

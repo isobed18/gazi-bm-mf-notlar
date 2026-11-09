@@ -1,0 +1,5 @@
+#!/bin/sh
+# Blocks commits that would share personal data, secrets or broken metadata.
+# Enable once per clone:  git config core.hooksPath tools/hooks
+python -X utf8 tools/archive.py validate >/dev/null || { echo "pre-commit: archive.py validate failed"; exit 1; }
+python -X utf8 tools/archive.py audit || { echo "pre-commit: archive.py audit found possible personal data/secrets (see above)"; exit 1; }

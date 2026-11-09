@@ -1,0 +1,18 @@
+file: BM211_slides_2024-fall_w8144_eee221-2024-25-fall-lecture-notes-6-operational-am.pdf
+sha256: e54da21fd76a62398bcbc61ab907945fb63f0e35851ebb0d2afea603b245ecba
+size: 2597109
+course: BM211
+kind: slides
+title: Hafta 6 – İşlemsel Yükselteçler (Op-Amp)
+year: 2024
+term: fall
+week: 6
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,17 @@
+file: ISG402_slides_2017-spring_kisisel-koruyucu-donanimlar.pdf
+sha256: 996f066730ee3b94d27209f6dbea6ec9da5613d0259d60249a1b3785186f2abe
+size: 4606579
+course: ISG402
+kind: slides
+title: Kişisel Koruyucu Donanımlar
+year: 2017
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

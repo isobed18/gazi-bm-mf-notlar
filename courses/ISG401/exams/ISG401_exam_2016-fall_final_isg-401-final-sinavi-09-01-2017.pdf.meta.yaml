@@ -1,0 +1,19 @@
+file: ISG401_exam_2016-fall_final_isg-401-final-sinavi-09-01-2017.pdf
+sha256: d3af60c77d514d779ccbc6d19e6a0bec93e32d099505f198093e161806c01097
+size: 940095
+course: ISG401
+kind: exam
+title: İSG 401 Final Sınavı (09.01.2017)
+year: 2016
+term: fall
+exam_type: final
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -1,0 +1,17 @@
+file: TAR101_slides_final_mondros-ateskesi-ve-direnis-cemiyetleri-sunumu.pdf
+sha256: 7aab2e823ec40254af07a40639efc83f6e58cb5a8edf293adbb9008052f48c5d
+size: 49025229
+course: TAR101
+kind: slides
+title: Mondros Ateşkesi ve Direniş Cemiyetleri Sunumu
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

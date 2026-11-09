@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-4-2-mevzuat.pdf
+sha256: fe6a116fc8a9dbc4386c4c610f2868bfe4b0139ebcc3aa792ce38bdca524d242
+size: 4148374
+course: ISG401
+kind: slides
+title: Hafta 04 – İSG Mevzuatı ve Hizmetleri
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

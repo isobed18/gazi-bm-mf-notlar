@@ -1,0 +1,18 @@
+file: BM405_exam_2025-fall_midterm_girisimcilik-ve-liderlik-2025-2026-guz-vize-sorusu.jpg
+sha256: 68b9c0ec194e2a2a9f81394a02a42ad3e77bd07acea9147c32434edf9d2c61a7
+size: 107715
+course: BM405
+kind: exam
+title: Girişimcilik ve Liderlik 2025-2026 Güz Vize Sorusu (İş Modeli Kanvası)
+year: 2025
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

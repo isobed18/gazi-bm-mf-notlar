@@ -1,0 +1,16 @@
+file: MAT199_book_00000257-367816929-licnercebicr-dursun-tasoci-p.pdf
+sha256: 58de53ff4e012fdc0c2853ec3bc0e103481fdedac244877bf3479b1f5e51e612
+size: 13039344
+course: MAT199
+kind: book
+title: 00000257-367816929-LI╠çNERCEBI╠çR-DURSUN-TAS╠ºCI.p
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kursla eşleşen kitap kaynağı; kullanıcı talebiyle eklendi, resmi vault kitapları göstermiyor.

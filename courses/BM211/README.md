@@ -3,4 +3,62 @@
 
 *Electrical and Electronic Circuits* · required · curriculum semester: 3
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM211_slides_2024-fall_w8140_eee221-2024-25-fall-lecture-notes-2-resistive-circ.pdf](slides/BM211_slides_2024-fall_w8140_eee221-2024-25-fall-lecture-notes-2-resistive-circ.pdf) | Hafta 2 – Resistive Circuits | 2024 fall |  |
+| [BM211_slides_2024-fall_w8141_eee221-2024-25-fall-lecture-notes-3-resistive-circ.pdf](slides/BM211_slides_2024-fall_w8141_eee221-2024-25-fall-lecture-notes-3-resistive-circ.pdf) | Hafta 3 – Resistive Circuits Devamı | 2024 fall |  |
+| [BM211_slides_2024-fall_w8142_eee221-2024-25-fall-lecture-notes-1-introduction-t.pdf](slides/BM211_slides_2024-fall_w8142_eee221-2024-25-fall-lecture-notes-1-introduction-t.pdf) | Hafta 1 – Giriş ve Temel Kavramlar | 2024 fall |  |
+| [BM211_slides_2024-fall_w8143_eee221-2024-25-fall-lecture-notes-5-additional-ana.pdf](slides/BM211_slides_2024-fall_w8143_eee221-2024-25-fall-lecture-notes-5-additional-ana.pdf) | Hafta 5 – Ek Analiz Yöntemleri | 2024 fall |  |
+| [BM211_slides_2024-fall_w8144_eee221-2024-25-fall-lecture-notes-6-operational-am.pdf](slides/BM211_slides_2024-fall_w8144_eee221-2024-25-fall-lecture-notes-6-operational-am.pdf) | Hafta 6 – İşlemsel Yükselteçler (Op-Amp) | 2024 fall |  |
+| [BM211_slides_2024-fall_w8842_bm211-electronics.pdf](slides/BM211_slides_2024-fall_w8842_bm211-electronics.pdf) | Elektronik Ders Sunumu | 2024 fall |  |
+| [BM211_slides_2024-fall_w8843_bm211-opamp.pdf](slides/BM211_slides_2024-fall_w8843_bm211-opamp.pdf) | Op-Amp Ders Sunumu | 2024 fall |  |
+| [BM211_slides_2025-fall_ders-sunumu-1-giris-ve-temel-kavramlar.pdf](slides/BM211_slides_2025-fall_ders-sunumu-1-giris-ve-temel-kavramlar.pdf) | Ders Sunumu 1 – Giriş ve Temel Kavramlar | 2025 fall |  |
+| [BM211_slides_2025-fall_w10597_bm211-lecturenotes2.pdf](slides/BM211_slides_2025-fall_w10597_bm211-lecturenotes2.pdf) | Ders Sunumu 2 – Resistive Circuits | 2025 fall |  |
+| [BM211_slides_opamp-chapter-6-2.pptx](slides/BM211_slides_opamp-chapter-6-2.pptx) | OpAmp Chapter 6.2 |  |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM211_lecturenotes_2024-fall_eee221-lecture-note-4-nodal-and-loop-analysis.pdf](lecture-notes/BM211_lecturenotes_2024-fall_eee221-lecture-note-4-nodal-and-loop-analysis.pdf) | EEE221 Lecture Note 4 - Nodal and Loop Analysis | 2024 fall |  |
+| [BM211_lecturenotes_2024-fall_eee221-lecture-note-7-capacitance-and-inductance.pdf](lecture-notes/BM211_lecturenotes_2024-fall_eee221-lecture-note-7-capacitance-and-inductance.pdf) | EEE221 Lecture Note 7 - Capacitance and Inductance | 2024 fall |  |
+| [BM211_lecturenotes_2024-fall_eee221-lecture-note-8-transient-circuits.pdf](lecture-notes/BM211_lecturenotes_2024-fall_eee221-lecture-note-8-transient-circuits.pdf) | EEE221 Lecture Note 8 - Transient Circuits | 2024 fall |  |
+| [BM211_lecturenotes_2025-fall_circuit-analysis-methods.pdf](lecture-notes/BM211_lecturenotes_2025-fall_circuit-analysis-methods.pdf) | Circuit Analysis Methods | 2025 fall |  |
+| [BM211_lecturenotes_2025-fall_w10745_eem221.pdf](lecture-notes/BM211_lecturenotes_2025-fall_w10745_eem221.pdf) | EEM221 | 2025 fall |  |
+| [BM211_lecturenotes_2026-fall_w01_unite-1-calisma-sorulari-ve-cevaplari.pdf](lecture-notes/BM211_lecturenotes_2026-fall_w01_unite-1-calisma-sorulari-ve-cevaplari.pdf) | Ünite 1 – Çalışma Soruları ve Cevapları | 2026 fall |  |
+| [BM211_lecturenotes_2026-fall_w01_unite-1-temel-kavramlar-ve-ohm-kanunu.pdf](lecture-notes/BM211_lecturenotes_2026-fall_w01_unite-1-temel-kavramlar-ve-ohm-kanunu.pdf) | Ünite 1 – Temel Kavramlar ve Ohm Kanunu | 2026 fall |  |
+| [BM211_lecturenotes_2026-fall_w02_unite-2-calisma-sorulari-ve-cevaplari.pdf](lecture-notes/BM211_lecturenotes_2026-fall_w02_unite-2-calisma-sorulari-ve-cevaplari.pdf) | Ünite 2 – Çalışma Soruları ve Cevapları | 2026 fall |  |
+| [BM211_lecturenotes_2026-fall_w02_unite-2-devre-kavramlari-ve-kirchhoff-yasalari.pdf](lecture-notes/BM211_lecturenotes_2026-fall_w02_unite-2-devre-kavramlari-ve-kirchhoff-yasalari.pdf) | Ünite 2 – Devre Kavramları ve Kirchhoff Yasaları | 2026 fall |  |
+| [BM211_lecturenotes_2026-fall_w03_unite-3-calisma-sorulari-ve-cevaplari.pdf](lecture-notes/BM211_lecturenotes_2026-fall_w03_unite-3-calisma-sorulari-ve-cevaplari.pdf) | Ünite 3 – Çalışma Soruları ve Cevapları | 2026 fall |  |
+| [BM211_lecturenotes_2026-fall_w03_unite-3-dugum-noktasi-ve-cevre-akimlari-yontemi.pdf](lecture-notes/BM211_lecturenotes_2026-fall_w03_unite-3-dugum-noktasi-ve-cevre-akimlari-yontemi.pdf) | Ünite 3 – Düğüm Noktası ve Çevre Akımları Yöntemi | 2026 fall |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM211_studentnotes_2026-fall_tahtada-cozulen-vize-calisma-sorulari.pdf](student-notes/BM211_studentnotes_2026-fall_tahtada-cozulen-vize-calisma-sorulari.pdf) | Tahtada Çözülen Vize Çalışma Soruları | 2026 fall |  |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM211_homework_2025-fall_devre-analizi-calisma-sorulari.jpg](homework/BM211_homework_2025-fall_devre-analizi-calisma-sorulari.jpg) | Devre Analizi Calisma Sorulari | 2025 fall |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM211_book_basic-engineering-circuit-analysis-2.pdf](books/BM211_book_basic-engineering-circuit-analysis-2.pdf) | Basic Engineering Circuit Analysis |  |  |
+| [BM211_book_basic-engineering-circuit-analysis.pdf](books/BM211_book_basic-engineering-circuit-analysis.pdf) | Basic Engineering Circuit Analysis |  |  |
+| [BM211_book_circuit-analysis-solutions-chapter-1.pdf](books/BM211_book_circuit-analysis-solutions-chapter-1.pdf) | Circuit Analysis Solutions Chapter 1 |  |  |
+| [BM211_book_engineering-circuit-analysis-solutions.pdf](books/BM211_book_engineering-circuit-analysis-solutions.pdf) | Engineering Circuit Analysis Solutions |  |  |
+| [BM211_book_masteringengineering.pdf](books/BM211_book_masteringengineering.pdf) | MasteringEngineering |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM211_announcement_sohbetten-sinav-bilgileri.md](announcements/BM211_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

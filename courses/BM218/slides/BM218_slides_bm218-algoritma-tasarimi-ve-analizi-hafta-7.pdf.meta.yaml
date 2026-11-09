@@ -1,0 +1,16 @@
+file: BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-7.pdf
+sha256: 975b2bfe476663cd4bd9c9587c2b588fd25aa59623d99c93f2f5fba477cfc411
+size: 1131968
+course: BM218
+kind: slides
+title: Hafta 7 - Ağaç Algoritmaları
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 7

@@ -1,0 +1,17 @@
+file: MATH101_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png
+sha256: 271a475ec497e460f55b63fecff59882c7c2de18f1cc8556e63dcd4bf9468d38
+size: 72633
+course: MATH101
+kind: grade-distribution
+title: 2023-2024 Güz Harf Notu Dağılımı
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

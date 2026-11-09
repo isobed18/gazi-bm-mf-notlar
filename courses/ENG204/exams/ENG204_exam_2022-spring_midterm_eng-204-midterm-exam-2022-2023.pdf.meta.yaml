@@ -1,0 +1,18 @@
+file: ENG204_exam_2022-spring_midterm_eng-204-midterm-exam-2022-2023.pdf
+sha256: 33d5afcc46a7c1dad9963ef9d7499be74ad46ce0a651fb76d1adfcaa0b299e42
+size: 303030
+course: ENG204
+kind: exam
+title: 2022-2023 Bahar Vize (Varyant)
+year: 2022
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

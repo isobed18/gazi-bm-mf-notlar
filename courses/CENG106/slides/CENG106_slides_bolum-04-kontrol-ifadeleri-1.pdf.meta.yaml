@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-04-kontrol-ifadeleri-1.pdf
+sha256: 65605dbef5935d112e66c079a8843d987cf43bae4709a126e56ea797692384ff
+size: 1507932
+course: CENG106
+kind: slides
+title: Bölüm 04 – Kontrol İfadeleri 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

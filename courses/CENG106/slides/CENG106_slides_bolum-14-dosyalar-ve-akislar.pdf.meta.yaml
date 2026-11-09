@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-14-dosyalar-ve-akislar.pdf
+sha256: 2cddb522652483c4cd34248d6c8b8c05026a2af5af4f13231eea2b4f94f0c32a
+size: 1297521
+course: CENG106
+kind: slides
+title: Bölüm 14 – Dosyalar ve Akışlar
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

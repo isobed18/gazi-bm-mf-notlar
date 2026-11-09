@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-20-java-appletleri.pdf
+sha256: d3ec2cd833d601ca7bcc90f391822a062007b432a01be425e470a1f37221f231
+size: 1327423
+course: CENG106
+kind: slides
+title: Bölüm 20 – Java Appletleri
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

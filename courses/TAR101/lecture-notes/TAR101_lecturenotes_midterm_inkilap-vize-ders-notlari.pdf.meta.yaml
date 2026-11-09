@@ -1,0 +1,17 @@
+file: TAR101_lecturenotes_midterm_inkilap-vize-ders-notlari.pdf
+sha256: 2a6c43967547e901c59e5ebb7544aa6ea08c9da1041d7bb40c525d855096fc40
+size: 11421492
+course: TAR101
+kind: lecture-notes
+title: İnkılap Vize Ders Notları
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

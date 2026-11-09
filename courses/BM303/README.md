@@ -3,4 +3,30 @@
 
 *Formal Languages and Automata* · required · curriculum semester: 5
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM303_exam_2020-2021-bahar-final-sinavi.pdf](exams/BM303_exam_2020-2021-bahar-final-sinavi.pdf) | 2020-2021 Bahar Final Sınavı |  |  |
+| [BM303_exam_2022-spring_final_bm-303-bicimsel-diller-ve-otomatlar-final-odevi-20.pdf](exams/BM303_exam_2022-spring_final_bm-303-bicimsel-diller-ve-otomatlar-final-odevi-20.pdf) | BM 303 Biçimsel Diller ve Otomatlar Final Ödevi 2023 | 2022 spring | final |
+| [BM303_exam_2022-spring_makeup_bm-303-bicimsel-diller-ve-otomatlar-butunleme-odev.pdf](exams/BM303_exam_2022-spring_makeup_bm-303-bicimsel-diller-ve-otomatlar-butunleme-odev.pdf) | BM 303 Biçimsel Diller ve Otomatlar Bütünleme Ödevi 2023 | 2022 spring | makeup |
+| [BM303_exam_2022-spring_midterm_bm-303-bicimsel-diller-ve-otomatlar-ara-sinav-odev.pdf](exams/BM303_exam_2022-spring_midterm_bm-303-bicimsel-diller-ve-otomatlar-ara-sinav-odev.pdf) | BM 303 Biçimsel Diller ve Otomatlar Ara Sınav Ödevi 2023 | 2022 spring | midterm |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM303_homework_2025-spring_bilgisayar-aglari-odev-tanimi-slayt-alistirmasi.jpg](homework/BM303_homework_2025-spring_bilgisayar-aglari-odev-tanimi-slayt-alistirmasi.jpg) | Bilgisayar Ağları Ödev Tanımı (Slayt Alıştırması) | 2025 spring |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM303_book_teorik-bilgisayar-bilimi.pdf](books/BM303_book_teorik-bilgisayar-bilimi.pdf) | Teorik Bilgisayar Bilimi |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM303_announcement_sohbetten-sinav-bilgileri.md](announcements/BM303_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

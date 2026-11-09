@@ -1,0 +1,18 @@
+file: CENG313_lecturenotes_2025-fall_w10718_2026-datascience-0.pdf
+sha256: 993c6282fbc3f4293e85a77cf1ae23511e9ea61e23be5567240a4eb98f569c7e
+size: 520422
+course: CENG313
+kind: lecture-notes
+title: 2026_DATASCIENCE_0
+year: 2025
+term: fall
+week: 10718
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

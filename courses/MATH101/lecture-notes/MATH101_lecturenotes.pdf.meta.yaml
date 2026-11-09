@@ -1,0 +1,16 @@
+file: MATH101_lecturenotes.pdf
+sha256: b5c6234b22b5633ebc343afb667b75740a74b5992d3421c9387ae42afb86564d
+size: 24046135
+course: MATH101
+kind: lecture-notes
+title: Calculus I Ders Notları
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

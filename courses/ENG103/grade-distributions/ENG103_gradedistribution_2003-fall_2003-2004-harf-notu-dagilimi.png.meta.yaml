@@ -1,0 +1,17 @@
+file: ENG103_gradedistribution_2003-fall_2003-2004-harf-notu-dagilimi.png
+sha256: 42b30b82adf7693873a97c864af8de5d538a693dfdb6628332e3b0c828e8f681
+size: 51072
+course: ENG103
+kind: grade-distribution
+title: Grade_Distribution
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

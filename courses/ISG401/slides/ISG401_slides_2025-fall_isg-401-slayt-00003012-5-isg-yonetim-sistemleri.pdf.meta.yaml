@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003012-5-isg-yonetim-sistemleri.pdf
+sha256: 00d55f14aa0ff710716dddc11caa25d77bed93e91c44f7cb063ecdfcb32d11e6
+size: 4245984
+course: ISG401
+kind: slides
+title: 5 – İSG Yönetim Sistemleri
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

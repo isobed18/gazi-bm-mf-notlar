@@ -1,0 +1,19 @@
+file: BM102_lab_2023-spring_w01_lab-1-hafta-sorulari.jpg
+sha256: 3bb169a53ee2d22bdbc6f03c0c33a448a8d4b1f7198692f198edaf9eadab5e7d
+size: 51758
+course: BM102
+kind: lab
+title: Lab 1. Hafta Soruları
+year: 2023
+term: spring
+week: 1
+language: tr
+handwritten: false
+source:
+  type: whatsapp
+  ref: gaziuni-mf-ceng23
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -3,4 +3,23 @@
 
 *Advanced Programming* · required · curriculum semester: 3
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM201_slides_2026-fall_w01_bolum-1-c-ve-nesne-yonelimli-programlama.pdf](slides/BM201_slides_2026-fall_w01_bolum-1-c-ve-nesne-yonelimli-programlama.pdf) | Bölüm 1 - C# ve Nesne Yönelimli Programlama | 2026 fall |  |
+| [BM201_slides_2026-fall_w02_bolum-2-istisna-yakalama-exception-handling.pdf](slides/BM201_slides_2026-fall_w02_bolum-2-istisna-yakalama-exception-handling.pdf) | Bölüm 2 - İstisna Yakalama (Exception Handling) | 2026 fall |  |
+| [BM201_slides_2026-fall_w04_bolum-4-dosya-ve-dizin-islemleri.pdf](slides/BM201_slides_2026-fall_w04_bolum-4-dosya-ve-dizin-islemleri.pdf) | Bölüm 4 - Dosya ve Dizin İşlemleri | 2026 fall |  |
+| [BM201_slides_2026-fall_w05_bolum-5-isaretciler-pointers.pdf](slides/BM201_slides_2026-fall_w05_bolum-5-isaretciler-pointers.pdf) | Bölüm 5 - İşaretçiler (Pointers) | 2026 fall |  |
+| [BM201_slides_2026-fall_w06_bolum-6-1-html-hypertext-markup-language.pdf](slides/BM201_slides_2026-fall_w06_bolum-6-1-html-hypertext-markup-language.pdf) | Bölüm 6.1 - HTML (HyperText Markup Language) | 2026 fall |  |
+| [BM201_slides_2026-fall_w07_bolum-6-2-php-giris.pdf](slides/BM201_slides_2026-fall_w07_bolum-6-2-php-giris.pdf) | Bölüm 6.2 - PHP Giriş | 2026 fall |  |
+| [BM201_slides_2026-fall_w08_bolum-6-3-php-ileri.pdf](slides/BM201_slides_2026-fall_w08_bolum-6-3-php-ileri.pdf) | Bölüm 6.3 - PHP İleri | 2026 fall |  |
+| [BM201_slides_2026-fall_w09_bolum-6-4-css-cascading-style-sheets.pdf](slides/BM201_slides_2026-fall_w09_bolum-6-4-css-cascading-style-sheets.pdf) | Bölüm 6.4 - CSS (Cascading Style Sheets) | 2026 fall |  |
+| [BM201_slides_bolum-3-duzenli-ifadeler-regex.pdf](slides/BM201_slides_bolum-3-duzenli-ifadeler-regex.pdf) | Bölüm 3 - Düzenli İfadeler (RegEx) |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM201_announcement_sohbetten-sinav-bilgileri.md](announcements/BM201_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

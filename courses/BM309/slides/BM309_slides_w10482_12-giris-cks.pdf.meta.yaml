@@ -1,0 +1,18 @@
+file: BM309_slides_w10482_12-giris-cks.pdf
+sha256: 78a90e8b2f60e21e39e36683ae8d61783cfb4f5115aa580f3452df81fcc9ccf8
+size: 1155711
+course: BM309
+kind: slides
+title: Hafta 12 – Giriş Çıkış (I/O)
+week: 12
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2024
+term: fall

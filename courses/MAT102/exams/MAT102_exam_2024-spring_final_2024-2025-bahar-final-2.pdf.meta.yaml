@@ -1,0 +1,18 @@
+file: MAT102_exam_2024-spring_final_2024-2025-bahar-final-2.pdf
+sha256: ce2e7d4806f7aab182d776576c32e4532ccbe0100a5da2a3dbde268462da485f
+size: 723058
+course: MAT102
+kind: exam
+title: 2023-2024 Bahar Final (Grup B)
+year: 2023
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

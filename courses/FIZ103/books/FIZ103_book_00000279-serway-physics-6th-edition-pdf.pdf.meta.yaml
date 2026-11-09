@@ -1,0 +1,16 @@
+file: FIZ103_book_00000279-serway-physics-6th-edition-pdf.pdf
+sha256: ad9c4b251fcb9f0101e530938f6870049674280171220ae0f2a117d8c5713c67
+size: 41382177
+course: FIZ103
+kind: book
+title: 00000279-Serway_Physics_6th_Edition.pdf
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kursla eşleşen kitap kaynağı; kullanıcı talebiyle eklendi, resmi vault kitapları göstermiyor.

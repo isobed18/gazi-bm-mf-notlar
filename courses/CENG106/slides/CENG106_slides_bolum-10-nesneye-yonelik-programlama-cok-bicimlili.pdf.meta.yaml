@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-10-nesneye-yonelik-programlama-cok-bicimlili.pdf
+sha256: a3cdac694c77d86cbc3a2145824aa22e1b163991ccd097a18dd37ce322a0484b
+size: 1502607
+course: CENG106
+kind: slides
+title: Bölüm 10 – Nesneye Yönelik Programlama Çok Biçimlilik
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

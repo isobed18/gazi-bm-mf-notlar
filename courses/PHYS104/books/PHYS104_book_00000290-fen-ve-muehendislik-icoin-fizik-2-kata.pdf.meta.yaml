@@ -1,0 +1,16 @@
+file: PHYS104_book_00000290-fen-ve-muehendislik-icoin-fizik-2-kata.pdf
+sha256: ca51f64f9287b00cd37f8a73535f6026b4418e5937d09d4b7ccd00b79ff09789
+size: 35140157
+course: PHYS104
+kind: book
+title: 00000290-Fen ve Mu╠êhendislik ic╠ºin Fizik 2 (Kata
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kursla eşleşen kitap kaynağı; kullanıcı talebiyle eklendi, resmi vault kitapları göstermiyor.

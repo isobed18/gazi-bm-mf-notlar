@@ -20,6 +20,8 @@ jobs:
       - run: pip install -r tools/requirements.txt
       - name: Archive metadata validation (schema, names, duplicates)
         run: python -X utf8 tools/archive.py validate
+      - name: Privacy / secret audit (phones, e-mails, tokens, personal paths, chat transcripts)
+        run: python -X utf8 tools/archive.py audit
       - name: No binary files in git (files belong on the Drive mirror; submit them via an issue)
         run: |
           bad=$(git ls-files courses general | grep -vE '\.(yaml|md)$|/\.gitkeep$' || true)

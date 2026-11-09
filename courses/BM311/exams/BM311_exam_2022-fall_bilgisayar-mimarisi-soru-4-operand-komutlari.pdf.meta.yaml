@@ -1,0 +1,17 @@
+file: BM311_exam_2022-fall_bilgisayar-mimarisi-soru-4-operand-komutlari.pdf
+sha256: 1e2ea80c294492e99effb63dc33234a63354989165d95ac1f42a1d5f13ad5c70
+size: 93967
+course: BM311
+kind: exam
+title: Bilgisayar Mimarisi Soru 4 (Operand Komutları)
+year: 2022
+term: fall
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

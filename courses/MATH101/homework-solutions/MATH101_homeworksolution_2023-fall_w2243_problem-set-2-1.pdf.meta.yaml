@@ -1,0 +1,17 @@
+file: MATH101_homeworksolution_2023-fall_w2243_problem-set-2-1.pdf
+sha256: 9557d6851d5f6c5e3b57303b9661d4c2396b4f2c3798f86235152f54271b73d8
+size: 65479
+course: MATH101
+kind: homework-solution
+title: Problem Set 2 ve Cevapları
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

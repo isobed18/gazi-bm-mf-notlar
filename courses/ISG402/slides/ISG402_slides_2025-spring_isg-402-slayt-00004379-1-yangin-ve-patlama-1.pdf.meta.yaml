@@ -1,0 +1,17 @@
+file: ISG402_slides_2025-spring_isg-402-slayt-00004379-1-yangin-ve-patlama-1.pdf
+sha256: d5d956a77cb45da5c455f308f0d1041c3eaf051313f4caae212ed421ff0ca660
+size: 7215425
+course: ISG402
+kind: slides
+title: İSG 402 Slayt - 00004379-1-yangin_ve_patlama-1
+year: 2025
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -3,4 +3,9 @@
 
 *Perceptron Networks and Applications* · technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM466_announcement_sohbetten-sinav-bilgileri.md](announcements/BM466_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

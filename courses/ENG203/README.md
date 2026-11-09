@@ -3,4 +3,38 @@
 
 *Academic English I* · language · curriculum semester: 3
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG203_lecturenotes_lecture-notes-on-academic-writing.pdf](lecture-notes/ENG203_lecturenotes_lecture-notes-on-academic-writing.pdf) | Lecture Notes on Academic Writing | fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG203_exam_2020-fall_final_2020-2021-guz-final.pdf](exams/ENG203_exam_2020-fall_final_2020-2021-guz-final.pdf) | 13.08.2021 ENG203 Midterm | 2020 fall | midterm |
+| [ENG203_exam_final_eng203-academic-english-i-final-exam.pdf](exams/ENG203_exam_final_eng203-academic-english-i-final-exam.pdf) | ENG203 Academic English I Final Exam |  | final |
+| [ENG203_exam_final_guz-final.pdf](exams/ENG203_exam_final_guz-final.pdf) | Güz Final | fall | final |
+| [ENG203_exam_guz-3.pdf](exams/ENG203_exam_guz-3.pdf) | Güz | fall |  |
+| [ENG203_exam_guz.pdf](exams/ENG203_exam_guz.pdf) | Güz | fall |  |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG203_examsolution_final_eng203-academic-english-i-final-sinavi-cevap-anaht.pdf](exam-solutions/ENG203_examsolution_final_eng203-academic-english-i-final-sinavi-cevap-anaht.pdf) | ENG203 Academic English I Final Sınavı Cevap Anahtarı |  | final |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG203_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.jpg](grade-distributions/ENG203_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.jpg) | 2023-2024 Guz Harf Notu Dagilimi | 2023 fall |  |
+| [ENG203_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.png](grade-distributions/ENG203_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.png) | 2024-2025 Guz Harf Notu Dagilimi | 2024 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG203_announcement_sohbetten-sinav-bilgileri.md](announcements/ENG203_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

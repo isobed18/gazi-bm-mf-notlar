@@ -1,0 +1,18 @@
+file: CENG313_slides_2025-fall_w10713_2026-datascience-genai.pdf
+sha256: 470f77cd7efe387bd4a6813afc71fd29f0f99d97e27d95ce410a9989f52dbe71
+size: 6053717
+course: CENG313
+kind: slides
+title: 2026_DATASCIENCE_GenAI
+year: 2025
+term: fall
+week: 10713
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

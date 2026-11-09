@@ -1,0 +1,18 @@
+file: FIZ103_studentnotes_2023-fall_w08_bolum-8-potansiyel-enerji-soru-cozumleri-el-notu.pdf
+sha256: 21f0fc001b8e3db39d0faff795502d8eb95511ec0305489bed209948e2de7446
+size: 1554060
+course: FIZ103
+kind: student-notes
+title: Bölüm 8 – Potansiyel Enerji Soru Çözümleri El Notu
+year: 2023
+term: fall
+week: 8
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

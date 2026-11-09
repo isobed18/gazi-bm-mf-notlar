@@ -1,0 +1,18 @@
+file: BM104_exam_2023-spring_midterm_w7089_ayrik-butunleme-2023.pdf
+sha256: 5c1faa664d0e3d16c75278c6a7a5df69f76fcce218e9c57ce485e3a7e2251911
+size: 195206
+course: BM104
+kind: exam
+title: 2022-2023 Bahar Bütünleme Sınavı
+year: 2022
+term: spring
+exam_type: makeup
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

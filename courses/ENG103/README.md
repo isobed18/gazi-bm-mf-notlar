@@ -3,4 +3,34 @@
 
 *English I* · language · curriculum semester: 1
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG103_exam_2003-fall_2003-2004-guz.pdf](exams/ENG103_exam_2003-fall_2003-2004-guz.pdf) | 2003-2004 Güz | 2003 fall | final |
+| [ENG103_exam_midterm_guz-vize.pdf](exams/ENG103_exam_midterm_guz-vize.pdf) | Güz Vize | fall | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG103_gradedistribution_2003-fall_2003-2004-harf-notu-dagilimi.png](grade-distributions/ENG103_gradedistribution_2003-fall_2003-2004-harf-notu-dagilimi.png) | Grade_Distribution | 2023 fall |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG103_book_new-language-leader-upper-intermediate.pdf](books/ENG103_book_new-language-leader-upper-intermediate.pdf) | New Language Leader Upper Intermediate |  |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG103_syllabus_2003-fall_2003-2004-harf-notu-dagilimi.jpg](syllabus/ENG103_syllabus_2003-fall_2003-2004-harf-notu-dagilimi.jpg) | 2003-2004 Harf Notu Dağılımı | 2003 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG103_announcement_sohbetten-sinav-bilgileri.md](announcements/ENG103_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

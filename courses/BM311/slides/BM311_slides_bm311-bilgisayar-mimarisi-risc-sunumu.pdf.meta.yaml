@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-risc-sunumu.pdf
+sha256: 7d643cb365de4f0b4beda4ec41de543471cf3299967a0dc4e9df28023532c4fa
+size: 1119072
+course: BM311
+kind: slides
+title: RISC Mimarisi Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

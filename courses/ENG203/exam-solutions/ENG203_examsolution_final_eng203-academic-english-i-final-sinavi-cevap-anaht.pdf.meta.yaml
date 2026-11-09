@@ -1,0 +1,17 @@
+file: ENG203_examsolution_final_eng203-academic-english-i-final-sinavi-cevap-anaht.pdf
+sha256: b230b5d4f6814f17c76725fb4dafdb2f405959456d85626cd197bf9acea9b458
+size: 561682
+course: ENG203
+kind: exam-solution
+title: ENG203 Academic English I Final Sınavı Cevap Anahtarı
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

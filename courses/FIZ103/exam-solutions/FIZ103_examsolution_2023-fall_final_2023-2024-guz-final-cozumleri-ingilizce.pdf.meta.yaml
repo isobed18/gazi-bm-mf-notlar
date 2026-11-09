@@ -1,0 +1,18 @@
+file: FIZ103_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-ingilizce.pdf
+sha256: c314c8e2d692b0adf7ceb9845c967031bdab96d5a516fe56eedcad1a2bfc05a9
+size: 414829
+course: FIZ103
+kind: exam-solution
+title: 2023-2024 Güz Final Çözümleri (İngilizce)
+year: 2023
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

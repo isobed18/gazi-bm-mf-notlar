@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-controlunit-sunumu.pdf
+sha256: 3fccfa7317cb42ddae8bc4215f505a8b3ef77028ac168f381e553b0b3867c07d
+size: 814687
+course: BM311
+kind: slides
+title: Kontrol Birimi Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

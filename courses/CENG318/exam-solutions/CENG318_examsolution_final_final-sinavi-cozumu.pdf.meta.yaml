@@ -1,0 +1,18 @@
+file: CENG318_examsolution_final_final-sinavi-cozumu.pdf
+sha256: f62721cfcf2cc1795f491f41e7a97fc30b3a057d1fe153aa1945195b1364c2cc
+size: 546961
+course: CENG318
+kind: exam-solution
+title: 2025-2026 Bahar Final Sınavı Çözümü
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2025

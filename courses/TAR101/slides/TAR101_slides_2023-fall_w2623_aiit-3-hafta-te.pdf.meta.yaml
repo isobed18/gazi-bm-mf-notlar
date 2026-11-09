@@ -1,0 +1,18 @@
+file: TAR101_slides_2023-fall_w2623_aiit-3-hafta-te.pdf
+sha256: a03377abebbed51162ba7bf005e89f34bf534f6b746830b332de1f02c485126c
+size: 1614403
+course: TAR101
+kind: slides
+title: 3. Hafta – Islahatlar ve Fikir Akımları
+year: 2023
+term: fall
+week: 3
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

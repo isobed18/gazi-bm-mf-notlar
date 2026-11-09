@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-4-isgdeyonetimsistemleri.pdf
+sha256: 8266b56cba289eb8204b50bdec99f98ee9e0662accd2bef212415d77ca2320c9
+size: 2156053
+course: ISG401
+kind: slides
+title: Hafta 04 – İSG'de Yönetim Sistemleri
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

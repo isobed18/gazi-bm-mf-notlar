@@ -6,6 +6,7 @@ kinds:
   student-notes: {dir: student-notes,  optional: true, desc: "Notes written by students (handwritten scans, typed notes). OPTIONAL LAYER: excluded from the 'core' download variant"}
   exam:          {dir: exams,          desc: "Past exam papers: midterm, final, makeup, quiz (questions only)"}
   exam-solution: {dir: exam-solutions, desc: "Solutions / answer keys of past exams (link to the exam via related_exam)"}
+  grade-distribution: {dir: grade-distributions, desc: "Anonymous course-wide letter-grade counts or percentages; never individual student grades"}
   homework:      {dir: homework,       desc: "Assignments and their instructions"}
   homework-solution: {dir: homework-solutions, desc: "Submitted/solved homework (only if author consents; no personal data)"}
   lab:           {dir: labs,           desc: "Lab sheets, experiment guides, lab reports templates"}

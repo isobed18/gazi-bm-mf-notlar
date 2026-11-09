@@ -1,0 +1,18 @@
+file: MATH201_exam_2023-fall_final_2023-2024-guz-final.pdf
+sha256: 2a19c14c14680623f1a018af64e21627e6aee6d052484c452b55bf5dbd70887d
+size: 709188
+course: MATH201
+kind: exam
+title: 2023-2024 Güz Final
+year: 2023
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

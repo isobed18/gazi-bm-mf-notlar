@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w05_h5-linux3.pdf
+sha256: c12dc62c44cf84df16bc450f4fcd4d4384772eebba652b918eb3a82dec990c38
+size: 274596
+course: BM103
+kind: slides
+title: Hafta 5 – Linux 3
+year: 2023
+term: fall
+week: 5
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

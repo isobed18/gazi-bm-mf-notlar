@@ -3,4 +3,37 @@
 
 *Linear Algebra* · required · curriculum semester: 1
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MAT199_studentnotes_2023-fall_determinant-konusu-ders-notu.pdf](student-notes/MAT199_studentnotes_2023-fall_determinant-konusu-ders-notu.pdf) | Determinant Konusu Ders Notu | 2023 fall |  |
+| [MAT199_studentnotes_2023-fall_lineer-cebir-matris-soru-cozumu.jpg](student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-matris-soru-cozumu.jpg) | Matris Tersi Soru Çözümü | 2023 fall |  |
+| [MAT199_studentnotes_2023-fall_ozdeger-ve-ozvektor-soru-cozumu.jpg](student-notes/MAT199_studentnotes_2023-fall_ozdeger-ve-ozvektor-soru-cozumu.jpg) | Özdeğer ve Özvektör Soru Çözümü | 2023 fall |  |
+| [MAT199_studentnotes_2023-fall_ust-ucgen-matrisler-ve-bagintilari-odev-notu.pdf](student-notes/MAT199_studentnotes_2023-fall_ust-ucgen-matrisler-ve-bagintilari-odev-notu.pdf) | Ust Ucgen Matrisler ve Bagintilari Odev Notu | 2023 fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MAT199_exam_2024-fall_makeup_w9146_169ce4ac-6302-4e9a-902a-6c4bcc3c2b05-2024-2025guz.pdf](exams/MAT199_exam_2024-fall_makeup_w9146_169ce4ac-6302-4e9a-902a-6c4bcc3c2b05-2024-2025guz.pdf) | 169ce4ac-6302-4e9a-902a-6c4bcc3c2b05-2024-2025guz_ | 2024 fall | makeup |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MAT199_homework_2023-fall_w3171_worksheet326-1.pdf](homework/MAT199_homework_2023-fall_w3171_worksheet326-1.pdf) | worksheet326 (1) | 2023 fall |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MAT199_book_00000257-367816929-licnercebicr-dursun-tasoci-p.pdf](books/MAT199_book_00000257-367816929-licnercebicr-dursun-tasoci-p.pdf) | 00000257-367816929-LI╠çNERCEBI╠çR-DURSUN-TAS╠ºCI.p |  |  |
+| [MAT199_book_lineer-cebir.pdf](books/MAT199_book_lineer-cebir.pdf) | Lineer Cebir |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MAT199_announcement_sohbetten-sinav-bilgileri.md](announcements/MAT199_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

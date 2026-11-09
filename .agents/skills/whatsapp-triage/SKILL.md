@@ -28,11 +28,14 @@ chronological order (or score order), but process **all** of them.
   enough to know course, kind and year. Zips: extract with Python `zipfile` into `local/tmp/<slug>/`, then treat the
   contents as documents.
 - **Photos**: batches of ~20. Look at every photo (a downscaled view is enough). Keep photos of exam papers, written
-  exam questions, boards/slides with lecture content, handwritten notes, assignment texts. Several photos of the same
+  exam questions, boards/slides with lecture content, handwritten notes, and anonymous course-wide letter-grade
+  distributions. For a distribution, include the stated period; if none is stated, use the course heading
+  `Geçmiş Harf Notu Dağılımları`. Never keep a list/table with identifiable students or individual grades. Several photos of the same
   exam sent together (same sender, minutes apart) belong to one resource: combine into one PDF in page order
   (Pillow `save_all=True`) or place them with the same title and sequence numbers.
-- Skip without placing: people, selfies, events, memes, chat screenshots, ads, posters, receipts, documents with
-  private data. Skipping is recorded in the progress table as a count — no descriptions of private content.
+- Skip without placing: people, selfies, events, memes, chat screenshots, ads, posters, receipts, schedules, one-off
+  homework details, unrelated documents, and documents with private data. Never include names, IDs, contact details,
+  or individual grades. Skipping is recorded in the progress table as a count — no descriptions of private content.
 
 ## Step 3 — place (decisively)
 ```
@@ -43,8 +46,9 @@ python -X utf8 tools/archive.py place <inbox file> --course <CODE> --kind <kind>
   Academic year: Sep–Jan = fall of that year; Feb–Aug = spring of the previous year's start (Apr 2024 → 2023 spring).
 - Exam papers vs. homework vs. slides: decide from the content (question numbering/points/"süre" → exam; "teslim tarihi" → homework).
 - Be decisive: if the evidence is reasonable, place it. Only genuinely ambiguous items → `review-open`.
-- Material that belongs to **no course** (exam schedules, university announcements, internship/career documents, general
-  books) → `review-open --general <category>` so the maintainer sees it.
+- Material that belongs to **no course** (schedules, general documents, internship/career material, unrelated books)
+  → skip without opening a review item. Course-matched books may be archived without asking, but are omitted from the
+  official Obsidian vault.
 
 ## Step 4 — finish
 ```
@@ -59,3 +63,4 @@ Never commit; the maintainer reviews `git status` and commits.
 - **Never** place `_chat.txt`, chat excerpts, contact cards (`.vcf`), profile photos, voice notes.
 - **Never** place photos of people or personal screenshots.
 - The owner's own chat ("You"): documents that are clearly course material may be placed; every photo goes to review or is skipped.
+- For a private group archive, never publish unresolved filenames or details to GitHub; skip ambiguous items locally.

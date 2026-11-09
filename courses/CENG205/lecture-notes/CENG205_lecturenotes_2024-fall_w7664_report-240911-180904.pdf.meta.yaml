@@ -1,0 +1,19 @@
+file: CENG205_lecturenotes_2024-fall_w7664_report-240911-180904.pdf
+sha256: 24d4ebaae87bc01c5114073a2a2323808adab2c62270419645fb38e9306aeedf
+size: 52011
+course: CENG205
+kind: lecture-notes
+title: Report_240911_180904
+year: 2024
+term: fall
+week: 7664
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: schedule

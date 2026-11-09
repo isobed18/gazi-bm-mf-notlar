@@ -1,0 +1,20 @@
+file: MAT199_exam_2024-fall_makeup_w9146_169ce4ac-6302-4e9a-902a-6c4bcc3c2b05-2024-2025guz.pdf
+sha256: 1f4928a61138707f7e4e24afff549352877d99e5aab3a8793ed748c9904c07b7
+size: 216391
+course: MAT199
+kind: exam
+title: 169ce4ac-6302-4e9a-902a-6c4bcc3c2b05-2024-2025guz_
+year: 2024
+term: fall
+exam_type: makeup
+week: 9146
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: administrative

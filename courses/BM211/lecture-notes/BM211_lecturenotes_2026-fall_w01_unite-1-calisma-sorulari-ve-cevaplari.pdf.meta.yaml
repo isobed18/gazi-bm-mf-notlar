@@ -1,0 +1,18 @@
+file: BM211_lecturenotes_2026-fall_w01_unite-1-calisma-sorulari-ve-cevaplari.pdf
+sha256: 72c29c647c05d3067b42b2d42b0d0b0915f772b44ae344ef42cac29bc5bdf431
+size: 302737
+course: BM211
+kind: lecture-notes
+title: Ünite 1 – Çalışma Soruları ve Cevapları
+year: 2026
+term: fall
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

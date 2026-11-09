@@ -1,0 +1,17 @@
+file: MATH101_syllabus_ders-izlencesi-syllabus.pdf
+sha256: fc61b233c1c0e182d5945ba035890650656dabbbf1d17fd01ff9b62b424814dc
+size: 405393
+course: MATH101
+kind: syllabus
+title: 2023-2024 Güz Ders İzlencesi
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2023

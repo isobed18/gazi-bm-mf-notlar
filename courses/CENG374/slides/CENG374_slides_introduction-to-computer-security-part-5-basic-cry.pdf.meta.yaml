@@ -1,0 +1,16 @@
+file: CENG374_slides_introduction-to-computer-security-part-5-basic-cry.pdf
+sha256: 05a54b6a64f1398bc8e004cc1869733139d5cdf8fca985ebb3586e1bb8bf29ee
+size: 810163
+course: CENG374
+kind: slides
+title: Introduction to Computer Security - Part 5_Basic_Cryptography
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı/notu; yerleştirildi.

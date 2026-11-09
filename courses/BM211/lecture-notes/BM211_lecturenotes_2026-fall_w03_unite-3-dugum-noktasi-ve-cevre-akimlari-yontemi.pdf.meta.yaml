@@ -1,0 +1,18 @@
+file: BM211_lecturenotes_2026-fall_w03_unite-3-dugum-noktasi-ve-cevre-akimlari-yontemi.pdf
+sha256: d52588ea6bbf4a73cec18b56a95a24da625104624262df2a751e8b084d58af09
+size: 3705644
+course: BM211
+kind: lecture-notes
+title: Ünite 3 – Düğüm Noktası ve Çevre Akımları Yöntemi
+year: 2026
+term: fall
+week: 3
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

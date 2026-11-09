@@ -1,0 +1,17 @@
+file: BM405_slides_2024-fall_bm-405-girisimcilik-ve-inovasyon-ders-slaytlari-20.pdf
+sha256: 26707fe17b360e39d115cba821aade24dcdb97a44c1ed00bbc7bcfa097489e2f
+size: 11091364
+course: BM405
+kind: slides
+title: BM 405 Girişimcilik ve İnovasyon Ders Slaytları 2024
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

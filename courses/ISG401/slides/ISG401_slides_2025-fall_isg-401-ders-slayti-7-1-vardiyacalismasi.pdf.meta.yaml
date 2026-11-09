@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-7-1-vardiyacalismasi.pdf
+sha256: 0f9c1731b3ce6df8ad4b766c4ed2c327775cdf7fcbd8aaea796ee5e22514b01d
+size: 2003844
+course: ISG401
+kind: slides
+title: Hafta 07 – Vardiya Çalışması
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

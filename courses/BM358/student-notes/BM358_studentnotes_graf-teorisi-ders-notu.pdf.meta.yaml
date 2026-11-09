@@ -1,0 +1,16 @@
+file: BM358_studentnotes_graf-teorisi-ders-notu.pdf
+sha256: b869585404b04464cc38dd1cb36385f2ace283bdb5d701910fc5511a4d3010e2
+size: 7650225
+course: BM358
+kind: student-notes
+title: Graf Teorisi Ders Notu
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı/notu; yerleştirildi.

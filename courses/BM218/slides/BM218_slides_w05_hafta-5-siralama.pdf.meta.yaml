@@ -1,0 +1,17 @@
+file: BM218_slides_w05_hafta-5-siralama.pdf
+sha256: 04d3178ddb84c4bed55289f3285f864f2cf4c3f087918087351ee367b149dcde
+size: 1136394
+course: BM218
+kind: slides
+title: Hafta 5 – Sıralama 1
+week: 5
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

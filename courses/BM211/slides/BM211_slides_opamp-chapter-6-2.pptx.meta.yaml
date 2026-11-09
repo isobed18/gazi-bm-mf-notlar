@@ -1,0 +1,15 @@
+file: BM211_slides_opamp-chapter-6-2.pptx
+sha256: 2b5f8f8440f12df94d2c101f5fca95183179e7757fe0aaf757243fad1ec4a489
+size: 876648
+course: BM211
+kind: slides
+title: OpAmp Chapter 6.2
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

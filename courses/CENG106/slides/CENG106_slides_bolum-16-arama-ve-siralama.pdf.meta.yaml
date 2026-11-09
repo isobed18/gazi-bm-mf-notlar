@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-16-arama-ve-siralama.pdf
+sha256: f4a4e0110f4dbf137dbac5a8a2effa9528dda170fba4600bb9e2c2bf8e9c7cd8
+size: 866490
+course: CENG106
+kind: slides
+title: Bölüm 16 – Arama ve Sıralama
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: BM211_lecturenotes_2026-fall_w03_unite-3-calisma-sorulari-ve-cevaplari.pdf
+sha256: 6d01b465b4b9140c9de1cfd19e81ba88a31c7f6cc406b58ed81424729e98329b
+size: 832861
+course: BM211
+kind: lecture-notes
+title: Ünite 3 – Çalışma Soruları ve Cevapları
+year: 2026
+term: fall
+week: 3
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,17 @@
+file: FIZ156_gradedistribution_gecmis-harf-notu-dagilimlari.png
+sha256: 53223dbd2caadac58e55c2d44df5e059ee0d0e89fe0bd68b53e3ce7789f1af21
+size: 54556
+course: FIZ156
+kind: grade-distribution
+title: 2023-2024 Bahar Harf Notu Da??l?m?
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2023
+term: spring

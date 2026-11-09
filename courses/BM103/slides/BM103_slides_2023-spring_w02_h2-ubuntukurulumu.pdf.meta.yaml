@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w02_h2-ubuntukurulumu.pdf
+sha256: 6bda2fc0e43f9fd07a1cb97804b0a69ac977692e9a130dd105549f6c3a805ecb
+size: 1417649
+course: BM103
+kind: slides
+title: Hafta 2 – VirtualBox Ubuntu Kurulumu
+year: 2023
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,19 @@
+file: BM402_exam_2024-spring_final_bilgisayar-aglari-final-sinavi-02-06-2025.pdf
+sha256: acf75ad806d9765b9138395309a856624c734d4202a2c8f24b0145f31df70abf
+size: 429282
+course: BM402
+kind: exam
+title: Bilgisayar Ağları Final Sınavı (02.06.2025)
+year: 2024
+term: spring
+exam_type: final
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -1,0 +1,16 @@
+file: BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-2.pdf
+sha256: d81fbc0e0639489ce9e44010b8fb8bd4bf1baf2d54fce732d6c8f76a5ffe3840
+size: 1013883
+course: BM218
+kind: slides
+title: Hafta 2 - Karmaşıklık Analizi
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 2

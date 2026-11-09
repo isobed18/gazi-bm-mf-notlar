@@ -1,0 +1,16 @@
+file: TAR101_slides_w7144_hist101-ders-yansilari-coikti-iccoicn-619775.pdf
+sha256: 8ce15a20c249eb92bf2ce503a2e245f2d6c97917ef48b0c9708e78958ff8ddb0
+size: 1499900
+course: TAR101
+kind: slides
+title: HIST101 Ders Yansıları Özeti
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

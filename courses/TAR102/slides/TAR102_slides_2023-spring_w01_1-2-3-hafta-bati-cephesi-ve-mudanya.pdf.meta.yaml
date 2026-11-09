@@ -1,0 +1,18 @@
+file: TAR102_slides_2023-spring_w01_1-2-3-hafta-bati-cephesi-ve-mudanya.pdf
+sha256: 5984179ad663062236343e207048536c98ab19f796949e6e7160258e69ec996e
+size: 7570321
+course: TAR102
+kind: slides
+title: 1-2-3. Hafta – Batı Cephesi ve Mudanya
+year: 2023
+term: spring
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

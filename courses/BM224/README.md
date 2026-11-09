@@ -3,4 +3,20 @@
 
 *Principles of Programming Languages* · required · curriculum semester: 4
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM224_slides_2024-spring_introduction-to-programming-languages.pdf](slides/BM224_slides_2024-spring_introduction-to-programming-languages.pdf) | Introduction to Programming Languages | 2024 spring |  |
+| [BM224_slides_2024-spring_lectures-2.pdf](slides/BM224_slides_2024-spring_lectures-2.pdf) | Lectures 2 | 2024 spring |  |
+| [BM224_slides_2024-spring_lectures-3.pdf](slides/BM224_slides_2024-spring_lectures-3.pdf) | Lectures 3 | 2024 spring |  |
+| [BM224_slides_2024-spring_lectures-4.pdf](slides/BM224_slides_2024-spring_lectures-4.pdf) | Lectures 4 | 2024 spring |  |
+| [BM224_slides_2024-spring_lectures-5.pdf](slides/BM224_slides_2024-spring_lectures-5.pdf) | Lectures 5 | 2024 spring |  |
+| [BM224_slides_2024-spring_w01_bm224-ders-1-3.pdf](slides/BM224_slides_2024-spring_w01_bm224-ders-1-3.pdf) | BM224 Ders 1-3 | 2024 spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM224_announcement_sohbetten-sinav-bilgileri.md](announcements/BM224_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

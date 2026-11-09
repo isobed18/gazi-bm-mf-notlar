@@ -1,0 +1,17 @@
+file: CENG318_studentnotes_2024-spring_microprocessors-kitap-ozeti-notlari.pdf
+sha256: 3f54892caef3b94074bb253b3fc5397687ef8448fac11e0107ed1eeeae851731
+size: 5560921
+course: CENG318
+kind: student-notes
+title: Microprocessors Kitap Özeti Notları
+year: 2024
+term: spring
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

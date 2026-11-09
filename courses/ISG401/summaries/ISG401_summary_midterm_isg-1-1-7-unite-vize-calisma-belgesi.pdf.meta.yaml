@@ -1,0 +1,17 @@
+file: ISG401_summary_midterm_isg-1-1-7-unite-vize-calisma-belgesi.pdf
+sha256: 235056ef2cf859446b82bb7d83b9955fe436b040b8aaaaf8cb0e56d6cb52fd5c
+size: 6171724
+course: ISG401
+kind: summary
+title: İSG-1 1-7 Ünite Vize Çalışma Belgesi
+exam_type: midterm
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

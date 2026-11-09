@@ -1,0 +1,18 @@
+file: MATH101_examsolution_2024-fall_final_dm9pu3nmceexcgw5cw0rogwxa1jsdwkey-b.pdf
+sha256: 6984086dc01f57e6786ce4548909e8822335761853e5ee7f6c05ebccf53205dc
+size: 1447306
+course: MATH101
+kind: exam-solution
+title: 2024-2025 Güz Final Cevap Anahtarı (B Grubu)
+year: 2024
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

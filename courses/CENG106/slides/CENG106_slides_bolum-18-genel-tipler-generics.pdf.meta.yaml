@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-18-genel-tipler-generics.pdf
+sha256: 55875603a08a8405474120d888cbd5ce521c322c3775dcee99c18d52dfe972e0
+size: 1025263
+course: CENG106
+kind: slides
+title: Bölüm 18 – Genel Tipler (Generics)
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

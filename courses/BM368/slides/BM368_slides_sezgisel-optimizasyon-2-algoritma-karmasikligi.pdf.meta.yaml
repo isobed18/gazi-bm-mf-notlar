@@ -1,0 +1,16 @@
+file: BM368_slides_sezgisel-optimizasyon-2-algoritma-karmasikligi.pdf
+sha256: c1b5d6307e5f11dd520bb230f4fb826dbad5a7bdedc7f9d4d1f7cd076077ec3a
+size: 1532930
+course: BM368
+kind: slides
+title: Sezgisel Optimizasyon - 2- Algoritma Karmaşıklığı
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı; yerleştirildi.

@@ -1,0 +1,18 @@
+file: MATH101_syllabus_2021-fall_mathematics-i-course-description-form-izlence.docx
+sha256: a5cf29b50e70e3197f70c722250e43f7507be93b6f2a7a3f11e2fd8bee20e9a8
+size: 314817
+course: MATH101
+kind: syllabus
+title: 2021-2022 Güz Ders İzlencesi
+year: 2021
+term: fall
+language: en
+handwritten: false
+source:
+  type: whatsapp
+  ref: gaziuni-mf-ceng23
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

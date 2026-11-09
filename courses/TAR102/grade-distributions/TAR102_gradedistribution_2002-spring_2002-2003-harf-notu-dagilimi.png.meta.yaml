@@ -1,0 +1,15 @@
+file: TAR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.png
+sha256: 619c7391e4bac4ae27e497e1fb7b613abf2a53b87a6ff638309c68341dc99759
+size: 43836
+course: TAR102
+kind: grade-distribution
+title: Geçmiş Harf Notu Dağılımları
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

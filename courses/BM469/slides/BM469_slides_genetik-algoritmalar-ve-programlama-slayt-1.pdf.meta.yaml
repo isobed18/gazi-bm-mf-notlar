@@ -1,0 +1,16 @@
+file: BM469_slides_genetik-algoritmalar-ve-programlama-slayt-1.pdf
+sha256: 40b1aba6ef7bd806dd3d9dad05ccce24f8f39cbc0adff221afaa7bed067c0e71
+size: 1293888
+course: BM469
+kind: slides
+title: Genetik Algoritmalar ve Programlama Slayt 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders notu, soru çözümü veya resmi slayt; yerleştirildi.

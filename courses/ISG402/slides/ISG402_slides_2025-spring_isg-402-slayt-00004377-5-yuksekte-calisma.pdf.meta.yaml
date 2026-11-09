@@ -1,0 +1,17 @@
+file: ISG402_slides_2025-spring_isg-402-slayt-00004377-5-yuksekte-calisma.pdf
+sha256: 6c00ad08524db657330410647c4f89c01cdbfa8a8651220ba097082b8419ce13
+size: 10404078
+course: ISG402
+kind: slides
+title: İSG 402 Slayt - 00004377-5._yuksekte_calisma
+year: 2025
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -3,4 +3,40 @@
 
 *Computer Architecture* · required · curriculum semester: 5
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM311_slides_bm311-bilgisayar-mimarisi-addressingmodes-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-addressingmodes-sunumu.pdf) | Adresleme Modları Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-cache-sunumu-2.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-cache-sunumu-2.pdf) | Önbellek (Cache) Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-cache-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-cache-sunumu.pdf) | BM311 Bilgisayar Mimarisi cache Sunumu |  |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-controlunit-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-controlunit-sunumu.pdf) | Kontrol Birimi Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-function-sunumu-2.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-function-sunumu-2.pdf) | Bilgisayarın Fonksiyonu ve Bileşenleri Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-function-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-function-sunumu.pdf) | BM311 Bilgisayar Mimarisi function Sunumu |  |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-gpgpu-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-gpgpu-sunumu.pdf) | GPGPU Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-instructionset-sunumu-2.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-instructionset-sunumu-2.pdf) | Komut Kümesi (Instruction Set) Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-instructionset-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-instructionset-sunumu.pdf) | BM311 Bilgisayar Mimarisi instructionset Sunumu |  |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-multicore-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-multicore-sunumu.pdf) | Çok Çekirdekli (Multicore) İşlemciler Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-multiprocessors-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-multiprocessors-sunumu.pdf) | Çok İşlemcili Sistemler Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-orgarchevo-sunumu-2.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-orgarchevo-sunumu-2.pdf) | Bilgisayar Mimarisi ve Organizasyonu Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-orgarchevo-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-orgarchevo-sunumu.pdf) | BM311 Bilgisayar Mimarisi orgarchevo Sunumu |  |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-parallelism-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-parallelism-sunumu.pdf) | Paralel Çalışma ve Süperskalar Mimari Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-pipelining-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-pipelining-sunumu.pdf) | Komut Pipelining Sunumu | fall |  |
+| [BM311_slides_bm311-bilgisayar-mimarisi-risc-sunumu.pdf](slides/BM311_slides_bm311-bilgisayar-mimarisi-risc-sunumu.pdf) | RISC Mimarisi Sunumu | fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM311_exam_2022-fall_bilgisayar-mimarisi-soru-4-operand-komutlari.pdf](exams/BM311_exam_2022-fall_bilgisayar-mimarisi-soru-4-operand-komutlari.pdf) | Bilgisayar Mimarisi Soru 4 (Operand Komutları) | 2022 fall |  |
+| [BM311_exam_2025-spring_midterm_w11023_bilgisayar-mimarisi-final.pdf](exams/BM311_exam_2025-spring_midterm_w11023_bilgisayar-mimarisi-final.pdf) | Computer_Architecture_Final_Exam | 2025 spring | final |
+| [BM311_exam_bm311-bilgisayar-mimarisi-cikmis-sinav-sorulari-de.pdf](exams/BM311_exam_bm311-bilgisayar-mimarisi-cikmis-sinav-sorulari-de.pdf) | Çıkmış Sınav Soruları Derlemesi | fall |  |
+| [BM311_exam_midterm_bilgisayar-mimarisi-sinav-kagidi-fotografi.jpeg](exams/BM311_exam_midterm_bilgisayar-mimarisi-sinav-kagidi-fotografi.jpeg) | Bilgisayar Mimarisi Sınav Kağıdı Fotoğrafı |  | midterm |
+| [BM311_exam_midterm_bm311-bilgisayar-mimarisi-vize-sorulari-fotografi.jpg](exams/BM311_exam_midterm_bm311-bilgisayar-mimarisi-vize-sorulari-fotografi.jpg) | Vize Sınav Soruları | fall | midterm |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM311_announcement_sohbetten-sinav-bilgileri.md](announcements/BM311_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

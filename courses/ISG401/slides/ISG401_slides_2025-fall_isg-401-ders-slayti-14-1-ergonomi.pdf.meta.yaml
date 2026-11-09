@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-14-1-ergonomi.pdf
+sha256: ee169fb085b98577a5a565b6d284136638755642baea9dee50a9f202a3d6d7f2
+size: 2064676
+course: ISG401
+kind: slides
+title: Hafta 14 – Ergonomi
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

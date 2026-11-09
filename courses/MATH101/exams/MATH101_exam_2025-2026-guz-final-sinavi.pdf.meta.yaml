@@ -1,0 +1,15 @@
+file: MATH101_exam_2025-2026-guz-final-sinavi.pdf
+sha256: a7a8b35eca1e31fcdcfb640ea72f564e49ec75b537be231d94999c55044d881d
+size: 943208
+course: MATH101
+kind: exam
+title: 2025-2026 Güz Final Sınavı
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)

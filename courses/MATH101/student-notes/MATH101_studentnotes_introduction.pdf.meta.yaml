@@ -1,0 +1,16 @@
+file: MATH101_studentnotes_introduction.pdf
+sha256: d259315620b734f6906d3174f1ac1562e304b2003dc359734f42eed0f479d4d5
+size: 8373088
+course: MATH101
+kind: student-notes
+title: Ön Bilgiler ve Fonksiyonlar El Notu
+term: fall
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

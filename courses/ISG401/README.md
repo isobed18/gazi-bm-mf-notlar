@@ -3,4 +3,61 @@
 
 *Occupational Health and Safety I* · general · curriculum semester: 7
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-1-guvenlikkulturu.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-1-guvenlikkulturu.pdf) | Hafta 01 – Güvenlik Kültürü | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-10-1ek-acil-durum-planlari-ve.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-10-1ek-acil-durum-planlari-ve.pdf) | Yangında Tahliye ve İlk Yardım Ek Slayt | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-12-is-yerindeki-tehlikeler-ve.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-12-is-yerindeki-tehlikeler-ve.pdf) | Hafta 12 – İş Yerindeki Tehlikeler ve İş Hijyeni | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-13-biyolojik-risk.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-13-biyolojik-risk.pdf) | Hafta 13 – Biyolojik Risk Etmenleri | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-14-1-ergonomi.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-14-1-ergonomi.pdf) | Hafta 14 – Ergonomi | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-14-fiziksel-risk-etmenleri.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-14-fiziksel-risk-etmenleri.pdf) | Hafta 14 – Fiziksel Risk Etmenleri | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-15-kimyasal-tehlike.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-15-kimyasal-tehlike.pdf) | Hafta 15 – Kimyasal Tehlikeler | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-2-ishukuku.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-2-ishukuku.pdf) | Hafta 02 – İş Hukuku ve İSG | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-3-isgderiskyonetimi.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-3-isgderiskyonetimi.pdf) | Hafta 03 – İSG'de Risk Yönetimi | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-4-2-mevzuat.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-4-2-mevzuat.pdf) | Hafta 04 – İSG Mevzuatı ve Hizmetleri | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-4-isgdeyonetimsistemleri.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-4-isgdeyonetimsistemleri.pdf) | Hafta 04 – İSG'de Yönetim Sistemleri | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-5-2-is-kazalari-ve-meslek-hast.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-5-2-is-kazalari-ve-meslek-hast.pdf) | Hafta 05 – İş Kazaları ve Meslek Hastalıkları | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-5-iso450001.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-5-iso450001.pdf) | Hafta 05 – ISO 45001 Yönetim Sistemleri | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-6-riskgruplari.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-6-riskgruplari.pdf) | Hafta 06 – Duyarlı Gruplar ve Risk Grupları | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-7-1-vardiyacalismasi.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-7-1-vardiyacalismasi.pdf) | Hafta 07 – Vardiya Çalışması | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-7-2-etik.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-7-2-etik.pdf) | Hafta 07 – Çalışma Hayatında Etik | 2017 fall |  |
+| [ISG401_slides_2025-fall_isg-401-ders-slayti-guvenlikkulturu-1-hafta.pdf](slides/ISG401_slides_2025-fall_isg-401-ders-slayti-guvenlikkulturu-1-hafta.pdf) | İSG 401 Ders Slaytı - GuvenlikKulturu_1__hafta_ | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003008-7-1-is-kazalari.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003008-7-1-is-kazalari.pdf) | 7.1 – İş Kazaları | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003009-7-2-meslek-hastaliklari.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003009-7-2-meslek-hastaliklari.pdf) | 7.2 – Meslek Hastalıkları | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003010-6-2-risk-gruplari.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003010-6-2-risk-gruplari.pdf) | 6.2 – Çalışma Hayatında Duyarlı Risk Grupları | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003011-6-1-vardiya-calismalar.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003011-6-1-vardiya-calismalar.pdf) | 6.1 – Vardiya Çalışması | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003012-5-isg-yonetim-sistemleri.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003012-5-isg-yonetim-sistemleri.pdf) | 5 – İSG Yönetim Sistemleri | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003013-2-is-hukuku-ve-isgnin-yeri.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003013-2-is-hukuku-ve-isgnin-yeri.pdf) | 2 – İş Hukukunda İlkeler ve İSG'nin Yeri | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003014-3-mevzuat.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003014-3-mevzuat.pdf) | 3 – İş Sağlığı ve Güvenliği Mevzuatı | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003015-1-guvenlik-kulturu.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003015-1-guvenlik-kulturu.pdf) | 1 – Güvenlik Kültürü ve İSG | 2025 fall |  |
+| [ISG401_slides_2025-fall_isg-401-slayt-00003016-4-etik.pdf](slides/ISG401_slides_2025-fall_isg-401-slayt-00003016-4-etik.pdf) | 4 – Çalışma Hayatında Etik ve İSG | 2025 fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG401_exam_2016-fall_final_isg-401-final-sinavi-09-01-2017.pdf](exams/ISG401_exam_2016-fall_final_isg-401-final-sinavi-09-01-2017.pdf) | İSG 401 Final Sınavı (09.01.2017) | 2016 fall | final |
+| [ISG401_exam_2023-fall_final_ohs-401-final-exam-16-01-2024.pdf](exams/ISG401_exam_2023-fall_final_ohs-401-final-exam-16-01-2024.pdf) | OHS 401 Final Exam (16.01.2024) | 2023 fall | final |
+| [ISG401_exam_2024-fall_sample_isg-1-dersi-soru-ornekleri-2024-2025.pdf](exams/ISG401_exam_2024-fall_sample_isg-1-dersi-soru-ornekleri-2024-2025.pdf) | İSG-1 Dersi Soru Örnekleri 2024-2025 | 2024 fall | sample |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG401_examsolution_isg-86-cozumlu-test-sorusu-derlemesi.pdf](exam-solutions/ISG401_examsolution_isg-86-cozumlu-test-sorusu-derlemesi.pdf) | İSG 86 Çözümlü Test Sorusu Derlemesi |  |  |
+| [ISG401_examsolution_isg-test-sorulari-ve-cevap-anahtari-30-soru.pdf](exam-solutions/ISG401_examsolution_isg-test-sorulari-ve-cevap-anahtari-30-soru.pdf) | İSG Test Soruları ve Cevap Anahtarı (30 Soru) |  |  |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG401_summary_midterm_isg-1-1-7-unite-vize-calisma-belgesi.pdf](summaries/ISG401_summary_midterm_isg-1-1-7-unite-vize-calisma-belgesi.pdf) | İSG-1 1-7 Ünite Vize Çalışma Belgesi |  | midterm |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG401_announcement_sohbetten-sinav-bilgileri.md](announcements/ISG401_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

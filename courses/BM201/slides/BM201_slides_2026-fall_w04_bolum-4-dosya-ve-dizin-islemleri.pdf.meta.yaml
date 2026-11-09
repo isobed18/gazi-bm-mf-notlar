@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w04_bolum-4-dosya-ve-dizin-islemleri.pdf
+sha256: 93dc50055428253aa635b78d2049e0a9258c7caaf048467afc87abc1194230f7
+size: 990450
+course: BM201
+kind: slides
+title: Bölüm 4 - Dosya ve Dizin İşlemleri
+year: 2026
+term: fall
+week: 4
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

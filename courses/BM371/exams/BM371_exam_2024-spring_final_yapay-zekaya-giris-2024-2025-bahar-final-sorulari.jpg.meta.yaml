@@ -1,0 +1,18 @@
+file: BM371_exam_2024-spring_final_yapay-zekaya-giris-2024-2025-bahar-final-sorulari.jpg
+sha256: a9d33baf95e593bb1b6413c4658e7740ba8650f02ce95772ea54085830847810
+size: 192277
+course: BM371
+kind: exam
+title: 2023-2024 Bahar Final Sınavı
+year: 2023
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

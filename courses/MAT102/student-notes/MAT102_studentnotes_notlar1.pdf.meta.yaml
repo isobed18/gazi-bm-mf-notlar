@@ -1,0 +1,16 @@
+file: MAT102_studentnotes_notlar1.pdf
+sha256: 697a028f290b410af65a88acdc245cf6848af08b4d2c3e2c2e13261522a81e0b
+size: 24053010
+course: MAT102
+kind: student-notes
+title: Matematik II Öğrenci Notları Bölüm 1 – Belirli İntegral
+term: spring
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

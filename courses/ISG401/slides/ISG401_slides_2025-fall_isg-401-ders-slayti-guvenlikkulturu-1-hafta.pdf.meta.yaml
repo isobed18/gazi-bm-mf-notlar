@@ -1,0 +1,18 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-guvenlikkulturu-1-hafta.pdf
+sha256: d7ad3ad423204c3dba116d0a9f264aa915a864557e63ab596d27ab9316342ef8
+size: 5799605
+course: ISG401
+kind: slides
+title: İSG 401 Ders Slaytı - GuvenlikKulturu_1__hafta_
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

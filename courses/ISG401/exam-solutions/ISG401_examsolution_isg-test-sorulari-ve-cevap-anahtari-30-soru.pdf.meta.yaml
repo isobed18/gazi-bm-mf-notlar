@@ -1,0 +1,16 @@
+file: ISG401_examsolution_isg-test-sorulari-ve-cevap-anahtari-30-soru.pdf
+sha256: dabaa25c42eaeaea802f958aed46a45864e92f406f15074aeddf776931f56b92
+size: 790729
+course: ISG401
+kind: exam-solution
+title: İSG Test Soruları ve Cevap Anahtarı (30 Soru)
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -1,0 +1,18 @@
+file: FIZ103_examsolution_2023-fall_midterm_2023-2024-guz-vize-cozumleri.pdf
+sha256: a3c91b2c6a1a5bee663d752fb1495229b4997e2ad1a739359ead3a7670d8a401
+size: 491480
+course: FIZ103
+kind: exam-solution
+title: 2023-2024 Güz Vize Çözümleri
+year: 2023
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: MAT102_examsolution_2022-spring_final_2022-2023-bahar-final.pdf
+sha256: 466ab85cd679315c16f9a7676b29bf5d313363081957a242bb2ecfca42509534
+size: 2297329
+course: MAT102
+kind: exam-solution
+title: 2021-2022 Bahar Final Çözümleri (Grup A)
+year: 2021
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

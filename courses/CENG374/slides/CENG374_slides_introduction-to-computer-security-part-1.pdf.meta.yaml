@@ -1,0 +1,16 @@
+file: CENG374_slides_introduction-to-computer-security-part-1.pdf
+sha256: 5797b17675a7b74b605d3f915da9152b171cef6cba49702fd22c1c890db2a0e5
+size: 776760
+course: CENG374
+kind: slides
+title: Introduction to Computer Security - Part 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı/notu; yerleştirildi.

@@ -1,0 +1,18 @@
+file: TUR102_exam_2002-spring_final_2002-2003-bahar-final.pdf
+sha256: 5adbdcc343bd2d9f2b1ee5a8f59a7d98b642fa2d2694dbbc7e5d80f0c68457f1
+size: 163553
+course: TUR102
+kind: exam
+title: 2022-2023 Bahar Final
+year: 2022
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: MAT102_examsolution_2024-spring_midterm_2024-2025-bahar-vize.pdf
+sha256: ab26e0c6345290c6f8223ed8f670f5d5a5a1df5477f5ad5a50ca9a647dc2c9fd
+size: 1464080
+course: MAT102
+kind: exam-solution
+title: 2023-2024 Bahar Vize Çözümleri (Grup B)
+year: 2023
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

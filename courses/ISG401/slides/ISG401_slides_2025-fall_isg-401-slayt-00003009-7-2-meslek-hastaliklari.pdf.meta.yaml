@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003009-7-2-meslek-hastaliklari.pdf
+sha256: 8c91525f9d8d0523d415c60b73890e4b649d2707ac0630411a038bc0169bbc85
+size: 3618804
+course: ISG401
+kind: slides
+title: 7.2 – Meslek Hastalıkları
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

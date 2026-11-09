@@ -1,0 +1,18 @@
+file: CENG205_slides_2024-fall_makeup_w09_bbm201-ders9-1.pdf
+sha256: 7f42442807c07d91150e53ee75f7dad5f20a703ec005eb0c8bc6f7ae652a287f
+size: 9751373
+course: CENG205
+kind: slides
+title: Ders 9 - Dinamik Bağlı Listeler
+year: 2024
+term: fall
+week: 9
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

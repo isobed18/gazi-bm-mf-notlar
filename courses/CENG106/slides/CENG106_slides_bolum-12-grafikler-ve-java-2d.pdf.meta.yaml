@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-12-grafikler-ve-java-2d.pdf
+sha256: 365ea0fb8d52d18f0976dfd08ee43f27a14e52c4497b8f9e728566cbb041b526
+size: 1382373
+course: CENG106
+kind: slides
+title: Bölüm 12 – Grafikler ve Java 2D
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

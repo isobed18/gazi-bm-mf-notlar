@@ -1,0 +1,19 @@
+file: CENG318_lecturenotes_2025-spring_w11495_microprocessors-14-260203-020601.pdf
+sha256: 30e4ee9bf45738548fd91498e8725214b68603823ba8594392477f064fb98a0b
+size: 1085575
+course: CENG318
+kind: lecture-notes
+title: Microprocessors_14_260203_020601
+year: 2025
+term: spring
+week: 11495
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

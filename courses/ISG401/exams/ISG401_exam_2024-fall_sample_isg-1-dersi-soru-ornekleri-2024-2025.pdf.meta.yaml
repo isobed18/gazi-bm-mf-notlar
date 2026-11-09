@@ -1,0 +1,19 @@
+file: ISG401_exam_2024-fall_sample_isg-1-dersi-soru-ornekleri-2024-2025.pdf
+sha256: be6c271d2a91a3a3fd8f4119ea7e8c1eb357ca0a4e0bb45b73e30b0e3d22fc10
+size: 1225800
+course: ISG401
+kind: exam
+title: İSG-1 Dersi Soru Örnekleri 2024-2025
+year: 2024
+term: fall
+exam_type: sample
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

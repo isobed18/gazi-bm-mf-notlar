@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_makeup_w13_h13-html-layout.pdf
+sha256: 87ed9649ede54f86efcf03917066defe98e8a5546e3ad00b65ab3a1c80b3a098
+size: 1405596
+course: BM103
+kind: slides
+title: Hafta 13 – HTML Layout
+year: 2023
+term: fall
+week: 13
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

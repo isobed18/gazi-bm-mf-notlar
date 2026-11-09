@@ -1,0 +1,18 @@
+file: CENG316_exam_2024-spring_midterm_database-systems-vize-cikmis-sorusu-iliskisel-sema.jpg
+sha256: 9f388ae1705572b6e37937476f219843aa22acdcecacb53b73e607be6a4012c0
+size: 174888
+course: CENG316
+kind: exam
+title: Vize Çıkmış Sorusu - EER İlişkisel Şema Dönüşümü
+year: 2024
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

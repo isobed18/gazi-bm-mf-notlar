@@ -1,0 +1,16 @@
+file: BM104_slides_bm104-ayrik-matematik-ders-sunumu-2.pdf
+sha256: 2b4f586c4f34e1ab901c6c4595ed1ad5dbe75d81d89b528becde5f382c471cfb
+size: 2636369
+course: BM104
+kind: slides
+title: Hafta 3 - Çıkarım Kuralları ve İspatlar
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 3

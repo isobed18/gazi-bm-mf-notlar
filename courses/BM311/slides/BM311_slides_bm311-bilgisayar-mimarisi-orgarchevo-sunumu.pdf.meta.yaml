@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-orgarchevo-sunumu.pdf
+sha256: c6df9b9634c3d5c82c33c761637c15f566e0fc17ae11a93701a9e89932d8995d
+size: 2733263
+course: BM311
+kind: slides
+title: BM311 Bilgisayar Mimarisi orgarchevo Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: superseded

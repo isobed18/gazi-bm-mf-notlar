@@ -1,0 +1,21 @@
+# Copy to local/config.yaml (git-ignored) and adjust for your machine. Never commit local/config.yaml.
+
+# Google Drive mirror (rclone remote:path) — see docs/STORAGE.md
+remote: gdrive-arsiv:gazi-bm-mf-notlar
+
+# Official, archive-generated Obsidian vault (archive.py export-obsidian writes here)
+vault: D:\Gazi-BM-Resmi-Vault
+
+# Your personal vault — agents must never read or write it. Listed only so they can avoid it.
+personal_vault: D:\obsidian_vaults
+
+# Folders checked by the weekly maintenance for new files to ingest (trusted sources only)
+drop_dirs:
+  - D:\gazi-bm-gelen
+# Drive folder (inside the remote) where trusted people may drop files; moved to the inbox weekly
+drive_drop: _gelen
+
+# Weekly: also add new past exams to the personal vault (zip backup first, 3 newest kept)
+personal_exam_sync: true
+personal_skip: ["4. Sinif Guz"]
+backup_dir: D:\vault-backups

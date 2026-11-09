@@ -1,0 +1,17 @@
+file: BM211_homework_2025-fall_devre-analizi-calisma-sorulari.jpg
+sha256: da922d84d94a4fb1895064c616d478784759773561eb2112d010e5fe198ec3d4
+size: 36345
+course: BM211
+kind: homework
+title: Devre Analizi Calisma Sorulari
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

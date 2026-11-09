@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-09-nesneye-yonelik-programlama-kalitim.pdf
+sha256: 2f0b9e289284e4d0e165d1b6f587e8e7203042dc8e9fcbe5452e5954076ee7de
+size: 1237657
+course: CENG106
+kind: slides
+title: Bölüm 09 – Nesneye Yönelik Programlama Kalıtım
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

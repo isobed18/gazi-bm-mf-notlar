@@ -3,4 +3,29 @@
 
 *Principles of Atatürk and History of Revolution II* · general · curriculum semester: 2
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR102_slides_2023-spring_w01_1-2-3-hafta-bati-cephesi-ve-mudanya.pdf](slides/TAR102_slides_2023-spring_w01_1-2-3-hafta-bati-cephesi-ve-mudanya.pdf) | 1-2-3. Hafta – Batı Cephesi ve Mudanya | 2023 spring |  |
+| [TAR102_slides_2023-spring_w03_3-4-5-hafta-inkilaplar-ve-dis-politika.pdf](slides/TAR102_slides_2023-spring_w03_3-4-5-hafta-inkilaplar-ve-dis-politika.pdf) | 3-4-5. Hafta – İnkılaplar ve Dış Politika | 2023 spring |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR102_exam_2022-spring_final_2022-2023-bahar-final.pdf](exams/TAR102_exam_2022-spring_final_2022-2023-bahar-final.pdf) | 2022-2023 Bahar Final | 2022 spring | final |
+| [TAR102_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf](exams/TAR102_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf) | 2023-2024 Bahar Vize | 2023 spring | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.png](grade-distributions/TAR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.png) | Geçmiş Harf Notu Dağılımları |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR102_announcement_sohbetten-sinav-bilgileri.md](announcements/TAR102_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

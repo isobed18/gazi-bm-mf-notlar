@@ -80,6 +80,17 @@ courses:
   - {code: CENG454, name_tr: Database Applications, name_en: Database Applications, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng454, database applications, oracle sql, da lecture]}
   - {code: CENG461, name_tr: Bioinformatics, name_en: Bioinformatics, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng461, bioinformatics, biyoinformatik]}
   - {code: CENG471, name_tr: Introduction to Image Processing, name_en: Introduction to Image Processing, semester: null, category: technical-elective, curriculum: "2024", aliases: [ceng471, image processing, goruntu isleme]}
+  # Resource-only electives: included so named course notes, official slides and exams can be archived.
+  - {code: CENG374, name_tr: Bilgisayar Güvenliği, name_en: Introduction to Computer Security, semester: null, category: technical-elective, aliases: [computer security, bilgisayar guvenligi]}
+  - {code: BM358, name_tr: Graf Teorisi, name_en: Graph Theory, semester: null, category: technical-elective, aliases: [graf teorisi, graph theory]}
+  - {code: BM368, name_tr: Sezgisel Optimizasyon Algoritmaları, name_en: Heuristic Optimization Algorithms, semester: null, category: technical-elective, aliases: [sezgisel optimizasyon, heuristic optimization]}
+  - {code: CENG483, name_tr: Tasarım Kalıpları, name_en: Design Patterns, semester: null, category: technical-elective, aliases: [design patterns, tasarim kaliplari]}
+  - {code: BM469, name_tr: Genetik Algoritmalar, name_en: Genetic Algorithms, semester: null, category: technical-elective, aliases: [genetic algorithms, genetik algoritmalar]}
+  - {code: CENG445, name_tr: Algoritmik Oyun Teorisi, name_en: Algorithmic Game Theory, semester: null, category: technical-elective, aliases: [game theory, oyun teorisi, algorithmic game theory]}
+  - {code: DISTRIBUTED-SYSTEMS, name_tr: Dağıtık Sistemler, name_en: Distributed Systems, semester: null, category: technical-elective, aliases: [distributed systems, dagitik sistemler]}
+  - {code: COMPUTER-GRAPHICS, name_tr: Bilgisayar Grafikleri, name_en: Computer Graphics, semester: null, category: technical-elective, aliases: [computer graphics, bilgisayar grafikleri]}
+  - {code: SECURE-CODING, name_tr: Güvenli Kodlama, name_en: Secure Coding, semester: null, category: technical-elective, aliases: [secure coding, guvenli kodlama]}
+  - {code: PARALLEL-COMPUTER-ARCHITECTURES, name_tr: Paralel Bilgisayar Mimarisi, name_en: Parallel Computer Architectures, semester: null, category: technical-elective, aliases: [parallel computer architectures, paralel bilgisayar mimarisi]}
 
   # ---------------- Non-technical electives (seen so far) ----------------
   - {code: ADS125, name_tr: Girişimcilik ve Proje Yönetimi, name_en: Entrepreneurship and Project Management, semester: null, category: non-technical-elective, curriculum: "2024", aliases: [ads125, girisimcilik ve proje yonetimi]}

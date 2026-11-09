@@ -1,0 +1,17 @@
+file: BM303_homework_2025-spring_bilgisayar-aglari-odev-tanimi-slayt-alistirmasi.jpg
+sha256: 8b172abc28d84c57bbf4ad4baf371ccb571467322ce88e3427239352f859576b
+size: 112794
+course: BM303
+kind: homework
+title: Bilgisayar Ağları Ödev Tanımı (Slayt Alıştırması)
+year: 2025
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

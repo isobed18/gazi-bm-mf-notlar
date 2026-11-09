@@ -1,0 +1,17 @@
+file: CENG394_lecturenotes_2025-fall_file-organization-kitap-ornek-sorusu.jpg
+sha256: 6f19c94a071395f6452e8ad972068cba9785631504554a3df3bf3666bff3c6bd
+size: 90901
+course: CENG394
+kind: lecture-notes
+title: File Organization Book Example
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

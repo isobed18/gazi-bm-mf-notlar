@@ -1,0 +1,16 @@
+file: MAT102_lecturenotes_mat102-mathematics-ii-kapsamli-ders-notlari-116-sa.pdf
+sha256: 1833e95326cc5df9cc681aba56e07790be18cbd791b2861cbbc0aced577ed795
+size: 19911645
+course: MAT102
+kind: lecture-notes
+title: Matematik II Kapsamlı Ders Notları (116 Sayfa)
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

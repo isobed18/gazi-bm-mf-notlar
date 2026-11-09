@@ -1,0 +1,17 @@
+file: BM211_lecturenotes_2024-fall_eee221-lecture-note-7-capacitance-and-inductance.pdf
+sha256: 8989c017ab4e17daf70f949f48c386963ab74430378e06136a78ee468477a428
+size: 3578693
+course: BM211
+kind: lecture-notes
+title: EEE221 Lecture Note 7 - Capacitance and Inductance
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

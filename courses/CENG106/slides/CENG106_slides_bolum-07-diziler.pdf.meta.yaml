@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-07-diziler.pdf
+sha256: 10543b84bbc32eec8f5f3fab26b5732e61f198dd52a35d154da0508147dfd8dd
+size: 1438647
+course: CENG106
+kind: slides
+title: Bölüm 07 – Diziler
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

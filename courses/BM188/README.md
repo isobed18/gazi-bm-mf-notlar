@@ -3,4 +3,15 @@
 
 *Business Economics and Management* · non-technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM188_book_iktisada-giris-aof.pdf](books/BM188_book_iktisada-giris-aof.pdf) | İktisada Giriş AÖF |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM188_announcement_sohbetten-sinav-bilgileri.md](announcements/BM188_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

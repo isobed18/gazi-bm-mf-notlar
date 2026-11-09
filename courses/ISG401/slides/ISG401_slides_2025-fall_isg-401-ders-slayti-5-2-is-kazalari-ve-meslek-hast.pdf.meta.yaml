@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-5-2-is-kazalari-ve-meslek-hast.pdf
+sha256: 1a0d514965f79acea114c9396bc0ce5a00f3f5eb1a5ecb36a899228f4b7c7c53
+size: 3220286
+course: ISG401
+kind: slides
+title: Hafta 05 – İş Kazaları ve Meslek Hastalıkları
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

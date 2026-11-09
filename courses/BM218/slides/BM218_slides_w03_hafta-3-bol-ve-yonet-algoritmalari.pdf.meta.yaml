@@ -1,0 +1,17 @@
+file: BM218_slides_w03_hafta-3-bol-ve-yonet-algoritmalari.pdf
+sha256: 07a58a37c5a44a08f667b8f14e6a49c050f6ca483d5981f27a1ad15b3d857c1c
+size: 1103099
+course: BM218
+kind: slides
+title: Hafta 3 – Böl ve Yönet Algoritmaları
+week: 3
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

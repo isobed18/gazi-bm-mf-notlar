@@ -1,0 +1,19 @@
+file: ISG401_exam_2023-fall_final_ohs-401-final-exam-16-01-2024.pdf
+sha256: 9ed26e6c819c52463f348b0965181c91ea8e1df950d49093ab241956da8766ce
+size: 983710
+course: ISG401
+kind: exam
+title: OHS 401 Final Exam (16.01.2024)
+year: 2023
+term: fall
+exam_type: final
+language: en
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

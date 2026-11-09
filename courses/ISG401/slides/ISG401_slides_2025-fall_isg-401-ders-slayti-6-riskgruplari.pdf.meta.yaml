@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-6-riskgruplari.pdf
+sha256: 796b3aa4c2fc538e8365f4e9f149d52d0bdfd14b820715bba6df0cf40541b996
+size: 1572479
+course: ISG401
+kind: slides
+title: Hafta 06 – Duyarlı Gruplar ve Risk Grupları
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

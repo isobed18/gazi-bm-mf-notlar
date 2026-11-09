@@ -1,0 +1,17 @@
+file: ISG402_slides_2017-spring_saglik-ve-guvenlik-isaretleri.pdf
+sha256: 3685942694f2563b952efdb72514fcda3b67db2c1fd1eed23e91ceddd083c21e
+size: 1423600
+course: ISG402
+kind: slides
+title: Sağlık ve Güvenlik İşaretleri
+year: 2017
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

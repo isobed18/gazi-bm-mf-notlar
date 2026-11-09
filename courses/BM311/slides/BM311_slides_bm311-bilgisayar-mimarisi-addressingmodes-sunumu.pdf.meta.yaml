@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-addressingmodes-sunumu.pdf
+sha256: 4b3a2930ea28c53d2231e762d11b96e026ac107155315ccd5a3d39cde76c324c
+size: 925554
+course: BM311
+kind: slides
+title: Adresleme Modları Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

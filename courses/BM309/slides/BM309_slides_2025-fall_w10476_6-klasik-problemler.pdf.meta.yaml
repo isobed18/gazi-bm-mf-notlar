@@ -1,0 +1,18 @@
+file: BM309_slides_2025-fall_w10476_6-klasik-problemler.pdf
+sha256: 2db435a4b5f7c14fb99e2fd3b007116f329df14da97f438caac63d85a05d881c
+size: 267643
+course: BM309
+kind: slides
+title: Hafta 6 – Klasik Etkileşim Problemleri
+year: 2024
+term: fall
+week: 6
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

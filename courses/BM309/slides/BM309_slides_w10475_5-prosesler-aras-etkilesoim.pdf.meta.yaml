@@ -1,0 +1,18 @@
+file: BM309_slides_w10475_5-prosesler-aras-etkilesoim.pdf
+sha256: 33b98432d3890a3777c16a6ce90c83836225357bfa8b967efbb70246eabeb46a
+size: 1075656
+course: BM309
+kind: slides
+title: Hafta 5 – Prosesler Arası Etkileşim
+week: 5
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2024
+term: fall

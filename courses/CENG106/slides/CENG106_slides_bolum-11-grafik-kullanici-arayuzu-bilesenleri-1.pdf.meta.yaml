@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-11-grafik-kullanici-arayuzu-bilesenleri-1.pdf
+sha256: cdb6d748912b91f079bb503fe83bed5309e4c117d42c3265e8b1f64192e56b2e
+size: 2464809
+course: CENG106
+kind: slides
+title: Bölüm 11 – Grafik Kullanıcı Arayüzü Bileşenleri 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

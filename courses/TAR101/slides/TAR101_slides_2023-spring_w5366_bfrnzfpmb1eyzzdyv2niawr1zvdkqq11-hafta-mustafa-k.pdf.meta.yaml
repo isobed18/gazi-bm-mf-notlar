@@ -1,0 +1,18 @@
+file: TAR101_slides_2023-spring_w5366_bfrnzfpmb1eyzzdyv2niawr1zvdkqq11-hafta-mustafa-k.pdf
+sha256: 70f23256bee08d3c2e7a5ec94d0b12e3c2fb391c15ec1b6f7e2726f16bc36801
+size: 8709757
+course: TAR101
+kind: slides
+title: 11. Hafta – Mustafa Kemal'in Faaliyetleri ve Samsun
+year: 2023
+term: fall
+week: 11
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,17 @@
+file: CENG316_slides_2024-spring_database-systems-lecture-10-sql-iii.pdf
+sha256: e0a0044d2b6482e7f9993b06294e28a6a5412fb9f77671d94cf1f0d3e513171b
+size: 2780793
+course: CENG316
+kind: slides
+title: Ders 10 - SQL III
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

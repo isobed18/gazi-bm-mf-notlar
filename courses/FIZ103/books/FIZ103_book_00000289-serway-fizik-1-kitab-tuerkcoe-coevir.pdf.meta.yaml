@@ -1,0 +1,16 @@
+file: FIZ103_book_00000289-serway-fizik-1-kitab-tuerkcoe-coevir.pdf
+sha256: 4707024506572426de1dceedc4c329a2ea3a12dc29d9a342064d04cd98ec9f1a
+size: 84229259
+course: FIZ103
+kind: book
+title: 00000289-Serway Fizik 1 Kitab─▒ Tu╠êrkc╠ºe C╠ºevir
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kursla eşleşen kitap kaynağı; kullanıcı talebiyle eklendi, resmi vault kitapları göstermiyor.

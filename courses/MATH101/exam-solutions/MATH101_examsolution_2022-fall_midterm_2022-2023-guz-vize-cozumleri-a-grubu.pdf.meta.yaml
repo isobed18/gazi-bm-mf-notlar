@@ -1,0 +1,18 @@
+file: MATH101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumleri-a-grubu.pdf
+sha256: 100cea3725d32f6823d5ef4c8a485a4c2b705731e865acbef866b3420afc51ec
+size: 7771651
+course: MATH101
+kind: exam-solution
+title: 2022-2023 Güz Vize Çözümleri (A Grubu)
+year: 2022
+term: fall
+exam_type: midterm
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

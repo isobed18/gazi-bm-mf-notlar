@@ -1,0 +1,18 @@
+file: BM314_exam_2019-spring_final_2019-2020-bahar-final-sinavi.pdf
+sha256: 89f23e746f732ac3716b0f9aa3b56c65d99468e53c7f4930b7112aaa540ac4c5
+size: 495427
+course: BM314
+kind: exam
+title: 2019-2020 Bahar Final Sınavı
+year: 2019
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

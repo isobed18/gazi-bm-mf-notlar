@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w02_h2-formatatma.pdf
+sha256: 65fd9391f2a23cde81a8eef2b64fe94cc697eee75b6fc75f1b9ea24dc99e2d21
+size: 883989
+course: BM103
+kind: slides
+title: Hafta 2 – Format Atma
+year: 2023
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

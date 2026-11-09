@@ -1,0 +1,16 @@
+file: BM104_slides_bm104-ayrik-matematik-ders-sunumu.pdf
+sha256: e253e705a6c127aba4fb88e0cbf2605576e0af290a27c670173a6bef072a34a5
+size: 1536405
+course: BM104
+kind: slides
+title: Hafta 2 - Yüklemler Mantığı
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 2

@@ -3,4 +3,51 @@
 
 *Database Systems* · required · curriculum semester: 6
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG316_slides_2024-spring_database-systems-lecture-10-sql-iii.pdf](slides/CENG316_slides_2024-spring_database-systems-lecture-10-sql-iii.pdf) | Ders 10 - SQL III | 2024 spring |  |
+| [CENG316_slides_2024-spring_database-systems-lecture-11-sql-iv.pdf](slides/CENG316_slides_2024-spring_database-systems-lecture-11-sql-iv.pdf) | Ders 11 - SQL IV | 2024 spring |  |
+| [CENG316_slides_2024-spring_database-systems-lecture-8-introduction-to-sql.pdf](slides/CENG316_slides_2024-spring_database-systems-lecture-8-introduction-to-sql.pdf) | Ders 8 - SQL Giriş | 2024 spring |  |
+| [CENG316_slides_2024-spring_database-systems-week-14-sql-iv.pdf](slides/CENG316_slides_2024-spring_database-systems-week-14-sql-iv.pdf) | Hafta 14 - SQL IV | 2024 spring |  |
+| [CENG316_slides_2024-spring_database-systems-week-15-normalization.pdf](slides/CENG316_slides_2024-spring_database-systems-week-15-normalization.pdf) | Hafta 15 - Normalizasyon | 2024 spring |  |
+| [CENG316_slides_w07_lecture-7-relational-algebra.pdf](slides/CENG316_slides_w07_lecture-7-relational-algebra.pdf) | Lecture 7 - Relational Algebra |  |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG316_lecturenotes_2024-spring_veritabani-sistemleri-tahta-notu-er-modeli.jpg](lecture-notes/CENG316_lecturenotes_2024-spring_veritabani-sistemleri-tahta-notu-er-modeli.jpg) | ER Modeli Tahta Çizimi | 2024 spring |  |
+| [CENG316_lecturenotes_2025-spring_mikroislemciler-tahta-cizimi.jpg](lecture-notes/CENG316_lecturenotes_2025-spring_mikroislemciler-tahta-cizimi.jpg) | ER Modelinden İlişkisel Modele Dönüşüm Tahta Notu | 2025 spring |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG316_studentnotes_2024-spring_midterm_database-systems-midterm-sorulari-ve-cozumleri.pdf](student-notes/CENG316_studentnotes_2024-spring_midterm_database-systems-midterm-sorulari-ve-cozumleri.pdf) | Database Systems Ders Notları | spring |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG316_exam_2018-spring_final_2018-2019-bahar-final.pdf](exams/CENG316_exam_2018-spring_final_2018-2019-bahar-final.pdf) | 2022-2023 Bahar Final (Final Assignment) | 2022 spring | final |
+| [CENG316_exam_2022-spring_final_final-assignment-spring-2023.pdf](exams/CENG316_exam_2022-spring_final_final-assignment-spring-2023.pdf) | Final Assignment Spring 2023 | 2022 spring | final |
+| [CENG316_exam_2024-spring_midterm_database-systems-midterm-sorulari.pdf](exams/CENG316_exam_2024-spring_midterm_database-systems-midterm-sorulari.pdf) | Database Systems Midterm Soruları | 2024 spring | midterm |
+| [CENG316_exam_2024-spring_midterm_database-systems-vize-cikmis-sorusu-iliskisel-sema.jpg](exams/CENG316_exam_2024-spring_midterm_database-systems-vize-cikmis-sorusu-iliskisel-sema.jpg) | Vize Çıkmış Sorusu - EER İlişkisel Şema Dönüşümü | 2024 spring | midterm |
+| [CENG316_exam_midterm_arasinavi.pdf](exams/CENG316_exam_midterm_arasinavi.pdf) | Bahar Ara Sınav Soruları | spring | midterm |
+| [CENG316_exam_midterm_bahar-vize.pdf](exams/CENG316_exam_midterm_bahar-vize.pdf) | 2022-2023 Bahar Vize (Midterm Assignment) | 2022 spring | midterm |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG316_homework_2024-spring_database-systems-assignment-2.pdf](homework/CENG316_homework_2024-spring_database-systems-assignment-2.pdf) | Assignment 2 - SQL Sorguları | 2024 spring |  |
+| [CENG316_homework_2025-spring_w11419_ds-assignment1.pdf](homework/CENG316_homework_2025-spring_w11419_ds-assignment1.pdf) | 2025-2026 Bahar Assignment 1 - ER Modelleme | 2025 spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG316_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG316_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

@@ -1,0 +1,18 @@
+file: ENG204_exam_2020-summer_final_2020-2021-yaz-final.pdf
+sha256: 394bb73b95daa9163a93c25f63ddb403d3f925085e6cf11a16335afd94ccfd90
+size: 374541
+course: ENG204
+kind: exam
+title: 2020-2021 Yaz Final
+year: 2020
+term: summer
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

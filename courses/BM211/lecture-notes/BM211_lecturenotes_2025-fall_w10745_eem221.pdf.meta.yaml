@@ -1,0 +1,19 @@
+file: BM211_lecturenotes_2025-fall_w10745_eem221.pdf
+sha256: f3b774f595e253fc929511c81942f9f51b286bbddd4dcd73d72572dc06bd235d
+size: 1830247
+course: BM211
+kind: lecture-notes
+title: EEM221
+year: 2025
+term: fall
+week: 10745
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

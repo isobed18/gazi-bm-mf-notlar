@@ -1,0 +1,18 @@
+file: FIZ103_examsolution_2023-fall_makeup_2023-2024-guz-butunleme-cozumleri.pdf
+sha256: 592e9be0c6d1971f5430658710587b320f75641d8cc051773c129d9cc19f3f84
+size: 541333
+course: FIZ103
+kind: exam-solution
+title: 2023-2024 Güz Bütünleme Çözümleri
+year: 2023
+term: fall
+exam_type: makeup
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

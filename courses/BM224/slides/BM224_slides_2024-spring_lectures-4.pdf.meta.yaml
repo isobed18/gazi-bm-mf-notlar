@@ -1,0 +1,17 @@
+file: BM224_slides_2024-spring_lectures-4.pdf
+sha256: 14b7f3afc30fc8ee1ca91360442e0b821f1aaedaef039e8fb6d6b9ee688dcf97
+size: 1427173
+course: BM224
+kind: slides
+title: Lectures 4
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

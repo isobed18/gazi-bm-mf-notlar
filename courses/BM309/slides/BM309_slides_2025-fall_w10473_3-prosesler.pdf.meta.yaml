@@ -1,0 +1,18 @@
+file: BM309_slides_2025-fall_w10473_3-prosesler.pdf
+sha256: e72feecfc75abe6816d142ed1862909897764ebff6d72862c14b3d1b8b3ef49c
+size: 434728
+course: BM309
+kind: slides
+title: Hafta 3 – Prosesler ve Proses Yönetimi
+year: 2024
+term: fall
+week: 3
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

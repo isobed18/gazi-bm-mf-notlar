@@ -1,0 +1,17 @@
+file: MAT199_studentnotes_2023-fall_ozdeger-ve-ozvektor-soru-cozumu.jpg
+sha256: bf64a14b96c01593aece2e97a27a0c0ae27cbc4caf9f8865c08035405daad755
+size: 39884
+course: MAT199
+kind: student-notes
+title: Özdeğer ve Özvektör Soru Çözümü
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

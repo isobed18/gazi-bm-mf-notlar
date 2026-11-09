@@ -1,0 +1,17 @@
+file: BM211_lecturenotes_2025-fall_circuit-analysis-methods.pdf
+sha256: 2ba4b1b329bb73308efea82411bb711d3214a11dffe604f97af29da1fb5baeb7
+size: 2880760
+course: BM211
+kind: lecture-notes
+title: Circuit Analysis Methods
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,16 @@
+file: FIZ156_lab_fizik-laboratuvari-deney-kitapcigi.pdf
+sha256: 541590860fff881b609d5c1e2dd06388a72f6f25aff0bc71f172430784dda2f0
+size: 6415727
+course: FIZ156
+kind: lab
+title: Fizik Laboratuvarı Deney Kitapçığı
+term: spring
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

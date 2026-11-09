@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-05-kontrol-ifadeleri-2.pdf
+sha256: 9134971701d82905a7ea57d31c10df1bfddfeed380ca03e34fff8def70ae1fcf
+size: 1533960
+course: CENG106
+kind: slides
+title: Bölüm 05 – Kontrol İfadeleri 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -3,4 +3,9 @@
 
 *Microservice Based Software Development* · technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG442_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG442_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

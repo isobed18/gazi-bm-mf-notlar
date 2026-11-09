@@ -1,0 +1,17 @@
+file: BM402_exam_midterm_bilgisayar-aglari-vize-cikmis-sorular-ekran-gorunt.jpeg
+sha256: c52d5e24f87dbc5c68c399c8fd5039a04619f5adf027e0d3f8b6385031766fbf
+size: 94143
+course: BM402
+kind: exam
+title: Bilgisayar Ağları Vize Çıkmış Sorular Ekran Görüntüsü
+exam_type: midterm
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

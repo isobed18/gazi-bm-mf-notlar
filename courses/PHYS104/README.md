@@ -3,4 +3,42 @@
 
 *Physics II* · required · curriculum semester: 2
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [PHYS104_studentnotes_phys104-physics-ii-ders-notlari-36-sayfa.pdf](student-notes/PHYS104_studentnotes_phys104-physics-ii-ders-notlari-36-sayfa.pdf) | Physics II Student Notes |  |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [PHYS104_exam_2023-spring_final_final-soru-dagilimi-tahta-notu.jpg](exams/PHYS104_exam_2023-spring_final_final-soru-dagilimi-tahta-notu.jpg) | Final Soru Dağılımı (Tahta Notu) | 2023 spring | final |
+| [PHYS104_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf](exams/PHYS104_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf) | 2024-2025 Bahar Vize | 2024 spring | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [PHYS104_gradedistribution_2004-spring_2004-2005-harf-notu-dagilimi.png](grade-distributions/PHYS104_gradedistribution_2004-spring_2004-2005-harf-notu-dagilimi.png) | Grade_Distribution | 2023 spring |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [PHYS104_book_00000290-fen-ve-muehendislik-icoin-fizik-2-kata.pdf](books/PHYS104_book_00000290-fen-ve-muehendislik-icoin-fizik-2-kata.pdf) | 00000290-Fen ve Mu╠êhendislik ic╠ºin Fizik 2 (Kata |  |  |
+| [PHYS104_book_bahar.pdf](books/PHYS104_book_bahar.pdf) | Physics_for_Scientists_and_Engineers_Serway_Jewett_9th_Edition | spring |  |
+| [PHYS104_book_physics-9th-ed-serway-solution-manual.pdf](books/PHYS104_book_physics-9th-ed-serway-solution-manual.pdf) | Physics_9th_Edition_Instructor_Solutions_Manual | spring |  |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [PHYS104_summary_gauss-law-ultimate-study-guide.pdf](summaries/PHYS104_summary_gauss-law-ultimate-study-guide.pdf) | Gauss Law Study Guide | spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [PHYS104_announcement_sohbetten-sinav-bilgileri.md](announcements/PHYS104_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

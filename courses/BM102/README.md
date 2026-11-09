@@ -3,4 +3,27 @@
 
 *Computer Programming II* · required · curriculum semester: 2
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM102_slides_bm102-nesneye-yonelik-programlama-java-ders-sunumu.pdf](slides/BM102_slides_bm102-nesneye-yonelik-programlama-java-ders-sunumu.pdf) | BM102 Nesneye Yönelik Programlama Java Ders Sunumu |  |  |
+
+## lab
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM102_lab_2023-spring_w01_lab-1-hafta-sorulari.jpg](labs/BM102_lab_2023-spring_w01_lab-1-hafta-sorulari.jpg) | Lab 1. Hafta Soruları | 2023 spring |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM102_syllabus_2023-spring_w6788_projebildirimformu.pdf](syllabus/BM102_syllabus_2023-spring_w6788_projebildirimformu.pdf) | ProjeBildirimFormu | 2023 spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM102_announcement_sohbetten-sinav-bilgileri.md](announcements/BM102_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

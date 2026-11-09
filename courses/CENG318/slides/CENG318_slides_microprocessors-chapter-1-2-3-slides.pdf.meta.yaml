@@ -1,0 +1,16 @@
+file: CENG318_slides_microprocessors-chapter-1-2-3-slides.pdf
+sha256: 9116d62bd18f58a463165f4ab4ef241d349ab4b75b47f3d4393f6420c3e49706
+size: 820604
+course: CENG318
+kind: slides
+title: Microprocessors Chapter 1-2-3 Slides
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı/notu; yerleştirildi.

@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-1-guvenlikkulturu.pdf
+sha256: 7594a95a1ee8be3d72eda235bfdbdd1874772538b31bbffb513c088ac0b2fcb4
+size: 6160008
+course: ISG401
+kind: slides
+title: Hafta 01 – Güvenlik Kültürü
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

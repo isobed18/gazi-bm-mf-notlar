@@ -1,0 +1,15 @@
+file: BM207_studentnotes_math201-olasilik-ve-istatistik-ders-notlari-66-say.pdf
+sha256: 0d50080141ce97a17dadc9d8c456edf9b046921c660dd672db75835cd17e492a
+size: 97620799
+course: BM207
+kind: student-notes
+title: Olasılık ve İstatistik Ders Notları
+handwritten: true
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

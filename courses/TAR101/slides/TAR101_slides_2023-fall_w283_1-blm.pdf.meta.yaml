@@ -1,0 +1,17 @@
+file: TAR101_slides_2023-fall_w283_1-blm.pdf
+sha256: 978372b48122bcbfa4cee2e09ae099a709e78451edf3eb18b7ba5d6134c4725d
+size: 47496252
+course: TAR101
+kind: slides
+title: 1. Bölüm – Türk İnkılabını Hazırlayan Sebepler
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -3,4 +3,23 @@
 
 *Computer Networks* · required · curriculum semester: 8
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM402_slides_dns-nasil-calisir-slayti.jpeg](slides/BM402_slides_dns-nasil-calisir-slayti.jpeg) | DNS Nasıl Çalışır Slaytı |  |  |
+| [BM402_slides_tcp-tikaniklik-denetimi-durum-cizgesi-slayti.jpeg](slides/BM402_slides_tcp-tikaniklik-denetimi-durum-cizgesi-slayti.jpeg) | TCP Tıkanıklık Denetimi Durum Çizgesi Slaytı |  |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM402_exam_2024-spring_final_bilgisayar-aglari-final-sinavi-02-06-2025.pdf](exams/BM402_exam_2024-spring_final_bilgisayar-aglari-final-sinavi-02-06-2025.pdf) | Bilgisayar Ağları Final Sınavı (02.06.2025) | 2024 spring | final |
+| [BM402_exam_midterm_bilgisayar-aglari-vize-cikmis-sorular-ekran-gorunt.jpeg](exams/BM402_exam_midterm_bilgisayar-aglari-vize-cikmis-sorular-ekran-gorunt.jpeg) | Bilgisayar Ağları Vize Çıkmış Sorular Ekran Görüntüsü |  | midterm |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM402_announcement_sohbetten-sinav-bilgileri.md](announcements/BM402_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

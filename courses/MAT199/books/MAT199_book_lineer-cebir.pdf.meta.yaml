@@ -1,0 +1,15 @@
+file: MAT199_book_lineer-cebir.pdf
+sha256: b31d801d6ec280d4c234097d1ceb8233083fc071adf428482362db14678435da
+size: 65543592
+course: MAT199
+kind: book
+title: Lineer Cebir
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: TUR101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumu.pdf
+sha256: d2c8731a12b99d709ada46ce1beffa79aa5b6516740a986b826862756e6d9b9e
+size: 555809
+course: TUR101
+kind: exam-solution
+title: 2022-2023 Güz Vize Çözümü
+year: 2022
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

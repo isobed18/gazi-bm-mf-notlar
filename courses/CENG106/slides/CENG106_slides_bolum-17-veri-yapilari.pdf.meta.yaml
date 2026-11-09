@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-17-veri-yapilari.pdf
+sha256: 538dedbddcd636402118451c5d75384909e5e19341da4804630da2c06bf4f8ec
+size: 1134967
+course: CENG106
+kind: slides
+title: Bölüm 17 – Veri Yapıları
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

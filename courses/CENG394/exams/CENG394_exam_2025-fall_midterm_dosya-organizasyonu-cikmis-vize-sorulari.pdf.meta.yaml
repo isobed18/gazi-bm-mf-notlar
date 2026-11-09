@@ -1,0 +1,18 @@
+file: CENG394_exam_2025-fall_midterm_dosya-organizasyonu-cikmis-vize-sorulari.pdf
+sha256: cf8c4795b523f09931729f98840283edab9278816675da59cd354bbebc9ae718
+size: 1629376
+course: CENG394
+kind: exam
+title: File_Organization_Past_Midterm_Questions
+year: 2025
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

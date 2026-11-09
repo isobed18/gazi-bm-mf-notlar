@@ -1,0 +1,18 @@
+file: CENG394_homework_2024-fall_ceng-394-homework-1-fall-2024.pdf
+sha256: 20bdaa52cfab19d80853c1dbf062f456a885513d48a3a69efb9efdce282cf16d
+size: 80213
+course: CENG394
+kind: homework
+title: CENG 394 Homework 1 Fall 2024
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: homework

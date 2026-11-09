@@ -1,0 +1,17 @@
+file: BM211_slides_2024-fall_w8843_bm211-opamp.pdf
+sha256: 1e0a77ebf070e1de128a19f29b1c5988a2f38a901f59a268573dde2641bc29f2
+size: 885661
+course: BM211
+kind: slides
+title: Op-Amp Ders Sunumu
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

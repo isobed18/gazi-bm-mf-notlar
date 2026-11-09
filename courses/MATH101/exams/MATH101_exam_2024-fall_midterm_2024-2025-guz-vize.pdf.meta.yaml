@@ -1,0 +1,18 @@
+file: MATH101_exam_2024-fall_midterm_2024-2025-guz-vize.pdf
+sha256: ed52a673cb7bd9e2e4bdc1fac2dfe9cb20b47ef0f0ff6bee14390f49ff5d9478
+size: 352344
+course: MATH101
+kind: exam
+title: 2024-2025 Güz Vize
+year: 2024
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

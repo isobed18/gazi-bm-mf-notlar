@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-13-istisna-yakalama.pdf
+sha256: d9ba96698f8fb5891207ed1d052cbf172d1d98a3e5e1fc50ac1bf18b83671df1
+size: 1104117
+course: CENG106
+kind: slides
+title: Bölüm 13 – İstisna Yakalama
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: TUR102_exam_2002-spring_midterm_2002-2003-bahar-vize.pdf
+sha256: 03d5b9ac32abd45ab187ff8d8426b9e6d9deb5ec4130076e18c3067b3b964467
+size: 94243
+course: TUR102
+kind: exam
+title: 2022-2023 Bahar Vize
+year: 2022
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

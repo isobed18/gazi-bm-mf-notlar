@@ -1,0 +1,17 @@
+file: CENG316_studentnotes_2024-spring_midterm_database-systems-midterm-sorulari-ve-cozumleri.pdf
+sha256: 0e22cc54a4134a2c2ddc64372c18e8e0eba693709e75a9f975c2ada79744ee65
+size: 3350248
+course: CENG316
+kind: student-notes
+title: Database Systems Ders Notları
+term: spring
+handwritten: true
+related: courses\CENG316\exams\CENG316_exam_2024-spring_midterm_database-systems-midterm-sorulari.pdf
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

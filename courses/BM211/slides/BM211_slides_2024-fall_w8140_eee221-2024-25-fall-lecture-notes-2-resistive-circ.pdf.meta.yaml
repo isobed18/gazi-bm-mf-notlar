@@ -1,0 +1,18 @@
+file: BM211_slides_2024-fall_w8140_eee221-2024-25-fall-lecture-notes-2-resistive-circ.pdf
+sha256: ab7ad813e05f6e96297151f96e1056eda8f5be379930c6bdd7743124a534b83b
+size: 2789017
+course: BM211
+kind: slides
+title: Hafta 2 – Resistive Circuits
+year: 2024
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

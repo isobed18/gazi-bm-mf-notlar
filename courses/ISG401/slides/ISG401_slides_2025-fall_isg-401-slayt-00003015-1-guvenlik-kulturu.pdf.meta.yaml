@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003015-1-guvenlik-kulturu.pdf
+sha256: 95879371d53f53ba3aa0614349af370b1e5ec61425d71e488fe0800838865407
+size: 8996216
+course: ISG401
+kind: slides
+title: 1 – Güvenlik Kültürü ve İSG
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,15 @@
+file: TUR101_exam_turk-dili-i-ii-cikmis-sinav-sorulari-ve-cevaplari.pdf
+sha256: fb008a9ae008e8de7714dd24092cbe69c4d6f014ac05c15becc583953429a271
+size: 185372
+course: TUR101
+kind: exam
+title: Türk Dili I-II Çıkmış Sınav Soruları ve Cevapları
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,16 @@
+file: BM402_slides_dns-nasil-calisir-slayti.jpeg
+sha256: d0f9f733daf11d94843fbbb1c74d3ff5f24db906a2c55e02b4fe22fc2a26e90f
+size: 222927
+course: BM402
+kind: slides
+title: DNS Nasıl Çalışır Slaytı
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

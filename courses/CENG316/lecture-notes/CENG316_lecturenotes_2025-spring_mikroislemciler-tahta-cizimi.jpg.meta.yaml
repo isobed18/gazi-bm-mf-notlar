@@ -1,0 +1,17 @@
+file: CENG316_lecturenotes_2025-spring_mikroislemciler-tahta-cizimi.jpg
+sha256: 55d4ebe9200c3a50490ce4b2d7bd133ac59f6d2856daa3212d2aed22fb3dc4cf
+size: 190064
+course: CENG316
+kind: lecture-notes
+title: ER Modelinden İlişkisel Modele Dönüşüm Tahta Notu
+year: 2025
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

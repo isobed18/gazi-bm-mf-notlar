@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-01-bilgisayarlar-ve-internete-giris.pdf
+sha256: e2d2bdbbcbfc1513500d459df5c4584a3f726ae1453f95c8c529dad151d507ce
+size: 953266
+course: CENG106
+kind: slides
+title: Bölüm 01 – Bilgisayarlar ve İnternete Giriş
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

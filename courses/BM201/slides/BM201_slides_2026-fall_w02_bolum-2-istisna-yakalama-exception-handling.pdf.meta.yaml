@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w02_bolum-2-istisna-yakalama-exception-handling.pdf
+sha256: 8013ebb07f7138389110cedbc72af206a97df8d6fb5507ccd7d7c6c155fcf7c7
+size: 971136
+course: BM201
+kind: slides
+title: Bölüm 2 - İstisna Yakalama (Exception Handling)
+year: 2026
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

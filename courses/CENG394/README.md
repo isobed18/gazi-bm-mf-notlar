@@ -3,4 +3,36 @@
 
 *File Organization* · technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG394_lecturenotes_2025-fall_file-organization-kitap-ornek-sorusu.jpg](lecture-notes/CENG394_lecturenotes_2025-fall_file-organization-kitap-ornek-sorusu.jpg) | File Organization Book Example | 2025 fall |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG394_studentnotes_ceng394-file-organization-ders-notlari-21-sayfa.pdf](student-notes/CENG394_studentnotes_ceng394-file-organization-ders-notlari-21-sayfa.pdf) | File Organization Student Notes |  |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG394_exam_2020-fall_final_ceng-307-file-organization-final-exam-2021.pdf](exams/CENG394_exam_2020-fall_final_ceng-307-file-organization-final-exam-2021.pdf) | CENG307 File Organization Final S?nav? | 2020 fall | final |
+| [CENG394_exam_2020-fall_midterm_ceng-307-file-organization-midterm-exam-2020.pdf](exams/CENG394_exam_2020-fall_midterm_ceng-307-file-organization-midterm-exam-2020.pdf) | CENG307 File Organization Vize S?nav? | 2020 fall | midterm |
+| [CENG394_exam_2025-fall_final_file-organization-2025-2026-guz-final-sorusu.jpg](exams/CENG394_exam_2025-fall_final_file-organization-2025-2026-guz-final-sorusu.jpg) | File Organization 2025-2026 Güz Final Sorusu | 2025 fall | final |
+| [CENG394_exam_2025-fall_midterm_dosya-organizasyonu-cikmis-vize-sorulari.pdf](exams/CENG394_exam_2025-fall_midterm_dosya-organizasyonu-cikmis-vize-sorulari.pdf) | File_Organization_Past_Midterm_Questions | 2025 fall | midterm |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG394_homework_2024-fall_ceng-394-homework-1-fall-2024.pdf](homework/CENG394_homework_2024-fall_ceng-394-homework-1-fall-2024.pdf) | CENG 394 Homework 1 Fall 2024 | 2024 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG394_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG394_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

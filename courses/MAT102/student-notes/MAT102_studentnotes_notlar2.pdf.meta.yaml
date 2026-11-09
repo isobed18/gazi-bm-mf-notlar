@@ -1,0 +1,16 @@
+file: MAT102_studentnotes_notlar2.pdf
+sha256: 382371c7c55945eea3b6bea340320b6c64f5a93e5652aa43c3fc915eef2184e8
+size: 23550568
+course: MAT102
+kind: student-notes
+title: Matematik II Öğrenci Notları Bölüm 2 – Hacim ve Yüzey Alanı
+term: spring
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

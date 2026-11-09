@@ -1,0 +1,17 @@
+file: TAR101_exam_midterm_guz-vize.pdf
+sha256: 32ad639a8b113e9e23bfb67c46f89cdac21e8ccb95c279a8cb8fe48a93a13308
+size: 412833
+course: TAR101
+kind: exam
+title: Güz Vize Çıkmış Sorular
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

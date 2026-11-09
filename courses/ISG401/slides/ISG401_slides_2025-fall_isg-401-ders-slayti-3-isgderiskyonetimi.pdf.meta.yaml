@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-3-isgderiskyonetimi.pdf
+sha256: f5346783297b14aefc194bf0fd4e682e253e20bcd6a6ed90d13104a3b92060af
+size: 2653288
+course: ISG401
+kind: slides
+title: Hafta 03 – İSG'de Risk Yönetimi
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: BM211_lecturenotes_2026-fall_w01_unite-1-temel-kavramlar-ve-ohm-kanunu.pdf
+sha256: f5eab75d4f5bebb0b031a641758cb6b1427d55f087a9d8b8d5dc9a52463bad14
+size: 2735009
+course: BM211
+kind: lecture-notes
+title: Ünite 1 – Temel Kavramlar ve Ohm Kanunu
+year: 2026
+term: fall
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

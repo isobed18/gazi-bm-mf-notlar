@@ -1,0 +1,16 @@
+file: TUR102_book_turk-dili-ii-ders-kitabi.pdf
+sha256: fa9a545e5f405c41a8c428f55dd64b50f1e5074050cc2bb5de77cb198aa3defd
+size: 9738786
+course: TUR102
+kind: book
+title: TURK-DILI-II Ders Kitabı
+term: spring
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,16 @@
+file: BM358_studentnotes_graf-teorisi-soru-cozumu-notlari.pdf
+sha256: bd09158c6820a113072f1e37cff8ecefbb72ffbe36cb125336b9653c86dcc977
+size: 7645407
+course: BM358
+kind: student-notes
+title: Graf Teorisi Soru Çözümü Notları
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders notu, soru çözümü veya resmi slayt; yerleştirildi.

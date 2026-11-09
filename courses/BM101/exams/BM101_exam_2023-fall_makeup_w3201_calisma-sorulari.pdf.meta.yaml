@@ -1,0 +1,19 @@
+file: BM101_exam_2023-fall_makeup_w3201_calisma-sorulari.pdf
+sha256: 49ad9720b0c97e4a9cb6e8ec27ae13b9734d2998a296ef3c6773cc2c8b1149e3
+size: 1050069
+course: BM101
+kind: exam
+title: C Programming Sample Questions
+year: 2023
+term: fall
+exam_type: sample
+week: 3201
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

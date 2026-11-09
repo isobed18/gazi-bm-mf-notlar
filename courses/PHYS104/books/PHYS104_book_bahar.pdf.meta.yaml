@@ -1,0 +1,16 @@
+file: PHYS104_book_bahar.pdf
+sha256: 4c63f581ddd90707dec4a62d044df3663e12b80eec430f664268c328804a1067
+size: 55660200
+course: PHYS104
+kind: book
+title: Physics_for_Scientists_and_Engineers_Serway_Jewett_9th_Edition
+term: spring
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

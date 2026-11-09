@@ -1,0 +1,18 @@
+file: FIZ103_lecturenotes_2023-fall_w01_bolum1orneksorular.pdf
+sha256: 6d6f12a1c97f48ea560b0edcd582f8101cba4608fc1438764e9968a9be872260
+size: 298408
+course: FIZ103
+kind: lecture-notes
+title: Bölüm 1 – Fizik ve Ölçme Örnek Sorular
+year: 2023
+term: fall
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

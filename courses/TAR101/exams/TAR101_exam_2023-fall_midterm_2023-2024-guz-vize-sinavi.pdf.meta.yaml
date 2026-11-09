@@ -1,0 +1,19 @@
+file: TAR101_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi.pdf
+sha256: 6e8b9a3dd2b50b3e2db4707551f484fa00bc76561f1d9d9fca741e7c2d6e50e1
+size: 703046
+course: TAR101
+kind: exam
+title: 2023-2024 Güz Vize
+year: 2023
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+language: en

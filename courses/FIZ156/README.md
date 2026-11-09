@@ -3,4 +3,21 @@
 
 *Physics Laboratory* · required · curriculum semester: 2
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ156_gradedistribution_gecmis-harf-notu-dagilimlari.png](grade-distributions/FIZ156_gradedistribution_gecmis-harf-notu-dagilimlari.png) | 2023-2024 Bahar Harf Notu Da??l?m? | 2023 spring |  |
+
+## lab
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ156_lab_fizik-laboratuvari-deney-kitapcigi.pdf](labs/FIZ156_lab_fizik-laboratuvari-deney-kitapcigi.pdf) | Fizik Laboratuvarı Deney Kitapçığı | spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ156_announcement_sohbetten-sinav-bilgileri.md](announcements/FIZ156_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

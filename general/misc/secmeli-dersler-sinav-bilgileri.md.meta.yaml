@@ -1,0 +1,15 @@
+file: secmeli-dersler-sinav-bilgileri.md
+sha256: 1545ee066fd5f0dbfb171d59b3719bbfb2dc6c5666f552b3f22b133f7abb8bd4
+size: 1369
+kind: general:misc
+title: Seçmeli Dersler Sınav Bilgileri
+handwritten: false
+source:
+  type: whatsapp
+  ref: gaziuni-mf-ceng23
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının talebiyle ders kodları değil ders adları esas alınarak korunuyor.

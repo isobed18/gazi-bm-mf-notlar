@@ -1,0 +1,17 @@
+file: FIZ103_gradedistribution_2021-fall_2021-2022-guz-harf-notu-dagilimi.jpg
+sha256: c26b3079f19bc2756e23c595b37325459e98e310541bf961a7b09dd5001e68e6
+size: 79638
+course: FIZ103
+kind: grade-distribution
+title: 2021-2022 Güz Harf Notu Dağılımı
+year: 2021
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

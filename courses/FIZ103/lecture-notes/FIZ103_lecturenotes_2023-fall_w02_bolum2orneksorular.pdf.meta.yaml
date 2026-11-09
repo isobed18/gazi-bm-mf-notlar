@@ -1,0 +1,18 @@
+file: FIZ103_lecturenotes_2023-fall_w02_bolum2orneksorular.pdf
+sha256: beb6dc797cf2059de2d9d5ce8b7ab090c9a6bf58192a5b529d2dbc89ef3ab76f
+size: 908195
+course: FIZ103
+kind: lecture-notes
+title: Bölüm 2 – Vektörler Örnek Sorular
+year: 2023
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

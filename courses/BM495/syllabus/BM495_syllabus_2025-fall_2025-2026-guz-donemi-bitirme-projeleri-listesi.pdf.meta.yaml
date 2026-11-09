@@ -1,0 +1,18 @@
+file: BM495_syllabus_2025-fall_2025-2026-guz-donemi-bitirme-projeleri-listesi.pdf
+sha256: e9a77df06f7679ffc5c726fdf035b5a2a0a5bfe542786b01a1bb6dc06e457355
+size: 376782
+course: BM495
+kind: syllabus
+title: 2025-2026 Güz Dönemi Bitirme Projeleri Listesi
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: administrative

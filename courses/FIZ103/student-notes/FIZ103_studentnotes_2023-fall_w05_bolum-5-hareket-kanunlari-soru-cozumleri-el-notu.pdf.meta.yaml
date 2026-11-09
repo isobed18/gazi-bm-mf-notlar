@@ -1,0 +1,18 @@
+file: FIZ103_studentnotes_2023-fall_w05_bolum-5-hareket-kanunlari-soru-cozumleri-el-notu.pdf
+sha256: 6feb26369746d01fe80a897cb87cf2b78a24c0cba6cac851e4e53358d632f697
+size: 3871358
+course: FIZ103
+kind: student-notes
+title: Bölüm 5 – Hareket Kanunları Soru Çözümleri El Notu
+year: 2023
+term: fall
+week: 5
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

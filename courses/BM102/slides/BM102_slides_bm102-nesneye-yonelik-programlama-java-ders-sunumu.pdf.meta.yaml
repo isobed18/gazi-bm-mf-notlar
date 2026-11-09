@@ -1,0 +1,16 @@
+file: BM102_slides_bm102-nesneye-yonelik-programlama-java-ders-sunumu.pdf
+sha256: 1b4b998c3934bb7b6dbe8349368b082960c6b14df0e3ae10563939f8911ecf98
+size: 528713
+course: BM102
+kind: slides
+title: BM102 Nesneye Yönelik Programlama Java Ders Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

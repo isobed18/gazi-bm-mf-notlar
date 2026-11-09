@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-24-ag-programlama.pdf
+sha256: 9f044a007a8345a8d8ac4766f0d98d33408ebaa5c6e95c368796e73994a1bee7
+size: 1499403
+course: CENG106
+kind: slides
+title: Bölüm 24 – Ağ Programlama
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

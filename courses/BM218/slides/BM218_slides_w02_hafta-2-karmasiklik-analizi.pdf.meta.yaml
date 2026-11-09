@@ -1,0 +1,17 @@
+file: BM218_slides_w02_hafta-2-karmasiklik-analizi.pdf
+sha256: 36dc0abaaddbf8ef3a830c5b5bbd766edaba74670cac5595a32ddb3dfc7aa66e
+size: 996246
+course: BM218
+kind: slides
+title: Hafta 2 – Karmaşıklık Analizi
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

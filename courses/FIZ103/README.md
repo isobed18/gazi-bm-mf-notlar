@@ -3,4 +3,70 @@
 
 *Physics I* · required · curriculum semester: 1
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_lecturenotes_2023-fall_w01_bolum1orneksorular.pdf](lecture-notes/FIZ103_lecturenotes_2023-fall_w01_bolum1orneksorular.pdf) | Bölüm 1 – Fizik ve Ölçme Örnek Sorular | 2023 fall |  |
+| [FIZ103_lecturenotes_2023-fall_w02_bolum2orneksorular.pdf](lecture-notes/FIZ103_lecturenotes_2023-fall_w02_bolum2orneksorular.pdf) | Bölüm 2 – Vektörler Örnek Sorular | 2023 fall |  |
+| [FIZ103_lecturenotes_2023-fall_w03_bolum3orneksorular.pdf](lecture-notes/FIZ103_lecturenotes_2023-fall_w03_bolum3orneksorular.pdf) | Bölüm 3 – Bir Boyutta Hareket Örnek Sorular | 2023 fall |  |
+| [FIZ103_lecturenotes_2023-fall_w04_bolum4orneksorular.pdf](lecture-notes/FIZ103_lecturenotes_2023-fall_w04_bolum4orneksorular.pdf) | Bölüm 4 – İki Boyutta Hareket Örnek Sorular | 2023 fall |  |
+| [FIZ103_lecturenotes_2023-fall_w06_bolum6orneksorular.pdf](lecture-notes/FIZ103_lecturenotes_2023-fall_w06_bolum6orneksorular.pdf) | Bölüm 6 – Dairesel Hareket Örnek Sorular | 2023 fall |  |
+| [FIZ103_lecturenotes_2023-fall_w09_bolum9orneksorular.pdf](lecture-notes/FIZ103_lecturenotes_2023-fall_w09_bolum9orneksorular.pdf) | Bölüm 9 – Doğrusal Momentum Örnek Sorular | 2023 fall |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_studentnotes_2023-fall_w05_bolum-5-hareket-kanunlari-soru-cozumleri-el-notu.pdf](student-notes/FIZ103_studentnotes_2023-fall_w05_bolum-5-hareket-kanunlari-soru-cozumleri-el-notu.pdf) | Bölüm 5 – Hareket Kanunları Soru Çözümleri El Notu | 2023 fall |  |
+| [FIZ103_studentnotes_2023-fall_w07_bolum-7-is-ve-enerji-soru-cozumleri-el-notu.pdf](student-notes/FIZ103_studentnotes_2023-fall_w07_bolum-7-is-ve-enerji-soru-cozumleri-el-notu.pdf) | Bölüm 7 – İş ve Enerji Soru Çözümleri El Notu | 2023 fall |  |
+| [FIZ103_studentnotes_2023-fall_w08_bolum-8-potansiyel-enerji-soru-cozumleri-el-notu.pdf](student-notes/FIZ103_studentnotes_2023-fall_w08_bolum-8-potansiyel-enerji-soru-cozumleri-el-notu.pdf) | Bölüm 8 – Potansiyel Enerji Soru Çözümleri El Notu | 2023 fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_exam_2022-fall_midterm_2022-2023-guz-vize.pdf](exams/FIZ103_exam_2022-fall_midterm_2022-2023-guz-vize.pdf) | 2022-2023 Güz Vize | 2022 fall | midterm |
+| [FIZ103_exam_2025-fall_final_2025-2026-guz-final.pdf](exams/FIZ103_exam_2025-fall_final_2025-2026-guz-final.pdf) | 2025-2026 Güz Final (D Grubu) | 2025 fall | final |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_examsolution_2022-fall_final_2022-2023-guz-final-cozumleri.pdf](exam-solutions/FIZ103_examsolution_2022-fall_final_2022-2023-guz-final-cozumleri.pdf) | 2022-2023 Güz Final Çözümleri | 2022 fall | final |
+| [FIZ103_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-ingilizce.pdf](exam-solutions/FIZ103_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-ingilizce.pdf) | 2023-2024 Güz Final Çözümleri (İngilizce) | 2023 fall | final |
+| [FIZ103_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-turkce.pdf](exam-solutions/FIZ103_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-turkce.pdf) | 2023-2024 Güz Final Çözümleri (Türkçe) | 2023 fall | final |
+| [FIZ103_examsolution_2023-fall_makeup_2023-2024-guz-butunleme-cozumleri.pdf](exam-solutions/FIZ103_examsolution_2023-fall_makeup_2023-2024-guz-butunleme-cozumleri.pdf) | 2023-2024 Güz Bütünleme Çözümleri | 2023 fall | makeup |
+| [FIZ103_examsolution_2023-fall_midterm_2023-2024-guz-vize-cozumleri.pdf](exam-solutions/FIZ103_examsolution_2023-fall_midterm_2023-2024-guz-vize-cozumleri.pdf) | 2023-2024 Güz Vize Çözümleri | 2023 fall | midterm |
+| [FIZ103_examsolution_2025-fall_midterm_2025-2026-guz-vize-cozumleri.pdf](exam-solutions/FIZ103_examsolution_2025-fall_midterm_2025-2026-guz-vize-cozumleri.pdf) | 2025-2026 Güz Vize Çözümleri | 2025 fall | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_gradedistribution_2021-fall_2021-2022-guz-harf-notu-dagilimi.jpg](grade-distributions/FIZ103_gradedistribution_2021-fall_2021-2022-guz-harf-notu-dagilimi.jpg) | 2021-2022 Güz Harf Notu Dağılımı | 2021 fall |  |
+| [FIZ103_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png](grade-distributions/FIZ103_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png) | 2023-2024 Güz Harf Notu Dağılımı | 2023 fall |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_book_00000279-serway-physics-6th-edition-pdf.pdf](books/FIZ103_book_00000279-serway-physics-6th-edition-pdf.pdf) | 00000279-Serway_Physics_6th_Edition.pdf |  |  |
+| [FIZ103_book_00000289-serway-fizik-1-kitab-tuerkcoe-coevir.pdf](books/FIZ103_book_00000289-serway-fizik-1-kitab-tuerkcoe-coevir.pdf) | 00000289-Serway Fizik 1 Kitab─▒ Tu╠êrkc╠ºe C╠ºevir |  |  |
+| [FIZ103_book_physics-textbook.pdf](books/FIZ103_book_physics-textbook.pdf) | Physics textbook |  |  |
+| [FIZ103_book_serway-fizik-i-ii.pdf](books/FIZ103_book_serway-fizik-i-ii.pdf) | Serway Fizik I-II |  |  |
+| [FIZ103_book_serway-jewett-physics.pdf](books/FIZ103_book_serway-jewett-physics.pdf) | Serway Jewett Physics |  |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_syllabus_2023-fall_ders-izlencesi.pdf](syllabus/FIZ103_syllabus_2023-fall_ders-izlencesi.pdf) | Ders İzlencesi | 2023 fall |  |
+| [FIZ103_syllabus_2023-fall_w1882_tbgwqzrmutsoizdtbu5e4wmb58d0484cd46f422f9d6aa58710.pdf](syllabus/FIZ103_syllabus_2023-fall_w1882_tbgwqzrmutsoizdtbu5e4wmb58d0484cd46f422f9d6aa58710.pdf) | 2023-2024 Güz Ders İzlencesi | 2023 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [FIZ103_announcement_sohbetten-sinav-bilgileri.md](announcements/FIZ103_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

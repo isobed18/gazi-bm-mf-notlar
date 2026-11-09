@@ -1,0 +1,18 @@
+file: BM211_slides_2024-fall_w8142_eee221-2024-25-fall-lecture-notes-1-introduction-t.pdf
+sha256: a562cc1dc3222f715fb85cab1b840a8779faee2f236ecf7957bfc9ee5287c477
+size: 2803036
+course: BM211
+kind: slides
+title: Hafta 1 – Giriş ve Temel Kavramlar
+year: 2024
+term: fall
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

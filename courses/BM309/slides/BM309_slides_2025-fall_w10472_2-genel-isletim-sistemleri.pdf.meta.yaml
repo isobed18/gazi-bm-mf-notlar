@@ -1,0 +1,18 @@
+file: BM309_slides_2025-fall_w10472_2-genel-isletim-sistemleri.pdf
+sha256: 25e53b686d3becba7d9c693fc703742f31fd5ce4fd5f155e9358070d0657f45c
+size: 623685
+course: BM309
+kind: slides
+title: Hafta 2 – Genel İşletim Sistemleri
+year: 2024
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

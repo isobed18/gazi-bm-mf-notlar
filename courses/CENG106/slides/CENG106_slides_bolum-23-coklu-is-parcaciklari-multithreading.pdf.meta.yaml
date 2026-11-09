@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-23-coklu-is-parcaciklari-multithreading.pdf
+sha256: d07c03862aa2cccb968f0e57a97151b1d2a8a3105abd4398fa1bded10fa6119b
+size: 1686648
+course: CENG106
+kind: slides
+title: Bölüm 23 – Çoklu İş Parçacıkları (Multithreading)
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

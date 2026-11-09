@@ -1,0 +1,16 @@
+file: ENG203_exam_final_eng203-academic-english-i-final-exam.pdf
+sha256: 21bcd6f764c43c9cccb372f83afe54fb815d8ad45612ce5eab45c1b852b52ae0
+size: 651757
+course: ENG203
+kind: exam
+title: ENG203 Academic English I Final Exam
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

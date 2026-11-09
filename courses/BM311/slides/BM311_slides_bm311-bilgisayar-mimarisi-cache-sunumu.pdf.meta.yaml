@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-cache-sunumu.pdf
+sha256: a15509e56071b65af44a91173e37c9a91eac2449dd6f721077441699c7d69783
+size: 1394758
+course: BM311
+kind: slides
+title: BM311 Bilgisayar Mimarisi cache Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: superseded

@@ -3,4 +3,34 @@
 
 *Algorithm Design and Analysis* · required · curriculum semester: 4
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-1.pdf](slides/BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-1.pdf) | Hafta 1 - Giriş ve Algoritma Karmaşıklığı |  |  |
+| [BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-2.pdf](slides/BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-2.pdf) | Hafta 2 - Karmaşıklık Analizi |  |  |
+| [BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-3.pdf](slides/BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-3.pdf) | Hafta 3 - Böl ve Fethet Algoritmaları |  |  |
+| [BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-4.pdf](slides/BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-4.pdf) | Hafta 4 - Arama ve Hash Tabloları |  |  |
+| [BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-5.pdf](slides/BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-5.pdf) | Hafta 5 - Sıralama Algoritmaları |  |  |
+| [BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-6.pdf](slides/BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-6.pdf) | Hafta 6 - Sıralamaya Devam (Merge Sort) |  |  |
+| [BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-7.pdf](slides/BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-7.pdf) | Hafta 7 - Ağaç Algoritmaları |  |  |
+| [BM218_slides_makeup_w10_hafta-10-cizge-graf-algoritmalari.pdf](slides/BM218_slides_makeup_w10_hafta-10-cizge-graf-algoritmalari.pdf) | Hafta 10 – Çizge (Graf) Algoritmaları | spring |  |
+| [BM218_slides_w01_hafta-1-giris-ve-algoritma-karmasikligi.pdf](slides/BM218_slides_w01_hafta-1-giris-ve-algoritma-karmasikligi.pdf) | Hafta 1 – Giriş ve Algoritma Karmaşıklığı | spring |  |
+| [BM218_slides_w02_hafta-2-karmasiklik-analizi.pdf](slides/BM218_slides_w02_hafta-2-karmasiklik-analizi.pdf) | Hafta 2 – Karmaşıklık Analizi | spring |  |
+| [BM218_slides_w03_hafta-3-bol-ve-yonet-algoritmalari.pdf](slides/BM218_slides_w03_hafta-3-bol-ve-yonet-algoritmalari.pdf) | Hafta 3 – Böl ve Yönet Algoritmaları | spring |  |
+| [BM218_slides_w04_hafta-4-ikili-arama-hash-tablolari.pdf](slides/BM218_slides_w04_hafta-4-ikili-arama-hash-tablolari.pdf) | Hafta 4 – İkili Arama ve Hash Tabloları | spring |  |
+| [BM218_slides_w05_hafta-5-siralama.pdf](slides/BM218_slides_w05_hafta-5-siralama.pdf) | Hafta 5 – Sıralama 1 | spring |  |
+| [BM218_slides_w06_hafta-6-siralama.pdf](slides/BM218_slides_w06_hafta-6-siralama.pdf) | Hafta 6 – Sıralama 2 | spring |  |
+| [BM218_slides_w07_hafta-7-agaclar-red-black-trees.pdf](slides/BM218_slides_w07_hafta-7-agaclar-red-black-trees.pdf) | Hafta 7 - Ağaçlar (Red Black Trees) |  |  |
+| [BM218_slides_w08_hafta-8-agaclar-b-trees.pdf](slides/BM218_slides_w08_hafta-8-agaclar-b-trees.pdf) | Hafta 8 – Ağaçlar (B Trees) | spring |  |
+| [BM218_slides_w09_hafta-9-cizge-graf-algoritmalari.pdf](slides/BM218_slides_w09_hafta-9-cizge-graf-algoritmalari.pdf) | Hafta 9 – Çizge (Graf) Algoritmaları | spring |  |
+| [BM218_slides_w11_hafta-11-dinamik-programlama.pdf](slides/BM218_slides_w11_hafta-11-dinamik-programlama.pdf) | Hafta 11 - Dinamik Programlama |  |  |
+| [BM218_slides_w12_hafta-12-acgozlu-algoritmalar.pdf](slides/BM218_slides_w12_hafta-12-acgozlu-algoritmalar.pdf) | Hafta 12 – Açgözlü Algoritmalar | spring |  |
+| [BM218_slides_w13_hafta-13-karmasiklik-siniflari.pdf](slides/BM218_slides_w13_hafta-13-karmasiklik-siniflari.pdf) | Hafta 13 – Karmaşıklık Sınıfları | spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM218_announcement_sohbetten-sinav-bilgileri.md](announcements/BM218_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

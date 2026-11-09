@@ -1,0 +1,18 @@
+file: TAR102_slides_2023-spring_w03_3-4-5-hafta-inkilaplar-ve-dis-politika.pdf
+sha256: e81cfea298108774c75ff76ace2f614b31fb361e3f68ad99e67644adef835b11
+size: 3937272
+course: TAR102
+kind: slides
+title: 3-4-5. Hafta – İnkılaplar ve Dış Politika
+year: 2023
+term: spring
+week: 3
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,16 @@
+file: PHYS104_summary_gauss-law-ultimate-study-guide.pdf
+sha256: 3d34738d7769e094055cfd55ee2c3289fae7fcc3e5b36a90feb6c97d98b96e8b
+size: 1509520
+course: PHYS104
+kind: summary
+title: Gauss Law Study Guide
+term: spring
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

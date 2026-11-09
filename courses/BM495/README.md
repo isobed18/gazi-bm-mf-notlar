@@ -3,4 +3,11 @@
 
 *Computer Engineering Project I* · required · curriculum semester: 7
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM495_syllabus_2025-fall_2025-2026-guz-donemi-bitirme-projeleri-listesi-2.pdf](syllabus/BM495_syllabus_2025-fall_2025-2026-guz-donemi-bitirme-projeleri-listesi-2.pdf) | 2025-2026 Güz Dönemi Bitirme Projeleri Listesi | 2025 fall |  |
+| [BM495_syllabus_2025-fall_2025-2026-guz-donemi-bitirme-projeleri-listesi.pdf](syllabus/BM495_syllabus_2025-fall_2025-2026-guz-donemi-bitirme-projeleri-listesi.pdf) | 2025-2026 Güz Dönemi Bitirme Projeleri Listesi | 2025 fall |  |
+| [BM495_syllabus_2025-fall_bitirme-projesi-sunum-sablonu-ve-yonergesi.pdf](syllabus/BM495_syllabus_2025-fall_bitirme-projesi-sunum-sablonu-ve-yonergesi.pdf) | Bitirme Projesi Sunum Şablonu ve Yönergesi | 2025 fall |  |

@@ -1,0 +1,18 @@
+file: MAT102_examsolution_2023-spring_w7114_rl5ovgbk5omzxcn5vis0chilcb5844f369c1417c877cfac62a.pdf
+sha256: afc23a0b59ce440bcfe700f6b7061ec0f5b73ef74047a6743e3fa3e297984936
+size: 2192806
+course: MAT102
+kind: exam-solution
+title: 2023-2024 Bahar Vize Çözümü A Grubu
+year: 2023
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+exam_type: midterm

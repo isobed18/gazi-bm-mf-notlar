@@ -3,4 +3,61 @@
 
 *Academic English II* · language · curriculum semester: 4
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_lecturenotes_2024-spring_clauses-2024.pdf](lecture-notes/ENG204_lecturenotes_2024-spring_clauses-2024.pdf) | Clauses in English Dilbilgisi Notu | 2024 spring |  |
+| [ENG204_lecturenotes_can-gur.pdf](lecture-notes/ENG204_lecturenotes_can-gur.pdf) | Can Gür - Essay Writing Rehberi ve Ders Notları | spring |  |
+| [ENG204_lecturenotes_eng204-academic-english-ii-basics-of-doing-researc.pdf](lecture-notes/ENG204_lecturenotes_eng204-academic-english-ii-basics-of-doing-researc.pdf) | Basics of Doing Research Ders Notu |  |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_exam_2020-spring_final_2020-2021-bahar-final.pdf](exams/ENG204_exam_2020-spring_final_2020-2021-bahar-final.pdf) | 2020-2021 Bahar Final | 2020 spring | final |
+| [ENG204_exam_2020-spring_midterm_2020-2021-bahar-vize.pdf](exams/ENG204_exam_2020-spring_midterm_2020-2021-bahar-vize.pdf) | 2020-2021 Bahar Vize | 2020 spring | midterm |
+| [ENG204_exam_2020-summer_final_2020-2021-yaz-final.pdf](exams/ENG204_exam_2020-summer_final_2020-2021-yaz-final.pdf) | 2020-2021 Yaz Final | 2020 summer | final |
+| [ENG204_exam_2022-spring_final_2022-2023-bahar-final.pdf](exams/ENG204_exam_2022-spring_final_2022-2023-bahar-final.pdf) | 2022-2023 Bahar Final | 2022 spring | final |
+| [ENG204_exam_2022-spring_midterm_2022-2023-bahar-vize.pdf](exams/ENG204_exam_2022-spring_midterm_2022-2023-bahar-vize.pdf) | 2022-2023 Bahar Vize | 2022 spring | midterm |
+| [ENG204_exam_2022-spring_midterm_eng-204-midterm-exam-2022-2023.pdf](exams/ENG204_exam_2022-spring_midterm_eng-204-midterm-exam-2022-2023.pdf) | 2022-2023 Bahar Vize (Varyant) | 2022 spring | midterm |
+| [ENG204_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf](exams/ENG204_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf) | 2024-2025 Bahar Vize | 2024 spring | midterm |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_examsolution_2020-spring_final_eng204-final-solution-manuel-20-21.pdf](exam-solutions/ENG204_examsolution_2020-spring_final_eng204-final-solution-manuel-20-21.pdf) | 2020-2021 Bahar Final Çözüm Anahtarı | 2020 spring | final |
+| [ENG204_examsolution_2020-spring_midterm_eng204-vize-solution-manuel-20-21.pdf](exam-solutions/ENG204_examsolution_2020-spring_midterm_eng204-vize-solution-manuel-20-21.pdf) | 2020-2021 Bahar Vize Çözüm Anahtarı | 2020 spring | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_gradedistribution_2004-spring_2004-2005-harf-notu-dagilimi.jpg](grade-distributions/ENG204_gradedistribution_2004-spring_2004-2005-harf-notu-dagilimi.jpg) | 2022-2023 Bahar Harf Notu Dağılımı | 2022 spring |  |
+| [ENG204_gradedistribution_2024-spring_2024-2025-harf-notu-dagilimi.png](grade-distributions/ENG204_gradedistribution_2024-spring_2024-2025-harf-notu-dagilimi.png) | 2024-2025 Bahar Harf Notu Dağılımı | 2024 spring |  |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_homework_connectives-exercises-for-students.pdf](homework/ENG204_homework_connectives-exercises-for-students.pdf) | Connectives Alıştırmaları | spring |  |
+
+## homework-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_homeworksolution_connectives-exercises-key-docx.pdf](homework-solutions/ENG204_homeworksolution_connectives-exercises-key-docx.pdf) | Connectives Alıştırmaları Çözüm Anahtarı | spring |  |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_summary_can-gur-useful-language-structures.pdf](summaries/ENG204_summary_can-gur-useful-language-structures.pdf) | Can Gür - Useful Language Structures for Linking Ideas | spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG204_announcement_sohbetten-sinav-bilgileri.md](announcements/ENG204_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

@@ -1,0 +1,16 @@
+file: MAT102_studentnotes_notlar3.pdf
+sha256: 21b75780eabad22b1ac8577a2a688ad9d06cf63eb3c159d59bf106d0c4ae720e
+size: 22242428
+course: MAT102
+kind: student-notes
+title: Matematik II Öğrenci Notları Bölüm 3 – Seriler
+term: spring
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

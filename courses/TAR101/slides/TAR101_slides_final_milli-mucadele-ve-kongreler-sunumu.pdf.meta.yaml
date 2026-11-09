@@ -1,0 +1,17 @@
+file: TAR101_slides_final_milli-mucadele-ve-kongreler-sunumu.pdf
+sha256: 18aed5c9a48bc1423433b88252d68e03f62b8270718f869342bdbd348bc2196b
+size: 57140921
+course: TAR101
+kind: slides
+title: Milli Mücadele ve Kongreler Sunumu
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

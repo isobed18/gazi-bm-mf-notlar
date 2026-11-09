@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-28-jax-ws-web-servisleri.pdf
+sha256: 28d78021d5acbfcf01063dbfa91c73b77b59990dc7aad2c9b7cb1063f700dabe
+size: 2218278
+course: CENG106
+kind: slides
+title: Bölüm 28 – JAX-WS Web Servisleri
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,16 @@
+file: BM402_slides_tcp-tikaniklik-denetimi-durum-cizgesi-slayti.jpeg
+sha256: 4a563b9355350c96fe605ee408e387fbb5dedfd10942200b27ee72fad0da1be6
+size: 78666
+course: BM402
+kind: slides
+title: TCP Tıkanıklık Denetimi Durum Çizgesi Slaytı
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

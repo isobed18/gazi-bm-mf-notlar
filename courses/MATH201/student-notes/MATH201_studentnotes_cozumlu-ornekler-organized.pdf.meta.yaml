@@ -1,0 +1,16 @@
+file: MATH201_studentnotes_cozumlu-ornekler-organized.pdf
+sha256: 64963039794e067bb8529d12937f78412bddd1221f3104373507f9ee729ac006
+size: 5515199
+course: MATH201
+kind: student-notes
+title: Diferansiyel Denklemler Çözümlü Örnekler
+term: fall
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

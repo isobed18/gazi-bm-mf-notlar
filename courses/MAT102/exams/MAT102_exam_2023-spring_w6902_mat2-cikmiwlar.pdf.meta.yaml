@@ -1,0 +1,19 @@
+file: MAT102_exam_2023-spring_w6902_mat2-cikmiwlar.pdf
+sha256: bc437651ab1d8681f402757ed8339ffa48ed3a3949a77f2543ce1894e19017e4
+size: 14321632
+course: MAT102
+kind: exam
+title: mat2 cikmiwlar
+year: 2023
+term: spring
+week: 6902
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

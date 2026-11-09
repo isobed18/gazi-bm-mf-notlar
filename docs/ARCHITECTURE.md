@@ -19,8 +19,11 @@ flowchart LR
 ```
 - **Archive (this repo)**: the source of truth for *files* and their metadata. Tool-agnostic: plain folders, YAML
   sidecars, a JSON index. Any agent/tool can read it.
-- **Obsidian vault**: generated study layer (hub/topic/past-exam notes) that links to archive files.
-  `archive.py export-obsidian` copies files, agents write notes (`obsidian-sync` skill).
+- **Obsidian vault**: generated, semester-based study layer (Dersler → dönem → ders → Çıkmış Sorular / Ders Notları /
+  Slaytlar) produced by `archive.py export-obsidian` (`obsidian-sync` skill).
+- **Chat exam information**: chats are split into numbered chunks (`chat-chunk`), agents record findings per chunk
+  (`chat-exam-intel`), `chat-merge` writes one note per course; `chat-coverage` proves every chunk was read.
+- **Weekly maintenance**: `tools/weekly.ps1` (scheduled) = deterministic pre step + agy agent + deterministic post step.
 - **Site**: later, a static site (e.g. Quartz, which renders Obsidian-style markdown) built from the notes + course
   READMEs, deployed by CI on merge.
 

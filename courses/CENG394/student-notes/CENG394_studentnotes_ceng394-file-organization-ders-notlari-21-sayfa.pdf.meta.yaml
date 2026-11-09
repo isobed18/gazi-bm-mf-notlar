@@ -1,0 +1,15 @@
+file: CENG394_studentnotes_ceng394-file-organization-ders-notlari-21-sayfa.pdf
+sha256: 2eb66d3dca4a68dd4fa9615025e52fd72a724b3847e12e2d91ec97b5935e6e43
+size: 13341804
+course: CENG394
+kind: student-notes
+title: File Organization Student Notes
+handwritten: true
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w06_bolum-6-1-html-hypertext-markup-language.pdf
+sha256: ac6a38c256efe86c1ecd9835994dab8f938bc0dfb64b35581137722a33eabb90
+size: 2516376
+course: BM201
+kind: slides
+title: Bölüm 6.1 - HTML (HyperText Markup Language)
+year: 2026
+term: fall
+week: 6
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

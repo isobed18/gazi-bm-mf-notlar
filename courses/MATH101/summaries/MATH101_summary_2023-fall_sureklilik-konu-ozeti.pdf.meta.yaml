@@ -1,0 +1,17 @@
+file: MATH101_summary_2023-fall_sureklilik-konu-ozeti.pdf
+sha256: 3f7fb710c84b792bb9cc75f142ca6849009c5f218e5c63293e306e08c1f47631
+size: 6638458
+course: MATH101
+kind: summary
+title: Süreklilik Konu Özeti
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

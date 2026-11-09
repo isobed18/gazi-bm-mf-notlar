@@ -1,0 +1,17 @@
+file: CENG316_lecturenotes_2024-spring_veritabani-sistemleri-tahta-notu-er-modeli.jpg
+sha256: 57da087acf0555c3d5cbe85b78539e1322e76290b29268415e880c3b414f0d77
+size: 153884
+course: CENG316
+kind: lecture-notes
+title: ER Modeli Tahta Çizimi
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,15 @@
+file: FIZ103_book_serway-fizik-i-ii.pdf
+sha256: 0add39addb392f8b494e459a6b2bb6762352b1a6ab25261d3dd721c152078cfe
+size: 25308849
+course: FIZ103
+kind: book
+title: Serway Fizik I-II
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

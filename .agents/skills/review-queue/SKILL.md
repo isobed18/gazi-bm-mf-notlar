@@ -21,6 +21,19 @@ Always propose something (course+kind or general category) even with low confide
 Group near-identical items: if 15 photos belong to the same exam, open **one** item for the first photo and mention
 the others in the reason (keep the rest in the inbox until the decision is known).
 
+### Maintainer focus
+Only open a review item when a safety/privacy or real course-matching decision blocks a past exam question/solution,
+course note, or official instructor slide. Prioritize PDF exams first, then course notes, then official slides. Never
+open items for curriculum, course/exam schedules, homework calendars or one-off homework details, academic calendars,
+general/university documents, internships, career material, or unrelated files; skip these without asking. Books are
+secondary: if a book clearly matches a course, add it without opening an issue; do not include books in the official
+Obsidian export.
+When an elective's name is clear, keep the material with that course name and do not ask for a course number merely
+because the catalog lacks one. Ask only about a real course/content ambiguity or a safety/privacy concern that blocks
+placing a high-priority resource. For private chat archives, do not publish filenames, chat excerpts, or unresolved
+personal material to GitHub; skip uncertain items locally and count them without describing them. Keep review questions
+short.
+
 ## Decisions the maintainer can write (`decision:` line in review.md)
 ```
 approve                         place exactly as proposed
@@ -43,7 +56,7 @@ corrects a pattern ("WA images from group X are lab photos of BM222"), apply it 
 mention it in your report.
 
 ## Publishing to GitHub (default way to reach the maintainer)
-After a batch, publish all open items as **one** issue:
+After a batch, publish only the remaining high-priority items as **one** issue:
 ```
 python -X utf8 tools/archive.py review-publish --batch "<what this batch was>"
 ```

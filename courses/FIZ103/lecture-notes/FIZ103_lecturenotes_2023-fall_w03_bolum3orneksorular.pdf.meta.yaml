@@ -1,0 +1,18 @@
+file: FIZ103_lecturenotes_2023-fall_w03_bolum3orneksorular.pdf
+sha256: 220fe778424317b62ae59d04ae2f64420efc1032a0a49cfbd6ff20f7d703fb98
+size: 715980
+course: FIZ103
+kind: lecture-notes
+title: Bölüm 3 – Bir Boyutta Hareket Örnek Sorular
+year: 2023
+term: fall
+week: 3
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

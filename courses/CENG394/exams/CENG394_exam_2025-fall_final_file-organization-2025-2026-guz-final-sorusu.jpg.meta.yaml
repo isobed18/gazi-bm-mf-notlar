@@ -1,0 +1,19 @@
+file: CENG394_exam_2025-fall_final_file-organization-2025-2026-guz-final-sorusu.jpg
+sha256: b51c7c50fce1d51367d9fad0630ee41789b0af972c2274d0a0b3d530cbdcfc7b
+size: 136204
+course: CENG394
+kind: exam
+title: File Organization 2025-2026 Güz Final Sorusu
+year: 2025
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: private

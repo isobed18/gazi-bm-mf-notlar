@@ -3,4 +3,31 @@
 
 *Fundamentals of Computer Engineering* · required · curriculum semester: 1
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM103_slides_2023-spring_makeup_w13_h13-html-layout.pdf](slides/BM103_slides_2023-spring_makeup_w13_h13-html-layout.pdf) | Hafta 13 – HTML Layout | 2023 fall |  |
+| [BM103_slides_2023-spring_w01_h1-proxyayarlar.pdf](slides/BM103_slides_2023-spring_w01_h1-proxyayarlar.pdf) | Hafta 1 – Proxy Ayarları | 2023 fall |  |
+| [BM103_slides_2023-spring_w02_h2-formatatma.pdf](slides/BM103_slides_2023-spring_w02_h2-formatatma.pdf) | Hafta 2 – Format Atma | 2023 fall |  |
+| [BM103_slides_2023-spring_w02_h2-ubuntukurulumu.pdf](slides/BM103_slides_2023-spring_w02_h2-ubuntukurulumu.pdf) | Hafta 2 – VirtualBox Ubuntu Kurulumu | 2023 fall |  |
+| [BM103_slides_2023-spring_w03_h3-linux1.pdf](slides/BM103_slides_2023-spring_w03_h3-linux1.pdf) | Hafta 3 – Linux 1 | 2023 fall |  |
+| [BM103_slides_2023-spring_w04_h4-linux2.pdf](slides/BM103_slides_2023-spring_w04_h4-linux2.pdf) | Hafta 4 – Linux 2 | 2023 fall |  |
+| [BM103_slides_2023-spring_w05_h5-linux3.pdf](slides/BM103_slides_2023-spring_w05_h5-linux3.pdf) | Hafta 5 – Linux 3 | 2023 fall |  |
+| [BM103_slides_2023-spring_w12_h12-css-lab.pdf](slides/BM103_slides_2023-spring_w12_h12-css-lab.pdf) | Hafta 12 – CSS Lab | 2023 fall |  |
+| [BM103_slides_2023-spring_w6481_html1.pdf](slides/BM103_slides_2023-spring_w6481_html1.pdf) | Hafta 9 – HTML Giriş 1 | 2023 fall |  |
+| [BM103_slides_2023-spring_w6482_html2.pdf](slides/BM103_slides_2023-spring_w6482_html2.pdf) | Hafta 10 – HTML Giriş 2 | 2023 fall |  |
+| [BM103_slides_2023-spring_w6483_html3.pdf](slides/BM103_slides_2023-spring_w6483_html3.pdf) | Hafta 11 – HTML Giriş 3 | 2023 fall |  |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM103_summary_2023-fall_bm103-vize-oncesi-ozet-notu.jpg](summaries/BM103_summary_2023-fall_bm103-vize-oncesi-ozet-notu.jpg) | Boole Cebri Sadeleştirme Örnek Soru | 2023 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM103_announcement_sohbetten-sinav-bilgileri.md](announcements/BM103_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

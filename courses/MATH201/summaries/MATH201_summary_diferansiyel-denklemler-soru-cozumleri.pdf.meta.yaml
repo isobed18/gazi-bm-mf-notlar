@@ -1,0 +1,16 @@
+file: MATH201_summary_diferansiyel-denklemler-soru-cozumleri.pdf
+sha256: b826002f425ff429d326ffc2879a627f81fc7fd131f7bd44eb5ba7d30de2a02a
+size: 1196152
+course: MATH201
+kind: summary
+title: Diferansiyel Denklemler Çözümlü Problemler
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

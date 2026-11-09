@@ -1,0 +1,15 @@
+file: PHYS104_studentnotes_phys104-physics-ii-ders-notlari-36-sayfa.pdf
+sha256: 6ff3f255f427c79c5b768a0cd1eecb1c89c676c048d1b00e8420a1dc1a49a836
+size: 19126619
+course: PHYS104
+kind: student-notes
+title: Physics II Student Notes
+handwritten: true
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,17 @@
+file: MATH201_studentnotes_2025-fall_diferansiyel-denklemler-1-hafta-ders-notlari-temel.pdf
+sha256: 4d8cd33ce460d02a2d5ba3ec68e78037676da910933c7ee6479a33171973baca
+size: 2955386
+course: MATH201
+kind: student-notes
+title: Diferansiyel Denklemler 1. Hafta Tahta Notları
+term: fall
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 1

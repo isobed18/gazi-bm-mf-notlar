@@ -1,0 +1,18 @@
+file: BM309_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg
+sha256: 996a20f452278a26fe4d4baa1bb514d73e521b8c21540cfbaedcd0a8f612c05c
+size: 56849
+course: BM309
+kind: syllabus
+title: Biçimsel Diller ve Otomatlar Ders İzlencesi ve Not Dağılımı
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: syllabus

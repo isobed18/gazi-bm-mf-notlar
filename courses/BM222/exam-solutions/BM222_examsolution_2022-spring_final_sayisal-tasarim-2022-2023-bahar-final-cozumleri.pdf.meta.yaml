@@ -1,0 +1,18 @@
+file: BM222_examsolution_2022-spring_final_sayisal-tasarim-2022-2023-bahar-final-cozumleri.pdf
+sha256: ae83a5e9ab903f4c9f1eef54f49a1f33ff94ed013271b8d46ebb5a288f4ed082
+size: 310865
+course: BM222
+kind: exam-solution
+title: Sayısal Tasarım 2022-2023 Bahar Final Çözümleri
+year: 2022
+term: spring
+exam_type: final
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

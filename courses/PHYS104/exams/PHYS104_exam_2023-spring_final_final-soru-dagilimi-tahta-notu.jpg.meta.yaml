@@ -1,0 +1,19 @@
+file: PHYS104_exam_2023-spring_final_final-soru-dagilimi-tahta-notu.jpg
+sha256: d1d1b9a9ddeced14d11f5f79865861fa77bb58dac5da4ecccc75c4ef3e39c31f
+size: 19357
+course: PHYS104
+kind: exam
+title: Final Soru Dağılımı (Tahta Notu)
+year: 2023
+term: spring
+exam_type: final
+language: en
+handwritten: false
+source:
+  type: whatsapp
+  ref: gaziuni-mf-ceng23
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

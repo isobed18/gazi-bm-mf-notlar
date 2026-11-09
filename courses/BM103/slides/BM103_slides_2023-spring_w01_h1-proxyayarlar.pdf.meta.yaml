@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w01_h1-proxyayarlar.pdf
+sha256: 521d50dd69b8f2b8ec7305474ecc842d86bd8606b7b03c95be54c395e7b5cf1e
+size: 1047634
+course: BM103
+kind: slides
+title: Hafta 1 – Proxy Ayarları
+year: 2023
+term: fall
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

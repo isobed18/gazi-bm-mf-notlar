@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-cache-sunumu-2.pdf
+sha256: 1a473207a5c90c701cc49877abd3e0019db2797020dc57fb08369ae29375e8d0
+size: 1432043
+course: BM311
+kind: slides
+title: Önbellek (Cache) Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

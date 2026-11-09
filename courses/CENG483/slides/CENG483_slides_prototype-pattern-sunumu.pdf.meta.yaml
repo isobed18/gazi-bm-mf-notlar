@@ -1,0 +1,16 @@
+file: CENG483_slides_prototype-pattern-sunumu.pdf
+sha256: 3a491062811099733e40bcf62f3f76ddcc6fbeee0acf03ba40d34901c35db0ea
+size: 1107234
+course: CENG483
+kind: slides
+title: Prototype Pattern Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders notu, soru çözümü veya resmi slayt; yerleştirildi.

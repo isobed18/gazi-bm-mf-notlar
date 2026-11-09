@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-multiprocessors-sunumu.pdf
+sha256: fda3c61c0c071298f46c586709ef5dcbb13c487db5a2d5bf1d02c2da1ed60c2a
+size: 977973
+course: BM311
+kind: slides
+title: Çok İşlemcili Sistemler Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

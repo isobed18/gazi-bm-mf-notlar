@@ -1,0 +1,17 @@
+file: BM211_slides_2025-fall_ders-sunumu-1-giris-ve-temel-kavramlar.pdf
+sha256: 00fd4fcbc51d053d819135c65f0f7049d717a8b592b7f02c1af85e9f5bfc5617
+size: 3178688
+course: BM211
+kind: slides
+title: Ders Sunumu 1 – Giriş ve Temel Kavramlar
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

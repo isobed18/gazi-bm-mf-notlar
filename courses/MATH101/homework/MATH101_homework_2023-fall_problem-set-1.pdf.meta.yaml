@@ -1,0 +1,17 @@
+file: MATH101_homework_2023-fall_problem-set-1.pdf
+sha256: 54928a79c7c51cf98e614ec9ef2d1a9d3728c3cf843f7d91719de5836bd014b8
+size: 56283
+course: MATH101
+kind: homework
+title: Problem Set 1
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

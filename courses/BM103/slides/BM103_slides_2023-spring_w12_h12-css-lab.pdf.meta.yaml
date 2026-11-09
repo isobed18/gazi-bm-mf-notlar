@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w12_h12-css-lab.pdf
+sha256: c7fb3e021b60a9d6a6174db1d8fd4aec725f646c5eebe0d8ca8ba79f07eb168d
+size: 374783
+course: BM103
+kind: slides
+title: Hafta 12 – CSS Lab
+year: 2023
+term: fall
+week: 12
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

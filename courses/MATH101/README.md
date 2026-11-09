@@ -3,4 +3,90 @@
 
 *Mathematics I* · required · curriculum semester: 1
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_lecturenotes.pdf](lecture-notes/MATH101_lecturenotes.pdf) | Calculus I Ders Notları | fall |  |
+| [MATH101_lecturenotes_2023-fall_turev-ders-notlari-differentiation.pdf](lecture-notes/MATH101_lecturenotes_2023-fall_turev-ders-notlari-differentiation.pdf) | Türev Ders Notları (Differentiation) | 2023 fall |  |
+| [MATH101_lecturenotes_integral-ders-notlari-a-sabuncuoglu.pdf](lecture-notes/MATH101_lecturenotes_integral-ders-notlari-a-sabuncuoglu.pdf) | İntegral Ders Notları (A. Sabuncuoğlu) | fall |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_studentnotes_calculus-soru-cozumleri.pdf](student-notes/MATH101_studentnotes_calculus-soru-cozumleri.pdf) | Calculus Soru Çözümleri |  |  |
+| [MATH101_studentnotes_introduction.pdf](student-notes/MATH101_studentnotes_introduction.pdf) | Ön Bilgiler ve Fonksiyonlar El Notu | fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_exam_2023-fall_final_2023-2024-guz-final.pdf](exams/MATH101_exam_2023-fall_final_2023-2024-guz-final.pdf) | 2023-2024 Güz Final | 2023 fall | final |
+| [MATH101_exam_2024-fall_midterm_2024-2025-guz-vize.pdf](exams/MATH101_exam_2024-fall_midterm_2024-2025-guz-vize.pdf) | 2024-2025 Güz Vize | 2024 fall | midterm |
+| [MATH101_exam_2025-2026-guz-final-sinavi.pdf](exams/MATH101_exam_2025-2026-guz-final-sinavi.pdf) | 2025-2026 Güz Final Sınavı |  |  |
+| [MATH101_exam_2025-fall_midterm_2025-2026-guz-vize.pdf](exams/MATH101_exam_2025-fall_midterm_2025-2026-guz-vize.pdf) | 2025-2026 Güz Vize | 2025 fall | midterm |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_examsolution_2022-fall_final_2022-2023-guz-final-cevap-anahtari-b-grubu.pdf](exam-solutions/MATH101_examsolution_2022-fall_final_2022-2023-guz-final-cevap-anahtari-b-grubu.pdf) | 2022-2023 Güz Final Cevap Anahtarı (B Grubu) | 2022 fall | final |
+| [MATH101_examsolution_2022-fall_final_2022-2023-guz-final-cozumleri-a-grubu.pdf](exam-solutions/MATH101_examsolution_2022-fall_final_2022-2023-guz-final-cozumleri-a-grubu.pdf) | 2022-2023 Güz Final Çözümleri (A Grubu) | 2022 fall | final |
+| [MATH101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumleri-a-grubu.pdf](exam-solutions/MATH101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumleri-a-grubu.pdf) | 2022-2023 Güz Vize Çözümleri (A Grubu) | 2022 fall | midterm |
+| [MATH101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumleri-b-grubu.pdf](exam-solutions/MATH101_examsolution_2022-fall_midterm_2022-2023-guz-vize-cozumleri-b-grubu.pdf) | 2022-2023 Güz Vize Çözümleri (B Grubu) | 2022 fall | midterm |
+| [MATH101_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-a-grubu.pdf](exam-solutions/MATH101_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-a-grubu.pdf) | 2023-2024 Güz Final Çözümleri (A Grubu) | 2023 fall | final |
+| [MATH101_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-b-grubu.pdf](exam-solutions/MATH101_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-b-grubu.pdf) | 2023-2024 Güz Final Çözümleri (B Grubu) | 2023 fall | final |
+| [MATH101_examsolution_2023-fall_midterm_2023-2024-guz-vize-cevap-anahtari-a-grubu.pdf](exam-solutions/MATH101_examsolution_2023-fall_midterm_2023-2024-guz-vize-cevap-anahtari-a-grubu.pdf) | 2023-2024 Güz Vize Cevap Anahtarı (A Grubu) | 2023 fall | midterm |
+| [MATH101_examsolution_2023-fall_midterm_2023-2024-guz-vize-cevap-anahtari-b-grubu.pdf](exam-solutions/MATH101_examsolution_2023-fall_midterm_2023-2024-guz-vize-cevap-anahtari-b-grubu.pdf) | 2023-2024 Güz Vize Cevap Anahtarı (B Grubu) | 2023 fall | midterm |
+| [MATH101_examsolution_2024-fall_final_2024-2025-guz-final-cevap-anahtari-a-grubu.pdf](exam-solutions/MATH101_examsolution_2024-fall_final_2024-2025-guz-final-cevap-anahtari-a-grubu.pdf) | 2024-2025 Güz Final Cevap Anahtarı (A Grubu) | 2024 fall | final |
+| [MATH101_examsolution_2024-fall_final_dm9pu3nmceexcgw5cw0rogwxa1jsdwkey-b.pdf](exam-solutions/MATH101_examsolution_2024-fall_final_dm9pu3nmceexcgw5cw0rogwxa1jsdwkey-b.pdf) | 2024-2025 Güz Final Cevap Anahtarı (B Grubu) | 2024 fall | final |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_gradedistribution_2021-fall_2021-2022-guz-harf-notu-dagilimi.jpg](grade-distributions/MATH101_gradedistribution_2021-fall_2021-2022-guz-harf-notu-dagilimi.jpg) | 2021-2022 Güz Harf Notu Dağılımı | 2021 fall |  |
+| [MATH101_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png](grade-distributions/MATH101_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png) | 2023-2024 Güz Harf Notu Dağılımı | 2023 fall |  |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_homework_2023-fall_matematik-1-calisma-sorulari-1a.jpg](homework/MATH101_homework_2023-fall_matematik-1-calisma-sorulari-1a.jpg) | Matematik 1 Calisma Sorulari 1a | 2023 fall |  |
+| [MATH101_homework_2023-fall_problem-set-1.pdf](homework/MATH101_homework_2023-fall_problem-set-1.pdf) | Problem Set 1 | 2023 fall |  |
+| [MATH101_homework_2023-fall_w3253_problem-set-2-1.pdf](homework/MATH101_homework_2023-fall_w3253_problem-set-2-1.pdf) | Problem_Set_2__1_ | 2023 fall |  |
+
+## homework-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_homeworksolution_2023-fall_problem-set-1-2-ve-cozumleri.pdf](homework-solutions/MATH101_homeworksolution_2023-fall_problem-set-1-2-ve-cozumleri.pdf) | Problem Set 1-2 ve Çözümleri | 2023 fall |  |
+| [MATH101_homeworksolution_2023-fall_w2243_problem-set-2-1.pdf](homework-solutions/MATH101_homeworksolution_2023-fall_w2243_problem-set-2-1.pdf) | Problem Set 2 ve Cevapları | 2023 fall |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_book_00000249-mustafa-balc-genel-matematik-1-pdf.pdf](books/MATH101_book_00000249-mustafa-balc-genel-matematik-1-pdf.pdf) | 00000249-Mustafa Balc─▒ Genel Matematik 1.pdf |  |  |
+| [MATH101_book_basic-calculus.pdf](books/MATH101_book_basic-calculus.pdf) | Basic Calculus |  |  |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_summary_2023-fall_sureklilik-konu-ozeti.pdf](summaries/MATH101_summary_2023-fall_sureklilik-konu-ozeti.pdf) | Süreklilik Konu Özeti | 2023 fall |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_syllabus_2021-fall_mathematics-i-course-description-form-izlence.docx](syllabus/MATH101_syllabus_2021-fall_mathematics-i-course-description-form-izlence.docx) | 2021-2022 Güz Ders İzlencesi | 2021 fall |  |
+| [MATH101_syllabus_ders-izlencesi-syllabus.pdf](syllabus/MATH101_syllabus_ders-izlencesi-syllabus.pdf) | 2023-2024 Güz Ders İzlencesi | 2023 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [MATH101_announcement_sohbetten-sinav-bilgileri.md](announcements/MATH101_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

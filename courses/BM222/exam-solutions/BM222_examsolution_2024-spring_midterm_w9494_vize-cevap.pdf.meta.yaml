@@ -1,0 +1,18 @@
+file: BM222_examsolution_2024-spring_midterm_w9494_vize-cevap.pdf
+sha256: 90e60685bd1bce551dc41dfb62c11eae4974bde06851746b92b1ee521025a296
+size: 274168
+course: BM222
+kind: exam-solution
+title: Sayısal Tasarım Vize Çözümü
+year: 2023
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

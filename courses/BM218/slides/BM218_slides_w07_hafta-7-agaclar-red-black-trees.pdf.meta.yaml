@@ -1,0 +1,17 @@
+file: BM218_slides_w07_hafta-7-agaclar-red-black-trees.pdf
+sha256: b358288de73096b97e4777667b0bcd87865b051271a87af2e5a8d8f66f248e54
+size: 1130798
+course: BM218
+kind: slides
+title: Hafta 7 - Ağaçlar (Red Black Trees)
+week: 7
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

@@ -1,0 +1,17 @@
+file: ENG104_exam_midterm_bahar-vize.pdf
+sha256: 989684587a02b9049bb60aecc487e14b98a5710aea1934d582d82ad88b674df7
+size: 154486
+course: ENG104
+kind: exam
+title: Bahar Vize
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

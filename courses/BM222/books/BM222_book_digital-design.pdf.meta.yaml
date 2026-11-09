@@ -1,0 +1,15 @@
+file: BM222_book_digital-design.pdf
+sha256: 43c394158a01791d289709c23abcabad599fb6884ca23d6d0deae31c7b5850f3
+size: 3135536
+course: BM222
+kind: book
+title: Digital Design
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

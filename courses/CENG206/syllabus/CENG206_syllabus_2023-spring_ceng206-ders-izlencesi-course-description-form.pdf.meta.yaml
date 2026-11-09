@@ -1,0 +1,17 @@
+file: CENG206_syllabus_2023-spring_ceng206-ders-izlencesi-course-description-form.pdf
+sha256: 18030c7b35824cd70aa22b9b99c125daa96e409d2499e73eb9c2bd76aebea7a2
+size: 102493
+course: CENG206
+kind: syllabus
+title: CENG206 Ders İzlencesi (Course Description Form)
+year: 2023
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

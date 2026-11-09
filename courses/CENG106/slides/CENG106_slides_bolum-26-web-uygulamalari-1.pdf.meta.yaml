@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-26-web-uygulamalari-1.pdf
+sha256: c7cc294fda5b5978bbc7ef1d7f34fa23f969c08b1a97be6d41d747bff869e063
+size: 2495534
+course: CENG106
+kind: slides
+title: Bölüm 26 – Web Uygulamaları 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

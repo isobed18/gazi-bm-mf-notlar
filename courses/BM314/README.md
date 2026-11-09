@@ -3,4 +3,26 @@
 
 *Software Engineering* · required · curriculum semester: 6
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM314_studentnotes_w7418_yazlm-muehendisligai-915b264ce533464b96fd3ba.pdf](student-notes/BM314_studentnotes_w7418_yazlm-muehendisligai-915b264ce533464b96fd3ba.pdf) | Yazilim Muhendisligi Ders Notlari |  |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM314_exam_2019-spring_final_2019-2020-bahar-final-sinavi.pdf](exams/BM314_exam_2019-spring_final_2019-2020-bahar-final-sinavi.pdf) | 2019-2020 Bahar Final Sınavı | 2019 spring | final |
+| [BM314_exam_2020-spring_2020-2021-bahar.pdf](exams/BM314_exam_2020-spring_2020-2021-bahar.pdf) | 2020-2021 Bahar | 2020 spring |  |
+| [BM314_exam_2020-spring_final_bm-314-yazilim-muhendisligi-final-sinavi-2021.pdf](exams/BM314_exam_2020-spring_final_bm-314-yazilim-muhendisligi-final-sinavi-2021.pdf) | BM 314 Yazılım Mühendisliği Final Sınavı 2021 | 2020 spring | final |
+| [BM314_exam_2021-spring_2021-2022-bahar.pdf](exams/BM314_exam_2021-spring_2021-2022-bahar.pdf) | 2021-2022 Bahar | 2021 spring |  |
+| [BM314_exam_2023-spring_2023-2024-bahar.pdf](exams/BM314_exam_2023-spring_2023-2024-bahar.pdf) | 2023-2024 Bahar | 2023 spring |  |
+| [BM314_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf](exams/BM314_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf) | 2023-2024 Bahar Vize | 2023 spring | midterm |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM314_announcement_sohbetten-sinav-bilgileri.md](announcements/BM314_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

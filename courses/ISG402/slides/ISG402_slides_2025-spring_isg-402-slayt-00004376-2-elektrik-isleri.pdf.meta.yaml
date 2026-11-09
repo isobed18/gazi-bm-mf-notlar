@@ -1,0 +1,17 @@
+file: ISG402_slides_2025-spring_isg-402-slayt-00004376-2-elektrik-isleri.pdf
+sha256: b17a622fda131b153084a369bfcdf9afcfae4feb170ba3496b2af10a19eb5489
+size: 4686814
+course: ISG402
+kind: slides
+title: İSG 402 Slayt - 00004376-2-elektrik_isleri
+year: 2025
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

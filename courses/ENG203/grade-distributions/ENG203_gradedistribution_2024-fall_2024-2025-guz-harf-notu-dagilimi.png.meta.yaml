@@ -1,0 +1,17 @@
+file: ENG203_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.png
+sha256: 433db498f9c6d5a1c6aa8d2c457a2512e443ecac398c98c2a2ff2f9aed01c4e7
+size: 78249
+course: ENG203
+kind: grade-distribution
+title: 2024-2025 Guz Harf Notu Dagilimi
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

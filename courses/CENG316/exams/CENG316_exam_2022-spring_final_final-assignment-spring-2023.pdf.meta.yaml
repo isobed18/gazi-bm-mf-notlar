@@ -1,0 +1,19 @@
+file: CENG316_exam_2022-spring_final_final-assignment-spring-2023.pdf
+sha256: eaa07d76dc0d1611d09fe228663048391f450279e41fcbfa9db608c4380dc6d2
+size: 446755
+course: CENG316
+kind: exam
+title: Final Assignment Spring 2023
+year: 2022
+term: spring
+exam_type: final
+language: en
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

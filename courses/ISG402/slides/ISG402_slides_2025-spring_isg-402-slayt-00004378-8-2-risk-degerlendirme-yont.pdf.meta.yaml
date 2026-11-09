@@ -1,0 +1,17 @@
+file: ISG402_slides_2025-spring_isg-402-slayt-00004378-8-2-risk-degerlendirme-yont.pdf
+sha256: 8fc2e08a97031c3642aaeab28cf43f1b03c8cf50b06b3507a3b34ee6921fca54
+size: 5087461
+course: ISG402
+kind: slides
+title: İSG 402 Slayt - 00004378-8-2-risk_degerlendirme_yontemleri
+year: 2025
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

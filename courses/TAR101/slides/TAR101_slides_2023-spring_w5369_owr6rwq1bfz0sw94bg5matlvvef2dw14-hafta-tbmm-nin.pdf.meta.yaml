@@ -1,0 +1,18 @@
+file: TAR101_slides_2023-spring_w5369_owr6rwq1bfz0sw94bg5matlvvef2dw14-hafta-tbmm-nin.pdf
+sha256: 259d367e169539db9d200f68a98082efd450d07ed32b257185a5e7eaab5f057a
+size: 12518757
+course: TAR101
+kind: slides
+title: 14. Hafta – TBMM'nin Açılması ve Çalışmaları
+year: 2023
+term: fall
+week: 14
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

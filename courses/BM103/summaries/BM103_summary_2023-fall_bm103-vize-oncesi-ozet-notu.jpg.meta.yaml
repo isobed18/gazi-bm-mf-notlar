@@ -1,0 +1,17 @@
+file: BM103_summary_2023-fall_bm103-vize-oncesi-ozet-notu.jpg
+sha256: 8a5e3c6bbd37c8b29151885917496863cd89521948b1544a27f102567164bd8a
+size: 117430
+course: BM103
+kind: summary
+title: Boole Cebri Sadeleştirme Örnek Soru
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

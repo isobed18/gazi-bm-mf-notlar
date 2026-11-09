@@ -1,0 +1,15 @@
+file: CENG206_slides_ceng206-numerical-analysis-chapter-3-linear-system.pdf
+sha256: ace100d61fc7ab399fd0bb90d835ca438801e6c6f062b1906c324b6895b25799
+size: 138679
+course: CENG206
+kind: slides
+title: Numerical Analysis Systems of Linear Equations
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

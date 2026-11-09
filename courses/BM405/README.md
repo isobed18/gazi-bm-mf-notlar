@@ -3,4 +3,21 @@
 
 *Entrepreneurship and Innovation* · required · curriculum semester: 7
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM405_slides_2024-fall_bm-405-girisimcilik-ve-inovasyon-ders-slaytlari-20.pdf](slides/BM405_slides_2024-fall_bm-405-girisimcilik-ve-inovasyon-ders-slaytlari-20.pdf) | BM 405 Girişimcilik ve İnovasyon Ders Slaytları 2024 | 2024 fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM405_exam_2025-fall_midterm_girisimcilik-ve-liderlik-2025-2026-guz-vize-sorusu.jpg](exams/BM405_exam_2025-fall_midterm_girisimcilik-ve-liderlik-2025-2026-guz-vize-sorusu.jpg) | Girişimcilik ve Liderlik 2025-2026 Güz Vize Sorusu (İş Modeli Kanvası) | 2025 fall | midterm |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM405_announcement_sohbetten-sinav-bilgileri.md](announcements/BM405_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

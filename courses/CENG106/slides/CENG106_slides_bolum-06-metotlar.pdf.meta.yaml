@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-06-metotlar.pdf
+sha256: 0ce47419f95b3ccbd1ff1bafdb62fb2ad998b175e6321a8f14ec2eb7464d355d
+size: 1385087
+course: CENG106
+kind: slides
+title: Bölüm 06 – Metotlar
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

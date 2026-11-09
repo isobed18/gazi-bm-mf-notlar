@@ -1,0 +1,19 @@
+file: MATH101_homework_2023-fall_w3253_problem-set-2-1.pdf
+sha256: fa61c0d71ae89fccb4792210c2323f8084ba96b0c0ed1044c0622b776c9ece7b
+size: 65263
+course: MATH101
+kind: homework
+title: Problem_Set_2__1_
+year: 2023
+term: fall
+week: 3253
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

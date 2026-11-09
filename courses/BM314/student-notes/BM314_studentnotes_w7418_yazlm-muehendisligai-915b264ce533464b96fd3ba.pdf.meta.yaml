@@ -1,0 +1,15 @@
+file: BM314_studentnotes_w7418_yazlm-muehendisligai-915b264ce533464b96fd3ba.pdf
+sha256: d92e73bd69f5d9382e9c0796804cf724d4e1e77e755c0f9d04fea1523ba7834a
+size: 18211950
+course: BM314
+kind: student-notes
+title: Yazilim Muhendisligi Ders Notlari
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

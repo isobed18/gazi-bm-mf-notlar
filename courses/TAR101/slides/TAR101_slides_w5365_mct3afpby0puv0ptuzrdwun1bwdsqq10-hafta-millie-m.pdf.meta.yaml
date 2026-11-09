@@ -1,0 +1,18 @@
+file: TAR101_slides_w5365_mct3afpby0puv0ptuzrdwun1bwdsqq10-hafta-millie-m.pdf
+sha256: 6b4c7d69f8f102848b049c51c0ba428befe20cc4e944a65ee253e841b540d670
+size: 9206044
+course: TAR101
+kind: slides
+title: 10. Hafta – Mütareke Sonrası Durum ve Cemiyetler
+week: 10
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2023
+term: fall

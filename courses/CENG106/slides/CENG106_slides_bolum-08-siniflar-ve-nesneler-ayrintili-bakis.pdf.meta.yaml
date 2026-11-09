@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-08-siniflar-ve-nesneler-ayrintili-bakis.pdf
+sha256: b72ca111bf5a63c124255fd971e73d265796615c914239a1ae4c05d473387f4b
+size: 1605008
+course: CENG106
+kind: slides
+title: Bölüm 08 – Sınıflar ve Nesneler Ayrıntılı Bakış
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

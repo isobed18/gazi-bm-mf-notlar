@@ -1,0 +1,18 @@
+file: TAR101_slides_w5368_nediutyryvb3nedxv3lkcxnwec9puq13-hafta-amasya-go.pdf
+sha256: 6bbf3d40974dd9758c8a6b205e6239bc5afa52930c1327dc3102f4398737d70d
+size: 6991948
+course: TAR101
+kind: slides
+title: 13. Hafta – Amasya Görüşmeleri
+week: 13
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2023
+term: fall

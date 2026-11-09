@@ -3,4 +3,23 @@
 
 *Introduction to Data Science* · required · curriculum semester: 5
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG313_slides_2025-fall_w10713_2026-datascience-genai.pdf](slides/CENG313_slides_2025-fall_w10713_2026-datascience-genai.pdf) | 2026_DATASCIENCE_GenAI | 2025 fall |  |
+| [CENG313_slides_ceng313-data-science-lecture-slides.pdf](slides/CENG313_slides_ceng313-data-science-lecture-slides.pdf) | CENG313 Data Science Lecture Slides |  |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG313_lecturenotes_2025-fall_w10718_2026-datascience-0.pdf](lecture-notes/CENG313_lecturenotes_2025-fall_w10718_2026-datascience-0.pdf) | 2026_DATASCIENCE_0 | 2025 fall |  |
+| [CENG313_lecturenotes_2025-fall_w10719_2026-datascience-1.pdf](lecture-notes/CENG313_lecturenotes_2025-fall_w10719_2026-datascience-1.pdf) | 2026_DATASCIENCE_1 | 2025 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG313_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG313_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

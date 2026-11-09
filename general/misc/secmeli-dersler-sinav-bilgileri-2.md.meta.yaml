@@ -1,0 +1,15 @@
+file: secmeli-dersler-sinav-bilgileri-2.md
+sha256: 01a015dbfab0b8d33b6047b6551c5602560d746d12900abb48dfb60b94873cd7
+size: 1920
+kind: general:misc
+title: Seçmeli Dersler Sınav Bilgileri
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının talebiyle teknik seçmeli dersler, ders adları esas alınarak arşivlendi.

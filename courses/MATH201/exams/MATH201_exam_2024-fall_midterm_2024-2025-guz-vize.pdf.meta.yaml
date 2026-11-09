@@ -1,0 +1,18 @@
+file: MATH201_exam_2024-fall_midterm_2024-2025-guz-vize.pdf
+sha256: 459ab29f3982955588db6e62c5fe41c2f1939878d59d9fe16b13451c338d9cdc
+size: 2698200
+course: MATH201
+kind: exam
+title: 2024-2025 Güz Vize Tahta Çözümü
+year: 2024
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

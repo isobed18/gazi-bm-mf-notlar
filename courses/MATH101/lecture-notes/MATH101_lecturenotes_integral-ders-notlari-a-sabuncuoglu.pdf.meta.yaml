@@ -1,0 +1,16 @@
+file: MATH101_lecturenotes_integral-ders-notlari-a-sabuncuoglu.pdf
+sha256: a267faf552bf7b31ddf07333940fefef71c2236bbcd875d66113ddb105f9543c
+size: 44866280
+course: MATH101
+kind: lecture-notes
+title: İntegral Ders Notları (A. Sabuncuoğlu)
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

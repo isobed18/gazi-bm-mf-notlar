@@ -3,4 +3,51 @@
 
 *Principles of Atatürk and History of Revolution I* · general · curriculum semester: 1
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR101_slides_2023-fall_w2621_aiit-1-hafta-t-e.pdf](slides/TAR101_slides_2023-fall_w2621_aiit-1-hafta-t-e.pdf) | 1. Hafta – Giriş ve Tanzimat | 2023 fall |  |
+| [TAR101_slides_2023-fall_w2622_aitt-2-hafta-t-e.pdf](slides/TAR101_slides_2023-fall_w2622_aitt-2-hafta-t-e.pdf) | 2. Hafta – 19. Yüzyıl Yenilik Hareketleri | 2023 fall |  |
+| [TAR101_slides_2023-fall_w2623_aiit-3-hafta-te.pdf](slides/TAR101_slides_2023-fall_w2623_aiit-3-hafta-te.pdf) | 3. Hafta – Islahatlar ve Fikir Akımları | 2023 fall |  |
+| [TAR101_slides_2023-fall_w2624_aiit-4-hafta-te.pdf](slides/TAR101_slides_2023-fall_w2624_aiit-4-hafta-te.pdf) | 4. Hafta – 20. Yüzyıl Başları ve Balkan Savaşları | 2023 fall |  |
+| [TAR101_slides_2023-fall_w2625_aiit-5-6-7-hafta-te.pdf](slides/TAR101_slides_2023-fall_w2625_aiit-5-6-7-hafta-te.pdf) | 5-6-7. Hafta – Birinci Dünya Savaşı | 2023 fall |  |
+| [TAR101_slides_2023-fall_w283_1-blm.pdf](slides/TAR101_slides_2023-fall_w283_1-blm.pdf) | 1. Bölüm – Türk İnkılabını Hazırlayan Sebepler | 2023 fall |  |
+| [TAR101_slides_2023-fall_w284_2-blm.pdf](slides/TAR101_slides_2023-fall_w284_2-blm.pdf) | 2. Bölüm – Milli Mücadele Dönemi | 2023 fall |  |
+| [TAR101_slides_2023-spring_w5364_ae9pqkyxylb5t3f0czfvdkj5svjkuq9-hafta-mondros-mu.pdf](slides/TAR101_slides_2023-spring_w5364_ae9pqkyxylb5t3f0czfvdkj5svjkuq9-hafta-mondros-mu.pdf) | Hafta 9 – Milli Mücadele Dönemi ve Mondros Mütarekesi | 2023 fall |  |
+| [TAR101_slides_2023-spring_w5366_bfrnzfpmb1eyzzdyv2niawr1zvdkqq11-hafta-mustafa-k.pdf](slides/TAR101_slides_2023-spring_w5366_bfrnzfpmb1eyzzdyv2niawr1zvdkqq11-hafta-mustafa-k.pdf) | 11. Hafta – Mustafa Kemal'in Faaliyetleri ve Samsun | 2023 fall |  |
+| [TAR101_slides_2023-spring_w5367_zkfoegkxn3i5mxc2wet2yuv4efhndw12-hafta-kongreler.pdf](slides/TAR101_slides_2023-spring_w5367_zkfoegkxn3i5mxc2wet2yuv4efhndw12-hafta-kongreler.pdf) | 12. Hafta – Erzurum ve Sivas Kongreleri | 2023 fall |  |
+| [TAR101_slides_2023-spring_w5369_owr6rwq1bfz0sw94bg5matlvvef2dw14-hafta-tbmm-nin.pdf](slides/TAR101_slides_2023-spring_w5369_owr6rwq1bfz0sw94bg5matlvvef2dw14-hafta-tbmm-nin.pdf) | 14. Hafta – TBMM'nin Açılması ve Çalışmaları | 2023 fall |  |
+| [TAR101_slides_final_milli-mucadele-ve-kongreler-sunumu.pdf](slides/TAR101_slides_final_milli-mucadele-ve-kongreler-sunumu.pdf) | Milli Mücadele ve Kongreler Sunumu | fall | final |
+| [TAR101_slides_final_mondros-ateskesi-ve-direnis-cemiyetleri-sunumu.pdf](slides/TAR101_slides_final_mondros-ateskesi-ve-direnis-cemiyetleri-sunumu.pdf) | Mondros Ateşkesi ve Direniş Cemiyetleri Sunumu | fall | final |
+| [TAR101_slides_w5365_mct3afpby0puv0ptuzrdwun1bwdsqq10-hafta-millie-m.pdf](slides/TAR101_slides_w5365_mct3afpby0puv0ptuzrdwun1bwdsqq10-hafta-millie-m.pdf) | 10. Hafta – Mütareke Sonrası Durum ve Cemiyetler | 2023 fall |  |
+| [TAR101_slides_w5368_nediutyryvb3nedxv3lkcxnwec9puq13-hafta-amasya-go.pdf](slides/TAR101_slides_w5368_nediutyryvb3nedxv3lkcxnwec9puq13-hafta-amasya-go.pdf) | 13. Hafta – Amasya Görüşmeleri | 2023 fall |  |
+| [TAR101_slides_w7144_hist101-ders-yansilari-coikti-iccoicn-619775.pdf](slides/TAR101_slides_w7144_hist101-ders-yansilari-coikti-iccoicn-619775.pdf) | HIST101 Ders Yansıları Özeti | fall |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR101_lecturenotes_midterm_inkilap-vize-ders-notlari.pdf](lecture-notes/TAR101_lecturenotes_midterm_inkilap-vize-ders-notlari.pdf) | İnkılap Vize Ders Notları | fall | midterm |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR101_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi.pdf](exams/TAR101_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi.pdf) | 2023-2024 Güz Vize | 2023 fall | midterm |
+| [TAR101_exam_final_guz-final.pdf](exams/TAR101_exam_final_guz-final.pdf) | Güz Final | fall | final |
+| [TAR101_exam_midterm_guz-vize.pdf](exams/TAR101_exam_midterm_guz-vize.pdf) | Güz Vize Çıkmış Sorular | fall | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR101_gradedistribution_2021-fall_2021-2022-guz-harf-notu-dagilimi.jpg](grade-distributions/TAR101_gradedistribution_2021-fall_2021-2022-guz-harf-notu-dagilimi.jpg) | 2021-2022 Güz Harf Notu Dağılımı | 2021 fall |  |
+| [TAR101_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png](grade-distributions/TAR101_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png) | 2023-2024 Güz Harf Notu Dağılımı | 2023 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR101_announcement_sohbetten-sinav-bilgileri.md](announcements/TAR101_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

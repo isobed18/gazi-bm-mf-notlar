@@ -1,0 +1,15 @@
+file: ENG104_gradedistribution_2004-spring_2004-2005-harf-notu-dagilimi.png
+sha256: 8dd92cad2defbb45e60b14b1c8c41ccd44b009eaa69fe928c5564d4c70f44ba8
+size: 59716
+course: ENG104
+kind: grade-distribution
+title: Ge?mi? Harf Notu Da??l?mlar?
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

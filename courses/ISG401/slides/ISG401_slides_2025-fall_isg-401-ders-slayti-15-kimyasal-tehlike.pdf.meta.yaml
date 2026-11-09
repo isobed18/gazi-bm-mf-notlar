@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-15-kimyasal-tehlike.pdf
+sha256: 01ff63c8f3357e5d69a26b24268569b4e5a8c613a5bc70a92c0e45084da58944
+size: 4569106
+course: ISG401
+kind: slides
+title: Hafta 15 – Kimyasal Tehlikeler
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

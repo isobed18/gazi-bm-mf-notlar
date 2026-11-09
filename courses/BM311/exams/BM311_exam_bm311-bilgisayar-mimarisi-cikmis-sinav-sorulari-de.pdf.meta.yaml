@@ -1,0 +1,16 @@
+file: BM311_exam_bm311-bilgisayar-mimarisi-cikmis-sinav-sorulari-de.pdf
+sha256: 7fb27284877d89387c0ff6f5c5deb52c0bee65bc15bc58a63c1daff2d5d79aaa
+size: 28408147
+course: BM311
+kind: exam
+title: Çıkmış Sınav Soruları Derlemesi
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

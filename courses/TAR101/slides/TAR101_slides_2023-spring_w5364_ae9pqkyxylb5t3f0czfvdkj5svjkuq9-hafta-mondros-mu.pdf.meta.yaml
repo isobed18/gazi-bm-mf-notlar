@@ -1,0 +1,18 @@
+file: TAR101_slides_2023-spring_w5364_ae9pqkyxylb5t3f0czfvdkj5svjkuq9-hafta-mondros-mu.pdf
+sha256: 827141b2aa1039f6865a0c4714d13b98e89c0103d2df8f2d566fd8caa6467f01
+size: 11162149
+course: TAR101
+kind: slides
+title: Hafta 9 – Milli Mücadele Dönemi ve Mondros Mütarekesi
+year: 2023
+term: fall
+week: 9
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

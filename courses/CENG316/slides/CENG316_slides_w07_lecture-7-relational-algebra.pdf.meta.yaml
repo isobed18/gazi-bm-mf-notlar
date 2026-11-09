@@ -1,0 +1,17 @@
+file: CENG316_slides_w07_lecture-7-relational-algebra.pdf
+sha256: ba0cb97a9c04ef6156012179342ec9f9c95a2de522b6ae1dd426dd5e6ad80834
+size: 2173361
+course: CENG316
+kind: slides
+title: Lecture 7 - Relational Algebra
+week: 7
+language: en
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

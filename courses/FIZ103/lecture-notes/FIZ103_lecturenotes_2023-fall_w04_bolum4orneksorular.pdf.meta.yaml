@@ -1,0 +1,18 @@
+file: FIZ103_lecturenotes_2023-fall_w04_bolum4orneksorular.pdf
+sha256: e82068889332e7a9752fb97aeed836c2d2876a86eb02498388cfc1a52eaeff9d
+size: 1569087
+course: FIZ103
+kind: lecture-notes
+title: Bölüm 4 – İki Boyutta Hareket Örnek Sorular
+year: 2023
+term: fall
+week: 4
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

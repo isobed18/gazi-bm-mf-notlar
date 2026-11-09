@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-orgarchevo-sunumu-2.pdf
+sha256: 3f9abf6bc59842106c3e81b5c649d8761bdb982a886bf30aa3fccce883d36958
+size: 2842759
+course: BM311
+kind: slides
+title: Bilgisayar Mimarisi ve Organizasyonu Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

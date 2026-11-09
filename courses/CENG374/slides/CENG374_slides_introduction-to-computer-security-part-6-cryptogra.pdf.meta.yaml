@@ -1,0 +1,16 @@
+file: CENG374_slides_introduction-to-computer-security-part-6-cryptogra.pdf
+sha256: 37e52588a9a8dabfb61da3a02dff1a2069e581470bbbd1e1a35aedf0727389f4
+size: 5176514
+course: CENG374
+kind: slides
+title: Introduction to Computer Security - Part 6_Cryptography
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı/notu; yerleştirildi.

@@ -1,0 +1,17 @@
+file: BM218_slides_w08_hafta-8-agaclar-b-trees.pdf
+sha256: d206d26b8ad8e2f3be190a994fb64469020cb1e5732fadac4c8ebc1786f4bfd6
+size: 920346
+course: BM218
+kind: slides
+title: Hafta 8 – Ağaçlar (B Trees)
+week: 8
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

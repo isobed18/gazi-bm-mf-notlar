@@ -1,0 +1,19 @@
+file: CENG316_exam_2024-spring_midterm_database-systems-midterm-sorulari.pdf
+sha256: 4fa12547324b3d6a8bacf80b01b99c52f624cfec938d68b19b1f9d8ce18e2989
+size: 2470368
+course: CENG316
+kind: exam
+title: Database Systems Midterm Soruları
+year: 2024
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: duplicate

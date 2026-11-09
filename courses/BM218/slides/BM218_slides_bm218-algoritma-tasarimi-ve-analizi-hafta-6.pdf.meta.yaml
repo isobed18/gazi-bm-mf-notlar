@@ -1,0 +1,16 @@
+file: BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-6.pdf
+sha256: 708b44443f960b73e6faec678f14fe8f309f776835c40a3d23ab46254e337e41
+size: 1029384
+course: BM218
+kind: slides
+title: Hafta 6 - Sıralamaya Devam (Merge Sort)
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 6

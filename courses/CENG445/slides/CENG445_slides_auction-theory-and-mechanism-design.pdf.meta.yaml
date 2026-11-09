@@ -1,0 +1,16 @@
+file: CENG445_slides_auction-theory-and-mechanism-design.pdf
+sha256: 2cedbf5059bee29460eea3fe5a845df2acefa69e06e5955b2d330299353447ec
+size: 101713
+course: CENG445
+kind: slides
+title: Auction Theory and Mechanism Design
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders notu, soru çözümü veya resmi slayt; yerleştirildi.

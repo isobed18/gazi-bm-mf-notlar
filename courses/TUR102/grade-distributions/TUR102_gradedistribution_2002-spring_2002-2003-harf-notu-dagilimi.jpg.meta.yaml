@@ -1,0 +1,17 @@
+file: TUR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.jpg
+sha256: b91a5a686486013463649fdc83b838620b1a8ecfb47531b7cbe72dfc84ab73e5
+size: 106195
+course: TUR102
+kind: grade-distribution
+title: 2022-2023 Bahar Harf Notu Da??l?m?
+year: 2022
+term: spring
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

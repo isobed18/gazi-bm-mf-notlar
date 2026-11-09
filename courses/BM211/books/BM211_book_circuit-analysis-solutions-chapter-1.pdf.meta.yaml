@@ -1,0 +1,15 @@
+file: BM211_book_circuit-analysis-solutions-chapter-1.pdf
+sha256: 088b40e09ed8ec1cc335efcccc3b0308b60f426d1e992ba72ceddfea0d4f1bf4
+size: 1740324
+course: BM211
+kind: book
+title: Circuit Analysis Solutions Chapter 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)

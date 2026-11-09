@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-30-karakter-katarlari-ve-duzenli-ifadeler.pdf
+sha256: df95cbe613e48bf5067819f8023d86a598d052a9f1af8695c98b2a133be7ee9a
+size: 1310999
+course: CENG106
+kind: slides
+title: Bölüm 30 – Karakter Katarları ve Düzenli İfadeler
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

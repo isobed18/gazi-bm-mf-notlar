@@ -1,0 +1,18 @@
+file: FIZ103_studentnotes_2023-fall_w07_bolum-7-is-ve-enerji-soru-cozumleri-el-notu.pdf
+sha256: f35433bd1138780eb86edffdd47a1e93809d908957749e57f11e85a7172f394c
+size: 5314426
+course: FIZ103
+kind: student-notes
+title: Bölüm 7 – İş ve Enerji Soru Çözümleri El Notu
+year: 2023
+term: fall
+week: 7
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

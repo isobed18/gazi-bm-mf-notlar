@@ -3,4 +3,51 @@
 
 *Object Oriented Programming* · required · curriculum semester: 2
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG106_slides_bolum-01-bilgisayarlar-ve-internete-giris.pdf](slides/CENG106_slides_bolum-01-bilgisayarlar-ve-internete-giris.pdf) | Bölüm 01 – Bilgisayarlar ve İnternete Giriş |  |  |
+| [CENG106_slides_bolum-02-java-uygulamalarina-giris.pdf](slides/CENG106_slides_bolum-02-java-uygulamalarina-giris.pdf) | Bölüm 02 – Java Uygulamalarına Giriş |  |  |
+| [CENG106_slides_bolum-03-siniflar-ve-nesnelere-giris.pdf](slides/CENG106_slides_bolum-03-siniflar-ve-nesnelere-giris.pdf) | Bölüm 03 – Sınıflar ve Nesnelere Giriş |  |  |
+| [CENG106_slides_bolum-04-kontrol-ifadeleri-1.pdf](slides/CENG106_slides_bolum-04-kontrol-ifadeleri-1.pdf) | Bölüm 04 – Kontrol İfadeleri 1 |  |  |
+| [CENG106_slides_bolum-05-kontrol-ifadeleri-2.pdf](slides/CENG106_slides_bolum-05-kontrol-ifadeleri-2.pdf) | Bölüm 05 – Kontrol İfadeleri 2 |  |  |
+| [CENG106_slides_bolum-06-metotlar.pdf](slides/CENG106_slides_bolum-06-metotlar.pdf) | Bölüm 06 – Metotlar |  |  |
+| [CENG106_slides_bolum-07-diziler.pdf](slides/CENG106_slides_bolum-07-diziler.pdf) | Bölüm 07 – Diziler |  |  |
+| [CENG106_slides_bolum-08-siniflar-ve-nesneler-ayrintili-bakis.pdf](slides/CENG106_slides_bolum-08-siniflar-ve-nesneler-ayrintili-bakis.pdf) | Bölüm 08 – Sınıflar ve Nesneler Ayrıntılı Bakış |  |  |
+| [CENG106_slides_bolum-09-nesneye-yonelik-programlama-kalitim.pdf](slides/CENG106_slides_bolum-09-nesneye-yonelik-programlama-kalitim.pdf) | Bölüm 09 – Nesneye Yönelik Programlama Kalıtım |  |  |
+| [CENG106_slides_bolum-10-nesneye-yonelik-programlama-cok-bicimlili.pdf](slides/CENG106_slides_bolum-10-nesneye-yonelik-programlama-cok-bicimlili.pdf) | Bölüm 10 – Nesneye Yönelik Programlama Çok Biçimlilik |  |  |
+| [CENG106_slides_bolum-11-grafik-kullanici-arayuzu-bilesenleri-1.pdf](slides/CENG106_slides_bolum-11-grafik-kullanici-arayuzu-bilesenleri-1.pdf) | Bölüm 11 – Grafik Kullanıcı Arayüzü Bileşenleri 1 |  |  |
+| [CENG106_slides_bolum-12-grafikler-ve-java-2d.pdf](slides/CENG106_slides_bolum-12-grafikler-ve-java-2d.pdf) | Bölüm 12 – Grafikler ve Java 2D |  |  |
+| [CENG106_slides_bolum-13-istisna-yakalama.pdf](slides/CENG106_slides_bolum-13-istisna-yakalama.pdf) | Bölüm 13 – İstisna Yakalama |  |  |
+| [CENG106_slides_bolum-14-dosyalar-ve-akislar.pdf](slides/CENG106_slides_bolum-14-dosyalar-ve-akislar.pdf) | Bölüm 14 – Dosyalar ve Akışlar |  |  |
+| [CENG106_slides_bolum-15-ozyineleme-recursion.pdf](slides/CENG106_slides_bolum-15-ozyineleme-recursion.pdf) | Bölüm 15 – Özyineleme (Recursion) |  |  |
+| [CENG106_slides_bolum-16-arama-ve-siralama.pdf](slides/CENG106_slides_bolum-16-arama-ve-siralama.pdf) | Bölüm 16 – Arama ve Sıralama |  |  |
+| [CENG106_slides_bolum-17-veri-yapilari.pdf](slides/CENG106_slides_bolum-17-veri-yapilari.pdf) | Bölüm 17 – Veri Yapıları |  |  |
+| [CENG106_slides_bolum-18-genel-tipler-generics.pdf](slides/CENG106_slides_bolum-18-genel-tipler-generics.pdf) | Bölüm 18 – Genel Tipler (Generics) |  |  |
+| [CENG106_slides_bolum-19-koleksiyonlar.pdf](slides/CENG106_slides_bolum-19-koleksiyonlar.pdf) | Bölüm 19 – Koleksiyonlar |  |  |
+| [CENG106_slides_bolum-20-java-appletleri.pdf](slides/CENG106_slides_bolum-20-java-appletleri.pdf) | Bölüm 20 – Java Appletleri |  |  |
+| [CENG106_slides_bolum-21-multimedya.pdf](slides/CENG106_slides_bolum-21-multimedya.pdf) | Bölüm 21 – Multimedya |  |  |
+| [CENG106_slides_bolum-22-grafik-kullanici-arayuzu-bilesenleri-2.pdf](slides/CENG106_slides_bolum-22-grafik-kullanici-arayuzu-bilesenleri-2.pdf) | Bölüm 22 – Grafik Kullanıcı Arayüzü Bileşenleri 2 |  |  |
+| [CENG106_slides_bolum-23-coklu-is-parcaciklari-multithreading.pdf](slides/CENG106_slides_bolum-23-coklu-is-parcaciklari-multithreading.pdf) | Bölüm 23 – Çoklu İş Parçacıkları (Multithreading) |  |  |
+| [CENG106_slides_bolum-24-ag-programlama.pdf](slides/CENG106_slides_bolum-24-ag-programlama.pdf) | Bölüm 24 – Ağ Programlama |  |  |
+| [CENG106_slides_bolum-25-jdbc-ile-veritabani-erisimi.pdf](slides/CENG106_slides_bolum-25-jdbc-ile-veritabani-erisimi.pdf) | Bölüm 25 – JDBC ile Veritabanı Erişimi |  |  |
+| [CENG106_slides_bolum-26-web-uygulamalari-1.pdf](slides/CENG106_slides_bolum-26-web-uygulamalari-1.pdf) | Bölüm 26 – Web Uygulamaları 1 |  |  |
+| [CENG106_slides_bolum-27-web-uygulamalari-2.pdf](slides/CENG106_slides_bolum-27-web-uygulamalari-2.pdf) | Bölüm 27 – Web Uygulamaları 2 |  |  |
+| [CENG106_slides_bolum-28-jax-ws-web-servisleri.pdf](slides/CENG106_slides_bolum-28-jax-ws-web-servisleri.pdf) | Bölüm 28 – JAX-WS Web Servisleri |  |  |
+| [CENG106_slides_bolum-29-formatli-cikti.pdf](slides/CENG106_slides_bolum-29-formatli-cikti.pdf) | Bölüm 29 – Formatlı Çıktı |  |  |
+| [CENG106_slides_bolum-30-karakter-katarlari-ve-duzenli-ifadeler.pdf](slides/CENG106_slides_bolum-30-karakter-katarlari-ve-duzenli-ifadeler.pdf) | Bölüm 30 – Karakter Katarları ve Düzenli İfadeler |  |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG106_exam_bahar.pdf](exams/CENG106_exam_bahar.pdf) | 2020-2021 G?z Vize | 2020 fall | midterm |
+| [CENG106_exam_final_bahar-final.pdf](exams/CENG106_exam_final_bahar-final.pdf) | 2020-2021 G?z Final | 2020 fall | final |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG106_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG106_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

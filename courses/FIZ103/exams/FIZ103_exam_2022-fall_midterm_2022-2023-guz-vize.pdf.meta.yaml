@@ -1,0 +1,18 @@
+file: FIZ103_exam_2022-fall_midterm_2022-2023-guz-vize.pdf
+sha256: 9f9c043ae85324672c9fe872240b691958fe0138a5d54196fbbffe72b6ed10ae
+size: 435717
+course: FIZ103
+kind: exam
+title: 2022-2023 Güz Vize
+year: 2022
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

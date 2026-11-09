@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-25-jdbc-ile-veritabani-erisimi.pdf
+sha256: 39b249ff4dbf4217b4d1574289b356945b615bbdf9827fbeeb83f1d9e5cb5ce8
+size: 1671838
+course: CENG106
+kind: slides
+title: Bölüm 25 – JDBC ile Veritabanı Erişimi
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

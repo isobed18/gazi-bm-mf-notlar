@@ -16,7 +16,9 @@ Commands (run `python -X utf8 tools/archive.py <cmd> -h` for options):
   validate            check the whole archive (sidecars, names, duplicates, forbidden files)
   index               rebuild catalog/index.json and courses/<CODE>/README.md
   whatsapp-index      parse a WhatsApp export and rank attachments by relevance (no full reading)
-  export-obsidian     copy resources into an Obsidian vault and write a resource-list note per course
+  export-obsidian     generate the semester-based study vault (Dersler/<dönem>/<ders>/: Çıkmış Sorular, Ders Notları, Slaytlar)
+  chat-chunk          split a chat into numbered chunks for reading agents (chat-coverage, chat-merge follow)
+  audit               privacy/secret audit of everything that would be shared
   variant             list files of a download variant (full | core)
   storage-push        upload local resources to the Google Drive mirror (place does this automatically)
   storage-pull        download missing resources from Drive (--course, --variant core)
@@ -26,6 +28,7 @@ Only stdlib + PyYAML are required. PyMuPDF (fitz), python-docx and Pillow are us
 """
 import argparse
 import csv
+import glob
 import datetime as dt
 import hashlib
 import json
@@ -43,6 +46,7 @@ except ImportError:  # pragma: no cover
     sys.exit("PyYAML is required: pip install -r tools/requirements.txt")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
 CAT = os.path.join(ROOT, "catalog")
 COURSES = os.path.join(ROOT, "courses")
 GENERAL = os.path.join(ROOT, "general")
@@ -51,8 +55,20 @@ REVIEW = os.path.join(ROOT, "review")
 QUARANTINE = os.path.join(ROOT, "quarantine")
 LOCAL = os.path.join(ROOT, "local")          # git-ignored: logs, personal layout overrides
 LOG = os.path.join(LOCAL, "ingest-log.jsonl")
+# Machine-specific settings (vault path, drop folders, remote) live in local/config.yaml (git-ignored);
+# see config.example.yaml. Nothing personal is hard-coded in the repository.
+def _local_config():
+    p = os.path.join(LOCAL, "config.yaml")
+    try:
+        with open(p, encoding="utf-8") as fh:
+            return yaml.safe_load(fh) or {}
+    except OSError:
+        return {}
+
+
+CONFIG = _local_config()
 # Binary resources live in a Google Drive mirror with the same folder layout (docs/STORAGE.md).
-REMOTE = os.environ.get("ARCHIVE_REMOTE", "gdrive-arsiv:gazi-bm-mf-notlar")
+REMOTE = os.environ.get("ARCHIVE_REMOTE") or CONFIG.get("remote") or "gdrive-arsiv:gazi-bm-mf-notlar"
 
 
 def rclone_bin():
@@ -315,14 +331,28 @@ def scan_file(path):
     if priv:
         bump("review", "possible personal data: %s" % ", ".join(priv))
 
+    av = defender_bin()
     if shutil.which("clamscan"):
         r = subprocess.run(["clamscan", "--no-summary", path], capture_output=True, text=True)
         if r.returncode == 1:
             bump("block", "antivirus: %s" % r.stdout.strip())
         info["antivirus"] = "clamscan:%s" % ("clean" if r.returncode == 0 else "error" if r.returncode > 1 else "infected")
+    elif av:
+        # Windows Defender custom scan of one file; exit code 2 = threat found
+        r = subprocess.run([av, "-Scan", "-ScanType", "3", "-File", os.path.abspath(path), "-DisableRemediation"],
+                           capture_output=True, text=True, errors="ignore")
+        if r.returncode == 2:
+            bump("block", "antivirus (Windows Defender): threat found")
+        info["antivirus"] = "defender:%s" % ("clean" if r.returncode == 0 else "infected" if r.returncode == 2 else "error-%d" % r.returncode)
     else:
-        info["antivirus"] = "not-run (clamscan not installed)"
+        info["antivirus"] = "not-run (no clamscan / Windows Defender)"
     return {"verdict": verdict, "reasons": reasons, "privacy": priv, "info": info}
+
+
+def defender_bin():
+    cands = glob.glob(r"C:\ProgramData\Microsoft\Windows Defender\Platform\*\MpCmdRun.exe")
+    cands.append(r"C:\Program Files\Windows Defender\MpCmdRun.exe")
+    return next((c for c in sorted(cands, reverse=True) if os.path.isfile(c)), None) if os.name == "nt" else None
 
 
 def strip_exif(path):
@@ -771,9 +801,14 @@ def cmd_review_publish(a):
         details.append("### %d. %s\n- Öneri: **%s** · başlık: %s\n- Neden: %s\n- Sorular:\n%s\n- Dosya: %s\n- id: `%s`\n"
                        % (n, fm["file"], prop_s, prop.get("title") or "-", (reason.group(1).strip() if reason else "-"),
                           (qs.group(1).strip() if qs else "- (none)"), where, rid))
-    body = ("Agent'ların emin olamadığı %d dosya.\n\n"
+    body = ("Agent'ların emin olamadığı %d öncelikli dosya.\n\n"
+            "**Öncelik:** çıkmış sorular ve çözümleri; ders notları; hocanın resmi slaytları. Bu sırayı koruyun.\n"
+            "Müfredat, sınav/ders takvimi, ödev takvimi veya tekil ödev ayrıntısı, akademik takvim, staj, kariyer ve\n"
+            "genel belgeler kapsam dışıdır. Dersle açıkça eşleşen kitaplar eklenebilir; kitap için soru açmayın.\n"
+            "Ders adı açıksa eksik/önemsiz ders kodu için sormayın. Yalnızca öncelikli bir kaynağın güvenli yerleşimini\n"
+            "engelleyen gerçek belirsizlik veya gizlilik sorunu varsa soru sorun.\n\n"
             "**Nasıl cevaplanır:** Düz Türkçe yorum yazman yeterli, maddelere numarayla değin. Örnek:\n"
-            "> 1 ve 2 BM218'in 2023 güz vizesi. 3 çöp, sil. 4'ü staj klasörüne koy. Geri kalanlar öneri gibi olsun.\n\n"
+            "> 1 ve 2 BM218'in 2023 güz vizesi. 3'ü sil. 4'ü BM371 resmi slayt olarak ekle.\n\n"
             "Bir agent yorumunu okur, uygular ve ne anladığını cevap olarak yazar; emin olamadığını sana tekrar sorar.\n"
             "(İstersen kısa komut da olur: `3: reject`, `1: place BM218 exam 2023 Vize`, `all: approve`.)\n\n"
             "| # | id | dosya | öneri | güven |\n|---|---|---|---|---|\n%s\n\n%s") % (len(ids), "\n".join(rows), "\n".join(details))
@@ -912,6 +947,48 @@ def cmd_review_ack(a):
 # ------------------------------------------------------------------ metadata edits
 
 EDITABLE = {"title", "year", "term", "exam_type", "week", "language", "topics", "related", "status", "notes", "handwritten"}
+
+
+def cmd_relocate(a):
+    """Move a placed resource to another course and/or kind (fixes misclassification); keeps metadata, renames,
+    moves the Drive copy too. Use `meta-set` for title/year/term/status changes."""
+    src = a.path[:-10] if a.path.endswith(".meta.yaml") else a.path
+    mp = src + ".meta.yaml"
+    if not os.path.isfile(mp):
+        sys.exit("no sidecar: %s" % mp)
+    m = load_yaml(mp) or {}
+    tax, cat = taxonomy(), catalog()
+    course = (a.course or m.get("course") or "").upper()
+    kind = a.kind or m.get("kind")
+    if course not in cat:
+        sys.exit("unknown course %s" % course)
+    if kind not in tax["kinds"]:
+        sys.exit("unknown kind %s" % kind)
+    e = ext_of(m["file"])
+    name = normalized_name(course, kind, e, m.get("title"), m.get("year"), m.get("term"), m.get("exam_type"), m.get("week"))
+    ddir = os.path.join(COURSES, course, tax["kinds"][kind]["dir"])
+    os.makedirs(ddir, exist_ok=True)
+    dest = unique_path(os.path.join(ddir, name))
+    old_rel = os.path.relpath(src, ROOT).replace("\\", "/")
+    new_rel = os.path.relpath(dest, ROOT).replace("\\", "/")
+    if os.path.isfile(src):
+        shutil.move(src, dest)
+    try:
+        rclone("moveto", "%s/%s" % (REMOTE, old_rel), "%s/%s" % (REMOTE, new_rel))
+    except RuntimeError as ex:
+        if os.path.isfile(dest):
+            push_files([new_rel])
+        else:
+            print("WARNING: Drive move failed (%s)" % ex)
+    m.update({"file": os.path.basename(dest), "course": course, "kind": kind})
+    if a.status:
+        m["status"] = a.status
+    if a.notes:
+        m["notes"] = a.notes
+    os.remove(mp)
+    dump_yaml(m, dest + ".meta.yaml")
+    log_event(event="relocate", old=old_rel, new=new_rel)
+    print("relocated %s -> %s" % (old_rel, new_rel))
 
 
 def cmd_meta_set(a):
@@ -1132,64 +1209,160 @@ def cmd_whatsapp_index(a):
     print("written: %s  (files extracted under %s)" % (a.out, os.path.relpath(src, ROOT) if tmp else src))
 
 
-# ------------------------------------------------------------------ Obsidian export
-
-def find_vault_course_dir(vault, code, c):
-    root = os.path.join(vault, "Dersler")
-    if os.path.isdir(root):
-        for dp, ds, _ in os.walk(root):
-            for d in ds:
-                if d.upper().startswith(code + " ") or d.upper().startswith(code + "-"):
-                    return os.path.join(dp, d)
-    sem = c.get("semester")
-    sem_dir = "%d. Sinif %s" % ((sem + 1) // 2, "Guz" if sem % 2 else "Bahar") if sem else "Secmeli Dersler"
-    return os.path.join(root, sem_dir, "%s - %s" % (code, c["name_tr"]))
-
+# ------------------------------------------------------------------ Obsidian export (semester layout)
 
 def cmd_export_obsidian(a):
-    tax = taxonomy()
+    import obsidian_export
+    vault = a.vault or CONFIG.get("vault")
+    if not vault:
+        sys.exit("no vault path: pass --vault or set `vault:` in local/config.yaml")
+    obsidian_export.export(sys.modules[__name__], vault, a.variant, set(a.course or []), a.dry_run)
+
+
+def cmd_export_exams(a):
+    """Add archive past exams to a user-maintained vault (e.g. the personal vault), after a zip backup."""
+    import obsidian_export
+    import zipfile as zf
+    vault = a.vault or CONFIG.get("personal_vault")
+    if not vault or not os.path.isdir(vault):
+        sys.exit("vault not found: %s" % vault)
+    if not a.dry_run and not a.no_backup:
+        bdir = CONFIG.get("backup_dir") or os.path.join(os.path.dirname(ROOT), "vault-backups")
+        os.makedirs(bdir, exist_ok=True)
+        zpath = os.path.join(bdir, "%s-%s.zip" % (os.path.basename(vault.rstrip(os.sep + "/")), dt.datetime.now().strftime("%Y%m%d-%H%M")))
+        with zf.ZipFile(zpath, "w", zf.ZIP_DEFLATED) as z:
+            for dp, ds, fs in os.walk(vault):
+                for f in fs:
+                    p = os.path.join(dp, f)
+                    z.write(p, os.path.relpath(p, vault))
+        print("backup: %s (%d MB)" % (zpath, os.path.getsize(zpath) // 2 ** 20))
+        olds = sorted(f for f in os.listdir(bdir) if f.startswith(os.path.basename(vault.rstrip(os.sep + "/")) + "-") and f.endswith(".zip"))
+        for f in olds[:-3]:  # keep the 3 newest backups
+            os.remove(os.path.join(bdir, f))
+    obsidian_export.export_exams_to_vault(sys.modules[__name__], vault, a.skip or [], a.dry_run)
+
+
+# ------------------------------------------------------------------ exam information from chats
+
+def cmd_chat_chunk(a):
+    import chatintel
+    total, n, base = chatintel.chunk(a.export, a.slug, LOCAL, a.size)
+    print("%s: %d lines -> %d chunks in %s" % (a.slug, total, n, os.path.relpath(base, ROOT)))
+
+
+def cmd_chat_coverage(a):
+    import chatintel
+    res = chatintel.coverage(LOCAL, a.slug)
+    bad = 0
+    for slug, (n, missing) in sorted(res.items()):
+        bad += len(missing)
+        print("%-28s %3d chunks, %3d done, missing: %s" % (slug, n, n - len(missing), (",".join(map(str, missing[:40])) or "-")))
+    sys.exit(1 if bad else 0)
+
+
+def cmd_chat_merge(a):
+    """All chat findings -> one 'sohbetten sınav bilgileri' note per course (placed/updated in the archive)."""
+    import chatintel
     cat = catalog()
-    excl = set(tax["variants"][a.variant]["exclude_kinds"])
-    items = []
-    for dp, f in iter_resources():
-        m = load_yaml(os.path.join(dp, f)) or {}
-        if m.get("course") and m.get("kind") not in excl and (not a.course or m["course"] in a.course):
-            items.append((dp, m))
-    copied = 0
-    by_course = {}
-    for dp, m in items:
-        by_course.setdefault(m["course"], []).append((dp, m))
-    for code, lst in sorted(by_course.items()):
-        c = cat[code]
-        cdir = find_vault_course_dir(a.vault, code, c)
-        kdir = os.path.join(cdir, "Arsiv")
-        lines = ["---", "tags: [%s, arsiv]" % code.lower(), "---",
-                 "# %s Arşiv Kaynakları" % code,
-                 "Bu not `gazi-bm-mf-notlar` deposundan otomatik üretildi; elle düzenleme (bir sonraki export üzerine yazar).",
-                 "Ders: [[%s]]" % os.path.basename(cdir), ""]
-        for kind, spec in tax["kinds"].items():
-            sel = [(dp, m) for dp, m in lst if m["kind"] == kind]
-            if not sel:
-                continue
-            lines += ["## %s" % kind, ""]
-            for dp, m in sel:
-                dst = os.path.join(kdir, spec["dir"], m["file"])
-                if not os.path.isfile(os.path.join(dp, m["file"])):
-                    print("  skip (not downloaded, run storage-pull --course %s): %s" % (code, m["file"]))
+    found, unknown, bad = chatintel.load_findings(LOCAL, cat)
+    total = 0
+    for code, rows in sorted(found.items()):
+        text = chatintel.render(code, cat[code]["name_tr"], rows)
+        ddir = os.path.join(COURSES, code, "announcements")
+        os.makedirs(ddir, exist_ok=True)
+        fname = "%s_announcement_sohbetten-sinav-bilgileri.md" % code
+        dest = os.path.join(ddir, fname)
+        with open(dest, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(text + "\n")
+        meta = {"file": fname, "sha256": sha256(dest), "size": os.path.getsize(dest), "course": code, "kind": "announcement",
+                "title": "Sohbetlerden sınav bilgileri", "language": "tr", "handwritten": False,
+                "source": {"type": "whatsapp", "ref": "merged:" + ",".join(sorted({r["slug"] for r in rows}))},
+                "added": dt.date.today().isoformat(), "status": "unverified",
+                "scan": {"verdict": "ok", "antivirus": "generated-text"},
+                "notes": "generated by archive.py chat-merge from %d findings" % len(rows)}
+        dump_yaml(meta, dest + ".meta.yaml")
+        total += len(rows)
+        # older per-chat announcement files (one per group, written by earlier agents) are superseded:
+        # their Drive copy goes to _retired/, the local file + sidecar are removed
+        for f in os.listdir(ddir):
+            if f.endswith(".meta.yaml") and f != fname + ".meta.yaml":
+                mp = os.path.join(ddir, f)
+                m = load_yaml(mp) or {}
+                if "sohbetten" in slugify(m.get("title", "") + " " + m.get("file", ""), 200):
+                    old = os.path.join(ddir, m.get("file", f[:-10]))
+                    rel = os.path.relpath(old, ROOT).replace("\\", "/")
+                    if a.no_push:
+                        with open(os.path.join(LOCAL, "retire-on-drive.txt"), "a", encoding="utf-8") as fh:
+                            fh.write(rel + "\n")   # moved to _retired/ on Drive later (storage-retire)
+                    else:
+                        try:
+                            rclone("moveto", "%s/%s" % (REMOTE, rel), "%s/_retired/%s" % (REMOTE, rel))
+                        except RuntimeError:
+                            pass
+                    for p in (old, mp):
+                        if os.path.exists(p):
+                            os.remove(p)
+        if not a.no_push:
+            try:
+                rclone("copyto", dest, "%s/%s" % (REMOTE, os.path.relpath(dest, ROOT).replace("\\", "/")))
+            except RuntimeError as ex:
+                print("WARNING: %s not uploaded (%s)" % (code, ex))
+    with open(os.path.join(LOCAL, "chat", "unmatched-findings.json"), "w", encoding="utf-8") as fh:
+        json.dump(unknown, fh, ensure_ascii=False, indent=1)
+    print("chat-merge: %d findings into %d courses; %d findings without a catalog course (local/chat/unmatched-findings.json); %d bad lines"
+          % (total, len(found), len(unknown), bad))
+
+
+# ------------------------------------------------------------------ privacy / secret audit of what would be shared
+
+AUDIT_PAT = {
+    "phone": re.compile(r"(?<![0-9a-f])(?:\+?90[\s\-]?)?\(?0?5\d{2}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}(?![0-9a-f])"),
+    "email": re.compile(r"[\w.+-]+@(?!gazi\.edu\.tr|users\.noreply\.github\.com|anthropic\.com)[\w-]+\.[\w.-]+"),
+    "secret": re.compile(r"gh[pousr]_[A-Za-z0-9]{20,}|AIza[0-9A-Za-z_\-]{30,}|\"refresh_token\"|client_secret\s*[=:]\s*\S{8,}|-----BEGIN [A-Z ]*PRIVATE KEY"),
+    "user-path": re.compile(r"[A-Z]:\\+Users\\+[^\\\s`'\"]+", re.I),
+    "chat-line": re.compile(r"^\[?\d{1,2}[./]\d{1,2}[./]\d{2,4},? \d{1,2}:\d{2}(?::\d{2})?\]? ?-? ?[^:\n]{2,40}: ", re.M),
+}
+
+
+def cmd_audit(a):
+    """Scan everything that would be shared: tracked + untracked-not-ignored text, optionally git history and issues."""
+    def git(*args):
+        return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="ignore").stdout
+    files = [f for f in (git("ls-files") + git("ls-files", "--others", "--exclude-standard")).splitlines() if f]
+    hits = []
+    for f in files:
+        if not f.endswith((".md", ".yaml", ".yml", ".json", ".py", ".txt", ".csv", ".toml")) or f == "catalog/index.json":
+            continue
+        try:
+            txt = open(os.path.join(ROOT, f), encoding="utf-8", errors="ignore").read()
+        except OSError:
+            continue
+        if f.endswith(".meta.yaml"):  # hashes look like numbers; only scan human fields
+            m = yaml.safe_load(txt) or {}
+            txt = " ".join(str(m.get(k, "")) for k in ("title", "notes", "topics", "contributor"))
+        for k, rx in AUDIT_PAT.items():
+            for mm in rx.finditer(txt):
+                if k == "phone" and not valid_phone_context(txt, mm):
                     continue
-                if not os.path.exists(dst) and not a.dry_run:
-                    os.makedirs(os.path.dirname(dst), exist_ok=True)
-                    shutil.copy2(os.path.join(dp, m["file"]), dst)
-                    copied += 1
-                extra = " · ".join(str(x) for x in (m.get("year"), m.get("term"), m.get("exam_type")) if x)
-                lines.append("- [[%s]] — %s%s" % (m["file"], m.get("title", ""), (" (%s)" % extra) if extra else ""))
-            lines.append("")
-        if not a.dry_run:
-            os.makedirs(cdir, exist_ok=True)
-            with open(os.path.join(cdir, "%s Arsiv Kaynaklari.md" % code), "w", encoding="utf-8", newline="\n") as fh:
-                fh.write("\n".join(lines))
-        print("%s -> %s (%d resources)" % (code, cdir, len(lst)))
-    print("copied %d new files%s" % (copied, " (dry run)" if a.dry_run else ""))
+                hits.append((k, f, mm.group(0)[:50]))
+    if a.history:
+        authors = set(git("log", "--all", "--format=%an <%ae>").splitlines())
+        for au in authors:
+            if not re.search(r"noreply", au):
+                hits.append(("author-email", "git history", au))
+    untracked = [f for f in git("ls-files", "--others", "--exclude-standard").splitlines() if f and not f.startswith(("courses/", "general/", "catalog/"))]
+    for f in untracked:
+        hits.append(("untracked", f, "not ignored and not archive content: commit deliberately or ignore"))
+    for k, f, s in hits:
+        print("%-12s %-70s %s" % (k, f[:70], s))
+    blocking = [h for h in hits if h[0] != "untracked"]
+    print("audit: %d findings (%d blocking)" % (len(hits), len(blocking)))
+    sys.exit(1 if blocking else 0)
+
+
+def valid_phone_context(txt, m):
+    s = re.sub(r"\D", "", m.group(0))
+    return len(s) in (10, 11, 12) and not re.search(r"[0-9a-f]{20,}", txt[max(0, m.start() - 20): m.end() + 20])
 
 
 def cmd_variant(a):
@@ -1246,6 +1419,10 @@ def main():
     s.add_argument("--comment"); s.set_defaults(fn=cmd_review_decide)
     s = sp.add_parser("review-ack", help="mark a plain comment handled and reply on the issue")
     s.add_argument("issue", type=int); s.add_argument("comment_id"); s.add_argument("--reply", required=True); s.set_defaults(fn=cmd_review_ack)
+    s = sp.add_parser("relocate", help="move a placed resource to another course/kind (misclassification fix)")
+    s.add_argument("path"); s.add_argument("--course"); s.add_argument("--kind")
+    s.add_argument("--status", choices=["approved", "unverified", "needs-review", "deprecated"]); s.add_argument("--notes")
+    s.set_defaults(fn=cmd_relocate)
     s = sp.add_parser("meta-set", help="edit editable sidecar fields: key=value ...")
     s.add_argument("path"); s.add_argument("set", nargs="+"); s.set_defaults(fn=cmd_meta_set)
     s = sp.add_parser("review-apply"); s.add_argument("id"); s.set_defaults(fn=cmd_review_apply)
@@ -1259,9 +1436,21 @@ def main():
     s = sp.add_parser("index"); s.set_defaults(fn=cmd_index)
     s = sp.add_parser("whatsapp-index"); s.add_argument("export", help="WhatsApp export folder or .zip"); s.add_argument("--out", required=True)
     s.set_defaults(fn=cmd_whatsapp_index)
-    s = sp.add_parser("export-obsidian"); s.add_argument("--vault", required=True); s.add_argument("--variant", default="full", choices=["full", "core"])
+    s = sp.add_parser("export-obsidian", help="generate the semester-based study vault (vault path from --vault or local/config.yaml)")
+    s.add_argument("--vault"); s.add_argument("--variant", default="full", choices=["full", "core"])
     s.add_argument("--dry-run", action="store_true"); s.add_argument("--course", nargs="*", help="only these course codes")
     s.set_defaults(fn=cmd_export_obsidian)
+    s = sp.add_parser("export-exams", help="add archive past exams to a user-maintained vault (zip backup first)")
+    s.add_argument("--vault", help="default: personal_vault from local/config.yaml"); s.add_argument("--skip", nargs="*", help='semester folders to skip, e.g. "4. Sinif Guz"')
+    s.add_argument("--dry-run", action="store_true"); s.add_argument("--no-backup", action="store_true"); s.set_defaults(fn=cmd_export_exams)
+    s = sp.add_parser("chat-chunk", help="split a chat export into numbered, pseudonymized chunks for reading agents")
+    s.add_argument("export", help="export folder or _chat.txt"); s.add_argument("--slug", required=True); s.add_argument("--size", type=int, default=250)
+    s.set_defaults(fn=cmd_chat_chunk)
+    s = sp.add_parser("chat-coverage", help="which chunks still have no findings file"); s.add_argument("--slug"); s.set_defaults(fn=cmd_chat_coverage)
+    s = sp.add_parser("chat-merge", help="merge all chat findings into one exam-info note per course")
+    s.add_argument("--no-push", dest="no_push", action="store_true"); s.set_defaults(fn=cmd_chat_merge)
+    s = sp.add_parser("audit", help="privacy/secret audit of everything that would be shared")
+    s.add_argument("--history", action="store_true", help="also check commit author e-mails"); s.set_defaults(fn=cmd_audit)
     s = sp.add_parser("variant"); s.add_argument("name", choices=["full", "core"]); s.set_defaults(fn=cmd_variant)
 
     a = p.parse_args()

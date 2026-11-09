@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-7-2-etik.pdf
+sha256: 7c51d929947977d62010c301439f56c310d5f5a284c66fe5f0a7ee6443ab4327
+size: 11686011
+course: ISG401
+kind: slides
+title: Hafta 07 – Çalışma Hayatında Etik
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

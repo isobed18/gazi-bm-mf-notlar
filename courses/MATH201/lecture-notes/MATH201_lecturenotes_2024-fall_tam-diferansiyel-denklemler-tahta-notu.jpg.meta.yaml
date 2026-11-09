@@ -1,0 +1,18 @@
+file: MATH201_lecturenotes_2024-fall_tam-diferansiyel-denklemler-tahta-notu.jpg
+sha256: b72015d7d729617e96bcfe296589d0c5233a6d2a097c8ec343cffd64d759e266
+size: 91551
+course: MATH201
+kind: lecture-notes
+title: Tam Diferansiyel Denklemler Tahta Notu
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: poster

@@ -3,4 +3,16 @@
 
 *Probability and Statistics* · required · curriculum semester: 3
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM207_studentnotes_2023-fall_olasilik-ve-istatistik-final-konulari-el-notu.pdf](student-notes/BM207_studentnotes_2023-fall_olasilik-ve-istatistik-final-konulari-el-notu.pdf) | Olasılık ve İstatistik Final Konuları El Notu | 2023 fall |  |
+| [BM207_studentnotes_math201-olasilik-ve-istatistik-ders-notlari-66-say.pdf](student-notes/BM207_studentnotes_math201-olasilik-ve-istatistik-ders-notlari-66-say.pdf) | Olasılık ve İstatistik Ders Notları |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM207_announcement_sohbetten-sinav-bilgileri.md](announcements/BM207_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

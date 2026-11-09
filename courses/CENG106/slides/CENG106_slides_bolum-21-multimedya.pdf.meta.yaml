@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-21-multimedya.pdf
+sha256: f411c252f79c286cd62ce5b9b9e44acb560b5651fde86fbf20bc84a3510b8e83
+size: 1044411
+course: CENG106
+kind: slides
+title: Bölüm 21 – Multimedya
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

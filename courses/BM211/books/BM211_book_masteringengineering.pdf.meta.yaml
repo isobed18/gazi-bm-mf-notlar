@@ -1,0 +1,15 @@
+file: BM211_book_masteringengineering.pdf
+sha256: bf5d6d4d3c2d2a5071e0d19075cef9079dbb4e2e45ca3136013e842a062a73cf
+size: 38863351
+course: BM211
+kind: book
+title: MasteringEngineering
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,16 @@
+file: PHYS104_book_physics-9th-ed-serway-solution-manual.pdf
+sha256: b4ed61d3b86dd2293a816a36c298804722a750d920aec5a193ff652993f7b95f
+size: 45787506
+course: PHYS104
+kind: book
+title: Physics_9th_Edition_Instructor_Solutions_Manual
+term: spring
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

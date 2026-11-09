@@ -1,0 +1,16 @@
+file: MATH101_book_00000249-mustafa-balc-genel-matematik-1-pdf.pdf
+sha256: 6b6323e5661165b90b910b7d92860da606bcd9ae313ba4fda66ac05e46938b62
+size: 34682818
+course: MATH101
+kind: book
+title: 00000249-Mustafa Balc─▒ Genel Matematik 1.pdf
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kursla eşleşen kitap kaynağı; kullanıcı talebiyle eklendi, resmi vault kitapları göstermiyor.

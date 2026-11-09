@@ -1,0 +1,18 @@
+file: CENG316_exam_2018-spring_final_2018-2019-bahar-final.pdf
+sha256: 637f5dcbfc4e5ae89ea286f07f0195697bb6b5c05b4628beeba27721ec6beaa2
+size: 445959
+course: CENG316
+kind: exam
+title: 2022-2023 Bahar Final (Final Assignment)
+year: 2022
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

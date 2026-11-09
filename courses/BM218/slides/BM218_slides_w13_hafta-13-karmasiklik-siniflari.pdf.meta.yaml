@@ -1,0 +1,17 @@
+file: BM218_slides_w13_hafta-13-karmasiklik-siniflari.pdf
+sha256: 0558b547bb5ecaa64c069ba0d0a816958223830cc3c67e3f4adeaec58d0bd7a7
+size: 833657
+course: BM218
+kind: slides
+title: Hafta 13 – Karmaşıklık Sınıfları
+week: 13
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

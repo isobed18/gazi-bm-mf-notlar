@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003014-3-mevzuat.pdf
+sha256: 87573b6166505b10596c38485f0be116f9fb9559a3bf7584ab0ba89d111a0cf0
+size: 5648524
+course: ISG401
+kind: slides
+title: 3 – İş Sağlığı ve Güvenliği Mevzuatı
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

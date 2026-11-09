@@ -1,0 +1,18 @@
+file: ENG204_examsolution_2020-spring_final_eng204-final-solution-manuel-20-21.pdf
+sha256: 821be94922425833360fa7ff9db15d9af84fe5af0331af83b32bc45ebaa3f33c
+size: 437187
+course: ENG204
+kind: exam-solution
+title: 2020-2021 Bahar Final Çözüm Anahtarı
+year: 2020
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

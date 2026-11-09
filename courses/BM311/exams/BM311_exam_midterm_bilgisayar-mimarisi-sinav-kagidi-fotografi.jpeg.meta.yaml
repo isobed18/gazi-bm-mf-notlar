@@ -1,0 +1,17 @@
+file: BM311_exam_midterm_bilgisayar-mimarisi-sinav-kagidi-fotografi.jpeg
+sha256: aa45f732d950305a465977142e5933565b16363552426c007f99472262b5b69b
+size: 107705
+course: BM311
+kind: exam
+title: Bilgisayar Mimarisi Sınav Kağıdı Fotoğrafı
+exam_type: midterm
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

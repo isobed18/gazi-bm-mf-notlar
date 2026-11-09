@@ -1,0 +1,17 @@
+file: ENG103_exam_midterm_guz-vize.pdf
+sha256: c30e3c762b42d8004f1544f90a82b5028ed2dafb89d398ed1471664364a8e43a
+size: 223517
+course: ENG103
+kind: exam
+title: Güz Vize
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: FIZ103_lecturenotes_2023-fall_w09_bolum9orneksorular.pdf
+sha256: 70b0365b4359529b5d931853abc8d898294da676b4a43275d02c98b67706c9e2
+size: 423584
+course: FIZ103
+kind: lecture-notes
+title: Bölüm 9 – Doğrusal Momentum Örnek Sorular
+year: 2023
+term: fall
+week: 9
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

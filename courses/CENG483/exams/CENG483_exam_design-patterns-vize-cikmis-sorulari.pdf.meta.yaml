@@ -1,0 +1,16 @@
+file: CENG483_exam_design-patterns-vize-cikmis-sorulari.pdf
+sha256: e44f7b41d7cdd0a3413626969c4eba2a2eb048c368cadfd6a4d1865cd00407f8
+size: 1702086
+course: CENG483
+kind: exam
+title: Design Patterns Vize Çıkmış Soruları
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Ders adı ve sınav türü dosyada açık; mevcut ders kodu materyal eşlemesi için kullanıldı.

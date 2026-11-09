@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003008-7-1-is-kazalari.pdf
+sha256: 190bec8cac0d90bf21c2b8b9143343d416479982547cb31d750b7d5e7882603d
+size: 6874277
+course: ISG401
+kind: slides
+title: 7.1 – İş Kazaları
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

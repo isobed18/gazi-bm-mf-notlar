@@ -1,0 +1,19 @@
+file: BM311_exam_2025-spring_midterm_w11023_bilgisayar-mimarisi-final.pdf
+sha256: 1c9275998fa4ae927bf62e5ed33f0b4e21201c2fed4ed3a79f4494cc5cc92c12
+size: 554387
+course: BM311
+kind: exam
+title: Computer_Architecture_Final_Exam
+year: 2025
+term: spring
+exam_type: final
+week: 11023
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

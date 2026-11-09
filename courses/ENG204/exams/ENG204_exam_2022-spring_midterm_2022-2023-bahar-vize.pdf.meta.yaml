@@ -1,0 +1,18 @@
+file: ENG204_exam_2022-spring_midterm_2022-2023-bahar-vize.pdf
+sha256: 2dd4c613b0ffeeee4b78b0c6e2a2218e57a003e30c6d472b5e2adea464cafb07
+size: 301669
+course: ENG204
+kind: exam
+title: 2022-2023 Bahar Vize
+year: 2022
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

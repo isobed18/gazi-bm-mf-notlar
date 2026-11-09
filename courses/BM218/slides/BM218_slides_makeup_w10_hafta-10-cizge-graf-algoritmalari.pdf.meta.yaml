@@ -1,0 +1,17 @@
+file: BM218_slides_makeup_w10_hafta-10-cizge-graf-algoritmalari.pdf
+sha256: cffb1552a48f9294dbfa7c3c16339b5dee681517e27318d7c10707801e12ac6e
+size: 1169538
+course: BM218
+kind: slides
+title: Hafta 10 – Çizge (Graf) Algoritmaları
+week: 10
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

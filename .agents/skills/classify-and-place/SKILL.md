@@ -16,6 +16,9 @@ If a course is missing from the catalog, **do not invent a code**: open a review
 
 ## Kind (see `catalog/taxonomy.yaml`)
 - Questions of a past exam → `exam`; its answer key → `exam-solution` (`--related <exam path>`).
+- Anonymous course-wide letter-grade counts/percentages with no student-level details → `grade-distribution`; preserve a stated
+  period in the title. If no period is stated, use `Geçmiş Harf Notu Dağılımları` under the matched course. Never include an
+  identifiable student list or individual grade.
 - Instructor slides → `slides`; instructor handouts / course PDFs → `lecture-notes`.
 - Anything written by a student (handwritten scans, typed notes, summaries of a lecture) → `student-notes`
   (+ `--handwritten` for scans). Cheat-sheets/study guides → `summary`.

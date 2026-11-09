@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w04_h4-linux2.pdf
+sha256: 9202a835fafd2733bac8d1015aae00ab2c21fe6861aad75aba5dedc212a1e8cf
+size: 925530
+course: BM103
+kind: slides
+title: Hafta 4 – Linux 2
+year: 2023
+term: fall
+week: 4
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

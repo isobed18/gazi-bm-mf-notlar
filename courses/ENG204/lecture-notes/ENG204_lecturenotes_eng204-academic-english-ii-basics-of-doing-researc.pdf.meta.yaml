@@ -1,0 +1,15 @@
+file: ENG204_lecturenotes_eng204-academic-english-ii-basics-of-doing-researc.pdf
+sha256: 784e8ead28a3ecebd5c2978c820e27d46af8184b1c54f806442b2849c542150a
+size: 1455712
+course: ENG204
+kind: lecture-notes
+title: Basics of Doing Research Ders Notu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -3,4 +3,51 @@
 
 *Microprocessors* · required · curriculum semester: 6
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_slides_2024-spring_microprocessors-chapter-11-slides.pdf](slides/CENG318_slides_2024-spring_microprocessors-chapter-11-slides.pdf) | Microprocessors Chapter 11 Slides | 2024 spring |  |
+| [CENG318_slides_2024-spring_microprocessors-chapter-12-13-slides.pdf](slides/CENG318_slides_2024-spring_microprocessors-chapter-12-13-slides.pdf) | Microprocessors Chapter 12-13 Slides | 2024 spring |  |
+| [CENG318_slides_2024-spring_microprocessors-chapter-14-slides.pdf](slides/CENG318_slides_2024-spring_microprocessors-chapter-14-slides.pdf) | Microprocessors Chapter 14 Slides | 2024 spring |  |
+| [CENG318_slides_2024-spring_microprocessors-chapter-4-5-6-slides.pdf](slides/CENG318_slides_2024-spring_microprocessors-chapter-4-5-6-slides.pdf) | Microprocessors Chapter 4-5-6 Slides | 2024 spring |  |
+| [CENG318_slides_2024-spring_microprocessors-chapter-7-slides.pdf](slides/CENG318_slides_2024-spring_microprocessors-chapter-7-slides.pdf) | Microprocessors Chapter 7 Slides | 2024 spring |  |
+| [CENG318_slides_2024-spring_microprocessors-chapter-8-9-10-slides.pdf](slides/CENG318_slides_2024-spring_microprocessors-chapter-8-9-10-slides.pdf) | Microprocessors Chapter 8-9-10 Slides | 2024 spring |  |
+| [CENG318_slides_microprocessors-chapter-1-2-3-slides.pdf](slides/CENG318_slides_microprocessors-chapter-1-2-3-slides.pdf) | Microprocessors Chapter 1-2-3 Slides |  |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_lecturenotes_2025-spring_w11495_microprocessors-14-260203-020601.pdf](lecture-notes/CENG318_lecturenotes_2025-spring_w11495_microprocessors-14-260203-020601.pdf) | Microprocessors_14_260203_020601 | 2025 spring |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_studentnotes_2024-spring_microprocessors-kitap-ozeti-notlari.pdf](student-notes/CENG318_studentnotes_2024-spring_microprocessors-kitap-ozeti-notlari.pdf) | Microprocessors Kitap Özeti Notları | 2024 spring |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_exam_final_final-sinavi.pdf](exams/CENG318_exam_final_final-sinavi.pdf) | 2025-2026 Bahar Final Sınavı | 2025 spring | final |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_examsolution_final_final-sinavi-cozumu.pdf](exam-solutions/CENG318_examsolution_final_final-sinavi-cozumu.pdf) | 2025-2026 Bahar Final Sınavı Çözümü | 2025 spring | final |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_summary_2024-spring_mikroislemciler-komut-ve-register-ozeti-tablosu.jpg](summaries/CENG318_summary_2024-spring_mikroislemciler-komut-ve-register-ozeti-tablosu.jpg) | 8086 Koşullu Dallanma Komutları Tablosu | 2024 spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG318_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

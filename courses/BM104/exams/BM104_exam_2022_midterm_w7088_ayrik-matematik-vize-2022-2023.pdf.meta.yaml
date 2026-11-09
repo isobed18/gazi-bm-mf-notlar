@@ -1,0 +1,18 @@
+file: BM104_exam_2022_midterm_w7088_ayrik-matematik-vize-2022-2023.pdf
+sha256: 477ff3b0e2ad1c43d3a9eddc8b6bce00c8d9d225b674e91a9be80715f486705c
+size: 696826
+course: BM104
+kind: exam
+title: 2022-2023 Bahar Vize Sınavı
+year: 2022
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

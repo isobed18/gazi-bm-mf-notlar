@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-function-sunumu.pdf
+sha256: a6bc2866f966509e87692f91d9b31561ff958974c3dced688f1937725b47ada5
+size: 1185788
+course: BM311
+kind: slides
+title: BM311 Bilgisayar Mimarisi function Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: superseded

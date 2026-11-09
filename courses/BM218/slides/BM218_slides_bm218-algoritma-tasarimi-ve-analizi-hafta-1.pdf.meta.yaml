@@ -1,0 +1,16 @@
+file: BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-1.pdf
+sha256: 268ec1097a7c08db949b38f9ecfa7e16063f6c3e09081cde3ef1cffafe5f4d90
+size: 925452
+course: BM218
+kind: slides
+title: Hafta 1 - Giriş ve Algoritma Karmaşıklığı
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 1

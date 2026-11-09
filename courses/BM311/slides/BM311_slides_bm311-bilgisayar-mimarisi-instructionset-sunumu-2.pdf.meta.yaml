@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-instructionset-sunumu-2.pdf
+sha256: 485d69bc8dd189a8a8cd7f0eed15448ef379dc559f128b9667e1dc09908740ef
+size: 992601
+course: BM311
+kind: slides
+title: Komut Kümesi (Instruction Set) Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

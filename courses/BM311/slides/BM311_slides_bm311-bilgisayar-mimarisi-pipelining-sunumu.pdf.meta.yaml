@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-pipelining-sunumu.pdf
+sha256: 77ab5a2ffd7799537f64983672147f77b509a73b609c60d6e2613ad421fac2e1
+size: 1303406
+course: BM311
+kind: slides
+title: Komut Pipelining Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

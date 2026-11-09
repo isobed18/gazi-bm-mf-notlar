@@ -3,4 +3,36 @@
 
 *Occupational Health and Safety II* · general · curriculum semester: 8
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG402_slides_2017-spring_acil-durum-planlari-ve-tahliye.pdf](slides/ISG402_slides_2017-spring_acil-durum-planlari-ve-tahliye.pdf) | Acil Durum Planları ve Tahliye | 2017 spring |  |
+| [ISG402_slides_2017-spring_ilk-yardim-ve-acil-mudahale.pdf](slides/ISG402_slides_2017-spring_ilk-yardim-ve-acil-mudahale.pdf) | İlk Yardım ve Acil Müdahale | 2017 spring |  |
+| [ISG402_slides_2017-spring_kisisel-koruyucu-donanimlar.pdf](slides/ISG402_slides_2017-spring_kisisel-koruyucu-donanimlar.pdf) | Kişisel Koruyucu Donanımlar | 2017 spring |  |
+| [ISG402_slides_2017-spring_saglik-ve-guvenlik-isaretleri.pdf](slides/ISG402_slides_2017-spring_saglik-ve-guvenlik-isaretleri.pdf) | Sağlık ve Güvenlik İşaretleri | 2017 spring |  |
+| [ISG402_slides_2025-spring_isg-402-slayt-00004376-2-elektrik-isleri.pdf](slides/ISG402_slides_2025-spring_isg-402-slayt-00004376-2-elektrik-isleri.pdf) | İSG 402 Slayt - 00004376-2-elektrik_isleri | 2025 spring |  |
+| [ISG402_slides_2025-spring_isg-402-slayt-00004377-5-yuksekte-calisma.pdf](slides/ISG402_slides_2025-spring_isg-402-slayt-00004377-5-yuksekte-calisma.pdf) | İSG 402 Slayt - 00004377-5._yuksekte_calisma | 2025 spring |  |
+| [ISG402_slides_2025-spring_isg-402-slayt-00004378-8-2-risk-degerlendirme-yont.pdf](slides/ISG402_slides_2025-spring_isg-402-slayt-00004378-8-2-risk-degerlendirme-yont.pdf) | İSG 402 Slayt - 00004378-8-2-risk_degerlendirme_yontemleri | 2025 spring |  |
+| [ISG402_slides_2025-spring_isg-402-slayt-00004379-1-yangin-ve-patlama-1.pdf](slides/ISG402_slides_2025-spring_isg-402-slayt-00004379-1-yangin-ve-patlama-1.pdf) | İSG 402 Slayt - 00004379-1-yangin_ve_patlama-1 | 2025 spring |  |
+| [ISG402_slides_2025-spring_isg-402-slayt-00004380-3-1-is-ekipmanlari.pdf](slides/ISG402_slides_2025-spring_isg-402-slayt-00004380-3-1-is-ekipmanlari.pdf) | İSG 402 Slayt - 00004380-3-1-is_ekipmanlari | 2025 spring |  |
+| [ISG402_slides_2025-spring_isg-402-slayt-00004381-8-1-risk-degerlendirme-yakl.pdf](slides/ISG402_slides_2025-spring_isg-402-slayt-00004381-8-1-risk-degerlendirme-yakl.pdf) | İSG 402 Slayt - 00004381-8-1-risk_degerlendirme_yaklasimi | 2025 spring |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG402_exam_midterm_isg-402-6-sube-ara-sinav-sorulari.pdf](exams/ISG402_exam_midterm_isg-402-6-sube-ara-sinav-sorulari.pdf) | İSG-402 6. Şube Ara Sınav Soruları |  | midterm |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG402_examsolution_2025-spring_midterm_6-sube-ara-sinav-sorulari-ve-cevaplari.pdf](exam-solutions/ISG402_examsolution_2025-spring_midterm_6-sube-ara-sinav-sorulari-ve-cevaplari.pdf) | 6. Şube Ara Sınav Soruları ve Cevapları | 2025 spring | midterm |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ISG402_announcement_sohbetten-sinav-bilgileri.md](announcements/ISG402_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

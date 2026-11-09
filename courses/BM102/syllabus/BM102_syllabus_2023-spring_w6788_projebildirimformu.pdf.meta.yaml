@@ -1,0 +1,19 @@
+file: BM102_syllabus_2023-spring_w6788_projebildirimformu.pdf
+sha256: 88c37fcfe4f118ac99a9cebdee419d2658c6c9887db55899ad394048306a700e
+size: 53110
+course: BM102
+kind: syllabus
+title: ProjeBildirimFormu
+year: 2023
+term: spring
+week: 6788
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: form

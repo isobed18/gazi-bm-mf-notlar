@@ -1,0 +1,17 @@
+file: CENG318_slides_2024-spring_microprocessors-chapter-4-5-6-slides.pdf
+sha256: 7fcce727db166946b124c8779d1b2785ec0873f61e4894c3b5f9d28193348cf2
+size: 2652046
+course: CENG318
+kind: slides
+title: Microprocessors Chapter 4-5-6 Slides
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

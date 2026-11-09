@@ -1,0 +1,15 @@
+file: FIZ103_book_serway-jewett-physics.pdf
+sha256: fbf0e74ccdb4842dff25d6e8889c8016de1f697453ab1cb56e3556ddb93c9bf3
+size: 52600280
+course: FIZ103
+kind: book
+title: Serway Jewett Physics
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

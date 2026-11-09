@@ -3,4 +3,28 @@
 
 *Data Structures* · required · curriculum semester: 3
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG205_slides_2024-fall_makeup_w09_bbm201-ders9-1.pdf](slides/CENG205_slides_2024-fall_makeup_w09_bbm201-ders9-1.pdf) | Ders 9 - Dinamik Bağlı Listeler | 2024 fall |  |
+| [CENG205_slides_2024-fall_w10_bbm201-ders10-1.pdf](slides/CENG205_slides_2024-fall_w10_bbm201-ders10-1.pdf) | Ders 10 - Bağlı Liste Uygulamaları | 2024 fall |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG205_lecturenotes_2024-fall_w7664_report-240911-180904.pdf](lecture-notes/CENG205_lecturenotes_2024-fall_w7664_report-240911-180904.pdf) | Report_240911_180904 | 2024 fall |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG205_exam_2026-fall_quiz_quiz-1-2-sube-alt-ucgen-matris.pdf](exams/CENG205_exam_2026-fall_quiz_quiz-1-2-sube-alt-ucgen-matris.pdf) | Quiz 1 (2. Şube) - Alt Üçgen Matris | 2026 fall | quiz |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG205_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG205_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

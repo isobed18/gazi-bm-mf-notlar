@@ -1,0 +1,16 @@
+file: BM188_book_iktisada-giris-aof.pdf
+sha256: 918cedf7b498c6c2ebcd45336494146878e2cac1cb0cdf1b0f76b2d47989982f
+size: 21120035
+course: BM188
+kind: book
+title: İktisada Giriş AÖF
+handwritten: false
+source:
+  type: whatsapp
+  ref: gaziuni-mf-ceng23
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcı kitabın BM188 dersinin altına alınmasını istedi.

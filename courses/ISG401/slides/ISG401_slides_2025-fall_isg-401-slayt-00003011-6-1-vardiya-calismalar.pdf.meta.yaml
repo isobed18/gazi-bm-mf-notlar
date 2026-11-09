@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003011-6-1-vardiya-calismalar.pdf
+sha256: 1fae7c111d7bee3e0af28e253c97b69811aea796cf71ce4599aa450238eb9210
+size: 1395275
+course: ISG401
+kind: slides
+title: 6.1 – Vardiya Çalışması
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

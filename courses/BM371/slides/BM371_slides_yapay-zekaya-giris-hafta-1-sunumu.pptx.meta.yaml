@@ -1,0 +1,16 @@
+file: BM371_slides_yapay-zekaya-giris-hafta-1-sunumu.pptx
+sha256: 55b9583ffdc0c5dafaec820883a7d6eec2a6e0dfb1d3a0798274591e36b03aea
+size: 351194
+course: BM371
+kind: slides
+title: Yapay Zekaya Giriş Hafta 1 Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı/notu; yerleştirildi.

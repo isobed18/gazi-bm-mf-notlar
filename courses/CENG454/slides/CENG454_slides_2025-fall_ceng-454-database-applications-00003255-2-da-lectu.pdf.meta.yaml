@@ -1,0 +1,17 @@
+file: CENG454_slides_2025-fall_ceng-454-database-applications-00003255-2-da-lectu.pdf
+sha256: 769407bf8de41f49e6943fe448f5cf4475e3d4cb94ef992445ca7e946a31c923
+size: 2982753
+course: CENG454
+kind: slides
+title: CENG 454 Database Applications 00003255-2__DA_Lecture_0110
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

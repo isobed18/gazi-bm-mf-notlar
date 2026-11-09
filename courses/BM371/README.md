@@ -3,4 +3,38 @@
 
 *Introduction to Artificial Intelligence* · technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM371_slides_2024-spring_yapay-zekaya-giris-birlestirilmis-ders-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-birlestirilmis-ders-slaytlari.pdf) | Yapay Zekaya Giriş Birleştirilmiş Ders Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-1-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-1-slaytlari.pdf) | Yapay Zekaya Giriş Ders 1 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-2-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-2-slaytlari.pdf) | Yapay Zekaya Giriş Ders 2 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-3-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-3-slaytlari.pdf) | Yapay Zekaya Giriş Ders 3 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-4-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-4-slaytlari.pdf) | Yapay Zekaya Giriş Ders 4 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-5-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-5-slaytlari.pdf) | Yapay Zekaya Giriş Ders 5 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-6-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-6-slaytlari.pdf) | Yapay Zekaya Giriş Ders 6 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-7-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-7-slaytlari.pdf) | Yapay Zekaya Giriş Ders 7 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-ders-8-slaytlari.pdf](slides/BM371_slides_2024-spring_yapay-zekaya-giris-ders-8-slaytlari.pdf) | Yapay Zekaya Giriş Ders 8 Slaytları | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-hafta-2-sunumu.pptx](slides/BM371_slides_2024-spring_yapay-zekaya-giris-hafta-2-sunumu.pptx) | Yapay Zekaya Giriş Hafta 2 Sunumu | 2024 spring |  |
+| [BM371_slides_2024-spring_yapay-zekaya-giris-hafta-3-sunumu.pptx](slides/BM371_slides_2024-spring_yapay-zekaya-giris-hafta-3-sunumu.pptx) | Yapay Zekaya Giriş Hafta 3 Sunumu | 2024 spring |  |
+| [BM371_slides_yapay-zekaya-giris-hafta-1-sunumu.pptx](slides/BM371_slides_yapay-zekaya-giris-hafta-1-sunumu.pptx) | Yapay Zekaya Giriş Hafta 1 Sunumu |  |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM371_studentnotes_2024-spring_yapay-zekaya-giris-ders-notlari.pdf](student-notes/BM371_studentnotes_2024-spring_yapay-zekaya-giris-ders-notlari.pdf) | Yapay Zekaya Giriş Ders Notları | 2024 spring |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM371_exam_2024-spring_final_yapay-zekaya-giris-2024-2025-bahar-final-sorulari.jpg](exams/BM371_exam_2024-spring_final_yapay-zekaya-giris-2024-2025-bahar-final-sorulari.jpg) | 2023-2024 Bahar Final Sınavı | 2023 spring | final |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM371_announcement_sohbetten-sinav-bilgileri.md](announcements/BM371_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

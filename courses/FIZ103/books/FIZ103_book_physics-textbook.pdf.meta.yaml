@@ -1,0 +1,15 @@
+file: FIZ103_book_physics-textbook.pdf
+sha256: e9fc46a52930d8d69b3dcd9417f19a28eaaad5d4ac2ccc25d1f1adf887e72420
+size: 45787506
+course: FIZ103
+kind: book
+title: Physics textbook
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

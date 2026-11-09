@@ -1,0 +1,18 @@
+file: BM495_syllabus_2025-fall_bitirme-projesi-sunum-sablonu-ve-yonergesi.pdf
+sha256: 3bebba90a30139f1d3938aaab694637cf0fdcd8b54eae8b75b62b2f565921f8d
+size: 476544
+course: BM495
+kind: syllabus
+title: Bitirme Projesi Sunum Şablonu ve Yönergesi
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: administrative

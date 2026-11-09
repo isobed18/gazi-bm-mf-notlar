@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-19-koleksiyonlar.pdf
+sha256: 0e6b1fc33eeee1e6b639600650af0f255cebde0211bf25df42ff4d8c23c7b7fc
+size: 1517217
+course: CENG106
+kind: slides
+title: Bölüm 19 – Koleksiyonlar
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

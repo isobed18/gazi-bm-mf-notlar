@@ -1,0 +1,18 @@
+file: CENG394_exam_2020-fall_final_ceng-307-file-organization-final-exam-2021.pdf
+sha256: 463d0fa19d11b1c87341930db30d5bd4d228494f2525105fb01d0731257e723f
+size: 177887
+course: CENG394
+kind: exam
+title: CENG307 File Organization Final S?nav?
+year: 2020
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

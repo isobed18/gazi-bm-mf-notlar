@@ -3,4 +3,30 @@
 
 *Turkish Language II* · general · curriculum semester: 4
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR102_exam_2002-spring_final_2002-2003-bahar-final.pdf](exams/TUR102_exam_2002-spring_final_2002-2003-bahar-final.pdf) | 2022-2023 Bahar Final | 2022 spring | final |
+| [TUR102_exam_2002-spring_midterm_2002-2003-bahar-vize-2.pdf](exams/TUR102_exam_2002-spring_midterm_2002-2003-bahar-vize-2.pdf) | 2022-2023 Bahar Vize | 2022 spring | midterm |
+| [TUR102_exam_2002-spring_midterm_2002-2003-bahar-vize.pdf](exams/TUR102_exam_2002-spring_midterm_2002-2003-bahar-vize.pdf) | 2022-2023 Bahar Vize | 2022 spring | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.jpg](grade-distributions/TUR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.jpg) | 2022-2023 Bahar Harf Notu Da??l?m? | 2022 spring |  |
+| [TUR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.png](grade-distributions/TUR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.png) | 2023-2024 Bahar Harf Notu Da??l?m? | 2023 spring |  |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR102_book_turk-dili-ii-ders-kitabi.pdf](books/TUR102_book_turk-dili-ii-ders-kitabi.pdf) | TURK-DILI-II Ders Kitabı | spring |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR102_announcement_sohbetten-sinav-bilgileri.md](announcements/TUR102_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

@@ -1,0 +1,19 @@
+file: BM101_lecturenotes_2024-fall_w7571_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf
+sha256: 64e9eb33be5b92db645856f2ce69ae11f624f697ada6f8e5a4fcb8882cd7f4e1
+size: 604900
+course: BM101
+kind: lecture-notes
+title: 62d0b916-a99a-4eae-9f18-e23468b5c541-lisans
+year: 2024
+term: fall
+week: 7571
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: schedule

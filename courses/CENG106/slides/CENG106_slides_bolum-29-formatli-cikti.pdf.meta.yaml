@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-29-formatli-cikti.pdf
+sha256: 27e41e53dc61bd0bafff55db22bec4a712ca2bcc82b0c08f1adb18cae2c660a5
+size: 948024
+course: CENG106
+kind: slides
+title: Bölüm 29 – Formatlı Çıktı
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

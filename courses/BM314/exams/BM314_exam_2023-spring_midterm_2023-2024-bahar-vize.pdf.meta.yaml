@@ -1,0 +1,18 @@
+file: BM314_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf
+sha256: 8f5069260a81afe0c2026d4c445f80b76698ceadbddf24560a1755c951d21c48
+size: 163959
+course: BM314
+kind: exam
+title: 2023-2024 Bahar Vize
+year: 2023
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

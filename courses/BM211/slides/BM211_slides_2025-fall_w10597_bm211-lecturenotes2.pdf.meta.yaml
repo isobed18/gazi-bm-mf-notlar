@@ -1,0 +1,17 @@
+file: BM211_slides_2025-fall_w10597_bm211-lecturenotes2.pdf
+sha256: dd3c265d31ecd3fea38d63739207925106be2fd203f5df7619ff67712e811035
+size: 2311455
+course: BM211
+kind: slides
+title: Ders Sunumu 2 – Resistive Circuits
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

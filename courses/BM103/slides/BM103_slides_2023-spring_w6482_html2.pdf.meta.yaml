@@ -1,0 +1,18 @@
+file: BM103_slides_2023-spring_w6482_html2.pdf
+sha256: 4aab498885df9b67486c0640394ee80755accae7e4e32768b9f011ca270790a7
+size: 270968
+course: BM103
+kind: slides
+title: Hafta 10 – HTML Giriş 2
+year: 2023
+term: fall
+week: 10
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

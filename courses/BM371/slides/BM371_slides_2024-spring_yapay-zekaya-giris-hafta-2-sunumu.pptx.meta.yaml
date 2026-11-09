@@ -1,0 +1,17 @@
+file: BM371_slides_2024-spring_yapay-zekaya-giris-hafta-2-sunumu.pptx
+sha256: 54bd6e60734c8ada20034fae303ce079e336623c8cb4264b0b73c3fc616ab71b
+size: 288311
+course: BM371
+kind: slides
+title: Yapay Zekaya Giriş Hafta 2 Sunumu
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

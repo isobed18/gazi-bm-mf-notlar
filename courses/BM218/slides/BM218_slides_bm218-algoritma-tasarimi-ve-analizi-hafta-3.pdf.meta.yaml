@@ -1,0 +1,16 @@
+file: BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-3.pdf
+sha256: 8425ffedaa02c8ca955f9314842102985aed3836f2f7fef9c7c3f20dab83cb7e
+size: 1102688
+course: BM218
+kind: slides
+title: Hafta 3 - Böl ve Fethet Algoritmaları
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+week: 3

@@ -1,0 +1,17 @@
+file: BM371_studentnotes_2024-spring_yapay-zekaya-giris-ders-notlari.pdf
+sha256: c766e463c962837a543a7921e6ad2c3fbae15dcdea3541c52a0072f0bb8f91d6
+size: 2831836
+course: BM371
+kind: student-notes
+title: Yapay Zekaya Giriş Ders Notları
+year: 2024
+term: spring
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

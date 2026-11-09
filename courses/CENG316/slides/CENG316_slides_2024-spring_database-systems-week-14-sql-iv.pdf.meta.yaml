@@ -1,0 +1,17 @@
+file: CENG316_slides_2024-spring_database-systems-week-14-sql-iv.pdf
+sha256: 9684693ce79b23876274bcc2ecd8e5391792c4bb9d4bb511f2f1d6254796bef5
+size: 4046763
+course: CENG316
+kind: slides
+title: Hafta 14 - SQL IV
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

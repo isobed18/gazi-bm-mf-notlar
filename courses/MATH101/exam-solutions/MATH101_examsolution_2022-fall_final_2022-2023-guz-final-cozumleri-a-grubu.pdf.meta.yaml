@@ -1,0 +1,18 @@
+file: MATH101_examsolution_2022-fall_final_2022-2023-guz-final-cozumleri-a-grubu.pdf
+sha256: 9bda445f5e9253166399a7fa692ce2b43fd3316085efc194be18f42d7cc3b233
+size: 22279729
+course: MATH101
+kind: exam-solution
+title: 2022-2023 Güz Final Çözümleri (A Grubu)
+year: 2022
+term: fall
+exam_type: final
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

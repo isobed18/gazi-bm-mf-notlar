@@ -1,0 +1,17 @@
+file: BM218_slides_w12_hafta-12-acgozlu-algoritmalar.pdf
+sha256: b899772036a158b389580e3e3cfeda6a93b0de42612ed90f7bd7f9780ebecced
+size: 757731
+course: BM218
+kind: slides
+title: Hafta 12 – Açgözlü Algoritmalar
+week: 12
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

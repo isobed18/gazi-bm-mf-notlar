@@ -1,0 +1,18 @@
+file: MATH101_examsolution_2023-fall_midterm_2023-2024-guz-vize-cevap-anahtari-a-grubu.pdf
+sha256: 0db311249b1a9aaeea9218e67c5670e58cfea00f9a1102d6b2a586fdb269e455
+size: 67328
+course: MATH101
+kind: exam-solution
+title: 2023-2024 Güz Vize Cevap Anahtarı (A Grubu)
+year: 2023
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -1,0 +1,18 @@
+file: CENG205_slides_2024-fall_w10_bbm201-ders10-1.pdf
+sha256: 5e4225ea006e1279f4b22def2674b6f5e1054c14af387342dd106dfea934126f
+size: 6411026
+course: CENG205
+kind: slides
+title: Ders 10 - Bağlı Liste Uygulamaları
+year: 2024
+term: fall
+week: 10
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

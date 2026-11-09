@@ -1,0 +1,15 @@
+file: BM104_book_discrete-mathematics-rosen.pdf
+sha256: 710d8adea3edb6e31e57b5c3f98fe074d21b0de2ab44e75014a0d964a6e691ed
+size: 37963820
+course: BM104
+kind: book
+title: Discrete Mathematics Rosen
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

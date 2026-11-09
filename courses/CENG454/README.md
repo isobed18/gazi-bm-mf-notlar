@@ -3,4 +3,21 @@
 
 *Database Applications* · technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG454_slides_2025-fall_ceng-454-database-applications-00003253-1-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003253-1-da-lectu.pdf) | CENG 454 Database Applications 00003253-1__DA_Lecture_2409 | 2025 fall |  |
+| [CENG454_slides_2025-fall_ceng-454-database-applications-00003254-3-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003254-3-da-lectu.pdf) | CENG 454 Database Applications 00003254-3__DA_Lecture_0810 | 2025 fall |  |
+| [CENG454_slides_2025-fall_ceng-454-database-applications-00003255-2-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003255-2-da-lectu.pdf) | CENG 454 Database Applications 00003255-2__DA_Lecture_0110 | 2025 fall |  |
+| [CENG454_slides_2025-fall_ceng-454-database-applications-00003256-6-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003256-6-da-lectu.pdf) | CENG 454 Database Applications 00003256-6__DA_Lecture_0511 | 2025 fall |  |
+| [CENG454_slides_2025-fall_ceng-454-database-applications-00003257-7-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003257-7-da-lectu.pdf) | CENG 454 Database Applications 00003257-7__DA_Lecture_1211 | 2025 fall |  |
+| [CENG454_slides_2025-fall_ceng-454-database-applications-00003258-5-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003258-5-da-lectu.pdf) | CENG 454 Database Applications 00003258-5__DA_Lecture_2210 | 2025 fall |  |
+| [CENG454_slides_2025-fall_ceng-454-database-applications-00003259-4-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003259-4-da-lectu.pdf) | CENG 454 Database Applications 00003259-4__DA_Lecture_1510 | 2025 fall |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG454_announcement_sohbetten-sinav-bilgileri.md](announcements/CENG454_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

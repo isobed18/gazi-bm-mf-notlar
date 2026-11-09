@@ -1,0 +1,15 @@
+file: BM222_book_digital-design-sixth-edition.pdf
+sha256: 49bab8de706ffdd12b72dd2afd1fc0110d2f1a04c99fec257e6cc93a5bf927b2
+size: 20432002
+course: BM222
+kind: book
+title: Digital Design Sixth Edition
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

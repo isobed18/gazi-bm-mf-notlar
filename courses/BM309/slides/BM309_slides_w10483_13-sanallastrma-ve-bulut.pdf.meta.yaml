@@ -1,0 +1,18 @@
+file: BM309_slides_w10483_13-sanallastrma-ve-bulut.pdf
+sha256: 99832aa39990997964bff72c13c563a63c68a531981ee69a18225e2c81f1fcab
+size: 1989887
+course: BM309
+kind: slides
+title: Hafta 13 – Sanallaştırma ve Bulut
+week: 13
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+year: 2024
+term: fall

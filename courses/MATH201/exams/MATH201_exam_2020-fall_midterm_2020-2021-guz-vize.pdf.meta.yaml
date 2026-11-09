@@ -1,0 +1,18 @@
+file: MATH201_exam_2020-fall_midterm_2020-2021-guz-vize.pdf
+sha256: 9fbec2b5b868c063f73db6151f421e8f97bc3f024fd265807ff42676fc442adf
+size: 432359
+course: MATH201
+kind: exam
+title: 2020-2021 Güz Vize
+year: 2020
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

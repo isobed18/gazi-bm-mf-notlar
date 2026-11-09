@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-14-fiziksel-risk-etmenleri.pdf
+sha256: 99278d9059126e6d03276a7fc19124e263001d0cd7ed931c0779375fac878923
+size: 921535
+course: ISG401
+kind: slides
+title: Hafta 14 – Fiziksel Risk Etmenleri
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

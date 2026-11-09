@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-22-grafik-kullanici-arayuzu-bilesenleri-2.pdf
+sha256: a95b5fd954bdd3ddfbaec2a664f8b76391d2ccb2efbadee6e7eab4c606bf9499
+size: 1553566
+course: CENG106
+kind: slides
+title: Bölüm 22 – Grafik Kullanıcı Arayüzü Bileşenleri 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

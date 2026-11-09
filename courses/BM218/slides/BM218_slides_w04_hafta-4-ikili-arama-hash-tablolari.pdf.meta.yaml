@@ -1,0 +1,17 @@
+file: BM218_slides_w04_hafta-4-ikili-arama-hash-tablolari.pdf
+sha256: b222b93041556adbc15bb5dda2d86662a4ffc8152cc75c3612053dfe51cb4254
+size: 1345850
+course: BM218
+kind: slides
+title: Hafta 4 – İkili Arama ve Hash Tabloları
+week: 4
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

@@ -1,0 +1,18 @@
+file: FIZ103_examsolution_2023-fall_final_2023-2024-guz-final-cozumleri-turkce.pdf
+sha256: 58ffac695d0e2e8830b72851e5d336bb2d2c23cf785ffbf6dc1d4a27a2b94ac3
+size: 458026
+course: FIZ103
+kind: exam-solution
+title: 2023-2024 Güz Final Çözümleri (Türkçe)
+year: 2023
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

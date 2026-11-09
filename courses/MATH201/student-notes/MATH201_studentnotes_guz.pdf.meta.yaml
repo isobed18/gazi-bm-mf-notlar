@@ -1,0 +1,16 @@
+file: MATH201_studentnotes_guz.pdf
+sha256: b7641f563ef01b1adaf180879bb6aa5580ecf1575d82066c05ba2f048a581227
+size: 854289
+course: MATH201
+kind: student-notes
+title: Diferansiyel Denklemler Örnek Soru Çözümleri
+term: fall
+handwritten: true
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

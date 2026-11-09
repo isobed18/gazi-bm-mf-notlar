@@ -1,0 +1,17 @@
+file: TAR101_slides_2023-fall_w284_2-blm.pdf
+sha256: 5c6760f19cd0ef30a90041818ecff8f8b5d8cad3cf5dad30916c62da08abc114
+size: 7285713
+course: TAR101
+kind: slides
+title: 2. Bölüm – Milli Mücadele Dönemi
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

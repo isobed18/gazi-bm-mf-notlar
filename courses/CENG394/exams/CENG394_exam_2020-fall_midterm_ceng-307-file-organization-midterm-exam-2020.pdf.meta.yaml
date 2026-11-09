@@ -1,0 +1,18 @@
+file: CENG394_exam_2020-fall_midterm_ceng-307-file-organization-midterm-exam-2020.pdf
+sha256: a18a5ddafc27626d5369293bdeb164e41d4074426c20db04b6606b0715d6405d
+size: 126452
+course: CENG394
+kind: exam
+title: CENG307 File Organization Vize S?nav?
+year: 2020
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

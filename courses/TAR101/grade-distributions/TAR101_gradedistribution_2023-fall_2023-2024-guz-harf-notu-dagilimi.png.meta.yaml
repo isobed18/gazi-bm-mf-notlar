@@ -1,0 +1,17 @@
+file: TAR101_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.png
+sha256: 06de81412b18e6f700bad3b7cee2c6516f36520a06e606f47f05092983f6fee5
+size: 60018
+course: TAR101
+kind: grade-distribution
+title: 2023-2024 Güz Harf Notu Dağılımı
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

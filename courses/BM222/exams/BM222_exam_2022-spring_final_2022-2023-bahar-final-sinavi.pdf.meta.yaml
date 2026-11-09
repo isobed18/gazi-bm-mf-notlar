@@ -1,0 +1,18 @@
+file: BM222_exam_2022-spring_final_2022-2023-bahar-final-sinavi.pdf
+sha256: f3f898e014d5bf7f8f38dcb889968f03f3a102c5eaad7bf04272aba6b15b97f2
+size: 130072
+course: BM222
+kind: exam
+title: 2022-2023 Bahar Final Sınavı
+year: 2022
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

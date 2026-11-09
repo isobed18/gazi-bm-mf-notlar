@@ -1,0 +1,17 @@
+file: ISG402_slides_2017-spring_acil-durum-planlari-ve-tahliye.pdf
+sha256: c0d1034148b79823d9116ee6de3f06a5345fb60580616bf59884fafb5a67de34
+size: 3794396
+course: ISG402
+kind: slides
+title: Acil Durum Planları ve Tahliye
+year: 2017
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

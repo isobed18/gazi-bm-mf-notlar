@@ -1,0 +1,19 @@
+file: BM303_exam_2022-spring_final_bm-303-bicimsel-diller-ve-otomatlar-final-odevi-20.pdf
+sha256: 427a2e716c40e2db9b2e5b40d18a24b8e34b677cdc76e1b3c69014597e75bab6
+size: 498486
+course: BM303
+kind: exam
+title: BM 303 Biçimsel Diller ve Otomatlar Final Ödevi 2023
+year: 2022
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: one-off-homework

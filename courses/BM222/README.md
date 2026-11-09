@@ -3,4 +3,38 @@
 
 *Digital Design* · required · curriculum semester: 4
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM222_lecturenotes_2024-spring_bilgi-temsili-ve-sayi-sistemleri.pdf](lecture-notes/BM222_lecturenotes_2024-spring_bilgi-temsili-ve-sayi-sistemleri.pdf) | Bilgi Temsili ve Sayi Sistemleri | 2024 spring |  |
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM222_exam_2020-spring_midterm_2020-2021-bahar-arasinav.pdf](exams/BM222_exam_2020-spring_midterm_2020-2021-bahar-arasinav.pdf) | 2020-2021 Bahar Arasınav | 2020 spring | midterm |
+| [BM222_exam_2022-spring_final_2022-2023-bahar-final-sinavi.pdf](exams/BM222_exam_2022-spring_final_2022-2023-bahar-final-sinavi.pdf) | 2022-2023 Bahar Final Sınavı | 2022 spring | final |
+| [BM222_exam_2022-spring_makeup_2022-2023-bahar-butunleme-sinavi.pdf](exams/BM222_exam_2022-spring_makeup_2022-2023-bahar-butunleme-sinavi.pdf) | 2022-2023 Bahar Bütünleme Sınavı | 2022 spring | makeup |
+| [BM222_exam_2022-spring_midterm_2022-2023-bahar-vize-sinavi.pdf](exams/BM222_exam_2022-spring_midterm_2022-2023-bahar-vize-sinavi.pdf) | 2022-2023 Bahar Vize Sınavı | 2022 spring | midterm |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM222_examsolution_2022-spring_final_sayisal-tasarim-2022-2023-bahar-final-cozumleri.pdf](exam-solutions/BM222_examsolution_2022-spring_final_sayisal-tasarim-2022-2023-bahar-final-cozumleri.pdf) | Sayısal Tasarım 2022-2023 Bahar Final Çözümleri | 2022 spring | final |
+| [BM222_examsolution_2024-spring_midterm_w9494_vize-cevap.pdf](exam-solutions/BM222_examsolution_2024-spring_midterm_w9494_vize-cevap.pdf) | Sayısal Tasarım Vize Çözümü | 2023 spring | midterm |
+
+## book
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM222_book_digital-design-sixth-edition.pdf](books/BM222_book_digital-design-sixth-edition.pdf) | Digital Design Sixth Edition |  |  |
+| [BM222_book_digital-design.pdf](books/BM222_book_digital-design.pdf) | Digital Design |  |  |
+
+## announcement
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM222_announcement_sohbetten-sinav-bilgileri.md](announcements/BM222_announcement_sohbetten-sinav-bilgileri.md) | Sohbetlerden sınav bilgileri |  |  |

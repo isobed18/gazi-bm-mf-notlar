@@ -1,0 +1,17 @@
+file: MAT199_studentnotes_2023-fall_determinant-konusu-ders-notu.pdf
+sha256: d6a6a79c83567961b07224ac8a47e383ec09bbbbfc042734781064d14100d811
+size: 276901
+course: MAT199
+kind: student-notes
+title: Determinant Konusu Ders Notu
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

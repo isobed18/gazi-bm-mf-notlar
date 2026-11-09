@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-slayt-00003010-6-2-risk-gruplari.pdf
+sha256: 434a155bcc39420ff747b64485b04769a334fab1f298e65e10b8de818a40bde2
+size: 2065130
+course: ISG401
+kind: slides
+title: 6.2 – Çalışma Hayatında Duyarlı Risk Grupları
+year: 2025
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

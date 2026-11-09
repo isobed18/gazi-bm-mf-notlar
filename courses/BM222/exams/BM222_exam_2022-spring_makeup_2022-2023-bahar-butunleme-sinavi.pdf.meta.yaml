@@ -1,0 +1,18 @@
+file: BM222_exam_2022-spring_makeup_2022-2023-bahar-butunleme-sinavi.pdf
+sha256: bedcef59798dff1a82f77b9dfd2f732ad9a539df4bc5318a23655b20c8f5402d
+size: 145681
+course: BM222
+kind: exam
+title: 2022-2023 Bahar Bütünleme Sınavı
+year: 2022
+term: spring
+exam_type: makeup
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

@@ -15,6 +15,9 @@ This archive will be shared with other students and may become public. Treat pri
   health reports, receipts, tickets, anything showing someone's private life.
 - GPS location (archive.py strips EXIF GPS from images on place).
 - Grades / GPA of a person (including the archive owner).
+- Course-wide letter-grade distributions are allowed only as anonymous totals or percentages with no student-level rows,
+  names, IDs, or small cells that could identify a student. Use the course and stated period when present; otherwise
+  label the resource `Geçmiş Harf Notu Dağılımları`.
 
 ## NOT personal data in this project (do not redact)
 - Names written on exam papers, homework, lab reports, project reports, handwritten notes.

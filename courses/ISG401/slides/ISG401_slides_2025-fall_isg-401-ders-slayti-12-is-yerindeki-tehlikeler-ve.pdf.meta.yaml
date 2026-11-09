@@ -1,0 +1,17 @@
+file: ISG401_slides_2025-fall_isg-401-ders-slayti-12-is-yerindeki-tehlikeler-ve.pdf
+sha256: 7160d018443fb9a0c8bad5d912fb4c6ef4821e7f56655e353fdda0eba020837a
+size: 1543256
+course: ISG401
+kind: slides
+title: Hafta 12 – İş Yerindeki Tehlikeler ve İş Hijyeni
+year: 2017
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

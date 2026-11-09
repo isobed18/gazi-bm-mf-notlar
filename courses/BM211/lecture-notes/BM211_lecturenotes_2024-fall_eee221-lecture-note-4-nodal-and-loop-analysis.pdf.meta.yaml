@@ -1,0 +1,17 @@
+file: BM211_lecturenotes_2024-fall_eee221-lecture-note-4-nodal-and-loop-analysis.pdf
+sha256: 860e5c1edad72d6dbc11a708d765b0b70115d2c1ae23e8455163f05a294c052c
+size: 3756446
+course: BM211
+kind: lecture-notes
+title: EEE221 Lecture Note 4 - Nodal and Loop Analysis
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

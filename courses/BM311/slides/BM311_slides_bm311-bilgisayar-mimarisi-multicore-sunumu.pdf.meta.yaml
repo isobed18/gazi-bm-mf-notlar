@@ -1,0 +1,16 @@
+file: BM311_slides_bm311-bilgisayar-mimarisi-multicore-sunumu.pdf
+sha256: f9de5cf0d0208720ca29686e5cb6e5aaf0fdb2f02605ff504c51db17b96681c5
+size: 816049
+course: BM311
+kind: slides
+title: Çok Çekirdekli (Multicore) İşlemciler Sunumu
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: fall

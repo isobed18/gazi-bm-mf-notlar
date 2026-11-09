@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w07_bolum-6-2-php-giris.pdf
+sha256: d4c6d9512674c16e563fee48cbbdafbe78485301b4a9db4e55c725ea16857b3c
+size: 2262038
+course: BM201
+kind: slides
+title: Bölüm 6.2 - PHP Giriş
+year: 2026
+term: fall
+week: 7
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

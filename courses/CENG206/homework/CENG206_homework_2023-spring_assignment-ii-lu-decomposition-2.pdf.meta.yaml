@@ -1,0 +1,18 @@
+file: CENG206_homework_2023-spring_assignment-ii-lu-decomposition-2.pdf
+sha256: cf94529b299a47c28bf76817e803a771dc3c9e9bed7d0c50756b7e3d8014dfba
+size: 68935
+course: CENG206
+kind: homework
+title: Assignment II - LU Decomposition
+year: 2023
+term: spring
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: one-off-homework

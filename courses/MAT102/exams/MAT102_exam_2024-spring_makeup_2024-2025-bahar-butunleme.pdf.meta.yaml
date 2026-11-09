@@ -1,0 +1,18 @@
+file: MAT102_exam_2024-spring_makeup_2024-2025-bahar-butunleme.pdf
+sha256: e4668973ccd4256dc4d9a1411146d6366b5b24c0b1801e820f0228d270ab57ba
+size: 377455
+course: MAT102
+kind: exam
+title: 2023-2024 Bahar Bütünleme (Grup A-B)
+year: 2023
+term: spring
+exam_type: makeup
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

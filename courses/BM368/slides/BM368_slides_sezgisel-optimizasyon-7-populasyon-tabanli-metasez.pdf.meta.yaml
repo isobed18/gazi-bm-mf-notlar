@@ -1,0 +1,16 @@
+file: BM368_slides_sezgisel-optimizasyon-7-populasyon-tabanli-metasez.pdf
+sha256: 76a72b631cf86cf81793eb7793e58fafdf428934e9da6932f243b8252f5ac46c
+size: 1789021
+course: BM368
+kind: slides
+title: Sezgisel Optimizasyon - 7- Popülasyon Tabanlı Metasezgiseller ve Evrimsel Algoritmalar
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: Kullanıcının önceliğine uygun ders slaytı; yerleştirildi.

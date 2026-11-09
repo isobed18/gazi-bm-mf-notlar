@@ -1,0 +1,18 @@
+file: BM104_slides_2023-spring_makeup_w01_v25mu084r2x5vksyylhlnk9eqxzxuqweek1-part1-proposit.pdf
+sha256: c8eba858e475aa360a714e29e0a2d831cc0d1326717db6048cce73b048f27d19
+size: 773354
+course: BM104
+kind: slides
+title: Hafta 1 Bölüm 1 - Önermeler Mantığı
+year: 2023
+term: spring
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

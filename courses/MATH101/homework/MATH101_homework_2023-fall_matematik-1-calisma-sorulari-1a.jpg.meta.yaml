@@ -1,0 +1,18 @@
+file: MATH101_homework_2023-fall_matematik-1-calisma-sorulari-1a.jpg
+sha256: fa42c2342d0426b93a4c38b83eeee4ddb2b1dc34c82bbfbb0bc14b7bf342f12e
+size: 95475
+course: MATH101
+kind: homework
+title: Matematik 1 Calisma Sorulari 1a
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: deprecated
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+notes: fragment

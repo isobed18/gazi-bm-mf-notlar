@@ -1,0 +1,18 @@
+file: PHYS104_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf
+sha256: 371634b878bf228b240117c43eccb2b7d84918d9e534e248953ad8bb6fc3e9f4
+size: 24069212
+course: PHYS104
+kind: exam
+title: 2024-2025 Bahar Vize
+year: 2024
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: drive
+  ref: cikmis-soru-hayrati
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

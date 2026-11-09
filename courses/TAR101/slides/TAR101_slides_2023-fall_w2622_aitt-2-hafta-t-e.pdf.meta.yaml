@@ -1,0 +1,18 @@
+file: TAR101_slides_2023-fall_w2622_aitt-2-hafta-t-e.pdf
+sha256: fd355871d240c6929cfa93b12d20009b3b04c22cdc6fab0af362662276b74ec7
+size: 1764428
+course: TAR101
+kind: slides
+title: 2. Hafta – 19. Yüzyıl Yenilik Hareketleri
+year: 2023
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

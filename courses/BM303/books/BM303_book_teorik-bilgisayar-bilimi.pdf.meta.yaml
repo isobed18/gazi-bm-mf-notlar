@@ -1,0 +1,15 @@
+file: BM303_book_teorik-bilgisayar-bilimi.pdf
+sha256: 0fb7040841681f9cefb4590c00630a88a23b63941e5742ea560d1994fcccc216
+size: 25049032
+course: BM303
+kind: book
+title: Teorik Bilgisayar Bilimi
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)

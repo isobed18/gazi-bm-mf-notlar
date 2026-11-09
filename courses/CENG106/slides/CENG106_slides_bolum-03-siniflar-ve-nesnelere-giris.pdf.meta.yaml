@@ -1,0 +1,15 @@
+file: CENG106_slides_bolum-03-siniflar-ve-nesnelere-giris.pdf
+sha256: 3d8cddfad9b00ff5b49559d74865341edeb47637536bb020b3be77c16b8a267b
+size: 1116019
+course: CENG106
+kind: slides
+title: Bölüm 03 – Sınıflar ve Nesnelere Giriş
+handwritten: false
+source:
+  type: whatsapp
+  ref: ceng-2.0
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

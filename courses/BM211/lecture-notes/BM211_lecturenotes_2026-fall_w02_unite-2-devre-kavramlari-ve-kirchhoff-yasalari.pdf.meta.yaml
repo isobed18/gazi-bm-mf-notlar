@@ -1,0 +1,18 @@
+file: BM211_lecturenotes_2026-fall_w02_unite-2-devre-kavramlari-ve-kirchhoff-yasalari.pdf
+sha256: 0b75db605d9f1856113c2f2c14c9f8f9e9da63320e8e4d72536b778f764e5084
+size: 2369015
+course: BM211
+kind: lecture-notes
+title: Ünite 2 – Devre Kavramları ve Kirchhoff Yasaları
+year: 2026
+term: fall
+week: 2
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

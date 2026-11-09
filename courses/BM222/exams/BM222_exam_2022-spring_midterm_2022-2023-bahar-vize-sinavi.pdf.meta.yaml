@@ -1,0 +1,18 @@
+file: BM222_exam_2022-spring_midterm_2022-2023-bahar-vize-sinavi.pdf
+sha256: e93a1b8c78ffff3183a258a020088b337d370943c2488ba0ec3428a347efeb2f
+size: 242808
+course: BM222
+kind: exam
+title: 2022-2023 Bahar Vize Sınavı
+year: 2022
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-bm-2021
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

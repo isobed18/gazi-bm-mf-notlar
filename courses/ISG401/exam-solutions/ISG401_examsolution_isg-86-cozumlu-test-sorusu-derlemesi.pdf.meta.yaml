@@ -1,0 +1,16 @@
+file: ISG401_examsolution_isg-86-cozumlu-test-sorusu-derlemesi.pdf
+sha256: 30e5b07710d2eb79dd87be19f1d795086518e2db84034f91f9d1989599d7fc97
+size: 1114456
+course: ISG401
+kind: exam-solution
+title: İSG 86 Çözümlü Test Sorusu Derlemesi
+language: tr
+handwritten: false
+source:
+  type: self
+  ref: messy-from-you
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

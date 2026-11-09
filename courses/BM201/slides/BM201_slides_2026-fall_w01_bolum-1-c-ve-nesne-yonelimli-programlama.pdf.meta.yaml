@@ -1,0 +1,18 @@
+file: BM201_slides_2026-fall_w01_bolum-1-c-ve-nesne-yonelimli-programlama.pdf
+sha256: 29ff39c9ddd0b97c8c7d78bb1cd15df6c3baa577149e3bc1d5b3ae0acfbffda1
+size: 1203940
+course: BM201
+kind: slides
+title: Bölüm 1 - C# ve Nesne Yönelimli Programlama
+year: 2026
+term: fall
+week: 1
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-mf-bm-2-sinif
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)

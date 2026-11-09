@@ -1,0 +1,17 @@
+file: BM218_slides_w09_hafta-9-cizge-graf-algoritmalari.pdf
+sha256: a0f6760bb06d1eeffb14624c78ce27feb19874ca6b1125dd840aa20033aac4a6
+size: 1180128
+course: BM218
+kind: slides
+title: Hafta 9 – Çizge (Graf) Algoritmaları
+week: 9
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: not-run (clamscan not installed)
+term: spring

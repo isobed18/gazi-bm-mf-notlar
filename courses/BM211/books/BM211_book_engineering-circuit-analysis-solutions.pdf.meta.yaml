@@ -1,0 +1,15 @@
+file: BM211_book_engineering-circuit-analysis-solutions.pdf
+sha256: d2130c1002b38b5b8f0162f90d72fb100a4e4f8e55f830466cfb7e97eecc5f50
+size: 5292460
+course: BM211
+kind: book
+title: Engineering Circuit Analysis Solutions
+handwritten: false
+source:
+  type: whatsapp
+  ref: gazi-ceng-2023-muh
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: review
+  antivirus: not-run (clamscan not installed)

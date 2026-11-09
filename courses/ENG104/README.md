@@ -3,4 +3,17 @@
 
 *English II* · language · curriculum semester: 2
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG104_exam_2023-spring_final_final-sinavi.pdf](exams/ENG104_exam_2023-spring_final_final-sinavi.pdf) | Final Sınavı | 2023 spring | final |
+| [ENG104_exam_final_bahar-final.pdf](exams/ENG104_exam_final_bahar-final.pdf) | Bahar Final | spring | final |
+| [ENG104_exam_midterm_bahar-vize.pdf](exams/ENG104_exam_midterm_bahar-vize.pdf) | Bahar Vize | spring | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [ENG104_gradedistribution_2004-spring_2004-2005-harf-notu-dagilimi.png](grade-distributions/ENG104_gradedistribution_2004-spring_2004-2005-harf-notu-dagilimi.png) | Ge?mi? Harf Notu Da??l?mlar? |  |  |
