@@ -36,16 +36,21 @@ from `.agents/skills/` (skills are loaded on demand; read the SKILL.md of the on
    - When unsure whether something is private → `review-open`, never `place`.
 3. **Safety**: never execute, open with macros, or unpack-and-run anything you receive.
    `archive.py scan` blocks dangerous types; a `block` verdict goes to quarantine, full stop.
-4. **Supervision policy** — place directly only when *all* of these hold:
-   - the course is certain (code/name/alias in file name, header, or the sending message),
-   - the kind is certain (exam vs. slides vs. notes …),
-   - the scan verdict is `ok`,
-   - it is not a duplicate (archive.py checks sha256).
-   Otherwise open a review item. **Anything that belongs to no course always goes to review**
-   (the maintainer decides whether it goes to `general/` or is dropped).
-5. **Do not read everything.** Large intakes (WhatsApp exports, drive dumps) are mostly
-   irrelevant. Triage by metadata first (file type, file name, the message that came with it,
-   date), open only promising files, and process in batches. See `whatsapp-triage`.
+4. **Supervision policy — be decisive.** Place directly when the course and kind are clear from
+   reasonable evidence (code/name/alias in the file name, header, content or the message that came
+   with it), the scan verdict is `ok` and it is not a duplicate. Most course material is clear: do
+   not be pessimistic, do not ask the human about things you can determine yourself.
+   Material from messy sources (WhatsApp, dumps) is placed with `--status unverified`; a later stage
+   (Obsidian sync / human) confirms it.
+   Open a review item only when you genuinely cannot decide (two plausible courses, unreadable,
+   possibly private) — and **always** for material that belongs to no course (the maintainer decides
+   whether it goes to `general/` or is dropped). Review items are published as **GitHub issues**
+   (`review-publish`), see `review-queue`.
+5. **Process everything, in batches — never replace reading with searching.** Keyword search
+   (e.g. "çıkmış", "vize") or the `whatsapp-index` ranking may be used to *start* quickly, but they
+   are not a substitute: every message of a chat and every file of a batch must be looked at, batch
+   by batch, with a progress file proving coverage (see `whatsapp-triage`). Irrelevant items are
+   skipped after being looked at, not before.
 6. **No invented content.** Titles, years, exam types and topics come from the file itself or
    its message context. If unknown, leave the field empty.
 7. **Text encoding**: write text files as UTF-8 with the agent's native file-edit tool
@@ -68,7 +73,8 @@ from `.agents/skills/` (skills are loaded on demand; read the SKILL.md of the on
 |---|---|
 | `archive-intake` | any new file or folder arrives (upload, drive dump, zip) |
 | `classify-and-place` | deciding course/kind/metadata for one file and placing it |
-| `whatsapp-triage` | processing an exported WhatsApp chat (zip/folder) |
+| `whatsapp-triage` | processing an exported WhatsApp chat (zip/folder): media and documents |
+| `chat-exam-intel` | reading every chat message to extract exam information written as text |
 | `privacy-guard` | anything that may contain personal data (always for chats/images) |
 | `review-queue` | opening review items, writing good questions, applying decisions |
 | `exam-matching` | linking past exam questions to course topics, "most asked topics" |

@@ -33,14 +33,15 @@ If a course is missing from the catalog, **do not invent a code**: open a review
 - `--lang tr|en|mixed`.
 Leave anything you do not know empty. Never guess a year from the file's modification date alone.
 
-## Confidence policy
+## Confidence policy — be decisive
 | Situation | Action |
 |---|---|
-| course AND kind certain, scan ok, not duplicate | `place --confidence high` |
-| course certain, kind unclear (or vice versa) | `review-open` with your best proposal |
-| course uncertain | `review-open` |
-| belongs to no course (career, general book, university form…) | `review-open --general <category>` proposal |
+| course and kind clear from reasonable evidence, scan ok, not duplicate | `place` (messy sources: `--status unverified`) |
+| one detail unknown (year, exam type) | `place` anyway, leave the field empty |
+| two plausible courses, or unreadable, or possibly private | `review-open` with your best proposal |
+| belongs to no course (career, general book, university form, exam schedule…) | `review-open --general <category>` |
 | obviously irrelevant or private | skip (do not place, do not review) |
+Do not push decisions you can make yourself onto the human.
 
 ## Commands
 ```

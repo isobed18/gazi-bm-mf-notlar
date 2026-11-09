@@ -42,6 +42,26 @@ Then process the related files you kept in the inbox the same way. Learn from co
 corrects a pattern ("WA images from group X are lab photos of BM222"), apply it to similar pending files and
 mention it in your report.
 
-## In a GitHub setting
-Review items become issue/PR comments instead (see `maintainer-review`). The same decision words are used as
-labels/commands: `/approve`, `/place BM218 exam`, `/general career`, `/reject`.
+## Publishing to GitHub (default way to reach the maintainer)
+After a batch, publish all open items as **one** issue:
+```
+python -X utf8 tools/archive.py review-publish --batch "<what this batch was>"
+```
+This uploads each file to Drive `gazi-bm-mf-notlar/_review/<id>/` (the maintainer opens it there) and creates an issue
+labelled `review` with a table and per-item details. The maintainer answers in comments, one line per item:
+```
+R-20261109-165132-a118: place BM218 exam 2023 Vize -- yıl 2022 olabilir
+R-…: approve
+R-…: general university Sınav programı
+R-…: reject
+all: approve
+```
+Then run
+```
+python -X utf8 tools/archive.py review-sync
+```
+which applies every decided item (only comments by the repo owner/collaborators count), comments the result and closes
+the issue when nothing is left. Run `review-sync` at the start of every session.
+
+Keep issues useful: be decisive elsewhere so that an issue contains only real questions (typically < 15 items per batch).
+Never put names, phone numbers or chat quotes into reasons/questions — the issue is visible to collaborators.

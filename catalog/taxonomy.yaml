@@ -36,4 +36,5 @@ variants:
 exam_types: [midterm, final, makeup, quiz, resit, sample]   # makeup = bütünleme, resit = tek ders
 terms: [fall, spring, summer]                                # güz, bahar, yaz
 languages: [tr, en, mixed]
-statuses: [approved, needs-review, deprecated]
+# unverified = placed automatically from messy sources (e.g. WhatsApp); a later agent/human confirms -> approved
+statuses: [approved, unverified, needs-review, deprecated]

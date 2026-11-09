@@ -450,7 +450,7 @@ def build_meta(a, course, kind, dest_name, h, scan):
         "source": {"type": src.split(":")[0], "ref": src.split(":", 1)[1] if ":" in src else None},
         "contributor": a.contributor,
         "added": dt.date.today().isoformat(),
-        "status": "approved",
+        "status": getattr(a, "status", None) or "approved",
         "scan": {"verdict": scan["verdict"], "antivirus": scan["info"].get("antivirus")},
         "notes": a.notes,
     }
@@ -521,8 +521,9 @@ def resource_entries():
 
 
 def _files_from(paths):
-    os.makedirs(LOCAL, exist_ok=True)
-    lst = os.path.join(LOCAL, "rclone-files.txt")
+    os.makedirs(os.path.join(LOCAL, "tmp"), exist_ok=True)
+    # unique per call: several agents may upload at the same time
+    lst = os.path.join(LOCAL, "tmp", "rclone-files-%d-%s.txt" % (os.getpid(), hashlib.sha1(os.urandom(8)).hexdigest()[:6]))
     with open(lst, "w", encoding="utf-8", newline="\n") as fh:
         fh.write("\n".join(p.replace("\\", "/") for p in paths) + "\n")
     return lst
@@ -578,10 +579,9 @@ def cmd_place(a):
 
 
 def next_review_id():
+    # unique even when several agents open items in parallel
     os.makedirs(REVIEW, exist_ok=True)
-    today = dt.date.today().strftime("%Y%m%d")
-    n = 1 + sum(1 for d in os.listdir(REVIEW) if d.startswith("R-" + today))
-    return "R-%s-%03d" % (today, n)
+    return "R-%s-%s" % (dt.datetime.now().strftime("%Y%m%d-%H%M%S"), hashlib.sha1(os.urandom(8)).hexdigest()[:4])
 
 
 def cmd_review_open(a):
@@ -711,6 +711,155 @@ def cmd_review_apply(a):
     shutil.move(rdir, os.path.join(done, a.id))
     log_event(event="review-apply", id=a.id, decision=dec, comment=com)
     print("%s: %s done" % (a.id, act))
+
+
+# ------------------------------------------------------------------ review via GitHub issues
+
+def gh(*args, input_text=None):
+    r = subprocess.run(["gh", *args], capture_output=True, text=True, encoding="utf-8", input=input_text, cwd=ROOT)
+    if r.returncode != 0:
+        raise RuntimeError("gh %s failed: %s" % (" ".join(args[:2]), r.stderr.strip()[:400]))
+    return r.stdout
+
+
+def set_front(path, **kv):
+    txt = open(path, encoding="utf-8").read()
+    _, fm_txt, body = txt.split("---", 2)
+    fm = yaml.safe_load(fm_txt)
+    fm.update(kv)
+    with open(path, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False) + "---" + body)
+
+
+def open_review_ids():
+    if not os.path.isdir(REVIEW):
+        return []
+    return sorted(d for d in os.listdir(REVIEW) if d.startswith("R-") and os.path.isfile(os.path.join(REVIEW, d, "review.md")))
+
+
+def cmd_review_publish(a):
+    """Upload review files to Drive (_review/<id>/) and open ONE GitHub issue listing the items."""
+    ids = a.ids or [i for i in open_review_ids() if not read_review(i)[2].get("issue")]
+    if not ids:
+        print("nothing to publish")
+        return
+    rows, details = [], []
+    for rid in ids:
+        p, txt, fm, _, _ = read_review(rid)
+        f = os.path.join(REVIEW, rid, fm["file"])
+        try:
+            rclone("copy", f, "%s/_review/%s" % (REMOTE, rid))
+            where = "Drive: `gazi-bm-mf-notlar/_review/%s/%s`" % (rid, fm["file"])
+        except RuntimeError as ex:
+            where = "local only (%s)" % ex
+        prop = fm.get("proposal") or {}
+        prop_s = ("general/%s" % prop["general"]) if prop.get("general") else "%s / %s" % (prop.get("course") or "?", prop.get("kind") or "?")
+        reason = re.search(r"## Why this needs a human\n(.*?)\n\n## ", txt, re.S)
+        qs = re.search(r"## Questions for the maintainer\n(.*?)\n\n## ", txt, re.S)
+        rows.append("| `%s` | %s | %s | %s |" % (rid, fm["file"][:50], prop_s, prop.get("confidence") or "low"))
+        details.append("### `%s` — %s\n- Öneri / proposal: **%s** · başlık: %s\n- Neden / why: %s\n- Sorular / questions:\n%s\n- Dosya / file: %s\n"
+                       % (rid, fm["file"], prop_s, prop.get("title") or "-", (reason.group(1).strip() if reason else "-"),
+                          (qs.group(1).strip() if qs else "- (none)"), where))
+    body = ("Agent'ların emin olamadığı %d dosya. Her satır için yorum yaz, sonra agent `review-sync` çalıştırır.\n\n"
+            "**Komutlar** (her biri ayrı satırda):\n"
+            "```\nR-…: approve\nR-…: place BM218 exam 2023 Vize\nR-…: general career Staj rehberi\nR-…: reject\n"
+            "all: approve        (bu issue'daki kalan bütün maddeler)\n```\n"
+            "Satırın sonuna ` -- yorum` ekleyebilirsin (örn. `R-…: place BM222 exam 2022 Final -- yıl 2022 bahar`).\n\n"
+            "| id | dosya | öneri | güven |\n|---|---|---|---|\n%s\n\n%s") % (len(ids), "\n".join(rows), "\n".join(details))
+    title = a.title or "[review] %s — %d dosya" % (a.batch or dt.date.today().isoformat(), len(ids))
+    url = gh("issue", "create", "--title", title, "--body-file", "-", "--label", "review", input_text=body).strip()
+    num = int(url.rstrip("/").rsplit("/", 1)[1])
+    for rid in ids:
+        set_front(os.path.join(REVIEW, rid, "review.md"), issue=num)
+    log_event(event="review-publish", issue=num, ids=ids)
+    print("issue #%d: %s (%d items)" % (num, url, len(ids)))
+
+
+DECISION_LINE = re.compile(r"^\s*/?(R-[\w-]+|all)\s*:\s*(.+?)\s*$", re.I | re.M)
+
+
+def cmd_review_sync(a):
+    """Read decisions from issue comments (repo owner/collaborators only), apply them, close finished issues."""
+    owner = gh("repo", "view", "--json", "owner", "-q", ".owner.login").strip()
+    by_issue = {}
+    for rid in open_review_ids():
+        fm = read_review(rid)[2]
+        if fm.get("issue"):
+            by_issue.setdefault(int(fm["issue"]), []).append(rid)
+    for num, rids in sorted(by_issue.items()):
+        data = json.loads(gh("issue", "view", str(num), "--json", "comments,state"))
+        decisions = {}
+        for c in data["comments"]:
+            if c["author"]["login"] != owner and c.get("authorAssociation") not in ("OWNER", "COLLABORATOR", "MEMBER"):
+                continue
+            for m in DECISION_LINE.finditer(c["body"]):
+                key, rest = m.group(1), m.group(2)
+                dec, _, com = rest.partition(" -- ")
+                if key.lower() == "all":
+                    for rid in rids:
+                        decisions.setdefault(rid, (dec.strip(), com.strip()))
+                else:
+                    decisions[key] = (dec.strip(), com.strip())
+        done = []
+        for rid in rids:
+            if rid not in decisions:
+                continue
+            dec, com = decisions[rid]
+            p = os.path.join(REVIEW, rid, "review.md")
+            txt = open(p, encoding="utf-8").read()
+            txt = re.sub(r"^decision:.*$", "decision: %s" % dec, txt, count=1, flags=re.M)
+            txt = re.sub(r"^comment:.*$", "comment: %s" % com, txt, count=1, flags=re.M)
+            open(p, "w", encoding="utf-8", newline="\n").write(txt)
+
+            class A:
+                pass
+            ns = A()
+            ns.id = rid
+            try:
+                cmd_review_apply(ns)
+                done.append("`%s` → %s" % (rid, dec))
+                try:
+                    rclone("purge", "%s/_review/%s" % (REMOTE, rid))
+                except RuntimeError:
+                    pass
+            except SystemExit as ex:
+                done.append("`%s` → HATA: %s" % (rid, ex))
+        if done:
+            gh("issue", "comment", str(num), "--body", "review-sync uygulandı:\n" + "\n".join("- " + d for d in done))
+        left = [r for r in rids if r not in decisions]
+        if not left and data["state"] == "OPEN":
+            gh("issue", "close", str(num), "--comment", "Bütün maddeler işlendi.")
+        print("issue #%d: %d applied, %d waiting" % (num, len(done), len(left)))
+
+
+# ------------------------------------------------------------------ metadata edits
+
+EDITABLE = {"title", "year", "term", "exam_type", "week", "language", "topics", "related", "status", "notes", "handwritten"}
+
+
+def cmd_meta_set(a):
+    path = a.path if a.path.endswith(".meta.yaml") else a.path + ".meta.yaml"
+    if not os.path.isfile(path):
+        sys.exit("no sidecar: %s" % path)
+    m = load_yaml(path) or {}
+    tax = taxonomy()
+    for kv in a.set:
+        k, _, v = kv.partition("=")
+        if k not in EDITABLE:
+            sys.exit("field %s is not editable (editable: %s); course/kind changes need a re-place" % (k, ", ".join(sorted(EDITABLE))))
+        if k == "topics":
+            m[k] = [t.strip() for t in v.split(",") if t.strip()]
+        elif k in ("year", "week"):
+            m[k] = int(v) if v else None
+        elif k == "handwritten":
+            m[k] = v.lower() in ("1", "true", "yes")
+        else:
+            m[k] = v or None
+        if k == "status" and v not in tax["statuses"]:
+            sys.exit("status must be one of %s" % tax["statuses"])
+    dump_yaml({k: v for k, v in m.items() if v not in (None, [], "")}, path)
+    log_event(event="meta-set", file=os.path.relpath(path, ROOT), changes=a.set)
+    print("updated %s" % os.path.relpath(path, ROOT))
 
 
 FORBIDDEN_NAME = re.compile(r"[\[\]#^|\\:*?\"<>]")
@@ -998,6 +1147,8 @@ def main():
         s.add_argument("--copy", action="store_true", help="copy instead of move"); s.add_argument("--force", action="store_true",
                        help="place even if scan says review (ONLY after a human approved)")
         s.add_argument("--no-push", dest="no_push", action="store_true", help="do not upload to the Drive mirror now")
+        s.add_argument("--status", choices=["approved", "unverified", "needs-review"], default="approved",
+                       help="unverified = from a messy source (WhatsApp); a later stage confirms it")
 
     s = sp.add_parser("place"); place_args(s); s.add_argument("--course"); s.add_argument("--kind"); s.add_argument("--general")
     s.set_defaults(fn=cmd_place)
@@ -1008,6 +1159,11 @@ def main():
     s.set_defaults(fn=cmd_review_open)
 
     s = sp.add_parser("review-list"); s.set_defaults(fn=cmd_review_list)
+    s = sp.add_parser("review-publish", help="upload open review items to Drive and open one GitHub issue")
+    s.add_argument("--ids", nargs="*"); s.add_argument("--title"); s.add_argument("--batch"); s.set_defaults(fn=cmd_review_publish)
+    s = sp.add_parser("review-sync", help="apply decisions written as comments on review issues"); s.set_defaults(fn=cmd_review_sync)
+    s = sp.add_parser("meta-set", help="edit editable sidecar fields: key=value ...")
+    s.add_argument("path"); s.add_argument("set", nargs="+"); s.set_defaults(fn=cmd_meta_set)
     s = sp.add_parser("review-apply"); s.add_argument("id"); s.set_defaults(fn=cmd_review_apply)
     s = sp.add_parser("validate"); s.add_argument("--deep", action="store_true", help="re-hash every local file")
     s.add_argument("--require-files", dest="require_files", action="store_true", help="error if a resource is not downloaded")

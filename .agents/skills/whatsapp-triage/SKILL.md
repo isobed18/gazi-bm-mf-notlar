@@ -1,53 +1,61 @@
 ---
 name: whatsapp-triage
-description: Process an exported WhatsApp chat (zip or folder with _chat.txt and media) step by step - rank attachments by relevance without reading everything, extract only course material, and never copy chat text or personal media into the archive. Use for any WhatsApp/Telegram group export.
+description: Process an exported WhatsApp chat (folder/zip with _chat.txt and media) completely and in batches - look at EVERY photo / document, keep course material, place it with status unverified, never copy chat text or personal media into the archive. Use for any WhatsApp/Telegram group export. Text messages are handled by chat-exam-intel.
 ---
 
-# WhatsApp export triage
+# WhatsApp export: media and documents
 
-Class group exports are ~90% irrelevant (chat, memes, photos of people, screenshots, ads).
-The goal is to fish out course material **without reading everything** and **without leaking personal data**.
-Load `privacy-guard` together with this skill.
+Group exports are mostly irrelevant (memes, people, screenshots, event posters), but **every file must be looked at**.
+Search and ranking help you *order* the work; they never decide what you skip without looking.
+Load `privacy-guard` and `classify-and-place` together with this skill.
 
 ## Step 0 — set up
-- Work on one export at a time. Exports stay outside the repo or under `local/` (git-ignored).
-- Give the export a slug for `--source`, e.g. `whatsapp:bm-2023-sinif`. Never use people's names.
+- Export slug for `--source`, e.g. `whatsapp:gazi-bm-2021` (never people's names).
+- Progress file (create it first, update after **every** batch): `local/progress/<slug>-<media|docs>.md`
+  with a table `| batch | files (first..last) | looked at | kept | placed | issues | skipped |`.
+  The final report must show that the batches cover all files of the export.
 
-## Step 1 — index (no file opening yet)
+## Step 1 — index (context for every attachment)
 ```
-python -X utf8 tools/archive.py whatsapp-index "<export.zip or folder>" --out local/triage/<slug>.csv
+python -X utf8 tools/archive.py whatsapp-index "<export folder or zip>" --out local/triage/<slug>.csv
 ```
-The CSV has one row per attachment: `score, date, time, sender (pseudonym P001…), file, ext, exists, courses, keywords, context`.
-- Senders are pseudonymized; phone numbers and e-mails in the context are masked. Keep it that way.
-- `keywords` prefixed with `~` came only from neighbouring messages (weak evidence).
-- Files present in the export but never referenced in the chat appear with context `(not referenced in chat)`.
+Each row: score, date, sender pseudonym (P001…), file, ext, detected courses, keywords, masked context of the
+surrounding messages. Use it as **context** (which message came with a file, which date). Process files in
+chronological order (or score order), but process **all** of them.
 
-## Step 2 — triage in passes (stop when the remaining scores are low)
-1. **Documents** (`pdf docx pptx xlsx doc ppt`), highest score first. These are usually slides, exam papers,
-   homework. Open the first page / slide titles only, then intake + classify.
-2. **Images with score ≥ 4** or with exam keywords in their *own* context (`vize`, `final`, `çıkmış`, `soru`,
-   `cevap`, `quiz`): look at a downscaled version. Keep only photos of exam papers, boards with lecture content,
-   handwritten notes. Several photos of the same exam sent together (same sender, within minutes) belong together.
-3. **Images with score ≤ 3**: sample at most 20 per 1000 to confirm they are irrelevant; do not open the rest.
-4. Voice notes, videos, stickers, `.vcf` contacts, `.opus`: skip entirely.
-Record for every pass how many files you opened and how many you kept.
+## Step 2 — look at every file, in batches
+- **Documents** (pdf, docx, pptx, xlsx, doc, ppt, zip): batches of ~10. Open each one: first 2–3 pages / slide titles,
+  enough to know course, kind and year. Zips: extract with Python `zipfile` into `local/tmp/<slug>/`, then treat the
+  contents as documents.
+- **Photos**: batches of ~20. Look at every photo (a downscaled view is enough). Keep photos of exam papers, written
+  exam questions, boards/slides with lecture content, handwritten notes, assignment texts. Several photos of the same
+  exam sent together (same sender, minutes apart) belong to one resource: combine into one PDF in page order
+  (Pillow `save_all=True`) or place them with the same title and sequence numbers.
+- Skip without placing: people, selfies, events, memes, chat screenshots, ads, posters, receipts, documents with
+  private data. Skipping is recorded in the progress table as a count — no descriptions of private content.
 
-## Step 3 — move kept files into the pipeline
+## Step 3 — place (decisively)
 ```
-python -X utf8 tools/archive.py intake <kept files...> --source whatsapp:<slug> --batch wa-<slug>-<n>
+python -X utf8 tools/archive.py intake <kept files> --source whatsapp:<slug> --batch wa-<slug>-<n>
+python -X utf8 tools/archive.py place <inbox file> --course <CODE> --kind <kind> [--year --term --exam-type --title] --status unverified
 ```
-Then follow `archive-intake` and `classify-and-place` for each file. Use the message context to fill
-year/term/exam type (a message dated 12.04.2024 saying "vize soruları" → 2023 spring midterm).
+- The message date + text gives year/term/exam type (a message on 12.04.2024 "vize soruları" → `--year 2023 --term spring --exam-type midterm`).
+  Academic year: Sep–Jan = fall of that year; Feb–Aug = spring of the previous year's start (Apr 2024 → 2023 spring).
+- Exam papers vs. homework vs. slides: decide from the content (question numbering/points/"süre" → exam; "teslim tarihi" → homework).
+- Be decisive: if the evidence is reasonable, place it. Only genuinely ambiguous items → `review-open`.
+- Material that belongs to **no course** (exam schedules, university announcements, internship/career documents, general
+  books) → `review-open --general <category>` so the maintainer sees it.
 
-## Step 4 — text-only information
-Useful announcements in messages (exam dates, "finalde 3-7. haftalar var", instructor's topic list) may be saved
-as a short `announcement` (.md) **written in your own words**, without names, phone numbers or quotes of private
-messages. Example: "2024 bahar BM218 final konuları: 3–7. haftalar, DP ve greedy ağırlıklı."
+## Step 4 — finish
+```
+python -X utf8 tools/archive.py validate
+python -X utf8 tools/archive.py index
+python -X utf8 tools/archive.py review-publish --batch "<slug> <media|docs>"     # one GitHub issue with all open items
+```
+Report: coverage table (all batches), counts (looked at / placed / issues / skipped / duplicates), the issue link.
+Never commit; the maintainer reviews `git status` and commits.
 
 ## Hard rules
-- **Never** commit `_chat.txt`, any part of the chat transcript, contact cards, or profile photos.
-- **Never** place photos showing people, personal screenshots, ID cards, documents with phone numbers/addresses.
-- The owner's personal chat ("You" / self chat) is especially sensitive: process **documents only**, and only those
-  that are clearly course material; every image from that chat goes to `review-open` or is skipped, never placed directly.
-- When a file is relevant but its course is unclear → `review-open` with the (masked) message context in `--reason`.
-- Report: counts per pass (indexed / opened / kept / placed / reviewed / skipped), no chat contents.
+- **Never** place `_chat.txt`, chat excerpts, contact cards (`.vcf`), profile photos, voice notes.
+- **Never** place photos of people or personal screenshots.
+- The owner's own chat ("You"): documents that are clearly course material may be placed; every photo goes to review or is skipped.
