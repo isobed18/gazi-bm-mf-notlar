@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T21:10:30",
- "count": 565,
+ "generated": "2026-11-09T21:19:36",
+ "count": 583,
  "resources": [
   {
    "file": "BM101_announcement_sohbetten-sinav-bilgileri.md",
@@ -1087,26 +1087,6 @@
    "path": "courses/BM211/announcements/BM211_announcement_sohbetten-sinav-bilgileri.md"
   },
   {
-   "file": "BM211_book_basic-engineering-circuit-analysis-2.pdf",
-   "sha256": "f1e7983e8342b87576edc91aef886596f61b2567fbfafe06858f32bbbc458a0e",
-   "size": 13903333,
-   "course": "BM211",
-   "kind": "book",
-   "title": "Basic Engineering Circuit Analysis",
-   "handwritten": false,
-   "source": {
-    "type": "whatsapp",
-    "ref": "gazi-ceng-2023-muh"
-   },
-   "added": "2026-11-09",
-   "status": "approved",
-   "scan": {
-    "verdict": "review",
-    "antivirus": "not-run (clamscan not installed)"
-   },
-   "path": "courses/BM211/books/BM211_book_basic-engineering-circuit-analysis-2.pdf"
-  },
-  {
    "file": "BM211_book_basic-engineering-circuit-analysis.pdf",
    "sha256": "cb81a35ddbe50c2a61e794b42ae3f68f325c463457460b13a109a48a87d54b13",
    "size": 32769604,
@@ -1125,46 +1105,6 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/BM211/books/BM211_book_basic-engineering-circuit-analysis.pdf"
-  },
-  {
-   "file": "BM211_book_circuit-analysis-solutions-chapter-1.pdf",
-   "sha256": "088b40e09ed8ec1cc335efcccc3b0308b60f426d1e992ba72ceddfea0d4f1bf4",
-   "size": 1740324,
-   "course": "BM211",
-   "kind": "book",
-   "title": "Circuit Analysis Solutions Chapter 1",
-   "handwritten": false,
-   "source": {
-    "type": "whatsapp",
-    "ref": "gazi-ceng-2023-muh"
-   },
-   "added": "2026-11-09",
-   "status": "approved",
-   "scan": {
-    "verdict": "review",
-    "antivirus": "not-run (clamscan not installed)"
-   },
-   "path": "courses/BM211/books/BM211_book_circuit-analysis-solutions-chapter-1.pdf"
-  },
-  {
-   "file": "BM211_book_engineering-circuit-analysis-solutions.pdf",
-   "sha256": "d2130c1002b38b5b8f0162f90d72fb100a4e4f8e55f830466cfb7e97eecc5f50",
-   "size": 5292460,
-   "course": "BM211",
-   "kind": "book",
-   "title": "Engineering Circuit Analysis Solutions",
-   "handwritten": false,
-   "source": {
-    "type": "whatsapp",
-    "ref": "gazi-ceng-2023-muh"
-   },
-   "added": "2026-11-09",
-   "status": "approved",
-   "scan": {
-    "verdict": "review",
-    "antivirus": "not-run (clamscan not installed)"
-   },
-   "path": "courses/BM211/books/BM211_book_engineering-circuit-analysis-solutions.pdf"
   },
   {
    "file": "BM211_book_masteringengineering.pdf",
@@ -6954,6 +6894,485 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/CENG454/slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003259-4-da-lectu.pdf"
+  },
+  {
+   "file": "CENG454_slides_2026-fall_w01_l1-course-outline-and-introduction.pdf",
+   "sha256": "ccd93e401ebef4ff8c311791212caed7caaa8e202a02df861282645b6a9f848c",
+   "size": 1152910,
+   "course": "CENG454",
+   "kind": "slides",
+   "title": "L1 Course Outline and Introduction",
+   "year": 2026,
+   "term": "fall",
+   "week": 1,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG454/slides/CENG454_slides_2026-fall_w01_l1-course-outline-and-introduction.pdf"
+  },
+  {
+   "file": "CENG454_slides_2026-fall_w02_l2-retrieving-data.pdf",
+   "sha256": "0f324a214c7722d844d2d5cdd622ebd22a8f0151311d2e63990bce8180105a7e",
+   "size": 2685332,
+   "course": "CENG454",
+   "kind": "slides",
+   "title": "L2 Retrieving Data",
+   "year": 2026,
+   "term": "fall",
+   "week": 2,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG454/slides/CENG454_slides_2026-fall_w02_l2-retrieving-data.pdf"
+  },
+  {
+   "file": "CENG454_slides_2026-fall_w03_l3-restricting-and-sorting-data.pdf",
+   "sha256": "6f7652132ba6ffa1becafd4f8ca5bcadf00a371916bf7aff26014a7b14b7c104",
+   "size": 3075070,
+   "course": "CENG454",
+   "kind": "slides",
+   "title": "L3 Restricting and Sorting Data",
+   "year": 2026,
+   "term": "fall",
+   "week": 3,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG454/slides/CENG454_slides_2026-fall_w03_l3-restricting-and-sorting-data.pdf"
+  },
+  {
+   "file": "CENG454_slides_2026-fall_w04_l4-customizing-output-single-row-functions.pdf",
+   "sha256": "18d9270f579594104b9688ccd746f5c38f81ab060ebe80bd0ff0f5719fc649d0",
+   "size": 2476263,
+   "course": "CENG454",
+   "kind": "slides",
+   "title": "L4 Customizing Output (single-row functions)",
+   "year": 2026,
+   "term": "fall",
+   "week": 4,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG454/slides/CENG454_slides_2026-fall_w04_l4-customizing-output-single-row-functions.pdf"
+  },
+  {
+   "file": "CENG454_slides_2026-fall_w05_l5-conversion-functions-and-conditional-expression.pdf",
+   "sha256": "d98767a22707ba2ee07b004fcf68595ad4ebbf02d825c850e738586e5ba2b940",
+   "size": 2993541,
+   "course": "CENG454",
+   "kind": "slides",
+   "title": "L5 Conversion Functions and Conditional Expressions",
+   "year": 2026,
+   "term": "fall",
+   "week": 5,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG454/slides/CENG454_slides_2026-fall_w05_l5-conversion-functions-and-conditional-expression.pdf"
+  },
+  {
+   "file": "CENG461_homework_2026-fall_hw1-research-report-odev-metni.pdf",
+   "sha256": "653f4367d6b8c0a764d7d90c6a831c85aabc46d201830da71ce78785c599e99c",
+   "size": 312542,
+   "course": "CENG461",
+   "kind": "homework",
+   "title": "HW1 Research report (ödev metni)",
+   "year": 2026,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/homework/CENG461_homework_2026-fall_hw1-research-report-odev-metni.pdf"
+  },
+  {
+   "file": "CENG461_homework_2026-fall_hw2-dot-plot-nw-sw-coding-odev-metni.pdf",
+   "sha256": "c6c9baa61a3c84d6768afafc550340b822c131c9275b39d3a86933cac0511040",
+   "size": 118524,
+   "course": "CENG461",
+   "kind": "homework",
+   "title": "HW2 Dot plot, NW, SW coding (ödev metni)",
+   "year": 2026,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/homework/CENG461_homework_2026-fall_hw2-dot-plot-nw-sw-coding-odev-metni.pdf"
+  },
+  {
+   "file": "CENG461_lecturenotes_2026-fall_w03_ek-diziler-ve-hizalama-tr.pdf",
+   "sha256": "8a4787d49e7312124e3e9bfe8741b01f140eddd160deb6e3d7dcf13eff547575",
+   "size": 980312,
+   "course": "CENG461",
+   "kind": "lecture-notes",
+   "title": "Ek: Diziler ve hizalama (TR)",
+   "year": 2026,
+   "term": "fall",
+   "week": 3,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/lecture-notes/CENG461_lecturenotes_2026-fall_w03_ek-diziler-ve-hizalama-tr.pdf"
+  },
+  {
+   "file": "CENG461_lecturenotes_2026-fall_w03_ek-sequence-alignment.pdf",
+   "sha256": "f922fbf9e21e2bb1df7378c649a166e6dd4c986873351e5879c506e33e040a1a",
+   "size": 603428,
+   "course": "CENG461",
+   "kind": "lecture-notes",
+   "title": "Ek: Sequence Alignment",
+   "year": 2026,
+   "term": "fall",
+   "week": 3,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/lecture-notes/CENG461_lecturenotes_2026-fall_w03_ek-sequence-alignment.pdf"
+  },
+  {
+   "file": "CENG461_slides_2026-fall_w01_molecular-biology-primer.pdf",
+   "sha256": "6dc9ba8c6af24791eeed111eb40b68a4cc6391b218c4c6be25c164a2915fa7c1",
+   "size": 2580418,
+   "course": "CENG461",
+   "kind": "slides",
+   "title": "Molecular Biology Primer",
+   "year": 2026,
+   "term": "fall",
+   "week": 1,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/slides/CENG461_slides_2026-fall_w01_molecular-biology-primer.pdf"
+  },
+  {
+   "file": "CENG461_slides_2026-fall_w02_bioinformatics-intro.pdf",
+   "sha256": "835decc67811c5779d6c45f78acc9e149b4be1aa9912f3f71ecda7c25c39ab80",
+   "size": 24882401,
+   "course": "CENG461",
+   "kind": "slides",
+   "title": "Bioinformatics Intro",
+   "year": 2026,
+   "term": "fall",
+   "week": 2,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/slides/CENG461_slides_2026-fall_w02_bioinformatics-intro.pdf"
+  },
+  {
+   "file": "CENG461_slides_2026-fall_w03_dot-plot.pdf",
+   "sha256": "83cba345a282def21693f4c59bc838643a2b08a487ab75e95f37ffc73e6138f5",
+   "size": 4081513,
+   "course": "CENG461",
+   "kind": "slides",
+   "title": "Dot Plot",
+   "year": 2026,
+   "term": "fall",
+   "week": 3,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/slides/CENG461_slides_2026-fall_w03_dot-plot.pdf"
+  },
+  {
+   "file": "CENG461_slides_2026-fall_w03_sequence-comparison-alignment-nw-sw-gaps.pdf",
+   "sha256": "4e0a4220d4b73231ed6b35e16bc40bb41fc8cf5824f69b907d8a36aed9b5daa7",
+   "size": 3587978,
+   "course": "CENG461",
+   "kind": "slides",
+   "title": "Sequence Comparison (alignment, NW, SW, gaps)",
+   "year": 2026,
+   "term": "fall",
+   "week": 3,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/slides/CENG461_slides_2026-fall_w03_sequence-comparison-alignment-nw-sw-gaps.pdf"
+  },
+  {
+   "file": "CENG461_slides_2026-fall_w04_databases-and-alignment-foundations.pdf",
+   "sha256": "941431887cbc84620164e0c8496132411c6e3d1a4bc6e5397b015d07c4b4bdd5",
+   "size": 9930594,
+   "course": "CENG461",
+   "kind": "slides",
+   "title": "Databases and Alignment Foundations",
+   "year": 2026,
+   "term": "fall",
+   "week": 4,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/slides/CENG461_slides_2026-fall_w04_databases-and-alignment-foundations.pdf"
+  },
+  {
+   "file": "CENG461_slides_2026-fall_w05_alignment-and-blast.pdf",
+   "sha256": "4dcb88a5e128f3dae936bc2c3891a48e8806401364da96d6e3c66c63d1741b6c",
+   "size": 4509653,
+   "course": "CENG461",
+   "kind": "slides",
+   "title": "Alignment and BLAST",
+   "year": 2026,
+   "term": "fall",
+   "week": 5,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/slides/CENG461_slides_2026-fall_w05_alignment-and-blast.pdf"
+  },
+  {
+   "file": "CENG461_summary_2026-fall_sinav-calisma-rehberi-algoritmalar-cozumlu-ornekle.pdf",
+   "sha256": "017b155e273b5b6c51709e82d827ce57aeb9473da1321431076f87e6e7c1ce91",
+   "size": 922115,
+   "course": "CENG461",
+   "kind": "summary",
+   "title": "Sınav çalışma rehberi (algoritmalar, çözümlü örnekler)",
+   "year": 2026,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG461/summaries/CENG461_summary_2026-fall_sinav-calisma-rehberi-algoritmalar-cozumlu-ornekle.pdf"
+  },
+  {
+   "file": "CENG471_homework_2026-fall_hw1-survey-paper-review-odev-metni.pdf",
+   "sha256": "579001f793d614cfdd66359d222e91100fbd11a10856bd0d89faddebf035c6ce",
+   "size": 138444,
+   "course": "CENG471",
+   "kind": "homework",
+   "title": "HW1 Survey paper review (ödev metni)",
+   "year": 2026,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG471/homework/CENG471_homework_2026-fall_hw1-survey-paper-review-odev-metni.pdf"
+  },
+  {
+   "file": "CENG471_slides_2026-fall_w01_introduction-computer-vision.pdf",
+   "sha256": "eab201c4a45f63131df85804baf5ecb26802852152ca87a025acabdb843af587",
+   "size": 6116511,
+   "course": "CENG471",
+   "kind": "slides",
+   "title": "Introduction (computer vision)",
+   "year": 2026,
+   "term": "fall",
+   "week": 1,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG471/slides/CENG471_slides_2026-fall_w01_introduction-computer-vision.pdf"
+  },
+  {
+   "file": "CENG471_slides_2026-fall_w02_chapter-1-introduction.pdf",
+   "sha256": "3846931cf8510805e3833e641ac05d3345bc3b5357ce16572c1504108f5405a0",
+   "size": 8051329,
+   "course": "CENG471",
+   "kind": "slides",
+   "title": "Chapter 1 Introduction",
+   "year": 2026,
+   "term": "fall",
+   "week": 2,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG471/slides/CENG471_slides_2026-fall_w02_chapter-1-introduction.pdf"
+  },
+  {
+   "file": "CENG471_slides_2026-fall_w03_chapter-2-digital-image-fundamentals.pdf",
+   "sha256": "56b39cf25770a0285992ab7d7ec2837b34f0b10a55aeae1ca381ecb1e41b830e",
+   "size": 6525439,
+   "course": "CENG471",
+   "kind": "slides",
+   "title": "Chapter 2 Digital Image Fundamentals",
+   "year": 2026,
+   "term": "fall",
+   "week": 3,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG471/slides/CENG471_slides_2026-fall_w03_chapter-2-digital-image-fundamentals.pdf"
+  },
+  {
+   "file": "CENG471_slides_2026-fall_w05_chapter-3-intensity-transformations-and-histogram.pdf",
+   "sha256": "477e372bd3fa27f0b47bcf36ceb50f6e30a08fedeab97a3dfdc88638265dcb3a",
+   "size": 2698562,
+   "course": "CENG471",
+   "kind": "slides",
+   "title": "Chapter 3 Intensity Transformations and Histogram",
+   "year": 2026,
+   "term": "fall",
+   "week": 5,
+   "handwritten": false,
+   "source": {
+    "type": "self",
+    "ref": "4-sinif-guz"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG471/slides/CENG471_slides_2026-fall_w05_chapter-3-intensity-transformations-and-histogram.pdf"
   },
   {
    "file": "CENG483_announcement_sohbetten-sinav-bilgileri.md",

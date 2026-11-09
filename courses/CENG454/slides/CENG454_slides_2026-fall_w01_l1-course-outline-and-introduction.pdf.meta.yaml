@@ -1,0 +1,18 @@
+file: CENG454_slides_2026-fall_w01_l1-course-outline-and-introduction.pdf
+sha256: ccd93e401ebef4ff8c311791212caed7caaa8e202a02df861282645b6a9f848c
+size: 1152910
+course: CENG454
+kind: slides
+title: L1 Course Outline and Introduction
+year: 2026
+term: fall
+week: 1
+handwritten: false
+source:
+  type: self
+  ref: 4-sinif-guz
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

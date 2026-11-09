@@ -1,0 +1,18 @@
+file: CENG461_slides_2026-fall_w03_dot-plot.pdf
+sha256: 83cba345a282def21693f4c59bc838643a2b08a487ab75e95f37ffc73e6138f5
+size: 4081513
+course: CENG461
+kind: slides
+title: Dot Plot
+year: 2026
+term: fall
+week: 3
+handwritten: false
+source:
+  type: self
+  ref: 4-sinif-guz
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

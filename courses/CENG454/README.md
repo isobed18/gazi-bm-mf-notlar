@@ -15,6 +15,11 @@
 | [CENG454_slides_2025-fall_ceng-454-database-applications-00003257-7-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003257-7-da-lectu.pdf) | CENG 454 Database Applications 00003257-7__DA_Lecture_1211 | 2025 fall |  |
 | [CENG454_slides_2025-fall_ceng-454-database-applications-00003258-5-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003258-5-da-lectu.pdf) | CENG 454 Database Applications 00003258-5__DA_Lecture_2210 | 2025 fall |  |
 | [CENG454_slides_2025-fall_ceng-454-database-applications-00003259-4-da-lectu.pdf](slides/CENG454_slides_2025-fall_ceng-454-database-applications-00003259-4-da-lectu.pdf) | CENG 454 Database Applications 00003259-4__DA_Lecture_1510 | 2025 fall |  |
+| [CENG454_slides_2026-fall_w01_l1-course-outline-and-introduction.pdf](slides/CENG454_slides_2026-fall_w01_l1-course-outline-and-introduction.pdf) | L1 Course Outline and Introduction | 2026 fall |  |
+| [CENG454_slides_2026-fall_w02_l2-retrieving-data.pdf](slides/CENG454_slides_2026-fall_w02_l2-retrieving-data.pdf) | L2 Retrieving Data | 2026 fall |  |
+| [CENG454_slides_2026-fall_w03_l3-restricting-and-sorting-data.pdf](slides/CENG454_slides_2026-fall_w03_l3-restricting-and-sorting-data.pdf) | L3 Restricting and Sorting Data | 2026 fall |  |
+| [CENG454_slides_2026-fall_w04_l4-customizing-output-single-row-functions.pdf](slides/CENG454_slides_2026-fall_w04_l4-customizing-output-single-row-functions.pdf) | L4 Customizing Output (single-row functions) | 2026 fall |  |
+| [CENG454_slides_2026-fall_w05_l5-conversion-functions-and-conditional-expression.pdf](slides/CENG454_slides_2026-fall_w05_l5-conversion-functions-and-conditional-expression.pdf) | L5 Conversion Functions and Conditional Expressions | 2026 fall |  |
 
 ## announcement
 

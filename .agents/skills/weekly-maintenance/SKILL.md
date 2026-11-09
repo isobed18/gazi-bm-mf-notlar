@@ -15,6 +15,8 @@ description: The weekly run of the archive - apply maintainer decisions from Git
    - **New inbox batch**: for every file `scan` (antivirus runs automatically: Windows Defender / ClamAV) then
      `classify-and-place` with `--status unverified` (drop folders are trusted sources) or `review-open` when unsure.
      At the end `review-publish --source <batch source>`.
+   - **Form submissions** (`## Form submissions` in todo.md): untrusted; scan every file, use the response sheet CSV only as
+     a hint, place with `--status unverified`, review-open anything doubtful or possibly private.
    - **Submission issues**: follow `maintainer-review` (download attachments into `local/issues/<n>/`, never execute,
      intake, scan, place, comment). Close the issue only after the maintainer approved.
    - **New chat exports** (zip/folder with `_chat.txt`): `chat-chunk --slug <slug>`, then read every chunk per

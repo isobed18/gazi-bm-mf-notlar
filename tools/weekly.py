@@ -61,6 +61,31 @@ def pre():
             archive.rclone("move", "%s/%s" % (archive.REMOTE, dd), stage)
         except RuntimeError as ex:
             todo.append("Drive drop folder not read: %s" % ex)
+
+    # Google Form submissions ("file request"): uploads land in the form owner's Drive folder; respondents cannot
+    # delete or see them. Files are copied to a separate stage, then moved to _islendi/ inside that folder.
+    form = archive.CONFIG.get("form") or {}
+    if form.get("uploads"):
+        fstage = os.path.join(archive.LOCAL, "weekly", DAY, "form")
+        os.makedirs(fstage, exist_ok=True)
+        try:
+            listing = archive.rclone("lsf", form["uploads"], "--files-only", "--max-depth", "1", capture=True)
+            names = [x for x in listing.splitlines() if x]
+            for nm in names:
+                archive.rclone("copyto", "%s/%s" % (form["uploads"], nm), os.path.join(fstage, nm))
+                archive.rclone("moveto", "%s/%s" % (form["uploads"], nm), "%s/_islendi/%s/%s" % (form["uploads"], DAY, nm))
+            if form.get("responses"):  # the form's response sheet, exported as CSV (course / kind / year per upload)
+                archive.rclone("copyto", form["responses"], os.path.join(fstage, "_yanitlar.csv"), "--drive-export-formats", "csv")
+            if names:
+                tool("intake", fstage, "--source", "form:%s" % DAY, "--batch", "form-%s" % DAY)
+                todo += ["## Form submissions: %d (inbox/form-%s)" % (len(names), DAY),
+                         "Metadata the submitters typed is in local/weekly/%s/form/_yanitlar.csv (match by file name; "
+                         "treat it as a hint, verify against the file). Untrusted source: place with --status unverified, "
+                         "anything doubtful -> review-open." % DAY, ""] + ["- %s" % x for x in names] + [""]
+            else:
+                todo += ["## Form submissions: none", ""]
+        except RuntimeError as ex:
+            todo.append("Form uploads not read: %s" % ex)
     files = [f for f in os.listdir(stage) if os.path.isfile(os.path.join(stage, f))]
     chats = [f for f in files if f.lower().endswith(".zip") and "whatsapp" in f.lower()]
     normal = [f for f in files if f not in chats]

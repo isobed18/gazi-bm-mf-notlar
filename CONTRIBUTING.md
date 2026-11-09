@@ -1,7 +1,11 @@
 # Katkı rehberi / Contributing
 
-Dosyalar git'te değil, bakımcıların Google Drive aynasında tutulur. Bu yüzden **dosya paylaşmanın yolu issue açmaktır**.
-Depo agent'ı dosyaları inceler, doğru derse yerleştirir, Drive'a yükler ve metadata için bir PR açar. Bir insan onaylar.
+Dosyalar git'te değil, bakımcıların Google Drive aynasında tutulur. **Dosya göndermenin ana yolu "Gazi BM Kaynak Gönder"
+Google Formu** (link README'de): dosyaları yükle, dersi ve türü yaz, gönder. GitHub hesabı gerekmez; gönderdiğin dosyaları
+başkası göremez ya da silemez. Haftalık bakımda bir agent dosyaları tarar (virüs, tür, gizlilik), doğru derse yerleştirir,
+emin olamadığını bir insana sorar. Ayrıntılar: [docs/SUBMISSIONS.md](docs/SUBMISSIONS.md).
+
+GitHub kullananlar "Kaynak önerisi" issue'su da açabilir.
 
 ## Kısa yol: agent ile
 1. Depoyu klonla ve kendi agent'ını (Claude Code, Codex, Gemini/agy…) depo klasöründe aç.

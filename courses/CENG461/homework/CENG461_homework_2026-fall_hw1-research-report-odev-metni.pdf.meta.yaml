@@ -1,0 +1,17 @@
+file: CENG461_homework_2026-fall_hw1-research-report-odev-metni.pdf
+sha256: 653f4367d6b8c0a764d7d90c6a831c85aabc46d201830da71ce78785c599e99c
+size: 312542
+course: CENG461
+kind: homework
+title: HW1 Research report (ödev metni)
+year: 2026
+term: fall
+handwritten: false
+source:
+  type: self
+  ref: 4-sinif-guz
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

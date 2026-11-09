@@ -69,6 +69,8 @@ def _local_config():
 CONFIG = _local_config()
 # Binary resources live in a Google Drive mirror with the same folder layout (docs/STORAGE.md).
 REMOTE = os.environ.get("ARCHIVE_REMOTE") or CONFIG.get("remote") or "gdrive-arsiv:gazi-bm-mf-notlar"
+# Never shared: review staging, retired files, private material (sibling folder of the shared mirror)
+REMOTE_PRIVATE = CONFIG.get("remote_private") or REMOTE.rstrip("/") + "-ozel"
 
 
 def rclone_bin():
@@ -247,6 +249,7 @@ def privacy_scan(text):
     if tckn: findings["tc_kimlik"] = [mask(x) for x in tckn[:3]]
     if iban: findings["iban"] = [mask(x) for x in iban[:3]]
     if chat >= 5: findings["chat_transcript_lines"] = chat
+    if re.search(r"downloaded by .{0,60}@|studocu", text, re.I): findings["download_watermark"] = "Studocu-style 'Downloaded by <name> (<e-mail>)'"
     return findings
 
 
@@ -789,8 +792,8 @@ def cmd_review_publish(a):
         set_front(p, item=n)
         f = os.path.join(REVIEW, rid, fm["file"])
         try:
-            rclone("copy", f, "%s/_review/%s" % (REMOTE, rid))
-            where = "Drive: `gazi-bm-mf-notlar/_review/%s/%s`" % (rid, fm["file"])
+            rclone("copy", f, "%s/_review/%s" % (REMOTE_PRIVATE, rid))
+            where = "Drive (özel): `%s/_review/%s/%s`" % (REMOTE_PRIVATE.split(":", 1)[-1], rid, fm["file"])
         except RuntimeError as ex:
             where = "local only (%s)" % ex
         prop = fm.get("proposal") or {}
@@ -853,7 +856,7 @@ def apply_one(rid):
     ns.id = rid
     cmd_review_apply(ns)
     try:
-        rclone("purge", "%s/_review/%s" % (REMOTE, rid))
+        rclone("purge", "%s/_review/%s" % (REMOTE_PRIVATE, rid))
     except RuntimeError:
         pass
 
@@ -947,6 +950,23 @@ def cmd_review_ack(a):
 # ------------------------------------------------------------------ metadata edits
 
 EDITABLE = {"title", "year", "term", "exam_type", "week", "language", "topics", "related", "status", "notes", "handwritten"}
+
+
+def cmd_retire(a):
+    """Remove a resource from the archive (e.g. it contains personal data): local file + sidecar are deleted,
+    the Drive copy is moved to the private sibling folder (<remote>-ozel/_retired/), never left in the shared mirror."""
+    for path in a.paths:
+        src = path[:-10] if path.endswith(".meta.yaml") else path
+        rel = os.path.relpath(src, ROOT).replace("\\", "/")
+        try:
+            rclone("moveto", "%s/%s" % (REMOTE, rel), "%s/_retired/%s" % (REMOTE_PRIVATE, rel))
+        except RuntimeError as ex:
+            print("WARNING: Drive copy not moved (%s)" % str(ex)[:120])
+        for p in (src, src + ".meta.yaml"):
+            if os.path.exists(p):
+                os.remove(p)
+        log_event(event="retire", file=rel, reason=a.reason)
+        print("retired %s (%s)" % (rel, a.reason))
 
 
 def cmd_relocate(a):
@@ -1296,7 +1316,7 @@ def cmd_chat_merge(a):
                             fh.write(rel + "\n")   # moved to _retired/ on Drive later (storage-retire)
                     else:
                         try:
-                            rclone("moveto", "%s/%s" % (REMOTE, rel), "%s/_retired/%s" % (REMOTE, rel))
+                            rclone("moveto", "%s/%s" % (REMOTE, rel), "%s/_retired/%s" % (REMOTE_PRIVATE, rel))
                         except RuntimeError:
                             pass
                     for p in (old, mp):
@@ -1419,6 +1439,8 @@ def main():
     s.add_argument("--comment"); s.set_defaults(fn=cmd_review_decide)
     s = sp.add_parser("review-ack", help="mark a plain comment handled and reply on the issue")
     s.add_argument("issue", type=int); s.add_argument("comment_id"); s.add_argument("--reply", required=True); s.set_defaults(fn=cmd_review_ack)
+    s = sp.add_parser("retire", help="remove resources from the archive (Drive copy goes to the private folder)")
+    s.add_argument("paths", nargs="+"); s.add_argument("--reason", required=True); s.set_defaults(fn=cmd_retire)
     s = sp.add_parser("relocate", help="move a placed resource to another course/kind (misclassification fix)")
     s.add_argument("path"); s.add_argument("--course"); s.add_argument("--kind")
     s.add_argument("--status", choices=["approved", "unverified", "needs-review", "deprecated"]); s.add_argument("--notes")

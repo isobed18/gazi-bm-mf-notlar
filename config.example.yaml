@@ -19,3 +19,8 @@ drive_drop: _gelen
 personal_exam_sync: true
 personal_skip: ["4. Sinif Guz"]
 backup_dir: D:\vault-backups
+
+# Google Form used as a file request (see docs/SUBMISSIONS.md). Paths are rclone remote:path.
+form:
+  uploads: "gdrive-arsiv:Gazi BM Kaynak Gönder (File responses)/Dosyalar (File responses)"
+  responses: "gdrive-arsiv:Gazi BM Kaynak Gönder (Responses).gsheet"

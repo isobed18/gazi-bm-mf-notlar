@@ -3,4 +3,18 @@
 
 *Introduction to Image Processing* · technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG471_slides_2026-fall_w01_introduction-computer-vision.pdf](slides/CENG471_slides_2026-fall_w01_introduction-computer-vision.pdf) | Introduction (computer vision) | 2026 fall |  |
+| [CENG471_slides_2026-fall_w02_chapter-1-introduction.pdf](slides/CENG471_slides_2026-fall_w02_chapter-1-introduction.pdf) | Chapter 1 Introduction | 2026 fall |  |
+| [CENG471_slides_2026-fall_w03_chapter-2-digital-image-fundamentals.pdf](slides/CENG471_slides_2026-fall_w03_chapter-2-digital-image-fundamentals.pdf) | Chapter 2 Digital Image Fundamentals | 2026 fall |  |
+| [CENG471_slides_2026-fall_w05_chapter-3-intensity-transformations-and-histogram.pdf](slides/CENG471_slides_2026-fall_w05_chapter-3-intensity-transformations-and-histogram.pdf) | Chapter 3 Intensity Transformations and Histogram | 2026 fall |  |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG471_homework_2026-fall_hw1-survey-paper-review-odev-metni.pdf](homework/CENG471_homework_2026-fall_hw1-survey-paper-review-odev-metni.pdf) | HW1 Survey paper review (ödev metni) | 2026 fall |  |

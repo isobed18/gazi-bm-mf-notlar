@@ -3,4 +3,34 @@
 
 *Bioinformatics* · technical-elective · curriculum semester: elective
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG461_slides_2026-fall_w01_molecular-biology-primer.pdf](slides/CENG461_slides_2026-fall_w01_molecular-biology-primer.pdf) | Molecular Biology Primer | 2026 fall |  |
+| [CENG461_slides_2026-fall_w02_bioinformatics-intro.pdf](slides/CENG461_slides_2026-fall_w02_bioinformatics-intro.pdf) | Bioinformatics Intro | 2026 fall |  |
+| [CENG461_slides_2026-fall_w03_dot-plot.pdf](slides/CENG461_slides_2026-fall_w03_dot-plot.pdf) | Dot Plot | 2026 fall |  |
+| [CENG461_slides_2026-fall_w03_sequence-comparison-alignment-nw-sw-gaps.pdf](slides/CENG461_slides_2026-fall_w03_sequence-comparison-alignment-nw-sw-gaps.pdf) | Sequence Comparison (alignment, NW, SW, gaps) | 2026 fall |  |
+| [CENG461_slides_2026-fall_w04_databases-and-alignment-foundations.pdf](slides/CENG461_slides_2026-fall_w04_databases-and-alignment-foundations.pdf) | Databases and Alignment Foundations | 2026 fall |  |
+| [CENG461_slides_2026-fall_w05_alignment-and-blast.pdf](slides/CENG461_slides_2026-fall_w05_alignment-and-blast.pdf) | Alignment and BLAST | 2026 fall |  |
+
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG461_lecturenotes_2026-fall_w03_ek-diziler-ve-hizalama-tr.pdf](lecture-notes/CENG461_lecturenotes_2026-fall_w03_ek-diziler-ve-hizalama-tr.pdf) | Ek: Diziler ve hizalama (TR) | 2026 fall |  |
+| [CENG461_lecturenotes_2026-fall_w03_ek-sequence-alignment.pdf](lecture-notes/CENG461_lecturenotes_2026-fall_w03_ek-sequence-alignment.pdf) | Ek: Sequence Alignment | 2026 fall |  |
+
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG461_homework_2026-fall_hw1-research-report-odev-metni.pdf](homework/CENG461_homework_2026-fall_hw1-research-report-odev-metni.pdf) | HW1 Research report (ödev metni) | 2026 fall |  |
+| [CENG461_homework_2026-fall_hw2-dot-plot-nw-sw-coding-odev-metni.pdf](homework/CENG461_homework_2026-fall_hw2-dot-plot-nw-sw-coding-odev-metni.pdf) | HW2 Dot plot, NW, SW coding (ödev metni) | 2026 fall |  |
+
+## summary
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG461_summary_2026-fall_sinav-calisma-rehberi-algoritmalar-cozumlu-ornekle.pdf](summaries/CENG461_summary_2026-fall_sinav-calisma-rehberi-algoritmalar-cozumlu-ornekle.pdf) | Sınav çalışma rehberi (algoritmalar, çözümlü örnekler) | 2026 fall |  |

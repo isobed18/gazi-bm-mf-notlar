@@ -51,10 +51,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
-| [BM211_book_basic-engineering-circuit-analysis-2.pdf](books/BM211_book_basic-engineering-circuit-analysis-2.pdf) | Basic Engineering Circuit Analysis |  |  |
 | [BM211_book_basic-engineering-circuit-analysis.pdf](books/BM211_book_basic-engineering-circuit-analysis.pdf) | Basic Engineering Circuit Analysis |  |  |
-| [BM211_book_circuit-analysis-solutions-chapter-1.pdf](books/BM211_book_circuit-analysis-solutions-chapter-1.pdf) | Circuit Analysis Solutions Chapter 1 |  |  |
-| [BM211_book_engineering-circuit-analysis-solutions.pdf](books/BM211_book_engineering-circuit-analysis-solutions.pdf) | Engineering Circuit Analysis Solutions |  |  |
 | [BM211_book_masteringengineering.pdf](books/BM211_book_masteringengineering.pdf) | MasteringEngineering |  |  |
 
 ## announcement
