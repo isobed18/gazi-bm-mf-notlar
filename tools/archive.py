@@ -18,6 +18,9 @@ Commands (run `python -X utf8 tools/archive.py <cmd> -h` for options):
   whatsapp-index      parse a WhatsApp export and rank attachments by relevance (no full reading)
   export-obsidian     copy resources into an Obsidian vault and write a resource-list note per course
   variant             list files of a download variant (full | core)
+  storage-push        upload local resources to the Google Drive mirror (place does this automatically)
+  storage-pull        download missing resources from Drive (--course, --variant core)
+  storage-verify      compare Drive with metadata
 
 Only stdlib + PyYAML are required. PyMuPDF (fitz), python-docx and Pillow are used when present.
 """
@@ -48,6 +51,29 @@ REVIEW = os.path.join(ROOT, "review")
 QUARANTINE = os.path.join(ROOT, "quarantine")
 LOCAL = os.path.join(ROOT, "local")          # git-ignored: logs, personal layout overrides
 LOG = os.path.join(LOCAL, "ingest-log.jsonl")
+# Binary resources live in a Google Drive mirror with the same folder layout (docs/STORAGE.md).
+REMOTE = os.environ.get("ARCHIVE_REMOTE", "gdrive-arsiv:gazi-bm-mf-notlar")
+
+
+def rclone_bin():
+    b = os.environ.get("RCLONE") or shutil.which("rclone")
+    if not b:  # winget installs outside PATH until the shell restarts
+        base = os.path.join(os.environ.get("LOCALAPPDATA", ""), "Microsoft", "WinGet", "Packages")
+        if os.path.isdir(base):
+            for dp, _, fs in os.walk(base):
+                if "rclone.exe" in fs:
+                    return os.path.join(dp, "rclone.exe")
+    return b
+
+
+def rclone(*args, capture=False):
+    b = rclone_bin()
+    if not b:
+        raise RuntimeError("rclone not found (install it and configure the remote, see docs/STORAGE.md)")
+    r = subprocess.run([b, *args, "--log-level", "ERROR"], capture_output=capture, text=True, encoding="utf-8")
+    if r.returncode != 0:
+        raise RuntimeError("rclone %s failed: %s" % (args[0], (r.stderr or "").strip()[:500]))
+    return r.stdout if capture else ""
 
 # ------------------------------------------------------------------ catalog helpers
 
@@ -409,6 +435,7 @@ def build_meta(a, course, kind, dest_name, h, scan):
     meta = {
         "file": dest_name,
         "sha256": h,
+        "size": getattr(a, "_size", None),
         "course": course,
         "kind": kind,
         "title": a.title or os.path.splitext(os.path.basename(a.path))[0],
@@ -470,11 +497,77 @@ def place_file(a, course, kind, general_category=None):
     if scan["info"].get("exif_gps"):
         strip_exif(dest)
         h = sha256(dest)
+    a._size = os.path.getsize(dest)
     meta = build_meta(a, course_field, kind if not general_category else "general:" + general_category, os.path.basename(dest), h, scan)
     dump_yaml(meta, dest + ".meta.yaml")
     log_event(event="place", file=os.path.relpath(dest, ROOT), sha256=h, confidence=a.confidence, source=a.source)
     print("placed -> %s" % os.path.relpath(dest, ROOT))
+    if not getattr(a, "no_push", False):
+        try:
+            push_files([os.path.relpath(dest, ROOT)])
+            print("uploaded to %s" % REMOTE)
+        except RuntimeError as ex:
+            print("WARNING: not uploaded (%s). Run `archive.py storage-push` later." % ex)
     return dest
+
+
+# ------------------------------------------------------------------ Drive storage
+
+def resource_entries():
+    """(relative path with forward slashes, meta) for every resource described by a sidecar."""
+    for dp, f in iter_resources():
+        m = load_yaml(os.path.join(dp, f)) or {}
+        yield os.path.relpath(os.path.join(dp, m.get("file", "")), ROOT).replace("\\", "/"), m
+
+
+def _files_from(paths):
+    os.makedirs(LOCAL, exist_ok=True)
+    lst = os.path.join(LOCAL, "rclone-files.txt")
+    with open(lst, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write("\n".join(p.replace("\\", "/") for p in paths) + "\n")
+    return lst
+
+
+def push_files(rel_paths):
+    if rel_paths:
+        rclone("copy", ROOT, REMOTE, "--files-from", _files_from(rel_paths))
+
+
+def cmd_storage_push(a):
+    present = [p for p, m in resource_entries() if os.path.isfile(os.path.join(ROOT, p))]
+    push_files(present)
+    print("storage-push: %d local resources synced to %s (existing files are skipped by rclone)" % (len(present), REMOTE))
+
+
+def cmd_storage_pull(a):
+    excl = set(taxonomy()["variants"][a.variant]["exclude_kinds"])
+    want = [p for p, m in resource_entries()
+            if m.get("kind") not in excl and (not a.course or m.get("course") == a.course)
+            and not os.path.isfile(os.path.join(ROOT, p))]
+    if want:
+        rclone("copy", REMOTE, ROOT, "--files-from", _files_from(want))
+    print("storage-pull: %d files downloaded (variant=%s%s)" % (len(want), a.variant, ", course=" + a.course if a.course else ""))
+
+
+def cmd_storage_verify(a):
+    out = rclone("lsf", REMOTE, "-R", "--files-only", "--format", "ps", "--separator", "\t", capture=True)
+    remote = {}
+    for line in out.splitlines():
+        if "\t" in line:
+            p, s = line.rsplit("\t", 1)
+            remote[p] = int(s)
+    entries = dict(resource_entries())
+    missing_remote = [p for p in entries if p not in remote]
+    size_mismatch = [p for p, m in entries.items() if p in remote and m.get("size") and m["size"] != remote[p]]
+    extra_remote = [p for p in remote if p not in entries and not p.endswith((".md", ".yaml"))]
+    missing_local = [p for p in entries if not os.path.isfile(os.path.join(ROOT, p))]
+    for title, lst in (("missing on Drive", missing_remote), ("size differs", size_mismatch),
+                       ("on Drive but not in metadata", extra_remote)):
+        for p in lst[:50]:
+            print("%-28s %s" % (title, p))
+    print("storage-verify: %d resources, %d on Drive, missing on Drive %d, size mismatch %d, untracked on Drive %d, not downloaded locally %d"
+          % (len(entries), len(remote), len(missing_remote), len(size_mismatch), len(extra_remote), len(missing_local)))
+    sys.exit(1 if missing_remote or size_mismatch else 0)
 
 
 def cmd_place(a):
@@ -646,7 +739,8 @@ def cmd_validate(a):
             continue
         target = os.path.join(dp, m.get("file", ""))
         if not os.path.isfile(target):
-            errors.append("%s: file missing (%s)" % (rel, m.get("file")))
+            # binaries live on Drive; a missing local copy is normal (run storage-pull to download)
+            (errors if a.require_files else warnings).append("%s: file not present locally (%s)" % (rel, m.get("file")))
         for k in ("file", "sha256", "kind", "added", "status"):
             if k not in m:
                 errors.append("%s: missing field %s" % (rel, k))
@@ -854,6 +948,9 @@ def cmd_export_obsidian(a):
             lines += ["## %s" % kind, ""]
             for dp, m in sel:
                 dst = os.path.join(kdir, spec["dir"], m["file"])
+                if not os.path.isfile(os.path.join(dp, m["file"])):
+                    print("  skip (not downloaded, run storage-pull --course %s): %s" % (code, m["file"]))
+                    continue
                 if not os.path.exists(dst) and not a.dry_run:
                     os.makedirs(os.path.dirname(dst), exist_ok=True)
                     shutil.copy2(os.path.join(dp, m["file"]), dst)
@@ -900,6 +997,7 @@ def main():
         s.add_argument("--notes"); s.add_argument("--confidence", choices=["high", "medium", "low", "human"], default="high")
         s.add_argument("--copy", action="store_true", help="copy instead of move"); s.add_argument("--force", action="store_true",
                        help="place even if scan says review (ONLY after a human approved)")
+        s.add_argument("--no-push", dest="no_push", action="store_true", help="do not upload to the Drive mirror now")
 
     s = sp.add_parser("place"); place_args(s); s.add_argument("--course"); s.add_argument("--kind"); s.add_argument("--general")
     s.set_defaults(fn=cmd_place)
@@ -911,7 +1009,13 @@ def main():
 
     s = sp.add_parser("review-list"); s.set_defaults(fn=cmd_review_list)
     s = sp.add_parser("review-apply"); s.add_argument("id"); s.set_defaults(fn=cmd_review_apply)
-    s = sp.add_parser("validate"); s.add_argument("--deep", action="store_true", help="re-hash every file"); s.set_defaults(fn=cmd_validate)
+    s = sp.add_parser("validate"); s.add_argument("--deep", action="store_true", help="re-hash every local file")
+    s.add_argument("--require-files", dest="require_files", action="store_true", help="error if a resource is not downloaded")
+    s.set_defaults(fn=cmd_validate)
+    s = sp.add_parser("storage-push"); s.set_defaults(fn=cmd_storage_push)
+    s = sp.add_parser("storage-pull"); s.add_argument("--course"); s.add_argument("--variant", default="full", choices=["full", "core"])
+    s.set_defaults(fn=cmd_storage_pull)
+    s = sp.add_parser("storage-verify"); s.set_defaults(fn=cmd_storage_verify)
     s = sp.add_parser("index"); s.set_defaults(fn=cmd_index)
     s = sp.add_parser("whatsapp-index"); s.add_argument("export", help="WhatsApp export folder or .zip"); s.add_argument("--out", required=True)
     s.set_defaults(fn=cmd_whatsapp_index)

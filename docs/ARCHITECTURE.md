@@ -44,21 +44,22 @@ sequenceDiagram
     participant CI as CI (validate, AV scan)
     participant M as Maintainer agent
     participant H as Human maintainer
-    S->>GH: PR (files placed with archive.py) or issue (attachments)
-    GH->>CI: validate.yml (schema, names, privacy regex, ClamAV, size)
+    S->>GH: issue with attachments/links (files) or PR (notes/metadata only)
+    GH->>M: download attachments into local inbox, scan (types, macros, PDF JS, privacy, ClamAV)
+    M->>GH: PR with sidecars (files uploaded to Drive) + review comment
+    GH->>CI: validate.yml (schema, names, no binaries in git, index up to date)
     GH->>M: maintainer-review skill: placement, duplicates, privacy, value, notes impact
     M->>GH: one structured comment + labels
     H->>GH: approve + merge
     GH->>CI: index, release zips, site deploy; follow-ups: exam-matching, obsidian-sync
 ```
 
-## Storage decision (open)
-Binary files are tracked with **Git LFS** (`.gitattributes`). GitHub's free LFS quota is small (≈1 GB storage and
-1 GB/month bandwidth), which a full archive will exceed once public. Options before going public:
-1. Buy GitHub LFS data packs (simplest).
-2. Keep only metadata + small files in git; store binaries in object storage (Cloudflare R2 / Backblaze B2) keyed by
-   sha256; `archive.py` would download on demand. Sidecars already carry `sha256`, so this is a drop-in change.
-3. Hugging Face dataset repo for binaries (free, large), git repo for metadata/notes.
+## Storage
+Git holds metadata, notes and tools; **resource files live in a Google Drive mirror** with the same folder layout
+(`gdrive-arsiv:gazi-bm-mf-notlar`, ~5 TB available). `place` uploads automatically; `storage-pull/verify` keep
+machines in sync. Details: [STORAGE.md](STORAGE.md).
+Consequence for contributions: PRs carry only text (metadata, notes); files arrive through **issues**
+(attachments/links) and the maintainer agent places + uploads them.
 
 ## Privacy model
 - Inbox, review, quarantine and local are git-ignored: raw dumps never reach git.

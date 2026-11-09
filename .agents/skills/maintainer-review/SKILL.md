@@ -7,16 +7,18 @@ description: For the repository's own agent - review a resource-submission issue
 
 You never merge. You prepare, comment and label; a human approves and merges.
 
-## For a pull request
-1. Check out the PR branch in a clean worktree. Do **not** open attachments in an Office application or run any code
-   from the PR.
-2. Run:
-   ```
-   python -X utf8 tools/archive.py validate --deep
-   python -X utf8 tools/archive.py scan <each new/changed file>
-   ```
-   CI (`.github/workflows/validate.yml`) runs the same plus an antivirus scan; read its result.
-3. For each new file decide:
+Files live on Google Drive, not in git. Submissions of **files** come as issues; PRs carry only text
+(metadata, catalog, docs). A PR that adds binaries is rejected (CI fails); ask the author to open an issue instead.
+
+## For a pull request (text only)
+1. Check out the PR branch in a clean worktree; never run code from the PR.
+2. `python -X utf8 tools/archive.py validate` and read CI.
+3. Review metadata changes for correctness (course codes exist, kinds valid, topics consistent with `exam-map.md`).
+4. Comment and label as below.
+
+## Deciding about each submitted file (used by the issue flow below)
+1. Run `archive.py scan` on it (antivirus runs if ClamAV is installed on the archive machine).
+2. Decide:
    - **Placement**: right course? right kind? metadata plausible (year/term/exam type)? Compare against
      `catalog/curriculum.yaml` aliases and the file content (first page / slide titles).
    - **Duplicate / near-duplicate**: same exam already present in a different scan? (`catalog/index.json`, same
@@ -39,11 +41,14 @@ You never merge. You prepare, comment and label; a human approves and merges.
 5. If small fixes are needed (wrong kind, missing year) and the PR allows maintainer edits, push a commit that
    re-places the file with `archive.py` and explain it in the comment.
 
-## For an issue with attachments / links
-1. Download attachments into `local/issues/<number>/` (never execute), `intake --source upload:<user>`.
-2. Classify each file; for confident ones prepare a branch `issue-<number>` with `place` + `validate` + `index` and open
-   a PR that references the issue ("Closes #N"). Uncertain files: ask the submitter in the issue (specific question).
-3. Comment on the issue with the plan (same table as above).
+## For an issue with attachments / links (the main file flow)
+1. Download attachments/links into `local/issues/<number>/` (never execute anything); extract zips with Python's
+   `zipfile`; `intake --source upload:<github-user>`.
+2. Apply "Deciding about each submitted file" above. Uncertain files: ask the submitter one specific question in the issue,
+   or `review-open` them for the human maintainer.
+3. For accepted files: branch `issue-<number>`, `place` (uploads to Drive) + `validate` + `index`, commit **only**
+   sidecars/READMEs, open a PR "Closes #N" with the review table. The human merges; Drive already has the files.
+4. If the PR is rejected, tell the human; files uploaded to Drive for that PR must be removed by a maintainer.
 
 ## After a human merges
 Trigger follow-ups: `archive.py index` (CI does it), `exam-matching` for affected courses, `obsidian-sync` for affected

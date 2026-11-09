@@ -13,7 +13,7 @@
 - [ ] Diğer / other: …
 
 ## Kontrol listesi / Checklist
-- [ ] Dosyaları `tools/archive.py place` ile ekledim; elle kopyalamadım.
+- [ ] PR sadece metin içeriyor (metadata, katalog, doküman). Dosya paylaşmak için "Kaynak önerisi" issue'su açtım.
 - [ ] `python -X utf8 tools/archive.py validate` → 0 hata.
 - [ ] Sohbet, telefon numarası, kişisel fotoğraf veya kimlik bilgisi yok.
 - [ ] Telifli bir kitabın tamamı yok.

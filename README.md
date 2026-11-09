@@ -17,22 +17,16 @@ tools/archive.py    ekleme, tarama, doğrulama ve indeks aracı
 ```
 Her dersin `README.md` dosyası, o dersteki bütün kaynakların tablosunu içerir (otomatik üretilir).
 
-## İndirme seçenekleri
-Öğrenci notları (el yazısı taramalar dahil) isteğe bağlı bir katmandır (`student-notes/` klasörleri).
+## Dosyalar nerede?
+Git deposunda sadece metadata, notlar ve araçlar var. **Dosyaların kendisi (PDF, slayt, fotoğraf) Google Drive
+aynasında** ve klasör yapısı depoyla aynı: `courses/<KOD>/exams/…`. Ayrıntılar: [docs/STORAGE.md](docs/STORAGE.md).
 
-| Sürüm | İçerik |
-|---|---|
-| **full** | her şey |
-| **core** | öğrenci notları hariç her şey |
+Öğrenci notları (el yazısı taramalar dahil) isteğe bağlı bir katmandır (`student-notes/` klasörleri):
 
-`core` sürümünü almak için:
-```bash
-git clone --filter=blob:none --no-checkout https://github.com/<owner>/gazi-bm-mf-notlar
-cd gazi-bm-mf-notlar
-git sparse-checkout set --no-cone '/*' '!/courses/*/student-notes/'
-git checkout
-```
-Release sayfasında da her sürüm için hazır zip paketleri bulunur (`.github/workflows/release.yml`).
+| Sürüm | İçerik | Nasıl |
+|---|---|---|
+| **full** | her şey | Drive klasörünün tamamı veya `archive.py storage-pull` |
+| **core** | öğrenci notları hariç | `student-notes/` klasörlerini atla veya `archive.py storage-pull --variant core` |
 
 ## Katkı
 Elindeki dosyaları eklemek için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bak. En kolay yol: kendi AI agent'ına

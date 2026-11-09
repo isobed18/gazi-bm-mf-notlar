@@ -14,8 +14,8 @@ from `.agents/skills/` (skills are loaded on demand; read the SKILL.md of the on
 | `catalog/curriculum.yaml` | every course: code, names, curriculum semester, category, **aliases** | yes |
 | `catalog/taxonomy.yaml` | resource kinds → folder names, general categories, download variants | yes |
 | `catalog/index.json` | generated index of all resources (`archive.py index`) | yes |
-| `courses/<CODE>/<kind-dir>/` | the resources + `*.meta.yaml` sidecars; `README.md` is generated | yes |
-| `general/<category>/` | non-course resources, **only after human review** | yes |
+| `courses/<CODE>/<kind-dir>/` | resources + `*.meta.yaml` sidecars; `README.md` is generated | sidecars/md only — files live on **Google Drive** |
+| `general/<category>/` | non-course resources, **only after human review** | sidecars/md only |
 | `inbox/<batch>/` | raw intake (may contain private material) | **never** |
 | `review/R-…/` | items waiting for a human decision | **never** |
 | `quarantine/` | blocked/unsafe files | **never** |
@@ -53,7 +53,10 @@ from `.agents/skills/` (skills are loaded on demand; read the SKILL.md of the on
    (`echo`, `Set-Content`, here-strings): PowerShell 5.1 turns Turkish characters into `?`.
 8. **Student notes are an optional layer** (`kind: student-notes`). Keep them in that kind so
    the `core` download variant can exclude them. Set `--handwritten` for scans of handwriting.
-9. Before you finish: `archive.py validate` must report 0 errors, then run `archive.py index`.
+9. **Storage**: resource files are not in git; they are mirrored to Google Drive (`docs/STORAGE.md`).
+   `place` uploads automatically. Use `storage-pull [--course X]` to download files you need to read,
+   `storage-verify` to check. Never delete or overwrite anything on Drive.
+10. Before you finish: `archive.py validate` must report 0 errors, then run `archive.py index`.
 
 ## Vocabulary
 - *kind*: one of the keys in `catalog/taxonomy.yaml` (`exam`, `slides`, `student-notes`, …).

@@ -6,6 +6,15 @@ review/*
 quarantine/
 local/
 
+# resource files live in the Google Drive mirror (docs/STORAGE.md); git keeps only text:
+# sidecars (*.meta.yaml), course.yaml, generated READMEs, exam maps (*.md)
+courses/**/*.*
+!courses/**/*.yaml
+!courses/**/*.md
+general/**/*.*
+!general/**/*.yaml
+!general/**/*.md
+
 # OS / editor
 .DS_Store
 Thumbs.db

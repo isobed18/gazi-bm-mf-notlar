@@ -1,29 +1,24 @@
 # Katkı rehberi / Contributing
 
+Dosyalar git'te değil, bakımcıların Google Drive aynasında tutulur. Bu yüzden **dosya paylaşmanın yolu issue açmaktır**.
+Depo agent'ı dosyaları inceler, doğru derse yerleştirir, Drive'a yükler ve metadata için bir PR açar. Bir insan onaylar.
+
 ## Kısa yol: agent ile
-1. Depoyu klonla, kendi agent'ını (Claude Code, Codex, Gemini/agy…) depo klasöründe aç.
-2. "Şu dosyaları depoya ekle: …" de. Agent `AGENTS.md` ve `.agents/skills/contributor-submit` yönergelerini izleyerek:
-   dosyaları tarar, doğru derse ve türe yerleştirir, metadata yazar ve PR açar.
-3. Depo agent'ı PR'ı inceler ve yorum yazar. Bir insan onaylarsa birleştirilir; site ve indeks kendiliğinden güncellenir.
+1. Depoyu klonla ve kendi agent'ını (Claude Code, Codex, Gemini/agy…) depo klasöründe aç.
+2. "Şu dosyaları depoya öner: …" de. Agent `AGENTS.md` ve `.agents/skills/contributor-submit` yönergelerine göre
+   dosyaları tarar, hangi derse ve türe ait olduklarını belirler ve **"Kaynak önerisi"** issue'sunu dosyalarla birlikte açar.
 
 ## Elle
-```bash
-pip install -r tools/requirements.txt
-git checkout -b add/BM218-2023-sinavlar
-python -X utf8 tools/archive.py intake ~/Downloads/vize.pdf --source upload:<github-kullanici-adin>
-python -X utf8 tools/archive.py place inbox/<batch>/files/vize.pdf --course BM218 --kind exam --year 2023 --term fall --exam-type midterm --title "Vize"
-python -X utf8 tools/archive.py validate && python -X utf8 tools/archive.py index
-git add courses catalog && git commit -m "add(BM218): 2023 güz vize" && git push
-```
-Sonra PR şablonunu doldur.
+**Issues → New issue → "Kaynak önerisi / Resource submission"** formunu doldur. Dosyaları sürükleyip bırak ya da bir
+paylaşım linki ver. Ders, tür ve yıl/dönem bilgisini yaz.
 
-Dosyanın hangi derse ait olduğundan emin değilsen PR yerine **"Kaynak önerisi" issue'su** aç ve dosyayı ekle;
-yerini depo agent'ı önerir.
+## Pull request ne zaman?
+Sadece metin değişiklikleri için: metadata düzeltmesi, kataloğa yeni bir seçmeli ders eklemek, doküman.
+PR'a dosya (pdf, resim…) eklenirse CI reddeder.
 
 ## Kurallar
 - Kişisel veri yok: sohbet ekran görüntüleri, telefon numarası, kimlik ve kişisel fotoğraflar yasak.
   Sınav ve ödev kağıtlarındaki isimler sorun değil.
 - Telifli kitapların tamamını yükleme, link ver.
 - Çalıştırılabilir dosyalar ve makrolu Office dosyaları (`.docm`, `.xlsm`) kabul edilmez. `.rar` ve `.7z` dosyalarını önce aç.
-- PR başına en fazla ~50 dosya veya 200 MB. Mümkünse her PR tek bir ders için olsun.
 - Kendi notların `student-notes` türüne girer (isteğe bağlı katman; isteyen indirmez).

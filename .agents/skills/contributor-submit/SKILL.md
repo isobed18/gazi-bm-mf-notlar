@@ -1,42 +1,38 @@
 ---
 name: contributor-submit
-description: For a student's own AI agent - propose files (slides, past exams, notes) to this repository through a GitHub issue or pull request that follows the repository rules. Use when a user says "add my files to the archive".
+description: For a student's own AI agent - propose files (slides, past exams, notes) to this repository through a GitHub issue (files) or a pull request (notes/metadata only) that follows the repository rules. Use when a user says "add my files to the archive".
 ---
 
-# Contributing files (for the contributor's agent)
+# Contributing (for the contributor's agent)
 
-You act for a student who wants to share course material. The repository's maintainer agent and a human will
-review your submission. Follow this exactly; non-conforming PRs are closed.
+You act for a student who wants to share course material. Files are stored on the maintainers' Google Drive,
+**not in git**, so contributors send files through a **GitHub issue**; the repository's maintainer agent places and
+uploads them, and a human approves.
 
-## 1. Prepare locally
+## 1. Prepare locally (recommended, so the issue is clean)
 ```
-git clone <repo>  &&  cd gazi-bm-mf-notlar
-pip install -r tools/requirements.txt
-git checkout -b add/<course-or-topic>-<short-slug>
-```
-For each file the user gives you:
-```
+git clone <repo> && cd gazi-bm-mf-notlar && pip install -r tools/requirements.txt
 python -X utf8 tools/archive.py intake <files...> --source upload:<github-username>
-python -X utf8 tools/archive.py scan <inbox file>
-python -X utf8 tools/archive.py place <inbox file> --course <CODE> --kind <kind> [metadata] --contributor <github-username>
+python -X utf8 tools/archive.py scan <each inbox file>
 ```
-Use `classify-and-place` and `privacy-guard`. If you are not sure about a file, **do not place it**: list it in the
-issue instead (see 3). Never commit `inbox/`, `review/`, `local/` (they are git-ignored; keep it so).
+- Drop files whose scan verdict is `block`. Fix or drop `review` files that contain personal data (see `privacy-guard`).
+- Decide course + kind + year/term/exam type for each file (`classify-and-place`), but **do not run `place`**
+  (you have no Drive access; it would only create local sidecars).
 
-## 2. Check
-```
-python -X utf8 tools/archive.py validate   # must be 0 errors
-python -X utf8 tools/archive.py index
-```
+## 2. Open the issue (template "Kaynak önerisi / Resource submission")
+- Title: `[kaynak] BM218 2023 güz vize + final`.
+- Attach files (GitHub accepts pdf/docx/pptx/zip/images up to its size limits) or give a share link
+  (Drive/OneDrive/WeTransfer). Zip many files into one archive.
+- In the body add a table, one row per file:
+  `| dosya | ders | tür | yıl/dönem | sınav türü | not |`
+  plus the source (own notes / instructor / exam photo) and tick both consent boxes.
+- One course per issue when possible.
 
-## 3. Open the PR (or an issue)
-- **PR** when every file is placed: title `add(<CODE>): <what>` e.g. `add(BM218): 2023 vize ve final`.
-  Fill `.github/PULL_REQUEST_TEMPLATE.md` completely: source of the files (own notes / instructor / exam photos),
-  consent statement, list of files with course/kind/year.
-- **Issue** (template "Kaynak önerisi / Resource submission") when you are unsure where files belong or the files are
-  large: attach or link them and describe them; the maintainer agent will propose a place.
-- One course per PR when possible. Max ~50 files / 200 MB per PR.
+## 3. Pull requests
+Open a PR only for text: fixing metadata (`*.meta.yaml` topics/titles), course catalog additions
+(`catalog/curriculum.yaml`, e.g. a new elective), or documentation. Run `archive.py validate` before pushing.
+Binary files in a PR are rejected by CI.
 
 ## Never submit
-Copyrighted textbooks as full PDFs (link them instead), chats, personal data (see `privacy-guard`), executables,
-macro-enabled Office files, archives you have not extracted (`.rar`, `.7z`).
+Copyrighted textbooks as full PDFs (link them instead), chats or chat screenshots, personal data, executables,
+macro-enabled Office files, `.rar/.7z`.
