@@ -21,6 +21,7 @@ Layout (semester based, like a student's own vault):
 The semester is the course's semester in catalog/curriculum.yaml. Generated notes carry `generated: true`;
 only those are rewritten or removed. User-written notes are never touched.
 """
+import json
 import os
 import re
 import shutil
@@ -184,8 +185,40 @@ def export_exams_to_vault(ns, vault, skip_semester_dirs, dry_run, log=print):
         % (added, notes, skipped, ", ".join(skip_semester_dirs), " (dry run)" if dry_run else ""))
 
 
+# graph view colored by year (same scheme as the maintainer's own vault); view settings the user changed are kept
+GRAPH_COLORS = [
+    ('path:"Dersler/4. Sınıf"', 14726144),
+    ('path:"Dersler/3. Sınıf"', 2783446),
+    ('path:"Dersler/2. Sınıf"', 1814394),
+    ('path:"Dersler/1. Sınıf"', 15427636),
+    ('path:"Dersler/%s"' % ELECTIVES, 10181046),
+    ("tag:#donem", 16766720),
+]
+GRAPH_DEFAULTS = {"showTags": False, "showAttachments": True, "hideUnresolved": False, "showOrphans": True,
+                  "collapse-color-groups": False, "showArrow": False, "textFadeMultiplier": 0, "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1, "centerStrength": 0.518713248970312, "repelStrength": 10, "linkStrength": 1,
+                  "linkDistance": 250, "scale": 0.16}
+
+
+def write_graph_config(vault):
+    path = os.path.join(vault, ".obsidian", "graph.json")
+    cfg = dict(GRAPH_DEFAULTS)
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as fh:
+                cfg.update(json.load(fh))
+        except ValueError:
+            pass
+    cfg["colorGroups"] = [{"query": q, "color": {"a": 1, "rgb": rgb}} for q, rgb in GRAPH_COLORS]
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8", newline="\n") as fh:
+        json.dump(cfg, fh, ensure_ascii=False, indent=2)
+
+
 def export(ns, vault, variant, only_courses, dry_run, log=print):
     """ns: archive module (catalog, taxonomy, iter_resources, load_yaml, slugify)."""
+    if not dry_run:
+        write_graph_config(vault)
     tax, cat = ns.taxonomy(), ns.catalog()
     excl = set(tax["variants"][variant]["exclude_kinds"])
     root = os.path.join(vault, "Dersler")
