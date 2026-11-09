@@ -1,7 +1,7 @@
 # Katkı rehberi / Contributing
 
-Dosyalar git'te değil, bakımcıların Google Drive aynasında tutulur. **Dosya göndermenin ana yolu "Gazi BM Kaynak Gönder"
-Google Formu**: https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform: dosyaları yükle, dersi ve türü yaz, gönder. GitHub hesabı gerekmez; gönderdiğin dosyaları
+Dosyalar git'te değil, bakımcıların Google Drive aynasında tutulur. **Dosya göndermenin ana yolu [Gazi BM Kaynak Gönder
+Google Formu](https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform)**: dosyaları yükle, dersi ve türü yaz, gönder. GitHub hesabı gerekmez; gönderdiğin dosyaları
 başkası göremez ya da silemez. Haftalık bakımda bir agent dosyaları tarar (virüs, tür, gizlilik), doğru derse yerleştirir,
 emin olamadığını bir insana sorar. Ayrıntılar: [docs/SUBMISSIONS.md](docs/SUBMISSIONS.md).
 
