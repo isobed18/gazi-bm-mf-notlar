@@ -1259,7 +1259,7 @@ def cmd_export_exams(a):
         olds = sorted(f for f in os.listdir(bdir) if f.startswith(os.path.basename(vault.rstrip(os.sep + "/")) + "-") and f.endswith(".zip"))
         for f in olds[:-3]:  # keep the 3 newest backups
             os.remove(os.path.join(bdir, f))
-    obsidian_export.export_exams_to_vault(sys.modules[__name__], vault, a.skip or [], a.dry_run)
+    obsidian_export.export_exams_to_vault(sys.modules[__name__], vault, a.skip if a.skip is not None else (CONFIG.get("personal_skip") or []), a.dry_run)
 
 
 # ------------------------------------------------------------------ exam information from chats
@@ -1463,7 +1463,7 @@ def main():
     s.add_argument("--dry-run", action="store_true"); s.add_argument("--course", nargs="*", help="only these course codes")
     s.set_defaults(fn=cmd_export_obsidian)
     s = sp.add_parser("export-exams", help="add archive past exams to a user-maintained vault (zip backup first)")
-    s.add_argument("--vault", help="default: personal_vault from local/config.yaml"); s.add_argument("--skip", nargs="*", help='semester folders to skip, e.g. "4. Sinif Guz"')
+    s.add_argument("--vault", help="default: personal_vault from local/config.yaml"); s.add_argument("--skip", nargs="*", help='semester folders to skip (default: personal_skip from local/config.yaml)')
     s.add_argument("--dry-run", action="store_true"); s.add_argument("--no-backup", action="store_true"); s.set_defaults(fn=cmd_export_exams)
     s = sp.add_parser("chat-chunk", help="split a chat export into numbered, pseudonymized chunks for reading agents")
     s.add_argument("export", help="export folder or _chat.txt"); s.add_argument("--slug", required=True); s.add_argument("--size", type=int, default=250)
