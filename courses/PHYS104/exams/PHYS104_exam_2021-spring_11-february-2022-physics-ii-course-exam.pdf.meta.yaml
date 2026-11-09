@@ -1,0 +1,18 @@
+file: PHYS104_exam_2021-spring_11-february-2022-physics-ii-course-exam.pdf
+sha256: 7087e286ec6801811ae2a7a958be13e094636c914733138e3363917937f48cd9
+size: 527440
+course: PHYS104
+kind: exam
+title: 11 February 2022 Physics II Course Exam
+year: 2021
+term: spring
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: phys104
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

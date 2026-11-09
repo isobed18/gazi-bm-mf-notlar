@@ -3,4 +3,9 @@
 
 *Internship I* · internship · curriculum semester: 5
 
-No resources yet. Contributions welcome — see CONTRIBUTING.md.
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM301_gradedistribution_2024-fall_staj-i-harf-notu-dagilimi-2024-guz.jpg](grade-distributions/BM301_gradedistribution_2024-fall_staj-i-harf-notu-dagilimi-2024-guz.jpg) | Staj I Harf Notu Dağılımı - 2024 Güz | 2024 fall |  |

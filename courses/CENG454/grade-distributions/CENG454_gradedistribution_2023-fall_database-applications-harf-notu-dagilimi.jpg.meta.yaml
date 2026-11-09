@@ -1,0 +1,18 @@
+file: CENG454_gradedistribution_2023-fall_database-applications-harf-notu-dagilimi.jpg
+sha256: bc30944f12c2b4804d495359ccde7cbc692824f57c3065e6b260f0c1d12123f3
+size: 79939
+course: CENG454
+kind: grade-distribution
+title: Database Applications Harf Notu Dağılımı
+year: 2023
+term: fall
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: not-ours
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -1,0 +1,17 @@
+file: MAT199_homework_2023-fall_lineer-cebir-matris-odevi.jpg
+sha256: 917d8b037748d1ac70c9be5827a4c8bd361df632cce6e78908315af24c61af7a
+size: 38046
+course: MAT199
+kind: homework
+title: Lineer cebir matris ödevi
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: sweep
+  ref: mat199
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

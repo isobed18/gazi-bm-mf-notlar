@@ -1,0 +1,17 @@
+file: BM309_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.jpg
+sha256: dc35a3a1c014c539976fb1fe2f609d57b53b6fcb2195a14a4e9ab01a498c13d7
+size: 147305
+course: BM309
+kind: grade-distribution
+title: 2024-2025 Güz Harf Notu Dağılımı
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: sweep
+  ref: bm309
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

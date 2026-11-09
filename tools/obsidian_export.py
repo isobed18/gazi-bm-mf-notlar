@@ -33,8 +33,9 @@ TERM_TR = {"fall": "Güz", "spring": "Bahar", "summer": "Yaz"}
 EXAM_TR = {"midterm": "Vize", "final": "Final", "makeup": "Bütünleme", "quiz": "Quiz", "resit": "Tek ders", "sample": "Örnek"}
 GROUPS = [  # (id, note suffix, kinds)
     ("exams", "Çıkmış Sorular", {"exam", "exam-solution"}),
-    ("notes", "Ders Notları", {"lecture-notes", "student-notes", "summary"}),
+    ("notes", "Ders Notları", {"lecture-notes", "student-notes", "summary", "syllabus"}),
     ("slides", "Slaytlar", {"slides"}),
+    ("homework", "Ödevler ve Quizler", {"homework", "homework-solution", "quiz", "lab"}),
     ("grades", "Harf Notu Dağılımları", {"grade-distribution"}),
 ]
 EXPORT_KINDS = set().union(*(g[2] for g in GROUPS)) | {"announcement"}
@@ -311,7 +312,8 @@ def export(ns, vault, variant, only_courses, dry_run, log=print):
                 for m, k in sorted(sel, key=lambda x: (x[1], x[0].get("week") or 0, x[0].get("title") or "")):
                     title = label(m.get("title") or m["file"])
                     extra = " · ".join(x for x in (when(m), ("Hafta %d" % m["week"]) if m.get("week") else "",
-                                                   "öğrenci notu" if k == "student-notes" else "", "özet" if k == "summary" else "") if x)
+                                                   "öğrenci notu" if k == "student-notes" else "", "özet" if k == "summary" else "", "izlence" if k == "syllabus" else "",
+                                                   "çözüm" if k == "homework-solution" else "") if x)
                     if gid == "grades":
                         body.append("![[%s]]" % m["file"])
                         body.append("%s%s" % (title, (" — " + extra) if extra else ""))

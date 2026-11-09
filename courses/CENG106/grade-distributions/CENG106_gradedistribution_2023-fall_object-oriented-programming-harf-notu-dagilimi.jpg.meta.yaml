@@ -1,0 +1,18 @@
+file: CENG106_gradedistribution_2023-fall_object-oriented-programming-harf-notu-dagilimi.jpg
+sha256: f4c5a3a6f74dae3234f7708cf9363a6ba93e54175b108281cd9cd128f4ba1f02
+size: 196218
+course: CENG106
+kind: grade-distribution
+title: Object Oriented Programming Harf Notu Dağılımı
+year: 2023
+term: fall
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: not-ours
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -1,0 +1,19 @@
+file: PHYS104_exam_2017-spring_final_2017-physics-ii-final-exam.pdf
+sha256: 7d5968cc9628e1de5bf10fe682ad155f61d6ecad82f69008982f5c4c9205a11c
+size: 1147832
+course: PHYS104
+kind: exam
+title: 2017 Physics II Final Exam
+year: 2017
+term: spring
+exam_type: final
+language: en
+handwritten: true
+source:
+  type: sweep
+  ref: phys104
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

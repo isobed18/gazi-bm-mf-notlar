@@ -4,6 +4,12 @@
 *Software Engineering* · required · curriculum semester: 6
 
 
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM314_slides_uygulama-surec-modeli-senaryosu.jpg](slides/BM314_slides_uygulama-surec-modeli-senaryosu.jpg) | Uygulama - süreç modeli senaryosu |  |  |
+
 ## student-notes (optional layer)
 
 | File | Title | Year/term | Type |
@@ -20,6 +26,12 @@
 | [BM314_exam_2021-spring_2021-2022-bahar.pdf](exams/BM314_exam_2021-spring_2021-2022-bahar.pdf) | 2021-2022 Bahar | 2021 spring |  |
 | [BM314_exam_2023-spring_2023-2024-bahar.pdf](exams/BM314_exam_2023-spring_2023-2024-bahar.pdf) | 2023-2024 Bahar | 2023 spring |  |
 | [BM314_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf](exams/BM314_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf) | 2023-2024 Bahar Vize | 2023 spring | midterm |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM314_syllabus_dersin-degerlendirme-kriterleri.jpg](syllabus/BM314_syllabus_dersin-degerlendirme-kriterleri.jpg) | Dersin Değerlendirme Kriterleri |  |  |
 
 ## announcement
 

@@ -1,8 +1,8 @@
-file: BM309_exam_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf
+file: BM309_syllabus_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf
 sha256: ac41d9a4903d5eeef26220374c6e0f46519cd00ee3ba3354325b3a197baa7912
 size: 24970
 course: BM309
-kind: exam
+kind: syllabus
 title: Isletim Sistemleri Final Sorusu - Cagri Yigini Cizimi
 year: 2025
 term: fall
@@ -12,8 +12,8 @@ source:
   type: whatsapp
   ref: gazi-ceng-2023-muh
 added: '2026-11-09'
-status: deprecated
+status: approved
 scan:
   verdict: ok
   antivirus: not-run (clamscan not installed)
-notes: syllabus
+notes: Two-page evaluation-weight table, not exam questions; matched to Jan 2026 BM309 assessment screenshots.

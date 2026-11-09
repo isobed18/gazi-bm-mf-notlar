@@ -1,0 +1,17 @@
+file: MAT199_studentnotes_2023-fall_lineer-cebir-notlari-sayfa-1-12.pdf
+sha256: 85582d7da250570f86428a0e1720b189563b6b6ca90738e0dceaba677a49f5fa
+size: 3615829
+course: MAT199
+kind: student-notes
+title: Lineer cebir notları, sayfa 1-12
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: sweep
+  ref: mat199
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

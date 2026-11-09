@@ -1,0 +1,23 @@
+file: BM402_homework_2025-spring_tcp-tekrar-gonderimlerinin-deneysel-analizi-odevi.jpg
+sha256: 0df2dce96e451361e89be73ff8d904d227fd43c90bfee646f80d3e6dbacf3fba
+size: 172449
+course: BM402
+kind: homework
+title: TCP Tekrar Gönderimlerinin Deneysel Analizi Ödevi
+year: 2025
+term: spring
+language: tr
+handwritten: false
+topics:
+- TCP
+- Wireshark
+- yeniden iletim
+- RTT
+source:
+  type: sweep
+  ref: bm402
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

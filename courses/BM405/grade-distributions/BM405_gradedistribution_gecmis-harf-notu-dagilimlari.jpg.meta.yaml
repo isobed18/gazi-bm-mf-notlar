@@ -1,0 +1,15 @@
+file: BM405_gradedistribution_gecmis-harf-notu-dagilimlari.jpg
+sha256: 14cbaaba9110a263afbaa099af180e278e37481f33ae046cd2234543c6c77c53
+size: 27418
+course: BM405
+kind: grade-distribution
+title: Geçmiş Harf Notu Dağılımları
+handwritten: false
+source:
+  type: sweep
+  ref: bm405
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

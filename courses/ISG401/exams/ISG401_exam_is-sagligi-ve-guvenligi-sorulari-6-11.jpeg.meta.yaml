@@ -1,0 +1,16 @@
+file: ISG401_exam_is-sagligi-ve-guvenligi-sorulari-6-11.jpeg
+sha256: 3ec82d35584cd20cf475eecabc919d2e07bd6d6b0ce64a95c52cabc92c95e677
+size: 139471
+course: ISG401
+kind: exam
+title: İş Sağlığı ve Güvenliği Soruları 6-11
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: not-ours
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

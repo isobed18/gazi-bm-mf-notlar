@@ -1,0 +1,17 @@
+file: MAT102_studentnotes_2024-spring_belirli-integral-ve-integral-teknikleri-el-notu.jpg
+sha256: c47418e22c95843175fd5d5c703b7bc8d22d09917e0e373c08ae34141e7ff77f
+size: 67492
+course: MAT102
+kind: student-notes
+title: Belirli integral ve integral teknikleri el notu
+year: 2024
+term: spring
+handwritten: true
+source:
+  type: sweep
+  ref: math102
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -14,6 +14,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [MAT102_studentnotes_2024-spring_belirli-integral-ve-integral-teknikleri-el-notu.jpg](student-notes/MAT102_studentnotes_2024-spring_belirli-integral-ve-integral-teknikleri-el-notu.jpg) | Belirli integral ve integral teknikleri el notu | 2024 spring |  |
 | [MAT102_studentnotes_notlar1.pdf](student-notes/MAT102_studentnotes_notlar1.pdf) | Matematik II Öğrenci Notları Bölüm 1 – Belirli İntegral | spring |  |
 | [MAT102_studentnotes_notlar2.pdf](student-notes/MAT102_studentnotes_notlar2.pdf) | Matematik II Öğrenci Notları Bölüm 2 – Hacim ve Yüzey Alanı | spring |  |
 | [MAT102_studentnotes_notlar3.pdf](student-notes/MAT102_studentnotes_notlar3.pdf) | Matematik II Öğrenci Notları Bölüm 3 – Seriler | spring |  |
@@ -22,6 +23,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [MAT102_exam_2021-spring_midterm_2021-2022-bahar-vize-grup-b.pdf](exams/MAT102_exam_2021-spring_midterm_2021-2022-bahar-vize-grup-b.pdf) | 2021-2022 Bahar Vize (Grup B) | 2021 spring | midterm |
 | [MAT102_exam_2023-spring_w6902_mat2-cikmiwlar.pdf](exams/MAT102_exam_2023-spring_w6902_mat2-cikmiwlar.pdf) | mat2 cikmiwlar | 2023 spring |  |
 | [MAT102_exam_2024-spring_final_2024-2025-bahar-final-2.pdf](exams/MAT102_exam_2024-spring_final_2024-2025-bahar-final-2.pdf) | 2023-2024 Bahar Final (Grup B) | 2023 spring | final |
 | [MAT102_exam_2024-spring_final_2024-2025-bahar-final.pdf](exams/MAT102_exam_2024-spring_final_2024-2025-bahar-final.pdf) | 2023-2024 Bahar Final (Grup A) | 2023 spring | final |
@@ -31,6 +33,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [MAT102_examsolution_2021-spring_midterm_2021-2022-bahar-vize-cozumleri-grup-b.pdf](exam-solutions/MAT102_examsolution_2021-spring_midterm_2021-2022-bahar-vize-cozumleri-grup-b.pdf) | 2021-2022 Bahar Vize Çözümleri (Grup B) | 2021 spring | midterm |
 | [MAT102_examsolution_2022-spring_final_2022-2023-bahar-final.pdf](exam-solutions/MAT102_examsolution_2022-spring_final_2022-2023-bahar-final.pdf) | 2021-2022 Bahar Final Çözümleri (Grup A) | 2021 spring | final |
 | [MAT102_examsolution_2022-spring_midterm_2022-2023-bahar-vize.pdf](exam-solutions/MAT102_examsolution_2022-spring_midterm_2022-2023-bahar-vize.pdf) | 2021-2022 Bahar Vize Çözümleri (Grup A) | 2021 spring | midterm |
 | [MAT102_examsolution_2023-spring_final_2023-2024-bahar-final.pdf](exam-solutions/MAT102_examsolution_2023-spring_final_2023-2024-bahar-final.pdf) | Matematik II Çıkmış Sınav Soruları ve Çözümleri Derlemesi (61 Sayfa) | 2023 spring |  |

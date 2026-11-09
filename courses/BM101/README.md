@@ -4,6 +4,13 @@
 *Computer Programming I* · required · curriculum semester: 1
 
 
+## slides
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM101_slides_2023-fall_dinamik-bellek-y-netimi.jpg](slides/BM101_slides_2023-fall_dinamik-bellek-y-netimi.jpg) | Dinamik Bellek Y?netimi | 2023 fall |  |
+| [BM101_slides_2023-fall_donguler-do-while-break-ve-continue.jpg](slides/BM101_slides_2023-fall_donguler-do-while-break-ve-continue.jpg) | Döngüler: do-while, break ve continue | 2023 fall |  |
+
 ## lecture-notes
 
 | File | Title | Year/term | Type |
@@ -11,10 +18,17 @@
 | [BM101_lecturenotes_2024-fall_w7571_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf](lecture-notes/BM101_lecturenotes_2024-fall_w7571_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf) | 62d0b916-a99a-4eae-9f18-e23468b5c541-lisans | 2024 fall |  |
 | [BM101_lecturenotes_2024-fall_w7642_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf](lecture-notes/BM101_lecturenotes_2024-fall_w7642_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf) | 62d0b916-a99a-4eae-9f18-e23468b5c541-lisans | 2024 fall |  |
 
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM101_studentnotes_2023-fall_ak-diyagram-el-notlar.pdf](student-notes/BM101_studentnotes_2023-fall_ak-diyagram-el-notlar.pdf) | Akış Diyagramı El Notları | 2023 fall |  |
+
 ## exam
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [BM101_exam_2023-fall_final_lab-finali-procedure-ve-stack-frame-sorusu.jpg](exams/BM101_exam_2023-fall_final_lab-finali-procedure-ve-stack-frame-sorusu.jpg) | Lab Finali - Procedure ve Stack Frame Sorusu | 2023 fall | final |
 | [BM101_exam_2023-fall_makeup_w3201_calisma-sorulari.pdf](exams/BM101_exam_2023-fall_makeup_w3201_calisma-sorulari.pdf) | C Programming Sample Questions | 2023 fall | sample |
 | [BM101_exam_2023-spring_makeup_w7519_39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat-2.pdf](exams/BM101_exam_2023-spring_makeup_w7519_39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat-2.pdf) | 39531d5b-843e-40b2-9ab2-3ec1b6d562e0-bm-mufredat_2 | 2023 spring | makeup |
 
@@ -23,6 +37,13 @@
 | File | Title | Year/term | Type |
 |---|---|---|---|
 | [BM101_book_00000251-bm-deitel-c-how-to-program-pdf.pdf](books/BM101_book_00000251-bm-deitel-c-how-to-program-pdf.pdf) | 00000251-BM-Deitel C How to Program.pdf |  |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM101_syllabus_2023-fall_not-de-erlendirme-a-rl-klar.jpg](syllabus/BM101_syllabus_2023-fall_not-de-erlendirme-a-rl-klar.jpg) | Not Değerlendirme Ağırlıkları | 2023 fall |  |
+| [BM101_syllabus_2023-fall_not-degerlendirmesi-ve-laboratuvar-yapisi.pdf](syllabus/BM101_syllabus_2023-fall_not-degerlendirmesi-ve-laboratuvar-yapisi.pdf) | Not Değerlendirmesi ve Laboratuvar Yapısı | 2023 fall |  |
 
 ## announcement
 

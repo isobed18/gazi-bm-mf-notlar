@@ -1,0 +1,17 @@
+file: BM218_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg
+sha256: dad86f850b2cb4155759c190b225561bb1eeb88aba2556213a593c6acf2ac220
+size: 130062
+course: BM218
+kind: grade-distribution
+title: 2023-2024 Bahar Harf Notu Dağılımı
+year: 2023
+term: spring
+handwritten: false
+source:
+  type: sweep
+  ref: bm218
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

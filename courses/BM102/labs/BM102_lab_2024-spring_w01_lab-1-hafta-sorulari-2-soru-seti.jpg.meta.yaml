@@ -1,0 +1,19 @@
+file: BM102_lab_2024-spring_w01_lab-1-hafta-sorulari-2-soru-seti.jpg
+sha256: 1943856bac189907a1886d307b8f08a4b5cf6ae612ae39fa4aebeef193543bbf
+size: 235551
+course: BM102
+kind: lab
+title: Lab 1. Hafta Soruları - 2. soru seti
+year: 2024
+term: spring
+week: 1
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: bm102
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

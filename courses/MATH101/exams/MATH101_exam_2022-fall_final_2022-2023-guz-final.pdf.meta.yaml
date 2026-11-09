@@ -1,0 +1,18 @@
+file: MATH101_exam_2022-fall_final_2022-2023-guz-final.pdf
+sha256: 38ff9855c42eb349271c3b9e11636a62435fd2250421e7f7912abc013d21f00a
+size: 145828
+course: MATH101
+kind: exam
+title: 2022-2023 Güz Final
+year: 2022
+term: fall
+exam_type: final
+handwritten: false
+source:
+  type: sweep
+  ref: math101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

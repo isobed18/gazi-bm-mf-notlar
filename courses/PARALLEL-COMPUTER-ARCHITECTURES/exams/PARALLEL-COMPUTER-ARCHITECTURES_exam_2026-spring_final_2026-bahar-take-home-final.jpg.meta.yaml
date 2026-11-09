@@ -1,0 +1,19 @@
+file: PARALLEL-COMPUTER-ARCHITECTURES_exam_2026-spring_final_2026-bahar-take-home-final.jpg
+sha256: 0a2025e9619f0d8452a0db3670afa4e2513a32738f52aaf44394c110a87f870c
+size: 693438
+course: PARALLEL-COMPUTER-ARCHITECTURES
+kind: exam
+title: 2026 Bahar Take-Home Final
+year: 2026
+term: spring
+exam_type: final
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: parallel-computer-architectures
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

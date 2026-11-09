@@ -1,0 +1,15 @@
+file: BM218_gradedistribution_harf-notu-dagilimi-donem-belirtilmemis.jpg
+sha256: cc7b5543a1e6313907f193ac08e831309f1eb30829589edeff9e0dceb5845016
+size: 35619
+course: BM218
+kind: grade-distribution
+title: Harf Notu Dağılımı (dönem belirtilmemiş)
+handwritten: false
+source:
+  type: sweep
+  ref: bm218
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

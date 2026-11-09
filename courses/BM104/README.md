@@ -13,11 +13,18 @@
 | [BM104_slides_bm104-ayrik-matematik-ders-sunumu-2.pdf](slides/BM104_slides_bm104-ayrik-matematik-ders-sunumu-2.pdf) | Hafta 3 - Çıkarım Kuralları ve İspatlar |  |  |
 | [BM104_slides_bm104-ayrik-matematik-ders-sunumu.pdf](slides/BM104_slides_bm104-ayrik-matematik-ders-sunumu.pdf) | Hafta 2 - Yüklemler Mantığı |  |  |
 
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM104_studentnotes_2023-spring_onerme-ve-yuklem-mantigi-notlari.jpg](student-notes/BM104_studentnotes_2023-spring_onerme-ve-yuklem-mantigi-notlari.jpg) | Önerme ve Yüklem Mantığı Notları | 2023 spring |  |
+
 ## exam
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
 | [BM104_exam_2022_midterm_w7088_ayrik-matematik-vize-2022-2023.pdf](exams/BM104_exam_2022_midterm_w7088_ayrik-matematik-vize-2022-2023.pdf) | 2022-2023 Bahar Vize Sınavı | 2022 spring | midterm |
+| [BM104_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi-fotograf.jpg](exams/BM104_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi-fotograf.jpg) | 2023-2024 Güz Vize Sınavı (fotoğraf) | 2023 fall | midterm |
 | [BM104_exam_2023-spring_midterm_w7087_ayrik-final-online-2023.pdf](exams/BM104_exam_2023-spring_midterm_w7087_ayrik-final-online-2023.pdf) | 2022-2023 Bahar Final Sınavı | 2022 spring | final |
 | [BM104_exam_2023-spring_midterm_w7089_ayrik-butunleme-2023.pdf](exams/BM104_exam_2023-spring_midterm_w7089_ayrik-butunleme-2023.pdf) | 2022-2023 Bahar Bütünleme Sınavı | 2022 spring | makeup |
 

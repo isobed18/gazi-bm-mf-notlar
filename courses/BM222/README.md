@@ -24,7 +24,15 @@
 | File | Title | Year/term | Type |
 |---|---|---|---|
 | [BM222_examsolution_2022-spring_final_sayisal-tasarim-2022-2023-bahar-final-cozumleri.pdf](exam-solutions/BM222_examsolution_2022-spring_final_sayisal-tasarim-2022-2023-bahar-final-cozumleri.pdf) | Sayısal Tasarım 2022-2023 Bahar Final Çözümleri | 2022 spring | final |
+| [BM222_examsolution_2022-spring_midterm_2022-2023-bahar-vize-cozum-ek-sayfalari.pdf](exam-solutions/BM222_examsolution_2022-spring_midterm_2022-2023-bahar-vize-cozum-ek-sayfalari.pdf) | 2022-2023 Bahar Vize Çözüm Ek Sayfaları | 2022 spring | midterm |
+| [BM222_examsolution_2024-spring_final_2024-2025-bahar-final-cozumu.pdf](exam-solutions/BM222_examsolution_2024-spring_final_2024-2025-bahar-final-cozumu.pdf) | 2024-2025 Bahar Final Çözümü | 2024 spring | final |
 | [BM222_examsolution_2024-spring_midterm_w9494_vize-cevap.pdf](exam-solutions/BM222_examsolution_2024-spring_midterm_w9494_vize-cevap.pdf) | Sayısal Tasarım Vize Çözümü | 2023 spring | midterm |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM222_gradedistribution_2023-spring_harf-notu-dagilimi.pdf](grade-distributions/BM222_gradedistribution_2023-spring_harf-notu-dagilimi.pdf) | Harf Notu Dağılımı | 2023 spring |  |
 
 ## book
 

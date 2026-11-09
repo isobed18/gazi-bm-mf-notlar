@@ -21,6 +21,12 @@
 | [CENG454_slides_2026-fall_w04_l4-customizing-output-single-row-functions.pdf](slides/CENG454_slides_2026-fall_w04_l4-customizing-output-single-row-functions.pdf) | L4 Customizing Output (single-row functions) | 2026 fall |  |
 | [CENG454_slides_2026-fall_w05_l5-conversion-functions-and-conditional-expression.pdf](slides/CENG454_slides_2026-fall_w05_l5-conversion-functions-and-conditional-expression.pdf) | L5 Conversion Functions and Conditional Expressions | 2026 fall |  |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG454_gradedistribution_2023-fall_database-applications-harf-notu-dagilimi.jpg](grade-distributions/CENG454_gradedistribution_2023-fall_database-applications-harf-notu-dagilimi.jpg) | Database Applications Harf Notu Dağılımı | 2023 fall |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

@@ -15,6 +15,13 @@
 | [BM224_slides_2024-spring_lectures-5.pdf](slides/BM224_slides_2024-spring_lectures-5.pdf) | Lectures 5 | 2024 spring |  |
 | [BM224_slides_2024-spring_w01_bm224-ders-1-3.pdf](slides/BM224_slides_2024-spring_w01_bm224-ders-1-3.pdf) | BM224 Ders 1-3 | 2024 spring |  |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM224_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg](grade-distributions/BM224_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg) | 2023-2024 Bahar Harf Notu Dağılımı | 2023 spring |  |
+| [BM224_gradedistribution_gecmis-harf-notu-dagilimlari.jpg](grade-distributions/BM224_gradedistribution_gecmis-harf-notu-dagilimlari.jpg) | Geçmiş Harf Notu Dağılımları |  |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

@@ -1,0 +1,17 @@
+file: BM103_studentnotes_2023-fall_bilgisayar-muhendisligi-temelleri-el-yazisi-ders-n.pdf
+sha256: 7a5f2bf5cfef599ce325d6b980d4a3ab551d08f52a6aa53bffbee5ac1eec7a9e
+size: 1375611
+course: BM103
+kind: student-notes
+title: Bilgisayar mühendisliği temelleri el yazısı ders notları
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: sweep
+  ref: bm103
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

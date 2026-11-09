@@ -1,0 +1,21 @@
+file: BM402_homework_2025-spring_udp-fairness-analizi-odevi.jpg
+sha256: 605b0d3b361eba72884371a26f4af2eaabef5b365ea4959d423e8ef69475a908
+size: 20454
+course: BM402
+kind: homework
+title: UDP Fairness Analizi Ödevi
+year: 2025
+term: spring
+language: tr
+handwritten: false
+topics:
+- UDP
+- fairness
+source:
+  type: sweep
+  ref: bm402
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

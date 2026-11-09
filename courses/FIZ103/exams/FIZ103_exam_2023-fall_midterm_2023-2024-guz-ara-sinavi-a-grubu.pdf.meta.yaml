@@ -1,0 +1,18 @@
+file: FIZ103_exam_2023-fall_midterm_2023-2024-guz-ara-sinavi-a-grubu.pdf
+sha256: be519d7e82796aecd9e41a6d79b6d73abe158c3d53eb197c3aac2b85f3d2bc3b
+size: 621045
+course: FIZ103
+kind: exam
+title: 2023-2024 Güz Ara Sınavı (A Grubu)
+year: 2023
+term: fall
+exam_type: midterm
+handwritten: false
+source:
+  type: sweep
+  ref: fiz103
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

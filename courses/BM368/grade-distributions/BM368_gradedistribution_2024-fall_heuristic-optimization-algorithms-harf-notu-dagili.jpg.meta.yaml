@@ -1,0 +1,18 @@
+file: BM368_gradedistribution_2024-fall_heuristic-optimization-algorithms-harf-notu-dagili.jpg
+sha256: 1b2e36a523d2a9d906f1b2cb1a923372fccd4d3d5cdb67ab884047923583c13a
+size: 164161
+course: BM368
+kind: grade-distribution
+title: Heuristic Optimization Algorithms Harf Notu Dağılımı
+year: 2024
+term: fall
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: not-ours
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

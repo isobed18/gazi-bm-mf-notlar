@@ -1,0 +1,17 @@
+file: BM222_gradedistribution_2023-spring_harf-notu-dagilimi.pdf
+sha256: 8f4e547f08b602e5e425b7bd180f76ddf0c647d03d75a8eb1dacd2f57e9dee31
+size: 97317
+course: BM222
+kind: grade-distribution
+title: Harf Notu Dağılımı
+year: 2023
+term: spring
+handwritten: false
+source:
+  type: sweep
+  ref: bm222
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

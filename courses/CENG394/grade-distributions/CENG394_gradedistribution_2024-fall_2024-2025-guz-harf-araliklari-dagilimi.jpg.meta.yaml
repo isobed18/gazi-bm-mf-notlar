@@ -1,0 +1,17 @@
+file: CENG394_gradedistribution_2024-fall_2024-2025-guz-harf-araliklari-dagilimi.jpg
+sha256: d27c0fd40f3a94f550ad88b902103537e46ab5105edb8aeda26e913580f3b682
+size: 91591
+course: CENG394
+kind: grade-distribution
+title: 2024-2025 Güz Harf Aralıkları Dağılımı
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: sweep
+  ref: ceng394
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

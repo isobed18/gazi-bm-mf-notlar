@@ -18,6 +18,13 @@
 | [BM402_exam_2024-spring_final_bilgisayar-aglari-final-sinavi-02-06-2025.pdf](exams/BM402_exam_2024-spring_final_bilgisayar-aglari-final-sinavi-02-06-2025.pdf) | Bilgisayar Ağları Final Sınavı (02.06.2025) | 2024 spring | final |
 | [BM402_exam_midterm_bilgisayar-aglari-vize-cikmis-sorular-ekran-gorunt.jpeg](exams/BM402_exam_midterm_bilgisayar-aglari-vize-cikmis-sorular-ekran-gorunt.jpeg) | Bilgisayar Ağları Vize Çıkmış Sorular Ekran Görüntüsü |  | midterm |
 
+## homework
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM402_homework_2025-spring_tcp-tekrar-gonderimlerinin-deneysel-analizi-odevi.jpg](homework/BM402_homework_2025-spring_tcp-tekrar-gonderimlerinin-deneysel-analizi-odevi.jpg) | TCP Tekrar Gönderimlerinin Deneysel Analizi Ödevi | 2025 spring |  |
+| [BM402_homework_2025-spring_udp-fairness-analizi-odevi.jpg](homework/BM402_homework_2025-spring_udp-fairness-analizi-odevi.jpg) | UDP Fairness Analizi Ödevi | 2025 spring |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

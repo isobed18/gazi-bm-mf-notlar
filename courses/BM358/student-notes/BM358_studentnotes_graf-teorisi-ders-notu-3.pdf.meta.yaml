@@ -1,0 +1,16 @@
+file: BM358_studentnotes_graf-teorisi-ders-notu-3.pdf
+sha256: 114a7ee600d979ad566ec9d94982ac4e31ca9ceb2b0853cb1dfb72677fa9a1ce
+size: 1756876
+course: BM358
+kind: student-notes
+title: Graf Teorisi Ders Notu
+handwritten: true
+source:
+  type: sweep
+  ref: bm358
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean
+notes: WhatsApp sweep candidate; maintainer approved.

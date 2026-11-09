@@ -20,6 +20,18 @@
 | [BM103_slides_2023-spring_w6482_html2.pdf](slides/BM103_slides_2023-spring_w6482_html2.pdf) | Hafta 10 – HTML Giriş 2 | 2023 fall |  |
 | [BM103_slides_2023-spring_w6483_html3.pdf](slides/BM103_slides_2023-spring_w6483_html3.pdf) | Hafta 11 – HTML Giriş 3 | 2023 fall |  |
 
+## lecture-notes
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM103_lecturenotes_2023-fall_sayi-tabanlari-ve-aritmetik-operatorleri.jpg](lecture-notes/BM103_lecturenotes_2023-fall_sayi-tabanlari-ve-aritmetik-operatorleri.jpg) | Sayı tabanları ve aritmetik operatörleri | 2023 fall |  |
+
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM103_studentnotes_2023-fall_bilgisayar-muhendisligi-temelleri-el-yazisi-ders-n.pdf](student-notes/BM103_studentnotes_2023-fall_bilgisayar-muhendisligi-temelleri-el-yazisi-ders-n.pdf) | Bilgisayar mühendisliği temelleri el yazısı ders notları | 2023 fall |  |
+
 ## summary
 
 | File | Title | Year/term | Type |

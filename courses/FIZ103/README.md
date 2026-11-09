@@ -19,6 +19,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [FIZ103_studentnotes_2023-fall_mekanik-el-notlari.pdf](student-notes/FIZ103_studentnotes_2023-fall_mekanik-el-notlari.pdf) | Mekanik El Notları | 2023 fall |  |
 | [FIZ103_studentnotes_2023-fall_w05_bolum-5-hareket-kanunlari-soru-cozumleri-el-notu.pdf](student-notes/FIZ103_studentnotes_2023-fall_w05_bolum-5-hareket-kanunlari-soru-cozumleri-el-notu.pdf) | Bölüm 5 – Hareket Kanunları Soru Çözümleri El Notu | 2023 fall |  |
 | [FIZ103_studentnotes_2023-fall_w07_bolum-7-is-ve-enerji-soru-cozumleri-el-notu.pdf](student-notes/FIZ103_studentnotes_2023-fall_w07_bolum-7-is-ve-enerji-soru-cozumleri-el-notu.pdf) | Bölüm 7 – İş ve Enerji Soru Çözümleri El Notu | 2023 fall |  |
 | [FIZ103_studentnotes_2023-fall_w08_bolum-8-potansiyel-enerji-soru-cozumleri-el-notu.pdf](student-notes/FIZ103_studentnotes_2023-fall_w08_bolum-8-potansiyel-enerji-soru-cozumleri-el-notu.pdf) | Bölüm 8 – Potansiyel Enerji Soru Çözümleri El Notu | 2023 fall |  |
@@ -28,6 +29,7 @@
 | File | Title | Year/term | Type |
 |---|---|---|---|
 | [FIZ103_exam_2022-fall_midterm_2022-2023-guz-vize.pdf](exams/FIZ103_exam_2022-fall_midterm_2022-2023-guz-vize.pdf) | 2022-2023 Güz Vize | 2022 fall | midterm |
+| [FIZ103_exam_2023-fall_midterm_2023-2024-guz-ara-sinavi-a-grubu.pdf](exams/FIZ103_exam_2023-fall_midterm_2023-2024-guz-ara-sinavi-a-grubu.pdf) | 2023-2024 Güz Ara Sınavı (A Grubu) | 2023 fall | midterm |
 | [FIZ103_exam_2025-fall_final_2025-2026-guz-final.pdf](exams/FIZ103_exam_2025-fall_final_2025-2026-guz-final.pdf) | 2025-2026 Güz Final (D Grubu) | 2025 fall | final |
 
 ## exam-solution

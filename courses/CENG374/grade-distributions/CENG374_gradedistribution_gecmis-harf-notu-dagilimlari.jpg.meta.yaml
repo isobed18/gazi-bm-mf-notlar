@@ -1,0 +1,15 @@
+file: CENG374_gradedistribution_gecmis-harf-notu-dagilimlari.jpg
+sha256: 97d438ec19092cd5c058862a11868f68e12ee33d4208a09d82981111007c6eeb
+size: 212439
+course: CENG374
+kind: grade-distribution
+title: Geçmiş Harf Notu Dağılımları
+handwritten: false
+source:
+  type: sweep
+  ref: ceng374
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

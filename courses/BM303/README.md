@@ -4,6 +4,12 @@
 *Formal Languages and Automata* · required · curriculum semester: 5
 
 
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM303_studentnotes_2025-fall_sonlu-otomatlardan-duzenli-ifade-elde-etme-ornekle.pdf](student-notes/BM303_studentnotes_2025-fall_sonlu-otomatlardan-duzenli-ifade-elde-etme-ornekle.pdf) | Sonlu Otomatlardan Düzenli İfade Elde Etme Örnekleri | 2025 fall |  |
+
 ## exam
 
 | File | Title | Year/term | Type |
@@ -24,6 +30,12 @@
 | File | Title | Year/term | Type |
 |---|---|---|---|
 | [BM303_book_teorik-bilgisayar-bilimi.pdf](books/BM303_book_teorik-bilgisayar-bilimi.pdf) | Teorik Bilgisayar Bilimi |  |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM303_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg](syllabus/BM303_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg) | Biçimsel Diller ve Otomatlar Ders İzlencesi ve Not Dağılımı | 2025 fall |  |
 
 ## announcement
 

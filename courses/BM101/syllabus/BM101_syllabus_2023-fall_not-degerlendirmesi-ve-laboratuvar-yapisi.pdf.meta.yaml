@@ -1,0 +1,18 @@
+file: BM101_syllabus_2023-fall_not-degerlendirmesi-ve-laboratuvar-yapisi.pdf
+sha256: 7f76df8cb0f914cc3c4df21600eb5746dcd5ab63cf3cec143fa95f7da35f9c91
+size: 19332
+course: BM101
+kind: syllabus
+title: Not Değerlendirmesi ve Laboratuvar Yapısı
+year: 2023
+term: fall
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: bm101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

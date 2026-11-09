@@ -1,0 +1,17 @@
+file: MAT199_studentnotes_2023-fall_determinant-el-notlari.pdf
+sha256: e1f083e37275123c3211cea79f3826d6a0b355bf5463234d351333c04e652ae8
+size: 276877
+course: MAT199
+kind: student-notes
+title: Determinant el notları
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: sweep
+  ref: mat199
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

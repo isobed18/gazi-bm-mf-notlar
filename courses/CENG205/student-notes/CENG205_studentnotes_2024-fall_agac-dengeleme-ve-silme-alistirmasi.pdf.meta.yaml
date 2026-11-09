@@ -1,0 +1,20 @@
+file: CENG205_studentnotes_2024-fall_agac-dengeleme-ve-silme-alistirmasi.pdf
+sha256: 14eb035c812c0fe248185643b3dd8740d8ca7a1879f6a920ad2bd49d07336207
+size: 506878
+course: CENG205
+kind: student-notes
+title: Ağaç Dengeleme ve Silme Alıştırması
+year: 2024
+term: fall
+handwritten: true
+topics:
+- Binary Trees
+- AVL Trees
+source:
+  type: sweep
+  ref: ceng205
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

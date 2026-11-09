@@ -8,6 +8,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [MATH201_lecturenotes_2024-fall_diferansiyel-denklemler-tahta-notu.jpg](lecture-notes/MATH201_lecturenotes_2024-fall_diferansiyel-denklemler-tahta-notu.jpg) | Diferansiyel Denklemler Tahta Notu | 2024 fall |  |
 | [MATH201_lecturenotes_2024-fall_tam-diferansiyel-denklemler-tahta-notu.jpg](lecture-notes/MATH201_lecturenotes_2024-fall_tam-diferansiyel-denklemler-tahta-notu.jpg) | Tam Diferansiyel Denklemler Tahta Notu | 2024 fall |  |
 
 ## student-notes (optional layer)

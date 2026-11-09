@@ -1,0 +1,21 @@
+file: BM104_studentnotes_2023-spring_onerme-ve-yuklem-mantigi-notlari.jpg
+sha256: 454e3d8e46b8d1df0080af15b9444850f8b2029a543da558a52dfec536609f00
+size: 31042
+course: BM104
+kind: student-notes
+title: Önerme ve Yüklem Mantığı Notları
+year: 2023
+term: spring
+handwritten: false
+topics:
+- Önerme mantığı
+- yüklem mantığı
+- çıkarım kuralları
+source:
+  type: sweep
+  ref: bm104
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

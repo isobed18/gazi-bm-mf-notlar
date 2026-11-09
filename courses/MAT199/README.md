@@ -8,8 +8,12 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [MAT199_studentnotes_2023-fall_determinant-el-notlari.pdf](student-notes/MAT199_studentnotes_2023-fall_determinant-el-notlari.pdf) | Determinant el notları | 2023 fall |  |
 | [MAT199_studentnotes_2023-fall_determinant-konusu-ders-notu.pdf](student-notes/MAT199_studentnotes_2023-fall_determinant-konusu-ders-notu.pdf) | Determinant Konusu Ders Notu | 2023 fall |  |
+| [MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-1-2.pdf](student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-1-2.pdf) | Lineer cebir el notları, sayfa 1-2 | 2023 fall |  |
+| [MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-9-11.pdf](student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-9-11.pdf) | Lineer cebir el notları, sayfa 9-11 | 2023 fall |  |
 | [MAT199_studentnotes_2023-fall_lineer-cebir-matris-soru-cozumu.jpg](student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-matris-soru-cozumu.jpg) | Matris Tersi Soru Çözümü | 2023 fall |  |
+| [MAT199_studentnotes_2023-fall_lineer-cebir-notlari-sayfa-1-12.pdf](student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-notlari-sayfa-1-12.pdf) | Lineer cebir notları, sayfa 1-12 | 2023 fall |  |
 | [MAT199_studentnotes_2023-fall_ozdeger-ve-ozvektor-soru-cozumu.jpg](student-notes/MAT199_studentnotes_2023-fall_ozdeger-ve-ozvektor-soru-cozumu.jpg) | Özdeğer ve Özvektör Soru Çözümü | 2023 fall |  |
 | [MAT199_studentnotes_2023-fall_ust-ucgen-matrisler-ve-bagintilari-odev-notu.pdf](student-notes/MAT199_studentnotes_2023-fall_ust-ucgen-matrisler-ve-bagintilari-odev-notu.pdf) | Ust Ucgen Matrisler ve Bagintilari Odev Notu | 2023 fall |  |
 
@@ -23,6 +27,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [MAT199_homework_2023-fall_lineer-cebir-matris-odevi.jpg](homework/MAT199_homework_2023-fall_lineer-cebir-matris-odevi.jpg) | Lineer cebir matris ödevi | 2023 fall |  |
 | [MAT199_homework_2023-fall_w3171_worksheet326-1.pdf](homework/MAT199_homework_2023-fall_w3171_worksheet326-1.pdf) | worksheet326 (1) | 2023 fall |  |
 
 ## book

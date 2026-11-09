@@ -1,0 +1,18 @@
+file: SECURE-CODING_gradedistribution_2024-fall_secure-coding-harf-notu-dagilimi.jpg
+sha256: ad37bda0bc455b55d2dc396ba01231d34130b2479c9e92ed226a46da61eda91d
+size: 124805
+course: SECURE-CODING
+kind: grade-distribution
+title: Secure Coding Harf Notu Dağılımı
+year: 2024
+term: fall
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: not-ours
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

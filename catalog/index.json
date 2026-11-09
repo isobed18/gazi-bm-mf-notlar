@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T21:58:31",
- "count": 581,
+ "generated": "2026-11-09T23:43:34",
+ "count": 650,
  "resources": [
   {
    "file": "BM101_announcement_sohbetten-sinav-bilgileri.md",
@@ -44,6 +44,35 @@
    },
    "notes": "Kursla eşleşen kitap kaynağı; kullanıcı talebiyle eklendi, resmi vault kitapları göstermiyor.",
    "path": "courses/BM101/books/BM101_book_00000251-bm-deitel-c-how-to-program-pdf.pdf"
+  },
+  {
+   "file": "BM101_exam_2023-fall_final_lab-finali-procedure-ve-stack-frame-sorusu.jpg",
+   "sha256": "eeef9fedc0bf5d26559634025318d2796d1a988a087c1f776a7a686d2d35d2e8",
+   "size": 25551,
+   "course": "BM101",
+   "kind": "exam",
+   "title": "Lab Finali - Procedure ve Stack Frame Sorusu",
+   "year": 2023,
+   "term": "fall",
+   "exam_type": "final",
+   "language": "en",
+   "handwritten": false,
+   "topics": [
+    "Fonksiyonlar",
+    "parametreler",
+    "stack frame"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM101/exams/BM101_exam_2023-fall_final_lab-finali-procedure-ve-stack-frame-sorusu.jpg"
   },
   {
    "file": "BM101_exam_2023-fall_makeup_w3201_calisma-sorulari.pdf",
@@ -143,6 +172,121 @@
    "path": "courses/BM101/lecture-notes/BM101_lecturenotes_2024-fall_w7642_62d0b916-a99a-4eae-9f18-e23468b5c541-lisans.pdf"
   },
   {
+   "file": "BM101_slides_2023-fall_dinamik-bellek-y-netimi.jpg",
+   "sha256": "9aea8c854350559b6f61327eb5cb501150b44807b578176a033c43d2b20e7fa4",
+   "size": 239308,
+   "course": "BM101",
+   "kind": "slides",
+   "title": "Dinamik Bellek Y?netimi",
+   "year": 2023,
+   "term": "fall",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM101/slides/BM101_slides_2023-fall_dinamik-bellek-y-netimi.jpg"
+  },
+  {
+   "file": "BM101_slides_2023-fall_donguler-do-while-break-ve-continue.jpg",
+   "sha256": "b2fa5fff651310f7bc2346bdb906eab5cfff3fcbb4680ddc5617e637e1c83bab",
+   "size": 112123,
+   "course": "BM101",
+   "kind": "slides",
+   "title": "Döngüler: do-while, break ve continue",
+   "year": 2023,
+   "term": "fall",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM101/slides/BM101_slides_2023-fall_donguler-do-while-break-ve-continue.jpg"
+  },
+  {
+   "file": "BM101_studentnotes_2023-fall_ak-diyagram-el-notlar.pdf",
+   "sha256": "bbe0177b251e30622b8770649c5592116988195308358860f5ad94276961dee8",
+   "size": 111986,
+   "course": "BM101",
+   "kind": "student-notes",
+   "title": "Akış Diyagramı El Notları",
+   "year": 2023,
+   "term": "fall",
+   "language": "tr",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "bm101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM101/student-notes/BM101_studentnotes_2023-fall_ak-diyagram-el-notlar.pdf"
+  },
+  {
+   "file": "BM101_syllabus_2023-fall_not-de-erlendirme-a-rl-klar.jpg",
+   "sha256": "f762fac20c47d916e32923793644640a44e52319a341729e4d3cbcbd4559ca77",
+   "size": 14750,
+   "course": "BM101",
+   "kind": "syllabus",
+   "title": "Not Değerlendirme Ağırlıkları",
+   "year": 2023,
+   "term": "fall",
+   "language": "mixed",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM101/syllabus/BM101_syllabus_2023-fall_not-de-erlendirme-a-rl-klar.jpg"
+  },
+  {
+   "file": "BM101_syllabus_2023-fall_not-degerlendirmesi-ve-laboratuvar-yapisi.pdf",
+   "sha256": "7f76df8cb0f914cc3c4df21600eb5746dcd5ab63cf3cec143fa95f7da35f9c91",
+   "size": 19332,
+   "course": "BM101",
+   "kind": "syllabus",
+   "title": "Not Değerlendirmesi ve Laboratuvar Yapısı",
+   "year": 2023,
+   "term": "fall",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM101/syllabus/BM101_syllabus_2023-fall_not-degerlendirmesi-ve-laboratuvar-yapisi.pdf"
+  },
+  {
    "file": "BM102_announcement_sohbetten-sinav-bilgileri.md",
    "sha256": "c3589235ee6d3325743a323f09af11f5965ed1db41ad66047100de4cd6c0e28c",
    "size": 1603,
@@ -187,6 +331,30 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/BM102/labs/BM102_lab_2023-spring_w01_lab-1-hafta-sorulari.jpg"
+  },
+  {
+   "file": "BM102_lab_2024-spring_w01_lab-1-hafta-sorulari-2-soru-seti.jpg",
+   "sha256": "1943856bac189907a1886d307b8f08a4b5cf6ae612ae39fa4aebeef193543bbf",
+   "size": 235551,
+   "course": "BM102",
+   "kind": "lab",
+   "title": "Lab 1. Hafta Soruları - 2. soru seti",
+   "year": 2024,
+   "term": "spring",
+   "week": 1,
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm102"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM102/labs/BM102_lab_2024-spring_w01_lab-1-hafta-sorulari-2-soru-seti.jpg"
   },
   {
    "file": "BM102_slides_bm102-nesneye-yonelik-programlama-java-ders-sunumu.pdf",
@@ -254,6 +422,28 @@
    },
    "notes": "generated by archive.py chat-merge from 10 findings",
    "path": "courses/BM103/announcements/BM103_announcement_sohbetten-sinav-bilgileri.md"
+  },
+  {
+   "file": "BM103_lecturenotes_2023-fall_sayi-tabanlari-ve-aritmetik-operatorleri.jpg",
+   "sha256": "9ab30a19e5f04dcaf390139f66ffa958c90df74e7e25eab3089ad102a6092827",
+   "size": 126823,
+   "course": "BM103",
+   "kind": "lecture-notes",
+   "title": "Sayı tabanları ve aritmetik operatörleri",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm103"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM103/lecture-notes/BM103_lecturenotes_2023-fall_sayi-tabanlari-ve-aritmetik-operatorleri.jpg"
   },
   {
    "file": "BM103_slides_2023-spring_makeup_w13_h13-html-layout.pdf",
@@ -509,6 +699,28 @@
    "path": "courses/BM103/slides/BM103_slides_2023-spring_w6483_html3.pdf"
   },
   {
+   "file": "BM103_studentnotes_2023-fall_bilgisayar-muhendisligi-temelleri-el-yazisi-ders-n.pdf",
+   "sha256": "7a5f2bf5cfef599ce325d6b980d4a3ab551d08f52a6aa53bffbee5ac1eec7a9e",
+   "size": 1375611,
+   "course": "BM103",
+   "kind": "student-notes",
+   "title": "Bilgisayar mühendisliği temelleri el yazısı ders notları",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "bm103"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM103/student-notes/BM103_studentnotes_2023-fall_bilgisayar-muhendisligi-temelleri-el-yazisi-ders-n.pdf"
+  },
+  {
    "file": "BM103_summary_2023-fall_bm103-vize-oncesi-ozet-notu.jpg",
    "sha256": "8a5e3c6bbd37c8b29151885917496863cd89521948b1544a27f102567164bd8a",
    "size": 117430,
@@ -594,6 +806,34 @@
    },
    "term": "spring",
    "path": "courses/BM104/exams/BM104_exam_2022_midterm_w7088_ayrik-matematik-vize-2022-2023.pdf"
+  },
+  {
+   "file": "BM104_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi-fotograf.jpg",
+   "sha256": "2f6ad0e85d2afa320794861230afe117e590034b7519ab497cbd406f638f2314",
+   "size": 47606,
+   "course": "BM104",
+   "kind": "exam",
+   "title": "2023-2024 Güz Vize Sınavı (fotoğraf)",
+   "year": 2023,
+   "term": "fall",
+   "exam_type": "midterm",
+   "handwritten": false,
+   "topics": [
+    "Fonksiyon bileşkesi",
+    "birebir fonksiyonlar",
+    "tek fonksiyonlar"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm104"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM104/exams/BM104_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi-fotograf.jpg"
   },
   {
    "file": "BM104_exam_2023-spring_midterm_w7087_ayrik-final-online-2023.pdf",
@@ -728,6 +968,33 @@
    },
    "week": 2,
    "path": "courses/BM104/slides/BM104_slides_bm104-ayrik-matematik-ders-sunumu.pdf"
+  },
+  {
+   "file": "BM104_studentnotes_2023-spring_onerme-ve-yuklem-mantigi-notlari.jpg",
+   "sha256": "454e3d8e46b8d1df0080af15b9444850f8b2029a543da558a52dfec536609f00",
+   "size": 31042,
+   "course": "BM104",
+   "kind": "student-notes",
+   "title": "Önerme ve Yüklem Mantığı Notları",
+   "year": 2023,
+   "term": "spring",
+   "handwritten": false,
+   "topics": [
+    "Önerme mantığı",
+    "yüklem mantığı",
+    "çıkarım kuralları"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm104"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM104/student-notes/BM104_studentnotes_2023-spring_onerme-ve-yuklem-mantigi-notlari.jpg"
   },
   {
    "file": "BM188_announcement_sohbetten-sinav-bilgileri.md",
@@ -1125,6 +1392,33 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/BM211/books/BM211_book_masteringengineering.pdf"
+  },
+  {
+   "file": "BM211_exam_2024-fall_final_guz-finali-thevenin-ve-norton-sorusu.jpg",
+   "sha256": "6bf2592991a8c9db3de35c9a782522434e9fe99fa5495a9bbe09f95cd55c49e1",
+   "size": 104703,
+   "course": "BM211",
+   "kind": "exam",
+   "title": "Güz finali - Thevenin ve Norton sorusu",
+   "year": 2024,
+   "term": "fall",
+   "exam_type": "final",
+   "handwritten": false,
+   "topics": [
+    "Thevenin ve Norton eşdeğer devreleri",
+    "Maksimum güç aktarımı"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm211"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM211/exams/BM211_exam_2024-fall_final_guz-finali-thevenin-ve-norton-sorusu.jpg"
   },
   {
    "file": "BM211_homework_2025-fall_devre-analizi-calisma-sorulari.jpg",
@@ -1670,6 +1964,70 @@
    "path": "courses/BM218/announcements/BM218_announcement_sohbetten-sinav-bilgileri.md"
   },
   {
+   "file": "BM218_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg",
+   "sha256": "dad86f850b2cb4155759c190b225561bb1eeb88aba2556213a593c6acf2ac220",
+   "size": 130062,
+   "course": "BM218",
+   "kind": "grade-distribution",
+   "title": "2023-2024 Bahar Harf Notu Dağılımı",
+   "year": 2023,
+   "term": "spring",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm218"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM218/grade-distributions/BM218_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg"
+  },
+  {
+   "file": "BM218_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg",
+   "sha256": "f0931c11feb71f7489891b5d4dd68471a6435d81f4289a197beec3a5332e706a",
+   "size": 152792,
+   "course": "BM218",
+   "kind": "grade-distribution",
+   "title": "2024-2025 Bahar Harf Notu Dağılımı",
+   "year": 2024,
+   "term": "spring",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm218"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM218/grade-distributions/BM218_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg"
+  },
+  {
+   "file": "BM218_gradedistribution_harf-notu-dagilimi-donem-belirtilmemis.jpg",
+   "sha256": "cc7b5543a1e6313907f193ac08e831309f1eb30829589edeff9e0dceb5845016",
+   "size": 35619,
+   "course": "BM218",
+   "kind": "grade-distribution",
+   "title": "Harf Notu Dağılımı (dönem belirtilmemiş)",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm218"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM218/grade-distributions/BM218_gradedistribution_harf-notu-dagilimi-donem-belirtilmemis.jpg"
+  },
+  {
    "file": "BM218_slides_bm218-algoritma-tasarimi-ve-analizi-hafta-1.pdf",
    "sha256": "268ec1097a7c08db949b38f9ecfa7e16063f6c3e09081cde3ef1cffafe5f4d90",
    "size": 925452,
@@ -2187,6 +2545,52 @@
    "path": "courses/BM222/exam-solutions/BM222_examsolution_2022-spring_final_sayisal-tasarim-2022-2023-bahar-final-cozumleri.pdf"
   },
   {
+   "file": "BM222_examsolution_2022-spring_midterm_2022-2023-bahar-vize-cozum-ek-sayfalari.pdf",
+   "sha256": "9cb513f57bae96ab2b25c64c48ea33a91fbbcff7c0d148141ecbc9a3fed11491",
+   "size": 255789,
+   "course": "BM222",
+   "kind": "exam-solution",
+   "title": "2022-2023 Bahar Vize Çözüm Ek Sayfaları",
+   "year": 2022,
+   "term": "spring",
+   "exam_type": "midterm",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm222"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM222/exam-solutions/BM222_examsolution_2022-spring_midterm_2022-2023-bahar-vize-cozum-ek-sayfalari.pdf"
+  },
+  {
+   "file": "BM222_examsolution_2024-spring_final_2024-2025-bahar-final-cozumu.pdf",
+   "sha256": "482550863220b6c36c55ed9f2be09206d628e665463b032bb7deb0e271c9e80d",
+   "size": 243892,
+   "course": "BM222",
+   "kind": "exam-solution",
+   "title": "2024-2025 Bahar Final Çözümü",
+   "year": 2024,
+   "term": "spring",
+   "exam_type": "final",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm222"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM222/exam-solutions/BM222_examsolution_2024-spring_final_2024-2025-bahar-final-cozumu.pdf"
+  },
+  {
    "file": "BM222_examsolution_2024-spring_midterm_w9494_vize-cevap.pdf",
    "sha256": "90e60685bd1bce551dc41dfb62c11eae4974bde06851746b92b1ee521025a296",
    "size": 274168,
@@ -2302,6 +2706,28 @@
    "path": "courses/BM222/exams/BM222_exam_2022-spring_midterm_2022-2023-bahar-vize-sinavi.pdf"
   },
   {
+   "file": "BM222_gradedistribution_2023-spring_harf-notu-dagilimi.pdf",
+   "sha256": "8f4e547f08b602e5e425b7bd180f76ddf0c647d03d75a8eb1dacd2f57e9dee31",
+   "size": 97317,
+   "course": "BM222",
+   "kind": "grade-distribution",
+   "title": "Harf Notu Dağılımı",
+   "year": 2023,
+   "term": "spring",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm222"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM222/grade-distributions/BM222_gradedistribution_2023-spring_harf-notu-dagilimi.pdf"
+  },
+  {
    "file": "BM222_lecturenotes_2024-spring_bilgi-temsili-ve-sayi-sistemleri.pdf",
    "sha256": "df39f63afd83f78417f8ddab42283f392a0a62cc7fd1c6cf015dd95939326152",
    "size": 1703721,
@@ -2344,6 +2770,48 @@
    },
    "notes": "generated by archive.py chat-merge from 18 findings",
    "path": "courses/BM224/announcements/BM224_announcement_sohbetten-sinav-bilgileri.md"
+  },
+  {
+   "file": "BM224_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg",
+   "sha256": "9ce169d7fbbc5ce3f7efc197c0ec0a5d265aa4e195c6726db774ae829ce92c08",
+   "size": 161653,
+   "course": "BM224",
+   "kind": "grade-distribution",
+   "title": "2023-2024 Bahar Harf Notu Dağılımı",
+   "year": 2023,
+   "term": "spring",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm224"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM224/grade-distributions/BM224_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg"
+  },
+  {
+   "file": "BM224_gradedistribution_gecmis-harf-notu-dagilimlari.jpg",
+   "sha256": "462dd79ebebea7061b72934e3f81d464231a0654da04003efc16cf330667f6d7",
+   "size": 75892,
+   "course": "BM224",
+   "kind": "grade-distribution",
+   "title": "Geçmiş Harf Notu Dağılımları",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm224"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM224/grade-distributions/BM224_gradedistribution_gecmis-harf-notu-dagilimlari.jpg"
   },
   {
    "file": "BM224_slides_2024-spring_introduction-to-programming-languages.pdf",
@@ -2479,6 +2947,28 @@
    "path": "courses/BM224/slides/BM224_slides_2024-spring_w01_bm224-ders-1-3.pdf"
   },
   {
+   "file": "BM301_gradedistribution_2024-fall_staj-i-harf-notu-dagilimi-2024-guz.jpg",
+   "sha256": "080930303c692d8a2e6f53c589538cb035cdbe607ace6a364b148e41d07a257b",
+   "size": 47748,
+   "course": "BM301",
+   "kind": "grade-distribution",
+   "title": "Staj I Harf Notu Dağılımı - 2024 Güz",
+   "year": 2024,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm301"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM301/grade-distributions/BM301_gradedistribution_2024-fall_staj-i-harf-notu-dagilimi-2024-guz.jpg"
+  },
+  {
    "file": "BM303_announcement_sohbetten-sinav-bilgileri.md",
    "sha256": "f14f6e7167e552bbf1c8b57c74c279f415a019b881f3daa319628305cc6ae7af",
    "size": 1322,
@@ -2556,12 +3046,12 @@
     "ref": "gazi-bm-2021"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "one-off-homework",
+   "notes": "2022 spring exam given as take-home assignment (ödev); kept as past exam questions.",
    "path": "courses/BM303/exams/BM303_exam_2022-spring_final_bm-303-bicimsel-diller-ve-otomatlar-final-odevi-20.pdf"
   },
   {
@@ -2580,12 +3070,12 @@
     "ref": "gazi-bm-2021"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "one-off-homework",
+   "notes": "2022 spring exam given as take-home assignment (ödev); kept as past exam questions.",
    "path": "courses/BM303/exams/BM303_exam_2022-spring_makeup_bm-303-bicimsel-diller-ve-otomatlar-butunleme-odev.pdf"
   },
   {
@@ -2604,12 +3094,12 @@
     "ref": "gazi-bm-2021"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "one-off-homework",
+   "notes": "2022 spring exam given as take-home assignment (ödev); kept as past exam questions.",
    "path": "courses/BM303/exams/BM303_exam_2022-spring_midterm_bm-303-bicimsel-diller-ve-otomatlar-ara-sinav-odev.pdf"
   },
   {
@@ -2635,6 +3125,55 @@
    "path": "courses/BM303/homework/BM303_homework_2025-spring_bilgisayar-aglari-odev-tanimi-slayt-alistirmasi.jpg"
   },
   {
+   "file": "BM303_studentnotes_2025-fall_sonlu-otomatlardan-duzenli-ifade-elde-etme-ornekle.pdf",
+   "sha256": "73437aaff6acb552e5afb775c4a399bd38137d7937d33e83dea633eb7bcf158f",
+   "size": 99004,
+   "course": "BM303",
+   "kind": "student-notes",
+   "title": "Sonlu Otomatlardan Düzenli İfade Elde Etme Örnekleri",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": true,
+   "topics": [
+    "Sonlu otomatlar",
+    "Düzenli ifadeler"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm303"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM303/student-notes/BM303_studentnotes_2025-fall_sonlu-otomatlardan-duzenli-ifade-elde-etme-ornekle.pdf"
+  },
+  {
+   "file": "BM303_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg",
+   "sha256": "996a20f452278a26fe4d4baa1bb514d73e521b8c21540cfbaedcd0a8f612c05c",
+   "size": 56849,
+   "course": "BM303",
+   "kind": "syllabus",
+   "title": "Biçimsel Diller ve Otomatlar Ders İzlencesi ve Not Dağılımı",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "whatsapp",
+    "ref": "gazi-bm-2021"
+   },
+   "added": "2026-11-09",
+   "status": "deprecated",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "not-run (clamscan not installed)"
+   },
+   "notes": "Misfiled syllabus; image content is evaluation criteria, related to Biçimsel Diller ve Otomata based on filename.",
+   "path": "courses/BM303/syllabus/BM303_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg"
+  },
+  {
    "file": "BM309_announcement_sohbetten-sinav-bilgileri.md",
    "sha256": "876d03ad69a0bcf228e5a3c5d479890ffa971d20d9214f46385fa861463846ae",
    "size": 3470,
@@ -2657,28 +3196,48 @@
    "path": "courses/BM309/announcements/BM309_announcement_sohbetten-sinav-bilgileri.md"
   },
   {
-   "file": "BM309_exam_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf",
-   "sha256": "ac41d9a4903d5eeef26220374c6e0f46519cd00ee3ba3354325b3a197baa7912",
-   "size": 24970,
+   "file": "BM309_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.jpg",
+   "sha256": "cf3f147976911f1fc1c1cb716b867413e74d43d8f63281621a8bda0e49883dd2",
+   "size": 54692,
    "course": "BM309",
-   "kind": "exam",
-   "title": "Isletim Sistemleri Final Sorusu - Cagri Yigini Cizimi",
-   "year": 2025,
+   "kind": "grade-distribution",
+   "title": "2023-2024 Güz Harf Notu Dağılımı",
+   "year": 2023,
    "term": "fall",
-   "exam_type": "final",
    "handwritten": false,
    "source": {
-    "type": "whatsapp",
-    "ref": "gazi-ceng-2023-muh"
+    "type": "sweep",
+    "ref": "bm309"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "unverified",
    "scan": {
     "verdict": "ok",
-    "antivirus": "not-run (clamscan not installed)"
+    "antivirus": "defender:clean"
    },
-   "notes": "syllabus",
-   "path": "courses/BM309/exams/BM309_exam_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf"
+   "path": "courses/BM309/grade-distributions/BM309_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.jpg"
+  },
+  {
+   "file": "BM309_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.jpg",
+   "sha256": "dc35a3a1c014c539976fb1fe2f609d57b53b6fcb2195a14a4e9ab01a498c13d7",
+   "size": 147305,
+   "course": "BM309",
+   "kind": "grade-distribution",
+   "title": "2024-2025 Güz Harf Notu Dağılımı",
+   "year": 2024,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm309"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM309/grade-distributions/BM309_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.jpg"
   },
   {
    "file": "BM309_slides_2025-fall_w10472_2-genel-isletim-sistemleri.pdf",
@@ -2957,27 +3516,28 @@
    "path": "courses/BM309/slides/BM309_slides_w10483_13-sanallastrma-ve-bulut.pdf"
   },
   {
-   "file": "BM309_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg",
-   "sha256": "996a20f452278a26fe4d4baa1bb514d73e521b8c21540cfbaedcd0a8f612c05c",
-   "size": 56849,
+   "file": "BM309_syllabus_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf",
+   "sha256": "ac41d9a4903d5eeef26220374c6e0f46519cd00ee3ba3354325b3a197baa7912",
+   "size": 24970,
    "course": "BM309",
    "kind": "syllabus",
-   "title": "Biçimsel Diller ve Otomatlar Ders İzlencesi ve Not Dağılımı",
+   "title": "Isletim Sistemleri Final Sorusu - Cagri Yigini Cizimi",
    "year": 2025,
    "term": "fall",
+   "exam_type": "final",
    "handwritten": false,
    "source": {
     "type": "whatsapp",
-    "ref": "gazi-bm-2021"
+    "ref": "gazi-ceng-2023-muh"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "syllabus",
-   "path": "courses/BM309/syllabus/BM309_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg"
+   "notes": "Two-page evaluation-weight table, not exam questions; matched to Jan 2026 BM309 assessment screenshots.",
+   "path": "courses/BM309/syllabus/BM309_syllabus_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf"
   },
   {
    "file": "BM311_announcement_sohbetten-sinav-bilgileri.md",
@@ -3606,6 +4166,30 @@
    "path": "courses/BM314/exams/BM314_exam_2023-spring_midterm_2023-2024-bahar-vize.pdf"
   },
   {
+   "file": "BM314_slides_uygulama-surec-modeli-senaryosu.jpg",
+   "sha256": "d6ad62779987ab3d70ffd41ab1eda1d16d4c03f149ef78ff2913977e1aca83a7",
+   "size": 72574,
+   "course": "BM314",
+   "kind": "slides",
+   "title": "Uygulama - süreç modeli senaryosu",
+   "language": "tr",
+   "handwritten": false,
+   "topics": [
+    "Yazılım süreç modelleri"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm314"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM314/slides/BM314_slides_uygulama-surec-modeli-senaryosu.jpg"
+  },
+  {
    "file": "BM314_studentnotes_w7418_yazlm-muehendisligai-915b264ce533464b96fd3ba.pdf",
    "sha256": "d92e73bd69f5d9382e9c0796804cf724d4e1e77e755c0f9d04fea1523ba7834a",
    "size": 18211950,
@@ -3624,6 +4208,27 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/BM314/student-notes/BM314_studentnotes_w7418_yazlm-muehendisligai-915b264ce533464b96fd3ba.pdf"
+  },
+  {
+   "file": "BM314_syllabus_dersin-degerlendirme-kriterleri.jpg",
+   "sha256": "fbd5948d1e81870a903f23b1c424d807ea6ce6a433cdc0ac2b7e45dbac49420b",
+   "size": 49678,
+   "course": "BM314",
+   "kind": "syllabus",
+   "title": "Dersin Değerlendirme Kriterleri",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm314"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM314/syllabus/BM314_syllabus_dersin-degerlendirme-kriterleri.jpg"
   },
   {
    "file": "BM358_announcement_sohbetten-sinav-bilgileri.md",
@@ -3667,6 +4272,27 @@
    },
    "notes": "Kullanıcının önceliğine uygun ders notu, soru çözümü veya resmi slayt; yerleştirildi.",
    "path": "courses/BM358/student-notes/BM358_studentnotes_graf-teorisi-ders-notu-2.pdf"
+  },
+  {
+   "file": "BM358_studentnotes_graf-teorisi-ders-notu-3.pdf",
+   "sha256": "114a7ee600d979ad566ec9d94982ac4e31ca9ceb2b0853cb1dfb72677fa9a1ce",
+   "size": 1756876,
+   "course": "BM358",
+   "kind": "student-notes",
+   "title": "Graf Teorisi Ders Notu",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "bm358"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "notes": "WhatsApp sweep candidate; maintainer approved.",
+   "path": "courses/BM358/student-notes/BM358_studentnotes_graf-teorisi-ders-notu-3.pdf"
   },
   {
    "file": "BM358_studentnotes_graf-teorisi-ders-notu.pdf",
@@ -3731,6 +4357,29 @@
    },
    "notes": "generated by archive.py chat-merge from 1 findings",
    "path": "courses/BM368/announcements/BM368_announcement_sohbetten-sinav-bilgileri.md"
+  },
+  {
+   "file": "BM368_gradedistribution_2024-fall_heuristic-optimization-algorithms-harf-notu-dagili.jpg",
+   "sha256": "1b2e36a523d2a9d906f1b2cb1a923372fccd4d3d5cdb67ab884047923583c13a",
+   "size": 164161,
+   "course": "BM368",
+   "kind": "grade-distribution",
+   "title": "Heuristic Optimization Algorithms Harf Notu Dağılımı",
+   "year": 2024,
+   "term": "fall",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "not-ours"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM368/grade-distributions/BM368_gradedistribution_2024-fall_heuristic-optimization-algorithms-harf-notu-dagili.jpg"
   },
   {
    "file": "BM368_slides_sezgisel-optimizasyon-1-optimizasyona-giris.pdf",
@@ -4299,6 +4948,62 @@
    "path": "courses/BM402/exams/BM402_exam_midterm_bilgisayar-aglari-vize-cikmis-sorular-ekran-gorunt.jpeg"
   },
   {
+   "file": "BM402_homework_2025-spring_tcp-tekrar-gonderimlerinin-deneysel-analizi-odevi.jpg",
+   "sha256": "0df2dce96e451361e89be73ff8d904d227fd43c90bfee646f80d3e6dbacf3fba",
+   "size": 172449,
+   "course": "BM402",
+   "kind": "homework",
+   "title": "TCP Tekrar Gönderimlerinin Deneysel Analizi Ödevi",
+   "year": 2025,
+   "term": "spring",
+   "language": "tr",
+   "handwritten": false,
+   "topics": [
+    "TCP",
+    "Wireshark",
+    "yeniden iletim",
+    "RTT"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm402"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM402/homework/BM402_homework_2025-spring_tcp-tekrar-gonderimlerinin-deneysel-analizi-odevi.jpg"
+  },
+  {
+   "file": "BM402_homework_2025-spring_udp-fairness-analizi-odevi.jpg",
+   "sha256": "605b0d3b361eba72884371a26f4af2eaabef5b365ea4959d423e8ef69475a908",
+   "size": 20454,
+   "course": "BM402",
+   "kind": "homework",
+   "title": "UDP Fairness Analizi Ödevi",
+   "year": 2025,
+   "term": "spring",
+   "language": "tr",
+   "handwritten": false,
+   "topics": [
+    "UDP",
+    "fairness"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "bm402"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM402/homework/BM402_homework_2025-spring_udp-fairness-analizi-odevi.jpg"
+  },
+  {
    "file": "BM402_slides_dns-nasil-calisir-slayti.jpeg",
    "sha256": "d0f9f733daf11d94843fbbb1c74d3ff5f24db906a2c55e02b4fe22fc2a26e90f",
    "size": 222927,
@@ -4384,6 +5089,26 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/BM405/exams/BM405_exam_2025-fall_midterm_girisimcilik-ve-liderlik-2025-2026-guz-vize-sorusu.jpg"
+  },
+  {
+   "file": "BM405_gradedistribution_gecmis-harf-notu-dagilimlari.jpg",
+   "sha256": "14cbaaba9110a263afbaa099af180e278e37481f33ae046cd2234543c6c77c53",
+   "size": 27418,
+   "course": "BM405",
+   "kind": "grade-distribution",
+   "title": "Geçmiş Harf Notu Dağılımları",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "bm405"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/BM405/grade-distributions/BM405_gradedistribution_gecmis-harf-notu-dagilimlari.jpg"
   },
   {
    "file": "BM405_slides_2024-fall_bm-405-girisimcilik-ve-inovasyon-ders-slaytlari-20.pdf",
@@ -4628,6 +5353,29 @@
    },
    "year": 2020,
    "path": "courses/CENG106/exams/CENG106_exam_final_bahar-final.pdf"
+  },
+  {
+   "file": "CENG106_gradedistribution_2023-fall_object-oriented-programming-harf-notu-dagilimi.jpg",
+   "sha256": "f4c5a3a6f74dae3234f7708cf9363a6ba93e54175b108281cd9cd128f4ba1f02",
+   "size": 196218,
+   "course": "CENG106",
+   "kind": "grade-distribution",
+   "title": "Object Oriented Programming Harf Notu Dağılımı",
+   "year": 2023,
+   "term": "fall",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "not-ours"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG106/grade-distributions/CENG106_gradedistribution_2023-fall_object-oriented-programming-harf-notu-dagilimi.jpg"
   },
   {
    "file": "CENG106_slides_bolum-01-bilgisayarlar-ve-internete-giris.pdf",
@@ -5230,6 +5978,27 @@
    "path": "courses/CENG106/slides/CENG106_slides_bolum-30-karakter-katarlari-ve-duzenli-ifadeler.pdf"
   },
   {
+   "file": "CENG106_syllabus_nesne-yonelimli-programlama-konu-basliklari.jpg",
+   "sha256": "e3ec6235bfae1cb44a5dba94c982cfdff990e95cb252aff34597e43f27d04614",
+   "size": 64404,
+   "course": "CENG106",
+   "kind": "syllabus",
+   "title": "Nesne Yönelimli Programlama Konu Başlıkları",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng106"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG106/syllabus/CENG106_syllabus_nesne-yonelimli-programlama-konu-basliklari.jpg"
+  },
+  {
    "file": "CENG205_announcement_sohbetten-sinav-bilgileri.md",
    "sha256": "cdddcca484f13e9c744a0e11e3e81ac47b33878dee42d3a78b65206a33c58dba",
    "size": 4248,
@@ -5349,6 +6118,32 @@
    "path": "courses/CENG205/slides/CENG205_slides_2024-fall_w10_bbm201-ders10-1.pdf"
   },
   {
+   "file": "CENG205_studentnotes_2024-fall_agac-dengeleme-ve-silme-alistirmasi.pdf",
+   "sha256": "14eb035c812c0fe248185643b3dd8740d8ca7a1879f6a920ad2bd49d07336207",
+   "size": 506878,
+   "course": "CENG205",
+   "kind": "student-notes",
+   "title": "Ağaç Dengeleme ve Silme Alıştırması",
+   "year": 2024,
+   "term": "fall",
+   "handwritten": true,
+   "topics": [
+    "Binary Trees",
+    "AVL Trees"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "ceng205"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG205/student-notes/CENG205_studentnotes_2024-fall_agac-dengeleme-ve-silme-alistirmasi.pdf"
+  },
+  {
    "file": "CENG206_announcement_sohbetten-sinav-bilgileri.md",
    "sha256": "db051767967e1dba9f4cbb3c4cada530703f05613c9868c30d73346abd0f44fa",
    "size": 7149,
@@ -5369,6 +6164,54 @@
    },
    "notes": "generated by archive.py chat-merge from 31 findings",
    "path": "courses/CENG206/announcements/CENG206_announcement_sohbetten-sinav-bilgileri.md"
+  },
+  {
+   "file": "CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi-sayfa-fotografi.jpg",
+   "sha256": "f0c54801863079fba08525ca55c65c7a5542981f02b99ba0cbd564c2c41ef5df",
+   "size": 84769,
+   "course": "CENG206",
+   "kind": "exam",
+   "title": "2023-2024 Bahar Final Sınavı (sayfa fotoğrafı)",
+   "year": 2023,
+   "term": "spring",
+   "exam_type": "final",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng206"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG206/exams/CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi-sayfa-fotografi.jpg"
+  },
+  {
+   "file": "CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi.jpg",
+   "sha256": "3d8f36ed8560da7a3179aab5be984c467b0ecf40d1f77af74f8786536993c896",
+   "size": 92966,
+   "course": "CENG206",
+   "kind": "exam",
+   "title": "2023-2024 Bahar Final Sınavı",
+   "year": 2023,
+   "term": "spring",
+   "exam_type": "final",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng206"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG206/exams/CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi.jpg"
   },
   {
    "file": "CENG206_exam_2024-spring_sayisal-analiz-ornek-sinav-sorulari.pdf",
@@ -5394,6 +6237,29 @@
    "path": "courses/CENG206/exams/CENG206_exam_2024-spring_sayisal-analiz-ornek-sinav-sorulari.pdf"
   },
   {
+   "file": "CENG206_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg",
+   "sha256": "b56a1b285e25b80fde0d73ea2bdcd734a27ea40c24c7de3d778307ea14c03d64",
+   "size": 191322,
+   "course": "CENG206",
+   "kind": "grade-distribution",
+   "title": "2023-2024 Bahar Harf Notu Dağılımı",
+   "year": 2023,
+   "term": "spring",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng206"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG206/grade-distributions/CENG206_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg"
+  },
+  {
    "file": "CENG206_homework_2023-spring_assignment-ii-lu-decomposition-2.pdf",
    "sha256": "cf94529b299a47c28bf76817e803a771dc3c9e9bed7d0c50756b7e3d8014dfba",
    "size": 68935,
@@ -5408,12 +6274,12 @@
     "ref": "gazi-bm-2021"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "one-off-homework",
+   "notes": "Past homework/assignment; kept for practice.",
    "path": "courses/CENG206/homework/CENG206_homework_2023-spring_assignment-ii-lu-decomposition-2.pdf"
   },
   {
@@ -5431,12 +6297,12 @@
     "ref": "gazi-bm-2021"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "one-off-homework",
+   "notes": "Past homework/assignment; kept for practice.",
    "path": "courses/CENG206/homework/CENG206_homework_2023-spring_assignment-ii-lu-decomposition.pdf"
   },
   {
@@ -5776,6 +6642,27 @@
    "path": "courses/CENG316/exams/CENG316_exam_midterm_bahar-vize.pdf"
   },
   {
+   "file": "CENG316_exam_relational-algebra-exam-part-3.jpg",
+   "sha256": "c68c44bfc12fd41870f73900c20ee313c28a9664d23efb43f3aeadaf6e547a49",
+   "size": 92827,
+   "course": "CENG316",
+   "kind": "exam",
+   "title": "Relational Algebra Exam (Part 3)",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "not-ours"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG316/exams/CENG316_exam_relational-algebra-exam-part-3.jpg"
+  },
+  {
    "file": "CENG316_homework_2024-spring_database-systems-assignment-2.pdf",
    "sha256": "d4d10065d08b981678dad19099c92289ff0b7c2f1a81cfdff2d0a8d1895fef8c",
    "size": 734154,
@@ -6086,6 +6973,28 @@
    "path": "courses/CENG318/exams/CENG318_exam_final_final-sinavi.pdf"
   },
   {
+   "file": "CENG318_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg",
+   "sha256": "b04bd399ed61c18598be5dbe553051631919cbe3c2c8eee2164382cafb04665e",
+   "size": 129767,
+   "course": "CENG318",
+   "kind": "grade-distribution",
+   "title": "2023-2024 Bahar Harf Notu Dağılımı",
+   "year": 2023,
+   "term": "spring",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng318"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG318/grade-distributions/CENG318_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg"
+  },
+  {
    "file": "CENG318_lecturenotes_2025-spring_w11495_microprocessors-14-260203-020601.pdf",
    "sha256": "30e4ee9bf45738548fd91498e8725214b68603823ba8594392477f064fb98a0b",
    "size": 1085575,
@@ -6327,6 +7236,26 @@
    },
    "notes": "generated by archive.py chat-merge from 4 findings",
    "path": "courses/CENG374/announcements/CENG374_announcement_sohbetten-sinav-bilgileri.md"
+  },
+  {
+   "file": "CENG374_gradedistribution_gecmis-harf-notu-dagilimlari.jpg",
+   "sha256": "97d438ec19092cd5c058862a11868f68e12ee33d4208a09d82981111007c6eeb",
+   "size": 212439,
+   "course": "CENG374",
+   "kind": "grade-distribution",
+   "title": "Geçmiş Harf Notu Dağılımları",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng374"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG374/grade-distributions/CENG374_gradedistribution_gecmis-harf-notu-dagilimlari.jpg"
   },
   {
    "file": "CENG374_slides_introduction-to-computer-security-part-0.pdf",
@@ -6591,6 +7520,28 @@
    "path": "courses/CENG394/exams/CENG394_exam_2025-fall_midterm_dosya-organizasyonu-cikmis-vize-sorulari.pdf"
   },
   {
+   "file": "CENG394_gradedistribution_2024-fall_2024-2025-guz-harf-araliklari-dagilimi.jpg",
+   "sha256": "d27c0fd40f3a94f550ad88b902103537e46ab5105edb8aeda26e913580f3b682",
+   "size": 91591,
+   "course": "CENG394",
+   "kind": "grade-distribution",
+   "title": "2024-2025 Güz Harf Aralıkları Dağılımı",
+   "year": 2024,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng394"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG394/grade-distributions/CENG394_gradedistribution_2024-fall_2024-2025-guz-harf-araliklari-dagilimi.jpg"
+  },
+  {
    "file": "CENG394_homework_2024-fall_ceng-394-homework-1-fall-2024.pdf",
    "sha256": "20bdaa52cfab19d80853c1dbf062f456a885513d48a3a69efb9efdce282cf16d",
    "size": 80213,
@@ -6605,12 +7556,12 @@
     "ref": "gazi-bm-2021"
    },
    "added": "2026-11-09",
-   "status": "deprecated",
+   "status": "approved",
    "scan": {
     "verdict": "ok",
     "antivirus": "not-run (clamscan not installed)"
    },
-   "notes": "homework",
+   "notes": "Past homework/assignment; kept for practice.",
    "path": "courses/CENG394/homework/CENG394_homework_2024-fall_ceng-394-homework-1-fall-2024.pdf"
   },
   {
@@ -6740,6 +7691,29 @@
    },
    "notes": "generated by archive.py chat-merge from 3 findings",
    "path": "courses/CENG454/announcements/CENG454_announcement_sohbetten-sinav-bilgileri.md"
+  },
+  {
+   "file": "CENG454_gradedistribution_2023-fall_database-applications-harf-notu-dagilimi.jpg",
+   "sha256": "bc30944f12c2b4804d495359ccde7cbc692824f57c3065e6b260f0c1d12123f3",
+   "size": 79939,
+   "course": "CENG454",
+   "kind": "grade-distribution",
+   "title": "Database Applications Harf Notu Dağılımı",
+   "year": 2023,
+   "term": "fall",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "not-ours"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG454/grade-distributions/CENG454_gradedistribution_2023-fall_database-applications-harf-notu-dagilimi.jpg"
   },
   {
    "file": "CENG454_slides_2025-fall_ceng-454-database-applications-00003253-1-da-lectu.pdf",
@@ -7353,6 +8327,29 @@
    "path": "courses/CENG483/announcements/CENG483_announcement_sohbetten-sinav-bilgileri.md"
   },
   {
+   "file": "CENG483_examsolution_2025-fall_design-patterns-vize-z-m-notlar.pdf",
+   "sha256": "2afccc8351258c53e994a94165c226366fa0cac9289ef5c33044b1b19acb6e64",
+   "size": 8775726,
+   "course": "CENG483",
+   "kind": "exam-solution",
+   "title": "Design Patterns Vize ??z?m Notlar?",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": false,
+   "related": "courses/CENG483/exams/CENG483_exam_design-patterns-vize-cikmis-sorulari.pdf",
+   "source": {
+    "type": "sweep",
+    "ref": "ceng483"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG483/exam-solutions/CENG483_examsolution_2025-fall_design-patterns-vize-z-m-notlar.pdf"
+  },
+  {
    "file": "CENG483_exam_design-patterns-quiz-sorulari.pdf",
    "sha256": "1873d83187572f08c421fb3d4e508ed5f033e7cbc673971a2026ea463548ec6a",
    "size": 8775816,
@@ -7416,6 +8413,116 @@
    "path": "courses/CENG483/slides/CENG483_slides_prototype-pattern-sunumu.pdf"
   },
   {
+   "file": "CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-1.pdf",
+   "sha256": "93ce8f2234d4057d1567aa7881f5e94a5f5201f486d94729b8b97f38f662c393",
+   "size": 1417904,
+   "course": "CENG483",
+   "kind": "student-notes",
+   "title": "Design Patterns El Yaz?s? Notlar? 1",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng483"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG483/student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-1.pdf"
+  },
+  {
+   "file": "CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-2.pdf",
+   "sha256": "4ee3a331c33901b3ad87f90a7e2349e643b0e0f31770fa5ab8e99ac865b247d2",
+   "size": 349326,
+   "course": "CENG483",
+   "kind": "student-notes",
+   "title": "Design Patterns El Yaz?s? Notlar? 2",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng483"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG483/student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-2.pdf"
+  },
+  {
+   "file": "CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-3.pdf",
+   "sha256": "dc88f4316b153692d99a9f6a3e592f464f2b76ebc1003197909aab4bb54e3700",
+   "size": 133247,
+   "course": "CENG483",
+   "kind": "student-notes",
+   "title": "Design Patterns El Yaz?s? Notlar? 3",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng483"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG483/student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-3.pdf"
+  },
+  {
+   "file": "CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-4.pdf",
+   "sha256": "1a8c94493ebd67f2e9dc80a0d11d78eefde22758d241108af192d34598fe51c9",
+   "size": 40097,
+   "course": "CENG483",
+   "kind": "student-notes",
+   "title": "Design Patterns El Yaz?s? Notlar? 4",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng483"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG483/student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-4.pdf"
+  },
+  {
+   "file": "CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-5.pdf",
+   "sha256": "20eb96faa163dda3b0040f47a6996c66ec3e4666a6e119cddd2a15cbab053d90",
+   "size": 131461,
+   "course": "CENG483",
+   "kind": "student-notes",
+   "title": "Design Patterns El Yaz?s? Notlar? 5",
+   "year": 2025,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "ceng483"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/CENG483/student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-5.pdf"
+  },
+  {
    "file": "CENG483_summary_design-patterns-soru-cevap-calisma-notu.docx",
    "sha256": "5c38a2d38ccb2a0fb3b0067bc61537a22d5e7688d6e7ef93a9a0f22e8c95519f",
    "size": 20908,
@@ -7457,6 +8564,30 @@
    },
    "notes": "generated by archive.py chat-merge from 2 findings",
    "path": "courses/COMPUTER-GRAPHICS/announcements/COMPUTER-GRAPHICS_announcement_sohbetten-sinav-bilgileri.md"
+  },
+  {
+   "file": "COMPUTER-GRAPHICS_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg",
+   "sha256": "e817d6971a01d6eb3aa7fcfc9f3acf225bf8ffb21356d0c11d313e6f9eb368d3",
+   "size": 49181,
+   "course": "COMPUTER-GRAPHICS",
+   "kind": "grade-distribution",
+   "title": "2024-2025 Bahar Harf Notu Dağılımı",
+   "year": 2024,
+   "term": "spring",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "computer-graphics"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "notes": "WhatsApp sweep; anonymous course-wide letter-grade counts; complete screenshot with course identity and result date.",
+   "path": "courses/COMPUTER-GRAPHICS/grade-distributions/COMPUTER-GRAPHICS_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg"
   },
   {
    "file": "DISTRIBUTED-SYSTEMS_announcement_sohbetten-sinav-bilgileri.md",
@@ -8123,6 +9254,29 @@
    "path": "courses/ENG204/exams/ENG204_exam_2022-spring_midterm_eng-204-midterm-exam-2022-2023.pdf"
   },
   {
+   "file": "ENG204_exam_2024-spring_final_2024-2025-bahar-final-template.pdf",
+   "sha256": "6502ae0acf00b4224c95a115f3e1ff066ee508dbf96b0af5bc1b0b7794d4f56a",
+   "size": 329850,
+   "course": "ENG204",
+   "kind": "exam",
+   "title": "2024-2025 Bahar Final (Template)",
+   "year": 2024,
+   "term": "spring",
+   "exam_type": "final",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "eng204"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/ENG204/exams/ENG204_exam_2024-spring_final_2024-2025-bahar-final-template.pdf"
+  },
+  {
    "file": "ENG204_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf",
    "sha256": "0afd6c5388be5bf5826c1616551939e414d44b3339f9ffa81232c46840d513d4",
    "size": 315232,
@@ -8601,6 +9755,29 @@
    "path": "courses/FIZ103/exams/FIZ103_exam_2022-fall_midterm_2022-2023-guz-vize.pdf"
   },
   {
+   "file": "FIZ103_exam_2023-fall_midterm_2023-2024-guz-ara-sinavi-a-grubu.pdf",
+   "sha256": "be519d7e82796aecd9e41a6d79b6d73abe158c3d53eb197c3aac2b85f3d2bc3b",
+   "size": 621045,
+   "course": "FIZ103",
+   "kind": "exam",
+   "title": "2023-2024 Güz Ara Sınavı (A Grubu)",
+   "year": 2023,
+   "term": "fall",
+   "exam_type": "midterm",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "fiz103"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/FIZ103/exams/FIZ103_exam_2023-fall_midterm_2023-2024-guz-ara-sinavi-a-grubu.pdf"
+  },
+  {
    "file": "FIZ103_exam_2025-fall_final_2025-2026-guz-final.pdf",
    "sha256": "1a3cec31b8bdebd38a0c493792c8dc41d3df5fc12e34c42d492c8d1b182bf8bd",
    "size": 682061,
@@ -8804,6 +9981,28 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/FIZ103/lecture-notes/FIZ103_lecturenotes_2023-fall_w09_bolum9orneksorular.pdf"
+  },
+  {
+   "file": "FIZ103_studentnotes_2023-fall_mekanik-el-notlari.pdf",
+   "sha256": "42601bcdfba9d7c152aa644a5c604e0734b676cd389b3aa561cd19abbc1b957e",
+   "size": 121481,
+   "course": "FIZ103",
+   "kind": "student-notes",
+   "title": "Mekanik El Notları",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "fiz103"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/FIZ103/student-notes/FIZ103_studentnotes_2023-fall_mekanik-el-notlari.pdf"
   },
   {
    "file": "FIZ103_studentnotes_2023-fall_w05_bolum-5-hareket-kanunlari-soru-cozumleri-el-notu.pdf",
@@ -9120,6 +10319,27 @@
     "antivirus": "defender:clean"
    },
    "path": "courses/ISG401/exams/ISG401_exam_2024-fall_sample_isg-1-dersi-soru-ornekleri-2024-2025.pdf"
+  },
+  {
+   "file": "ISG401_exam_is-sagligi-ve-guvenligi-sorulari-6-11.jpeg",
+   "sha256": "3ec82d35584cd20cf475eecabc919d2e07bd6d6b0ce64a95c52cabc92c95e677",
+   "size": 139471,
+   "course": "ISG401",
+   "kind": "exam",
+   "title": "İş Sağlığı ve Güvenliği Soruları 6-11",
+   "language": "tr",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "not-ours"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/ISG401/exams/ISG401_exam_is-sagligi-ve-guvenligi-sorulari-6-11.jpeg"
   },
   {
    "file": "ISG401_slides_2025-fall_isg-401-ders-slayti-1-guvenlikkulturu.pdf",
@@ -10026,6 +11246,30 @@
    "path": "courses/MAT102/announcements/MAT102_announcement_sohbetten-sinav-bilgileri.md"
   },
   {
+   "file": "MAT102_examsolution_2021-spring_midterm_2021-2022-bahar-vize-cozumleri-grup-b.pdf",
+   "sha256": "f486df86375f17e78bca2a3cf63d4f812c3df5004daffccad2a10a3f3bc7d842",
+   "size": 553117,
+   "course": "MAT102",
+   "kind": "exam-solution",
+   "title": "2021-2022 Bahar Vize Çözümleri (Grup B)",
+   "year": 2021,
+   "term": "spring",
+   "exam_type": "midterm",
+   "handwritten": false,
+   "related": "MAT102_exam_2021-spring_midterm_2021-2022-bahar-vize-grup-b.pdf",
+   "source": {
+    "type": "sweep",
+    "ref": "math102"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT102/exam-solutions/MAT102_examsolution_2021-spring_midterm_2021-2022-bahar-vize-cozumleri-grup-b.pdf"
+  },
+  {
    "file": "MAT102_examsolution_2022-spring_final_2022-2023-bahar-final.pdf",
    "sha256": "466ab85cd679315c16f9a7676b29bf5d313363081957a242bb2ecfca42509534",
    "size": 2297329,
@@ -10186,6 +11430,29 @@
    "path": "courses/MAT102/exam-solutions/MAT102_examsolution_2024-spring_midterm_2024-2025-bahar-vize.pdf"
   },
   {
+   "file": "MAT102_exam_2021-spring_midterm_2021-2022-bahar-vize-grup-b.pdf",
+   "sha256": "bfce805abbddbba8e6c4742579726051b630c61bce11c911483c19115914f352",
+   "size": 109055,
+   "course": "MAT102",
+   "kind": "exam",
+   "title": "2021-2022 Bahar Vize (Grup B)",
+   "year": 2021,
+   "term": "spring",
+   "exam_type": "midterm",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "math102"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT102/exams/MAT102_exam_2021-spring_midterm_2021-2022-bahar-vize-grup-b.pdf"
+  },
+  {
    "file": "MAT102_exam_2023-spring_w6902_mat2-cikmiwlar.pdf",
    "sha256": "bc437651ab1d8681f402757ed8339ffa48ed3a3949a77f2543ce1894e19017e4",
    "size": 14321632,
@@ -10298,6 +11565,28 @@
    },
    "term": "spring",
    "path": "courses/MAT102/lecture-notes/MAT102_lecturenotes_mat102-mathematics-ii-kapsamli-ders-notlari-116-sa.pdf"
+  },
+  {
+   "file": "MAT102_studentnotes_2024-spring_belirli-integral-ve-integral-teknikleri-el-notu.jpg",
+   "sha256": "c47418e22c95843175fd5d5c703b7bc8d22d09917e0e373c08ae34141e7ff77f",
+   "size": 67492,
+   "course": "MAT102",
+   "kind": "student-notes",
+   "title": "Belirli integral ve integral teknikleri el notu",
+   "year": 2024,
+   "term": "spring",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "math102"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT102/student-notes/MAT102_studentnotes_2024-spring_belirli-integral-ve-integral-teknikleri-el-notu.jpg"
   },
   {
    "file": "MAT102_studentnotes_notlar1.pdf",
@@ -10451,6 +11740,28 @@
    "path": "courses/MAT199/exams/MAT199_exam_2024-fall_makeup_w9146_169ce4ac-6302-4e9a-902a-6c4bcc3c2b05-2024-2025guz.pdf"
   },
   {
+   "file": "MAT199_homework_2023-fall_lineer-cebir-matris-odevi.jpg",
+   "sha256": "917d8b037748d1ac70c9be5827a4c8bd361df632cce6e78908315af24c61af7a",
+   "size": 38046,
+   "course": "MAT199",
+   "kind": "homework",
+   "title": "Lineer cebir matris ödevi",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "mat199"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT199/homework/MAT199_homework_2023-fall_lineer-cebir-matris-odevi.jpg"
+  },
+  {
    "file": "MAT199_homework_2023-fall_w3171_worksheet326-1.pdf",
    "sha256": "1b9febb55c60f20ec8248b40de5eb1a105261193b49eb0b74c2d665092843df1",
    "size": 456293,
@@ -10472,6 +11783,28 @@
    },
    "notes": "Linear algebra worksheet; course confirmed by the maintainer.",
    "path": "courses/MAT199/homework/MAT199_homework_2023-fall_w3171_worksheet326-1.pdf"
+  },
+  {
+   "file": "MAT199_studentnotes_2023-fall_determinant-el-notlari.pdf",
+   "sha256": "e1f083e37275123c3211cea79f3826d6a0b355bf5463234d351333c04e652ae8",
+   "size": 276877,
+   "course": "MAT199",
+   "kind": "student-notes",
+   "title": "Determinant el notları",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "mat199"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT199/student-notes/MAT199_studentnotes_2023-fall_determinant-el-notlari.pdf"
   },
   {
    "file": "MAT199_studentnotes_2023-fall_determinant-konusu-ders-notu.pdf",
@@ -10496,6 +11829,50 @@
    "path": "courses/MAT199/student-notes/MAT199_studentnotes_2023-fall_determinant-konusu-ders-notu.pdf"
   },
   {
+   "file": "MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-1-2.pdf",
+   "sha256": "0e7d0550e504fc0e4cf5662a3a8647c21ce4186eb7bdb9db3fdcc2b3193d03c1",
+   "size": 401216,
+   "course": "MAT199",
+   "kind": "student-notes",
+   "title": "Lineer cebir el notları, sayfa 1-2",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "mat199"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT199/student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-1-2.pdf"
+  },
+  {
+   "file": "MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-9-11.pdf",
+   "sha256": "999ff933f707ce8ca69f0a870a5c7527f654759c8cd4d845aecfb0fa768874a5",
+   "size": 615592,
+   "course": "MAT199",
+   "kind": "student-notes",
+   "title": "Lineer cebir el notları, sayfa 9-11",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "mat199"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT199/student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-el-notlari-sayfa-9-11.pdf"
+  },
+  {
    "file": "MAT199_studentnotes_2023-fall_lineer-cebir-matris-soru-cozumu.jpg",
    "sha256": "2e0b733449b0249c23e99be62fdad437d4788f7ea09261a0338fd39d1a454d99",
    "size": 167746,
@@ -10516,6 +11893,28 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/MAT199/student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-matris-soru-cozumu.jpg"
+  },
+  {
+   "file": "MAT199_studentnotes_2023-fall_lineer-cebir-notlari-sayfa-1-12.pdf",
+   "sha256": "85582d7da250570f86428a0e1720b189563b6b6ca90738e0dceaba677a49f5fa",
+   "size": 3615829,
+   "course": "MAT199",
+   "kind": "student-notes",
+   "title": "Lineer cebir notları, sayfa 1-12",
+   "year": 2023,
+   "term": "fall",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "mat199"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MAT199/student-notes/MAT199_studentnotes_2023-fall_lineer-cebir-notlari-sayfa-1-12.pdf"
   },
   {
    "file": "MAT199_studentnotes_2023-fall_ozdeger-ve-ozvektor-soru-cozumu.jpg",
@@ -10853,6 +12252,29 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/MATH101/exam-solutions/MATH101_examsolution_2024-fall_final_dm9pu3nmceexcgw5cw0rogwxa1jsdwkey-b.pdf"
+  },
+  {
+   "file": "MATH101_exam_2022-fall_final_2022-2023-guz-final.pdf",
+   "sha256": "38ff9855c42eb349271c3b9e11636a62435fd2250421e7f7912abc013d21f00a",
+   "size": 145828,
+   "course": "MATH101",
+   "kind": "exam",
+   "title": "2022-2023 Güz Final",
+   "year": 2022,
+   "term": "fall",
+   "exam_type": "final",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "math101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MATH101/exams/MATH101_exam_2022-fall_final_2022-2023-guz-final.pdf"
   },
   {
    "file": "MATH101_exam_2023-fall_final_2023-2024-guz-final.pdf",
@@ -11470,6 +12892,31 @@
    "path": "courses/MATH201/grade-distributions/MATH201_gradedistribution_2024-fall_2024-2025-harf-notu-dagilimi.png"
   },
   {
+   "file": "MATH201_lecturenotes_2024-fall_diferansiyel-denklemler-tahta-notu.jpg",
+   "sha256": "298443b703f15c4282e26576b96c789c3a74f69dbd1adc740c2eb619c5060948",
+   "size": 55890,
+   "course": "MATH201",
+   "kind": "lecture-notes",
+   "title": "Diferansiyel Denklemler Tahta Notu",
+   "year": 2024,
+   "term": "fall",
+   "handwritten": false,
+   "topics": [
+    "Diferansiyel denklemler"
+   ],
+   "source": {
+    "type": "sweep",
+    "ref": "math201"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/MATH201/lecture-notes/MATH201_lecturenotes_2024-fall_diferansiyel-denklemler-tahta-notu.jpg"
+  },
+  {
    "file": "MATH201_lecturenotes_2024-fall_tam-diferansiyel-denklemler-tahta-notu.jpg",
    "sha256": "b72015d7d729617e96bcfe296589d0c5233a6d2a097c8ec343cffd64d759e266",
    "size": 91551,
@@ -11600,6 +13047,30 @@
    "path": "courses/PARALLEL-COMPUTER-ARCHITECTURES/announcements/PARALLEL-COMPUTER-ARCHITECTURES_announcement_sohbetten-sinav-bilgileri.md"
   },
   {
+   "file": "PARALLEL-COMPUTER-ARCHITECTURES_exam_2026-spring_final_2026-bahar-take-home-final.jpg",
+   "sha256": "0a2025e9619f0d8452a0db3670afa4e2513a32738f52aaf44394c110a87f870c",
+   "size": 693438,
+   "course": "PARALLEL-COMPUTER-ARCHITECTURES",
+   "kind": "exam",
+   "title": "2026 Bahar Take-Home Final",
+   "year": 2026,
+   "term": "spring",
+   "exam_type": "final",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "parallel-computer-architectures"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/PARALLEL-COMPUTER-ARCHITECTURES/exams/PARALLEL-COMPUTER-ARCHITECTURES_exam_2026-spring_final_2026-bahar-take-home-final.jpg"
+  },
+  {
    "file": "PHYS104_announcement_sohbetten-sinav-bilgileri.md",
    "sha256": "f5d096bdd05e2629dfe4946bff014110a5bd46941b5da5d51e3d964a98fda6d5",
    "size": 2180,
@@ -11683,6 +13154,53 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/PHYS104/books/PHYS104_book_physics-9th-ed-serway-solution-manual.pdf"
+  },
+  {
+   "file": "PHYS104_exam_2017-spring_final_2017-physics-ii-final-exam.pdf",
+   "sha256": "7d5968cc9628e1de5bf10fe682ad155f61d6ecad82f69008982f5c4c9205a11c",
+   "size": 1147832,
+   "course": "PHYS104",
+   "kind": "exam",
+   "title": "2017 Physics II Final Exam",
+   "year": 2017,
+   "term": "spring",
+   "exam_type": "final",
+   "language": "en",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "phys104"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/PHYS104/exams/PHYS104_exam_2017-spring_final_2017-physics-ii-final-exam.pdf"
+  },
+  {
+   "file": "PHYS104_exam_2021-spring_11-february-2022-physics-ii-course-exam.pdf",
+   "sha256": "7087e286ec6801811ae2a7a958be13e094636c914733138e3363917937f48cd9",
+   "size": 527440,
+   "course": "PHYS104",
+   "kind": "exam",
+   "title": "11 February 2022 Physics II Course Exam",
+   "year": 2021,
+   "term": "spring",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "phys104"
+   },
+   "added": "2026-11-09",
+   "status": "approved",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/PHYS104/exams/PHYS104_exam_2021-spring_11-february-2022-physics-ii-course-exam.pdf"
   },
   {
    "file": "PHYS104_exam_2023-spring_final_final-soru-dagilimi-tahta-notu.jpg",
@@ -11836,6 +13354,29 @@
    },
    "notes": "Kurs adı görselde açık; tarih/kod uydurulmadan yerleştirildi.",
    "path": "courses/SECURE-CODING/exams/SECURE-CODING_exam_secure-coding-cikmis-sorusu.jpg"
+  },
+  {
+   "file": "SECURE-CODING_gradedistribution_2024-fall_secure-coding-harf-notu-dagilimi.jpg",
+   "sha256": "ad37bda0bc455b55d2dc396ba01231d34130b2479c9e92ed226a46da61eda91d",
+   "size": 124805,
+   "course": "SECURE-CODING",
+   "kind": "grade-distribution",
+   "title": "Secure Coding Harf Notu Dağılımı",
+   "year": 2024,
+   "term": "fall",
+   "language": "en",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "not-ours"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/SECURE-CODING/grade-distributions/SECURE-CODING_gradedistribution_2024-fall_secure-coding-harf-notu-dagilimi.jpg"
   },
   {
    "file": "TAR101_announcement_sohbetten-sinav-bilgileri.md",
@@ -12355,6 +13896,28 @@
    "path": "courses/TAR101/slides/TAR101_slides_w7144_hist101-ders-yansilari-coikti-iccoicn-619775.pdf"
   },
   {
+   "file": "TAR101_studentnotes_2023-spring_el-yazisi-tarih-ders-notlari.pdf",
+   "sha256": "2306e914901195acd04e46c071b84f475d2c9eb0922b77e7ce44ab7ecbd03bd3",
+   "size": 7005361,
+   "course": "TAR101",
+   "kind": "student-notes",
+   "title": "El Yazısı Tarih Ders Notları",
+   "year": 2023,
+   "term": "spring",
+   "handwritten": true,
+   "source": {
+    "type": "sweep",
+    "ref": "tar101"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/TAR101/student-notes/TAR101_studentnotes_2023-spring_el-yazisi-tarih-ders-notlari.pdf"
+  },
+  {
    "file": "TAR102_announcement_sohbetten-sinav-bilgileri.md",
    "sha256": "7548273a2dfcc72c9d061026f427ee89ce92e49082d6886ca2928d18bda4d1ed",
    "size": 818,
@@ -12771,6 +14334,28 @@
     "antivirus": "not-run (clamscan not installed)"
    },
    "path": "courses/TUR102/grade-distributions/TUR102_gradedistribution_2002-spring_2002-2003-harf-notu-dagilimi.png"
+  },
+  {
+   "file": "TUR102_syllabus_2024-spring_2024-2025-bahar-ders-izlencesi.pdf",
+   "sha256": "4ccad7517761e84b536134bc40074adabacdcdf4ff9962e165112fee3a223c0a",
+   "size": 944186,
+   "course": "TUR102",
+   "kind": "syllabus",
+   "title": "2024-2025 Bahar Ders İzlencesi",
+   "year": 2024,
+   "term": "spring",
+   "handwritten": false,
+   "source": {
+    "type": "sweep",
+    "ref": "tur102"
+   },
+   "added": "2026-11-09",
+   "status": "unverified",
+   "scan": {
+    "verdict": "ok",
+    "antivirus": "defender:clean"
+   },
+   "path": "courses/TUR102/syllabus/TUR102_syllabus_2024-spring_2024-2025-bahar-ders-izlencesi.pdf"
   },
   {
    "file": "secmeli-dersler-sinav-bilgileri-2.md",

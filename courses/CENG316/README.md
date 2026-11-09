@@ -38,6 +38,7 @@
 | [CENG316_exam_2024-spring_midterm_database-systems-vize-cikmis-sorusu-iliskisel-sema.jpg](exams/CENG316_exam_2024-spring_midterm_database-systems-vize-cikmis-sorusu-iliskisel-sema.jpg) | Vize Çıkmış Sorusu - EER İlişkisel Şema Dönüşümü | 2024 spring | midterm |
 | [CENG316_exam_midterm_arasinavi.pdf](exams/CENG316_exam_midterm_arasinavi.pdf) | Bahar Ara Sınav Soruları | spring | midterm |
 | [CENG316_exam_midterm_bahar-vize.pdf](exams/CENG316_exam_midterm_bahar-vize.pdf) | 2022-2023 Bahar Vize (Midterm Assignment) | 2022 spring | midterm |
+| [CENG316_exam_relational-algebra-exam-part-3.jpg](exams/CENG316_exam_relational-algebra-exam-part-3.jpg) | Relational Algebra Exam (Part 3) |  |  |
 
 ## homework
 

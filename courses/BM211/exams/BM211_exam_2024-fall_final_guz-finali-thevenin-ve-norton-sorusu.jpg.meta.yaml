@@ -1,0 +1,21 @@
+file: BM211_exam_2024-fall_final_guz-finali-thevenin-ve-norton-sorusu.jpg
+sha256: 6bf2592991a8c9db3de35c9a782522434e9fe99fa5495a9bbe09f95cd55c49e1
+size: 104703
+course: BM211
+kind: exam
+title: Güz finali - Thevenin ve Norton sorusu
+year: 2024
+term: fall
+exam_type: final
+handwritten: false
+topics:
+- Thevenin ve Norton eşdeğer devreleri
+- Maksimum güç aktarımı
+source:
+  type: sweep
+  ref: bm211
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -15,6 +15,7 @@
 | File | Title | Year/term | Type |
 |---|---|---|---|
 | [BM102_lab_2023-spring_w01_lab-1-hafta-sorulari.jpg](labs/BM102_lab_2023-spring_w01_lab-1-hafta-sorulari.jpg) | Lab 1. Hafta Soruları | 2023 spring |  |
+| [BM102_lab_2024-spring_w01_lab-1-hafta-sorulari-2-soru-seti.jpg](labs/BM102_lab_2024-spring_w01_lab-1-hafta-sorulari-2-soru-seti.jpg) | Lab 1. Hafta Soruları - 2. soru seti | 2024 spring |  |
 
 ## syllabus
 

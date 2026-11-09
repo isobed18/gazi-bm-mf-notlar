@@ -42,6 +42,7 @@
 | [ISG401_exam_2016-fall_final_isg-401-final-sinavi-09-01-2017.pdf](exams/ISG401_exam_2016-fall_final_isg-401-final-sinavi-09-01-2017.pdf) | İSG 401 Final Sınavı (09.01.2017) | 2016 fall | final |
 | [ISG401_exam_2023-fall_final_ohs-401-final-exam-16-01-2024.pdf](exams/ISG401_exam_2023-fall_final_ohs-401-final-exam-16-01-2024.pdf) | OHS 401 Final Exam (16.01.2024) | 2023 fall | final |
 | [ISG401_exam_2024-fall_sample_isg-1-dersi-soru-ornekleri-2024-2025.pdf](exams/ISG401_exam_2024-fall_sample_isg-1-dersi-soru-ornekleri-2024-2025.pdf) | İSG-1 Dersi Soru Örnekleri 2024-2025 | 2024 fall | sample |
+| [ISG401_exam_is-sagligi-ve-guvenligi-sorulari-6-11.jpeg](exams/ISG401_exam_is-sagligi-ve-guvenligi-sorulari-6-11.jpeg) | İş Sağlığı ve Güvenliği Soruları 6-11 |  |  |
 
 ## exam-solution
 

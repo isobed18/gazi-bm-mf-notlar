@@ -21,17 +21,18 @@
 | [BM309_slides_w10482_12-giris-cks.pdf](slides/BM309_slides_w10482_12-giris-cks.pdf) | Hafta 12 – Giriş Çıkış (I/O) | 2024 fall |  |
 | [BM309_slides_w10483_13-sanallastrma-ve-bulut.pdf](slides/BM309_slides_w10483_13-sanallastrma-ve-bulut.pdf) | Hafta 13 – Sanallaştırma ve Bulut | 2024 fall |  |
 
-## exam
+## grade-distribution
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
-| [BM309_exam_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf](exams/BM309_exam_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf) | Isletim Sistemleri Final Sorusu - Cagri Yigini Cizimi | 2025 fall | final |
+| [BM309_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.jpg](grade-distributions/BM309_gradedistribution_2023-fall_2023-2024-guz-harf-notu-dagilimi.jpg) | 2023-2024 Güz Harf Notu Dağılımı | 2023 fall |  |
+| [BM309_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.jpg](grade-distributions/BM309_gradedistribution_2024-fall_2024-2025-guz-harf-notu-dagilimi.jpg) | 2024-2025 Güz Harf Notu Dağılımı | 2024 fall |  |
 
 ## syllabus
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
-| [BM309_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg](syllabus/BM309_syllabus_2025-fall_bicimsel-diller-ve-otomatlar-ders-izlencesi-ve-not.jpg) | Biçimsel Diller ve Otomatlar Ders İzlencesi ve Not Dağılımı | 2025 fall |  |
+| [BM309_syllabus_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf](syllabus/BM309_syllabus_2025-fall_final_isletim-sistemleri-final-sorusu-cagri-yigini-cizim.pdf) | Isletim Sistemleri Final Sorusu - Cagri Yigini Cizimi | 2025 fall | final |
 
 ## announcement
 

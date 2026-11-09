@@ -40,6 +40,12 @@
 |---|---|---|---|
 | [CENG318_examsolution_final_final-sinavi-cozumu.pdf](exam-solutions/CENG318_examsolution_final_final-sinavi-cozumu.pdf) | 2025-2026 Bahar Final Sınavı Çözümü | 2025 spring | final |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG318_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg](grade-distributions/CENG318_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg) | 2023-2024 Bahar Harf Notu Dağılımı | 2023 spring |  |
+
 ## summary
 
 | File | Title | Year/term | Type |

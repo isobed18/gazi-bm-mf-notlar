@@ -1,0 +1,18 @@
+file: BM101_slides_2023-fall_donguler-do-while-break-ve-continue.jpg
+sha256: b2fa5fff651310f7bc2346bdb906eab5cfff3fcbb4680ddc5617e637e1c83bab
+size: 112123
+course: BM101
+kind: slides
+title: 'Döngüler: do-while, break ve continue'
+year: 2023
+term: fall
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: bm101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

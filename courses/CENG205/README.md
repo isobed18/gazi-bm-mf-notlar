@@ -17,6 +17,12 @@
 |---|---|---|---|
 | [CENG205_lecturenotes_2024-fall_w7664_report-240911-180904.pdf](lecture-notes/CENG205_lecturenotes_2024-fall_w7664_report-240911-180904.pdf) | Report_240911_180904 | 2024 fall |  |
 
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG205_studentnotes_2024-fall_agac-dengeleme-ve-silme-alistirmasi.pdf](student-notes/CENG205_studentnotes_2024-fall_agac-dengeleme-ve-silme-alistirmasi.pdf) | Ağaç Dengeleme ve Silme Alıştırması | 2024 fall |  |
+
 ## exam
 
 | File | Title | Year/term | Type |

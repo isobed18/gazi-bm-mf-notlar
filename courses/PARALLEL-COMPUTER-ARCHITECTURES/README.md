@@ -4,6 +4,12 @@
 *Parallel Computer Architectures* · technical-elective · curriculum semester: elective
 
 
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [PARALLEL-COMPUTER-ARCHITECTURES_exam_2026-spring_final_2026-bahar-take-home-final.jpg](exams/PARALLEL-COMPUTER-ARCHITECTURES_exam_2026-spring_final_2026-bahar-take-home-final.jpg) | 2026 Bahar Take-Home Final | 2026 spring | final |
+
 ## announcement
 
 | File | Title | Year/term | Type |

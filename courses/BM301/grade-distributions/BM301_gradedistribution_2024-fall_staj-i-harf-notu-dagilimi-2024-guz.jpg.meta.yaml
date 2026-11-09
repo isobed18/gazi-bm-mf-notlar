@@ -1,0 +1,17 @@
+file: BM301_gradedistribution_2024-fall_staj-i-harf-notu-dagilimi-2024-guz.jpg
+sha256: 080930303c692d8a2e6f53c589538cb035cdbe607ace6a364b148e41d07a257b
+size: 47748
+course: BM301
+kind: grade-distribution
+title: Staj I Harf Notu Dağılımı - 2024 Güz
+year: 2024
+term: fall
+handwritten: false
+source:
+  type: sweep
+  ref: bm301
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

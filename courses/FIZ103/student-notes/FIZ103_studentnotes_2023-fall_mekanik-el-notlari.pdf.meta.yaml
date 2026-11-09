@@ -1,0 +1,17 @@
+file: FIZ103_studentnotes_2023-fall_mekanik-el-notlari.pdf
+sha256: 42601bcdfba9d7c152aa644a5c604e0734b676cd389b3aa561cd19abbc1b957e
+size: 121481
+course: FIZ103
+kind: student-notes
+title: Mekanik El Notları
+year: 2023
+term: fall
+handwritten: true
+source:
+  type: sweep
+  ref: fiz103
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

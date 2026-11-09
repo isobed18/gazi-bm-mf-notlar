@@ -1,0 +1,19 @@
+file: MATH201_lecturenotes_2024-fall_diferansiyel-denklemler-tahta-notu.jpg
+sha256: 298443b703f15c4282e26576b96c789c3a74f69dbd1adc740c2eb619c5060948
+size: 55890
+course: MATH201
+kind: lecture-notes
+title: Diferansiyel Denklemler Tahta Notu
+year: 2024
+term: fall
+handwritten: false
+topics:
+- Diferansiyel denklemler
+source:
+  type: sweep
+  ref: math201
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

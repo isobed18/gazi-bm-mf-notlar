@@ -1,0 +1,19 @@
+file: COMPUTER-GRAPHICS_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg
+sha256: e817d6971a01d6eb3aa7fcfc9f3acf225bf8ffb21356d0c11d313e6f9eb368d3
+size: 49181
+course: COMPUTER-GRAPHICS
+kind: grade-distribution
+title: 2024-2025 Bahar Harf Notu Dağılımı
+year: 2024
+term: spring
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: computer-graphics
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean
+notes: WhatsApp sweep; anonymous course-wide letter-grade counts; complete screenshot with course identity and result date.

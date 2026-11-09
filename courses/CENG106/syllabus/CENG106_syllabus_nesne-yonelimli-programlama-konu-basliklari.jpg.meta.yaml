@@ -1,0 +1,16 @@
+file: CENG106_syllabus_nesne-yonelimli-programlama-konu-basliklari.jpg
+sha256: e3ec6235bfae1cb44a5dba94c982cfdff990e95cb252aff34597e43f27d04614
+size: 64404
+course: CENG106
+kind: syllabus
+title: Nesne Yönelimli Programlama Konu Başlıkları
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: ceng106
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

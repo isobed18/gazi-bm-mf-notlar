@@ -1,0 +1,16 @@
+file: CENG316_exam_relational-algebra-exam-part-3.jpg
+sha256: c68c44bfc12fd41870f73900c20ee313c28a9664d23efb43f3aeadaf6e547a49
+size: 92827
+course: CENG316
+kind: exam
+title: Relational Algebra Exam (Part 3)
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: not-ours
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

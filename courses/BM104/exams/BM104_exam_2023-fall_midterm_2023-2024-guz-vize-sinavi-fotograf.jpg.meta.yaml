@@ -1,0 +1,22 @@
+file: BM104_exam_2023-fall_midterm_2023-2024-guz-vize-sinavi-fotograf.jpg
+sha256: 2f6ad0e85d2afa320794861230afe117e590034b7519ab497cbd406f638f2314
+size: 47606
+course: BM104
+kind: exam
+title: 2023-2024 Güz Vize Sınavı (fotoğraf)
+year: 2023
+term: fall
+exam_type: midterm
+handwritten: false
+topics:
+- Fonksiyon bileşkesi
+- birebir fonksiyonlar
+- tek fonksiyonlar
+source:
+  type: sweep
+  ref: bm104
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

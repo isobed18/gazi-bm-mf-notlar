@@ -25,6 +25,12 @@
 |---|---|---|---|
 | [TUR102_book_turk-dili-ii-ders-kitabi.pdf](books/TUR102_book_turk-dili-ii-ders-kitabi.pdf) | TURK-DILI-II Ders Kitabı | spring |  |
 
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TUR102_syllabus_2024-spring_2024-2025-bahar-ders-izlencesi.pdf](syllabus/TUR102_syllabus_2024-spring_2024-2025-bahar-ders-izlencesi.pdf) | 2024-2025 Bahar Ders İzlencesi | 2024 spring |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

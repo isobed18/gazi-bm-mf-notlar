@@ -1,0 +1,18 @@
+file: BM314_slides_uygulama-surec-modeli-senaryosu.jpg
+sha256: d6ad62779987ab3d70ffd41ab1eda1d16d4c03f149ef78ff2913977e1aca83a7
+size: 72574
+course: BM314
+kind: slides
+title: Uygulama - süreç modeli senaryosu
+language: tr
+handwritten: false
+topics:
+- Yazılım süreç modelleri
+source:
+  type: sweep
+  ref: bm314
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -1,0 +1,18 @@
+file: BM222_examsolution_2024-spring_final_2024-2025-bahar-final-cozumu.pdf
+sha256: 482550863220b6c36c55ed9f2be09206d628e665463b032bb7deb0e271c9e80d
+size: 243892
+course: BM222
+kind: exam-solution
+title: 2024-2025 Bahar Final Çözümü
+year: 2024
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: sweep
+  ref: bm222
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

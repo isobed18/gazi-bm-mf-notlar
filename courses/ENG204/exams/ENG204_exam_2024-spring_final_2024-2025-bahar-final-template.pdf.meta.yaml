@@ -1,0 +1,18 @@
+file: ENG204_exam_2024-spring_final_2024-2025-bahar-final-template.pdf
+sha256: 6502ae0acf00b4224c95a115f3e1ff066ee508dbf96b0af5bc1b0b7794d4f56a
+size: 329850
+course: ENG204
+kind: exam
+title: 2024-2025 Bahar Final (Template)
+year: 2024
+term: spring
+exam_type: final
+handwritten: false
+source:
+  type: sweep
+  ref: eng204
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

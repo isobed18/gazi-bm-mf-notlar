@@ -1,0 +1,18 @@
+file: MAT102_exam_2021-spring_midterm_2021-2022-bahar-vize-grup-b.pdf
+sha256: bfce805abbddbba8e6c4742579726051b630c61bce11c911483c19115914f352
+size: 109055
+course: MAT102
+kind: exam
+title: 2021-2022 Bahar Vize (Grup B)
+year: 2021
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: sweep
+  ref: math102
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

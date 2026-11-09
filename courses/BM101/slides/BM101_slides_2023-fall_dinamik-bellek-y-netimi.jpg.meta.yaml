@@ -1,0 +1,18 @@
+file: BM101_slides_2023-fall_dinamik-bellek-y-netimi.jpg
+sha256: 9aea8c854350559b6f61327eb5cb501150b44807b578176a033c43d2b20e7fa4
+size: 239308
+course: BM101
+kind: slides
+title: Dinamik Bellek Y?netimi
+year: 2023
+term: fall
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: bm101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

@@ -1,0 +1,17 @@
+file: CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-5.pdf
+sha256: 20eb96faa163dda3b0040f47a6996c66ec3e4666a6e119cddd2a15cbab053d90
+size: 131461
+course: CENG483
+kind: student-notes
+title: Design Patterns El Yaz?s? Notlar? 5
+year: 2025
+term: fall
+handwritten: true
+source:
+  type: sweep
+  ref: ceng483
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

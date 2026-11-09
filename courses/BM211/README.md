@@ -41,6 +41,12 @@
 |---|---|---|---|
 | [BM211_studentnotes_2026-fall_tahtada-cozulen-vize-calisma-sorulari.pdf](student-notes/BM211_studentnotes_2026-fall_tahtada-cozulen-vize-calisma-sorulari.pdf) | Tahtada Çözülen Vize Çalışma Soruları | 2026 fall |  |
 
+## exam
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM211_exam_2024-fall_final_guz-finali-thevenin-ve-norton-sorusu.jpg](exams/BM211_exam_2024-fall_final_guz-finali-thevenin-ve-norton-sorusu.jpg) | Güz finali - Thevenin ve Norton sorusu | 2024 fall | final |
+
 ## homework
 
 | File | Title | Year/term | Type |

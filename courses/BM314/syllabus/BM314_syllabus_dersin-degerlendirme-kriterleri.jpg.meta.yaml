@@ -1,0 +1,16 @@
+file: BM314_syllabus_dersin-degerlendirme-kriterleri.jpg
+sha256: fbd5948d1e81870a903f23b1c424d807ea6ce6a433cdc0ac2b7e45dbac49420b
+size: 49678
+course: BM314
+kind: syllabus
+title: Dersin Değerlendirme Kriterleri
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: bm314
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

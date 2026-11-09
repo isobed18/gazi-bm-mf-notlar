@@ -1,0 +1,18 @@
+file: BM101_syllabus_2023-fall_not-de-erlendirme-a-rl-klar.jpg
+sha256: f762fac20c47d916e32923793644640a44e52319a341729e4d3cbcbd4559ca77
+size: 14750
+course: BM101
+kind: syllabus
+title: Not Değerlendirme Ağırlıkları
+year: 2023
+term: fall
+language: mixed
+handwritten: false
+source:
+  type: sweep
+  ref: bm101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

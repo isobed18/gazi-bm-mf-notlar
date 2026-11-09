@@ -29,6 +29,14 @@
 | [BM218_slides_w12_hafta-12-acgozlu-algoritmalar.pdf](slides/BM218_slides_w12_hafta-12-acgozlu-algoritmalar.pdf) | Hafta 12 – Açgözlü Algoritmalar | spring |  |
 | [BM218_slides_w13_hafta-13-karmasiklik-siniflari.pdf](slides/BM218_slides_w13_hafta-13-karmasiklik-siniflari.pdf) | Hafta 13 – Karmaşıklık Sınıfları | spring |  |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM218_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg](grade-distributions/BM218_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg) | 2023-2024 Bahar Harf Notu Dağılımı | 2023 spring |  |
+| [BM218_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg](grade-distributions/BM218_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg) | 2024-2025 Bahar Harf Notu Dağılımı | 2024 spring |  |
+| [BM218_gradedistribution_harf-notu-dagilimi-donem-belirtilmemis.jpg](grade-distributions/BM218_gradedistribution_harf-notu-dagilimi-donem-belirtilmemis.jpg) | Harf Notu Dağılımı (dönem belirtilmemiş) |  |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

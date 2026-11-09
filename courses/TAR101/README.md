@@ -31,6 +31,12 @@
 |---|---|---|---|
 | [TAR101_lecturenotes_midterm_inkilap-vize-ders-notlari.pdf](lecture-notes/TAR101_lecturenotes_midterm_inkilap-vize-ders-notlari.pdf) | İnkılap Vize Ders Notları | fall | midterm |
 
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [TAR101_studentnotes_2023-spring_el-yazisi-tarih-ders-notlari.pdf](student-notes/TAR101_studentnotes_2023-spring_el-yazisi-tarih-ders-notlari.pdf) | El Yazısı Tarih Ders Notları | 2023 spring |  |
+
 ## exam
 
 | File | Title | Year/term | Type |

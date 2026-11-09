@@ -1,0 +1,20 @@
+file: BM303_studentnotes_2025-fall_sonlu-otomatlardan-duzenli-ifade-elde-etme-ornekle.pdf
+sha256: 73437aaff6acb552e5afb775c4a399bd38137d7937d33e83dea633eb7bcf158f
+size: 99004
+course: BM303
+kind: student-notes
+title: Sonlu Otomatlardan Düzenli İfade Elde Etme Örnekleri
+year: 2025
+term: fall
+handwritten: true
+topics:
+- Sonlu otomatlar
+- Düzenli ifadeler
+source:
+  type: sweep
+  ref: bm303
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

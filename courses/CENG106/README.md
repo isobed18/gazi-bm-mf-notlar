@@ -46,6 +46,18 @@
 | [CENG106_exam_bahar.pdf](exams/CENG106_exam_bahar.pdf) | 2020-2021 G?z Vize | 2020 fall | midterm |
 | [CENG106_exam_final_bahar-final.pdf](exams/CENG106_exam_final_bahar-final.pdf) | 2020-2021 G?z Final | 2020 fall | final |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG106_gradedistribution_2023-fall_object-oriented-programming-harf-notu-dagilimi.jpg](grade-distributions/CENG106_gradedistribution_2023-fall_object-oriented-programming-harf-notu-dagilimi.jpg) | Object Oriented Programming Harf Notu Dağılımı | 2023 fall |  |
+
+## syllabus
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG106_syllabus_nesne-yonelimli-programlama-konu-basliklari.jpg](syllabus/CENG106_syllabus_nesne-yonelimli-programlama-konu-basliklari.jpg) | Nesne Yönelimli Programlama Konu Başlıkları |  |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

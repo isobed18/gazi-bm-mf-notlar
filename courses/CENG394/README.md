@@ -25,6 +25,12 @@
 | [CENG394_exam_2025-fall_final_file-organization-2025-2026-guz-final-sorusu.jpg](exams/CENG394_exam_2025-fall_final_file-organization-2025-2026-guz-final-sorusu.jpg) | File Organization 2025-2026 Güz Final Sorusu | 2025 fall | final |
 | [CENG394_exam_2025-fall_midterm_dosya-organizasyonu-cikmis-vize-sorulari.pdf](exams/CENG394_exam_2025-fall_midterm_dosya-organizasyonu-cikmis-vize-sorulari.pdf) | File_Organization_Past_Midterm_Questions | 2025 fall | midterm |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG394_gradedistribution_2024-fall_2024-2025-guz-harf-araliklari-dagilimi.jpg](grade-distributions/CENG394_gradedistribution_2024-fall_2024-2025-guz-harf-araliklari-dagilimi.jpg) | 2024-2025 Güz Harf Aralıkları Dağılımı | 2024 fall |  |
+
 ## homework
 
 | File | Title | Year/term | Type |

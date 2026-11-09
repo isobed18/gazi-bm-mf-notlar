@@ -10,6 +10,12 @@
 |---|---|---|---|
 | [SECURE-CODING_exam_secure-coding-cikmis-sorusu.jpg](exams/SECURE-CODING_exam_secure-coding-cikmis-sorusu.jpg) | Secure Coding Çıkmış Sorusu |  |  |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [SECURE-CODING_gradedistribution_2024-fall_secure-coding-harf-notu-dagilimi.jpg](grade-distributions/SECURE-CODING_gradedistribution_2024-fall_secure-coding-harf-notu-dagilimi.jpg) | Secure Coding Harf Notu Dağılımı | 2024 fall |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

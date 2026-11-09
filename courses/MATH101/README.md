@@ -23,6 +23,7 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [MATH101_exam_2022-fall_final_2022-2023-guz-final.pdf](exams/MATH101_exam_2022-fall_final_2022-2023-guz-final.pdf) | 2022-2023 Güz Final | 2022 fall | final |
 | [MATH101_exam_2023-fall_final_2023-2024-guz-final.pdf](exams/MATH101_exam_2023-fall_final_2023-2024-guz-final.pdf) | 2023-2024 Güz Final | 2023 fall | final |
 | [MATH101_exam_2024-fall_midterm_2024-2025-guz-vize.pdf](exams/MATH101_exam_2024-fall_midterm_2024-2025-guz-vize.pdf) | 2024-2025 Güz Vize | 2024 fall | midterm |
 | [MATH101_exam_2025-2026-guz-final-sinavi.pdf](exams/MATH101_exam_2025-2026-guz-final-sinavi.pdf) | 2025-2026 Güz Final Sınavı |  |  |

@@ -17,6 +17,12 @@
 | [BM368_slides_sezgisel-optimizasyon-7-populasyon-tabanli-metasez.pdf](slides/BM368_slides_sezgisel-optimizasyon-7-populasyon-tabanli-metasez.pdf) | Sezgisel Optimizasyon - 7- Popülasyon Tabanlı Metasezgiseller ve Evrimsel Algoritmalar |  |  |
 | [BM368_slides_sezgisel-optimizasyon-8-genetik-algoritmalar.pdf](slides/BM368_slides_sezgisel-optimizasyon-8-genetik-algoritmalar.pdf) | Sezgisel Optimizasyon - 8- Genetik Algoritmalar |  |  |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM368_gradedistribution_2024-fall_heuristic-optimization-algorithms-harf-notu-dagili.jpg](grade-distributions/BM368_gradedistribution_2024-fall_heuristic-optimization-algorithms-harf-notu-dagili.jpg) | Heuristic Optimization Algorithms Harf Notu Dağılımı | 2024 fall |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

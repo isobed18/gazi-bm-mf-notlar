@@ -4,6 +4,12 @@
 *Computer Graphics* · technical-elective · curriculum semester: elective
 
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [COMPUTER-GRAPHICS_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg](grade-distributions/COMPUTER-GRAPHICS_gradedistribution_2024-spring_2024-2025-bahar-harf-notu-dagilimi.jpg) | 2024-2025 Bahar Harf Notu Dağılımı | 2024 spring |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

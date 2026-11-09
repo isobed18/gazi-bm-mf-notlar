@@ -1,0 +1,19 @@
+file: CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi-sayfa-fotografi.jpg
+sha256: f0c54801863079fba08525ca55c65c7a5542981f02b99ba0cbd564c2c41ef5df
+size: 84769
+course: CENG206
+kind: exam
+title: 2023-2024 Bahar Final Sınavı (sayfa fotoğrafı)
+year: 2023
+term: spring
+exam_type: final
+language: en
+handwritten: false
+source:
+  type: sweep
+  ref: ceng206
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

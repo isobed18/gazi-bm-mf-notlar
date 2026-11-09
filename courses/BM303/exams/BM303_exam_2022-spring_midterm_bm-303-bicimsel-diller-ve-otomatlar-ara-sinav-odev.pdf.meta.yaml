@@ -12,8 +12,8 @@ source:
   type: whatsapp
   ref: gazi-bm-2021
 added: '2026-11-09'
-status: deprecated
+status: approved
 scan:
   verdict: ok
   antivirus: not-run (clamscan not installed)
-notes: one-off-homework
+notes: 2022 spring exam given as take-home assignment (ödev); kept as past exam questions.

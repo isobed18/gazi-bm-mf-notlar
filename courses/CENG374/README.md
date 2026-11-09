@@ -16,6 +16,12 @@
 | [CENG374_slides_introduction-to-computer-security-part-5-basic-cry.pdf](slides/CENG374_slides_introduction-to-computer-security-part-5-basic-cry.pdf) | Introduction to Computer Security - Part 5_Basic_Cryptography |  |  |
 | [CENG374_slides_introduction-to-computer-security-part-6-cryptogra.pdf](slides/CENG374_slides_introduction-to-computer-security-part-6-cryptogra.pdf) | Introduction to Computer Security - Part 6_Cryptography |  |  |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG374_gradedistribution_gecmis-harf-notu-dagilimlari.jpg](grade-distributions/CENG374_gradedistribution_gecmis-harf-notu-dagilimlari.jpg) | Geçmiş Harf Notu Dağılımları |  |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

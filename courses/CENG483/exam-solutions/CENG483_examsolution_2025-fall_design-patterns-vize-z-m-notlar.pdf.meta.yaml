@@ -1,0 +1,18 @@
+file: CENG483_examsolution_2025-fall_design-patterns-vize-z-m-notlar.pdf
+sha256: 2afccc8351258c53e994a94165c226366fa0cac9289ef5c33044b1b19acb6e64
+size: 8775726
+course: CENG483
+kind: exam-solution
+title: Design Patterns Vize ??z?m Notlar?
+year: 2025
+term: fall
+handwritten: false
+related: courses/CENG483/exams/CENG483_exam_design-patterns-vize-cikmis-sorulari.pdf
+source:
+  type: sweep
+  ref: ceng483
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

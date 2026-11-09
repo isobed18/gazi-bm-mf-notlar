@@ -1,0 +1,17 @@
+file: BM103_lecturenotes_2023-fall_sayi-tabanlari-ve-aritmetik-operatorleri.jpg
+sha256: 9ab30a19e5f04dcaf390139f66ffa958c90df74e7e25eab3089ad102a6092827
+size: 126823
+course: BM103
+kind: lecture-notes
+title: Sayı tabanları ve aritmetik operatörleri
+year: 2023
+term: fall
+handwritten: false
+source:
+  type: sweep
+  ref: bm103
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

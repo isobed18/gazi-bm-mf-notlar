@@ -1,0 +1,15 @@
+file: BM224_gradedistribution_gecmis-harf-notu-dagilimlari.jpg
+sha256: 462dd79ebebea7061b72934e3f81d464231a0654da04003efc16cf330667f6d7
+size: 75892
+course: BM224
+kind: grade-distribution
+title: Geçmiş Harf Notu Dağılımları
+handwritten: false
+source:
+  type: sweep
+  ref: bm224
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

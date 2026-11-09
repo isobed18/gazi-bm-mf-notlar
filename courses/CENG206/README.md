@@ -20,7 +20,15 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi-sayfa-fotografi.jpg](exams/CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi-sayfa-fotografi.jpg) | 2023-2024 Bahar Final Sınavı (sayfa fotoğrafı) | 2023 spring | final |
+| [CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi.jpg](exams/CENG206_exam_2023-spring_final_2023-2024-bahar-final-sinavi.jpg) | 2023-2024 Bahar Final Sınavı | 2023 spring | final |
 | [CENG206_exam_2024-spring_sayisal-analiz-ornek-sinav-sorulari.pdf](exams/CENG206_exam_2024-spring_sayisal-analiz-ornek-sinav-sorulari.pdf) | Numerical Analysis Sample Exam Questions | 2024 spring | sample |
+
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG206_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg](grade-distributions/CENG206_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg) | 2023-2024 Bahar Harf Notu Dağılımı | 2023 spring |  |
 
 ## homework
 

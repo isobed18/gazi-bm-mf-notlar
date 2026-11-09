@@ -1,0 +1,17 @@
+file: TUR102_syllabus_2024-spring_2024-2025-bahar-ders-izlencesi.pdf
+sha256: 4ccad7517761e84b536134bc40074adabacdcdf4ff9962e165112fee3a223c0a
+size: 944186
+course: TUR102
+kind: syllabus
+title: 2024-2025 Bahar Ders İzlencesi
+year: 2024
+term: spring
+handwritten: false
+source:
+  type: sweep
+  ref: tur102
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

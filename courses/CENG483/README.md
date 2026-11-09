@@ -10,12 +10,28 @@
 |---|---|---|---|
 | [CENG483_slides_prototype-pattern-sunumu.pdf](slides/CENG483_slides_prototype-pattern-sunumu.pdf) | Prototype Pattern Sunumu |  |  |
 
+## student-notes (optional layer)
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-1.pdf](student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-1.pdf) | Design Patterns El Yaz?s? Notlar? 1 | 2025 fall |  |
+| [CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-2.pdf](student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-2.pdf) | Design Patterns El Yaz?s? Notlar? 2 | 2025 fall |  |
+| [CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-3.pdf](student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-3.pdf) | Design Patterns El Yaz?s? Notlar? 3 | 2025 fall |  |
+| [CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-4.pdf](student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-4.pdf) | Design Patterns El Yaz?s? Notlar? 4 | 2025 fall |  |
+| [CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-5.pdf](student-notes/CENG483_studentnotes_2025-fall_design-patterns-el-yaz-s-notlar-5.pdf) | Design Patterns El Yaz?s? Notlar? 5 | 2025 fall |  |
+
 ## exam
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
 | [CENG483_exam_design-patterns-quiz-sorulari.pdf](exams/CENG483_exam_design-patterns-quiz-sorulari.pdf) | Design Patterns Quiz Soruları |  |  |
 | [CENG483_exam_design-patterns-vize-cikmis-sorulari.pdf](exams/CENG483_exam_design-patterns-vize-cikmis-sorulari.pdf) | Design Patterns Vize Çıkmış Soruları |  |  |
+
+## exam-solution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [CENG483_examsolution_2025-fall_design-patterns-vize-z-m-notlar.pdf](exam-solutions/CENG483_examsolution_2025-fall_design-patterns-vize-z-m-notlar.pdf) | Design Patterns Vize ??z?m Notlar? | 2025 fall |  |
 
 ## summary
 

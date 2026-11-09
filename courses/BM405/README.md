@@ -16,6 +16,12 @@
 |---|---|---|---|
 | [BM405_exam_2025-fall_midterm_girisimcilik-ve-liderlik-2025-2026-guz-vize-sorusu.jpg](exams/BM405_exam_2025-fall_midterm_girisimcilik-ve-liderlik-2025-2026-guz-vize-sorusu.jpg) | Girişimcilik ve Liderlik 2025-2026 Güz Vize Sorusu (İş Modeli Kanvası) | 2025 fall | midterm |
 
+## grade-distribution
+
+| File | Title | Year/term | Type |
+|---|---|---|---|
+| [BM405_gradedistribution_gecmis-harf-notu-dagilimlari.jpg](grade-distributions/BM405_gradedistribution_gecmis-harf-notu-dagilimlari.jpg) | Geçmiş Harf Notu Dağılımları |  |  |
+
 ## announcement
 
 | File | Title | Year/term | Type |

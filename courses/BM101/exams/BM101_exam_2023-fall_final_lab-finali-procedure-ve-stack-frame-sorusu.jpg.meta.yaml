@@ -1,0 +1,23 @@
+file: BM101_exam_2023-fall_final_lab-finali-procedure-ve-stack-frame-sorusu.jpg
+sha256: eeef9fedc0bf5d26559634025318d2796d1a988a087c1f776a7a686d2d35d2e8
+size: 25551
+course: BM101
+kind: exam
+title: Lab Finali - Procedure ve Stack Frame Sorusu
+year: 2023
+term: fall
+exam_type: final
+language: en
+handwritten: false
+topics:
+- Fonksiyonlar
+- parametreler
+- stack frame
+source:
+  type: sweep
+  ref: bm101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

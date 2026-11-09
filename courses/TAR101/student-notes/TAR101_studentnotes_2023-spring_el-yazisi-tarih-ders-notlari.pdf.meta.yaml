@@ -1,0 +1,17 @@
+file: TAR101_studentnotes_2023-spring_el-yazisi-tarih-ders-notlari.pdf
+sha256: 2306e914901195acd04e46c071b84f475d2c9eb0922b77e7ce44ab7ecbd03bd3
+size: 7005361
+course: TAR101
+kind: student-notes
+title: El Yazısı Tarih Ders Notları
+year: 2023
+term: spring
+handwritten: true
+source:
+  type: sweep
+  ref: tar101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

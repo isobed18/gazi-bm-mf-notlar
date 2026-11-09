@@ -1,0 +1,18 @@
+file: BM101_studentnotes_2023-fall_ak-diyagram-el-notlar.pdf
+sha256: bbe0177b251e30622b8770649c5592116988195308358860f5ad94276961dee8
+size: 111986
+course: BM101
+kind: student-notes
+title: Akış Diyagramı El Notları
+year: 2023
+term: fall
+language: tr
+handwritten: true
+source:
+  type: sweep
+  ref: bm101
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

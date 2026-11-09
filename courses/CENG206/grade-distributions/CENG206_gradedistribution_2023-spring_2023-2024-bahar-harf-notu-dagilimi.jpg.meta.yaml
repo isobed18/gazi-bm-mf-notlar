@@ -1,0 +1,18 @@
+file: CENG206_gradedistribution_2023-spring_2023-2024-bahar-harf-notu-dagilimi.jpg
+sha256: b56a1b285e25b80fde0d73ea2bdcd734a27ea40c24c7de3d778307ea14c03d64
+size: 191322
+course: CENG206
+kind: grade-distribution
+title: 2023-2024 Bahar Harf Notu Dağılımı
+year: 2023
+term: spring
+language: tr
+handwritten: false
+source:
+  type: sweep
+  ref: ceng206
+added: '2026-11-09'
+status: approved
+scan:
+  verdict: ok
+  antivirus: defender:clean

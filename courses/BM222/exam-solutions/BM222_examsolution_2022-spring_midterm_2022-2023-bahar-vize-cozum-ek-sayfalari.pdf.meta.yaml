@@ -1,0 +1,18 @@
+file: BM222_examsolution_2022-spring_midterm_2022-2023-bahar-vize-cozum-ek-sayfalari.pdf
+sha256: 9cb513f57bae96ab2b25c64c48ea33a91fbbcff7c0d148141ecbc9a3fed11491
+size: 255789
+course: BM222
+kind: exam-solution
+title: 2022-2023 Bahar Vize Çözüm Ek Sayfaları
+year: 2022
+term: spring
+exam_type: midterm
+handwritten: false
+source:
+  type: sweep
+  ref: bm222
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

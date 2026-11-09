@@ -1,0 +1,19 @@
+file: MAT102_examsolution_2021-spring_midterm_2021-2022-bahar-vize-cozumleri-grup-b.pdf
+sha256: f486df86375f17e78bca2a3cf63d4f812c3df5004daffccad2a10a3f3bc7d842
+size: 553117
+course: MAT102
+kind: exam-solution
+title: 2021-2022 Bahar Vize Çözümleri (Grup B)
+year: 2021
+term: spring
+exam_type: midterm
+handwritten: false
+related: MAT102_exam_2021-spring_midterm_2021-2022-bahar-vize-grup-b.pdf
+source:
+  type: sweep
+  ref: math102
+added: '2026-11-09'
+status: unverified
+scan:
+  verdict: ok
+  antivirus: defender:clean

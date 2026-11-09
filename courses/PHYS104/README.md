@@ -14,6 +14,8 @@
 
 | File | Title | Year/term | Type |
 |---|---|---|---|
+| [PHYS104_exam_2017-spring_final_2017-physics-ii-final-exam.pdf](exams/PHYS104_exam_2017-spring_final_2017-physics-ii-final-exam.pdf) | 2017 Physics II Final Exam | 2017 spring | final |
+| [PHYS104_exam_2021-spring_11-february-2022-physics-ii-course-exam.pdf](exams/PHYS104_exam_2021-spring_11-february-2022-physics-ii-course-exam.pdf) | 11 February 2022 Physics II Course Exam | 2021 spring |  |
 | [PHYS104_exam_2023-spring_final_final-soru-dagilimi-tahta-notu.jpg](exams/PHYS104_exam_2023-spring_final_final-soru-dagilimi-tahta-notu.jpg) | Final Soru Dağılımı (Tahta Notu) | 2023 spring | final |
 | [PHYS104_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf](exams/PHYS104_exam_2024-spring_midterm_2024-2025-bahar-vize.pdf) | 2024-2025 Bahar Vize | 2024 spring | midterm |
 
