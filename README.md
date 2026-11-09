@@ -7,6 +7,10 @@ düzenli, her dosyanın bir metadata kaydı var. Depoyu AI agent'ları yönetiyo
 *Course resource archive for Gazi University Computer Engineering, managed by AI agents with human review.
 Agents: start with [`AGENTS.md`](AGENTS.md).*
 
+## İndir
+**[Obsidian vault'unu indir (son sürüm)](https://github.com/isobed18/gazi-bm-mf-notlar/releases/latest)** → `Gazi-BM-Vault.zip`'i aç,
+Obsidian'da *Open folder as vault*. Agent'ına "indir kur" demek yeterli: adımlar [INSTALL.md](INSTALL.md) içinde.
+
 ## Yapı
 ```
 catalog/            müfredat (curriculum.yaml), kaynak türleri (taxonomy.yaml), index.json

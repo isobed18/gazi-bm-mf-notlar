@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T21:19:36",
- "count": 583,
+ "generated": "2026-11-09T21:21:16",
+ "count": 581,
  "resources": [
   {
    "file": "BM101_announcement_sohbetten-sinav-bilgileri.md",
@@ -7033,28 +7033,6 @@
    "path": "courses/CENG461/homework/CENG461_homework_2026-fall_hw1-research-report-odev-metni.pdf"
   },
   {
-   "file": "CENG461_homework_2026-fall_hw2-dot-plot-nw-sw-coding-odev-metni.pdf",
-   "sha256": "c6c9baa61a3c84d6768afafc550340b822c131c9275b39d3a86933cac0511040",
-   "size": 118524,
-   "course": "CENG461",
-   "kind": "homework",
-   "title": "HW2 Dot plot, NW, SW coding (ödev metni)",
-   "year": 2026,
-   "term": "fall",
-   "handwritten": false,
-   "source": {
-    "type": "self",
-    "ref": "4-sinif-guz"
-   },
-   "added": "2026-11-09",
-   "status": "approved",
-   "scan": {
-    "verdict": "ok",
-    "antivirus": "defender:clean"
-   },
-   "path": "courses/CENG461/homework/CENG461_homework_2026-fall_hw2-dot-plot-nw-sw-coding-odev-metni.pdf"
-  },
-  {
    "file": "CENG461_lecturenotes_2026-fall_w03_ek-diziler-ve-hizalama-tr.pdf",
    "sha256": "8a4787d49e7312124e3e9bfe8741b01f140eddd160deb6e3d7dcf13eff547575",
    "size": 980312,
@@ -7237,28 +7215,6 @@
     "antivirus": "defender:clean"
    },
    "path": "courses/CENG461/slides/CENG461_slides_2026-fall_w05_alignment-and-blast.pdf"
-  },
-  {
-   "file": "CENG461_summary_2026-fall_sinav-calisma-rehberi-algoritmalar-cozumlu-ornekle.pdf",
-   "sha256": "017b155e273b5b6c51709e82d827ce57aeb9473da1321431076f87e6e7c1ce91",
-   "size": 922115,
-   "course": "CENG461",
-   "kind": "summary",
-   "title": "Sınav çalışma rehberi (algoritmalar, çözümlü örnekler)",
-   "year": 2026,
-   "term": "fall",
-   "handwritten": false,
-   "source": {
-    "type": "self",
-    "ref": "4-sinif-guz"
-   },
-   "added": "2026-11-09",
-   "status": "approved",
-   "scan": {
-    "verdict": "ok",
-    "antivirus": "defender:clean"
-   },
-   "path": "courses/CENG461/summaries/CENG461_summary_2026-fall_sinav-calisma-rehberi-algoritmalar-cozumlu-ornekle.pdf"
   },
   {
    "file": "CENG471_homework_2026-fall_hw1-survey-paper-review-odev-metni.pdf",
