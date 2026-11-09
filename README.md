@@ -11,7 +11,7 @@ Agents: start with [`AGENTS.md`](AGENTS.md).*
 ▶ **[Tanıtım videosu (1 dk)](https://github.com/isobed18/gazi-bm-mf-notlar/releases/download/vault-2026-11-09/tanitim.mp4)**
 
 **[Obsidian vault'unu indir (son sürüm)](https://github.com/isobed18/gazi-bm-mf-notlar/releases/latest)** → `Gazi-BM-Vault.zip`'i aç,
-Obsidian'da *Open folder as vault*. Agent'ına \"indir kur\" demek yeterli: adımlar [INSTALL.md](INSTALL.md) içinde.
+Obsidian'da *Open folder as vault*. Agent'ına "indir kur" demek yeterli: adımlar [INSTALL.md](INSTALL.md) içinde.
 Dosya göndermek için: [Kaynak Gönder formu](https://docs.google.com/forms/d/e/1FAIpQLSccuOWOSr4S9dCxMROm2lOoa0IgOjIznh9X3YZ1ieTljdW9Ng/viewform).
 
 ## Yapı
