@@ -62,7 +62,7 @@ courses:
 
   # ---------------- 7. yarıyıl ----------------
   - {code: BM401, name_tr: Staj II, name_en: Internship II, semester: 7, category: internship, curriculum: "2024", aliases: [bm401, staj 2]}
-  - {code: BM405, name_tr: Girişimcilik ve İnovasyon, name_en: Entrepreneurship and Innovation, semester: 7, category: required, curriculum: "2024", aliases: [bm405, girisimcilik ve inovasyon]}
+  - {code: BM405, name_tr: Girişimcilik ve İnovasyon, name_en: Entrepreneurship and Innovation, semester: 7, category: required, curriculum: "2024", aliases: [bm405, bm 405, girisimcilik ve inovasyon, girisimcilik, girisimcilik ve liderlik, ads125]}
   - {code: BM495, name_tr: Bilgisayar Mühendisliği Projesi I, name_en: Computer Engineering Project I, semester: 7, category: required, curriculum: "2024", aliases: [bm495, bitirme 1, proje 1, srs]}
   - {code: ISG401, name_tr: İş Sağlığı ve Güvenliği I, name_en: Occupational Health and Safety I, semester: 7, category: general, curriculum: "2024", aliases: [isg401, is sagligi 1]}
 
@@ -93,7 +93,6 @@ courses:
   - {code: PARALLEL-COMPUTER-ARCHITECTURES, name_tr: Paralel Bilgisayar Mimarisi, name_en: Parallel Computer Architectures, semester: null, category: technical-elective, aliases: [parallel computer architectures, paralel bilgisayar mimarisi]}
 
   # ---------------- Non-technical electives (seen so far) ----------------
-  - {code: ADS125, name_tr: Girişimcilik ve Proje Yönetimi, name_en: Entrepreneurship and Project Management, semester: null, category: non-technical-elective, curriculum: "2024", aliases: [ads125, girisimcilik ve proje yonetimi]}
   - {code: BM188, name_tr: İşletme Ekonomisi ve Yönetimi, name_en: Business Economics and Management, semester: null, category: non-technical-elective, curriculum: "2024", aliases: [bm188, isletme ekonomisi]}
 
   # ---------------- Legacy (pre-2024) ----------------
