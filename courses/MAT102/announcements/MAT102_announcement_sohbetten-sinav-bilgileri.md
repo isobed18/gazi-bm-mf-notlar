@@ -1,7 +1,7 @@
 # MAT102 – Sohbetlerden derlenen sınav bilgileri
 
 Matematik II · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 12 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2024-2025 Bahar
 

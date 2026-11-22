@@ -1,7 +1,7 @@
 # FIZ156 – Sohbetlerden derlenen sınav bilgileri
 
 Fizik Laboratuvarı · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 3 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2023-2024 Bahar
 

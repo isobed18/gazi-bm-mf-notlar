@@ -1,5 +1,5 @@
 file: COMPUTER-GRAPHICS_announcement_sohbetten-sinav-bilgileri.md
-sha256: 69c40bc962e2e5f874c4188eba64ddcf07af9c9e257062b28b1a360e181475bf
+sha256: 50dc40a0d99d919d03beae18f9428073bc2bacf49d31b9c0b1c619db3338755a
 size: 620
 course: COMPUTER-GRAPHICS
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

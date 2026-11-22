@@ -1,5 +1,5 @@
 file: BM201_announcement_sohbetten-sinav-bilgileri.md
-sha256: 06539e9caefbc14dd95db12b732bfba05aa00a9a75dd4335d8031bcef75f3610
+sha256: 2530121c397acfd716dfb0f92b05473d7a116498f1d1f41073027a9215945ebb
 size: 390
 course: BM201
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-mf-bm-2-sinif
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

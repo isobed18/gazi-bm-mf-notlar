@@ -1,5 +1,5 @@
 file: MATH201_announcement_sohbetten-sinav-bilgileri.md
-sha256: aa5e64e7238512fb8de48b8caa676fa767a9f910c2679d820bd10fa492739969
+sha256: b4c2a51f328d9b4fb2a27951b1a538b04a895cd6ddaf6503dcbc6ae25242370b
 size: 2540
 course: MATH201
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

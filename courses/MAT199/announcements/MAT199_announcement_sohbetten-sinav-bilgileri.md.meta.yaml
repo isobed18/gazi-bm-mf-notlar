@@ -1,5 +1,5 @@
 file: MAT199_announcement_sohbetten-sinav-bilgileri.md
-sha256: 1a82e9fa929c83365270e7d3a20723e42a7464cc3c55fda0b1e68658b417c39b
+sha256: efe890964bcaf962f021d4a21eace489e79d7609fb3668f7c5e2405f5390c929
 size: 2497
 course: MAT199
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-ceng-2023-muh,gaziuni-mf-ceng23
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

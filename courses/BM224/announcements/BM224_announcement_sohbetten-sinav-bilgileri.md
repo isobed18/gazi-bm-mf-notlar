@@ -1,7 +1,7 @@
 # BM224 – Sohbetlerden derlenen sınav bilgileri
 
 Programlama Dillerinin Prensipleri · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 18 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2024-2025 Bahar
 

@@ -1,5 +1,5 @@
 file: ENG204_announcement_sohbetten-sinav-bilgileri.md
-sha256: 4c95ca72b447037906c7b032b77ff51a634ebb5a4b1ab2d5241714a208b8443c
+sha256: 92755c0321000dea4b7f534ae6a0083cebd7a692b24fe6951f489c7d1c8f063e
 size: 705
 course: ENG204
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

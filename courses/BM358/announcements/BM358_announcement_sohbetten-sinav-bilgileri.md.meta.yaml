@@ -1,5 +1,5 @@
 file: BM358_announcement_sohbetten-sinav-bilgileri.md
-sha256: 514eae62f4b5c007f40afdc4cf50a6e021e82451429cd6eaad7363995822cf16
+sha256: fcb9cc05d6062263172271a03c9171821e2f2f74890f72e6cc2962c72d9ee3d7
 size: 522
 course: BM358
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021,gazi-ceng-2023-muh
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

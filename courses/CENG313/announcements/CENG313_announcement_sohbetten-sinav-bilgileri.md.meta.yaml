@@ -1,5 +1,5 @@
 file: CENG313_announcement_sohbetten-sinav-bilgileri.md
-sha256: dc0853da3dc1638423af1e597d8661633a97ffaf20fb1bfb01993e1ef2a8e1b6
+sha256: b706c96b898959907e49872753da30183eec3f67dd1b4f44bb7f07296e1bd77c
 size: 830
 course: CENG313
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-ceng-2023-muh
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

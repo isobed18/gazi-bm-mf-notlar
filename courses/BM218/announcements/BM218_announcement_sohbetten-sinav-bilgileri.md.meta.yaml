@@ -1,5 +1,5 @@
 file: BM218_announcement_sohbetten-sinav-bilgileri.md
-sha256: 001aefb4c2c042706e5d4deeca6fc7bcc4903f22716ee25228bb14db59f0ef89
+sha256: 5e92f999be44f60ef8ef212590b5e9e4820345c832a9033451f04ea7a6a287b7
 size: 6270
 course: BM218
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

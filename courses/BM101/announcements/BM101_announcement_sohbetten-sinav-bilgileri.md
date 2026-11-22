@@ -1,7 +1,7 @@
 # BM101 – Sohbetlerden derlenen sınav bilgileri
 
 Bilgisayar Programlama I · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 11 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2025-2026 Güz
 

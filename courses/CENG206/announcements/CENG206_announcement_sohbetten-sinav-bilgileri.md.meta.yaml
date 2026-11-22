@@ -1,5 +1,5 @@
 file: CENG206_announcement_sohbetten-sinav-bilgileri.md
-sha256: db051767967e1dba9f4cbb3c4cada530703f05613c9868c30d73346abd0f44fa
+sha256: 36b1c82f0566fb3c09c7c6c1ae8dc3ea7be5c8f510e68a516a52d0d74abe99e1
 size: 7149
 course: CENG206
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

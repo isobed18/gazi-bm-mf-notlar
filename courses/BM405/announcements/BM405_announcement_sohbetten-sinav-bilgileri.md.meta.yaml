@@ -1,5 +1,5 @@
 file: BM405_announcement_sohbetten-sinav-bilgileri.md
-sha256: a7a112af7d18e1ab49f1ca22c5fd74d8a00306a326beedf7ca7964edd7bde52f
+sha256: 8023311092b9c4d63a462e084ce39a1044c47bc4d5b1fd8e91b444e99e4d601b
 size: 862
 course: BM405
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021,messy-from-you
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

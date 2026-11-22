@@ -1,5 +1,5 @@
 file: BM466_announcement_sohbetten-sinav-bilgileri.md
-sha256: c464d417ce70e60e952df7746c780e138b93f45fd2f6ac15f1f834264086404d
+sha256: e24b2be4bfe67de371877d1c8ac1e23b8a38d06d25724aeb347927fb1c4dd934
 size: 450
 course: BM466
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

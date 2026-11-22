@@ -1,5 +1,5 @@
 file: TAR102_announcement_sohbetten-sinav-bilgileri.md
-sha256: 7548273a2dfcc72c9d061026f427ee89ce92e49082d6886ca2928d18bda4d1ed
+sha256: 55b1e3627105921a9629040abe13cb26e314122baa6f1403a1472807c80ef4d7
 size: 818
 course: TAR102
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-ceng-2023-muh
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

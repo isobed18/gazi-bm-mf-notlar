@@ -1,5 +1,5 @@
 file: CENG442_announcement_sohbetten-sinav-bilgileri.md
-sha256: 26dc13dd91d898d1006d2a1c6d31f93f4010e62f31442183ec82af8ee8d15b9d
+sha256: 59be175953b11d48e12cb2e0f6d3c6c50b4ced89bd1edd3a7a6cb668e67ccb2e
 size: 693
 course: CENG442
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021,messy-from-you
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

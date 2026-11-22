@@ -1,7 +1,7 @@
 # BM211 – Sohbetlerden derlenen sınav bilgileri
 
 Elektrik ve Elektronik Devreler · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 26 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2026-2027 Güz
 

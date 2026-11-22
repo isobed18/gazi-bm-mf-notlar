@@ -1,5 +1,5 @@
 file: BM207_announcement_sohbetten-sinav-bilgileri.md
-sha256: 52fd71d723cb609631dbc3c44149504e785f79e7411363ac25c2459b1b8e8d10
+sha256: a2e9ac282202f29b393bcf3bc9b48223cfa420004f103eefa617fb4bc71e3dc6
 size: 2164
 course: BM207
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif,gaziuni-mf-ceng23
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

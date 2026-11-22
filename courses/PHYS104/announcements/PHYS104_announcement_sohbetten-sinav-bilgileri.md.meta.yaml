@@ -1,5 +1,5 @@
 file: PHYS104_announcement_sohbetten-sinav-bilgileri.md
-sha256: f5d096bdd05e2629dfe4946bff014110a5bd46941b5da5d51e3d964a98fda6d5
+sha256: 0cce24ba99ca5523265ab8c03c90bd03cf139a42a65ef38195f5bb98a1936178
 size: 2180
 course: PHYS104
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-ceng-2023-muh,gaziuni-mf-ceng23
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

@@ -1,7 +1,7 @@
 # BM207 – Sohbetlerden derlenen sınav bilgileri
 
 Olasılık ve İstatistik · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 10 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2026-2027 Güz
 

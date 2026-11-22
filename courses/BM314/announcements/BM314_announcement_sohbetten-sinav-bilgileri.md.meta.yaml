@@ -1,5 +1,5 @@
 file: BM314_announcement_sohbetten-sinav-bilgileri.md
-sha256: 8527e78b3997cb8f66bebdf74615aa5a791ec1ca46e06268a55ecd5484f76413
+sha256: 2fcee78af363ede4984c8a2f28e36f30b3bac3ea9cf90fa8ed14c6af8d71559c
 size: 734
 course: BM314
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

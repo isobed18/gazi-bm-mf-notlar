@@ -1,5 +1,5 @@
 file: FIZ103_announcement_sohbetten-sinav-bilgileri.md
-sha256: 25a97005c1fac9271869e3f18e50b1d3b479b308518d124ccfbe2646cdb881ca
+sha256: ed5484b8ed266410916daf9404eedb407dcf22abec7bbe081b0a6fe2fe928fe7
 size: 2391
 course: FIZ103
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-ceng-2023-muh,gaziuni-mf-ceng23
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

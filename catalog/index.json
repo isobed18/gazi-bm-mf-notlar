@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-09T23:43:34",
+ "generated": "2026-11-22T21:27:53",
  "count": 650,
  "resources": [
   {
    "file": "BM101_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "0cbcd01987d2cd374a205c9d7128af95b071cb4a4b2d22517a2e00578f3f6280",
+   "sha256": "02a7eb4036ddecc241c2d217fe8eca8eb7d45504c07e35886bddb2b7944bca57",
    "size": 2754,
    "course": "BM101",
    "kind": "announcement",
@@ -15,7 +15,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -288,7 +288,7 @@
   },
   {
    "file": "BM102_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "c3589235ee6d3325743a323f09af11f5965ed1db41ad66047100de4cd6c0e28c",
+   "sha256": "baec447b2acc24303c46d47fe97572e5582f77a6d2d54876e09994830eaa4b4d",
    "size": 1603,
    "course": "BM102",
    "kind": "announcement",
@@ -299,7 +299,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -403,7 +403,7 @@
   },
   {
    "file": "BM103_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "aba81be44605676d97edfae9a25d3be9ed389bc5921ca4dcd2706f9b5d3c20f7",
+   "sha256": "e3643bb26153afed4f501ae2a8ceb55c4525616650a627f4a7f48dfcfd1d4353",
    "size": 2591,
    "course": "BM103",
    "kind": "announcement",
@@ -414,7 +414,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -744,7 +744,7 @@
   },
   {
    "file": "BM104_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "e56a359221767dbc79f19fd2b19854dadbc81d193c4b9387144fa922f0b2abae",
+   "sha256": "ebb9773d53ac45e07c467a21d3154e8eaf3f14de2e4aa58eb527759ff4291259",
    "size": 2607,
    "course": "BM104",
    "kind": "announcement",
@@ -755,7 +755,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -998,7 +998,7 @@
   },
   {
    "file": "BM188_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "7481e73309c3e71de34afe6248b79891157366b963a6b4efe2d2c8b5ea54870e",
+   "sha256": "f85c1e17b82ba24e701a4719822cc2d9460a878b6081d4c23db7867fdfcbda4f",
    "size": 1039,
    "course": "BM188",
    "kind": "announcement",
@@ -1009,7 +1009,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -1041,7 +1041,7 @@
   },
   {
    "file": "BM201_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "06539e9caefbc14dd95db12b732bfba05aa00a9a75dd4335d8031bcef75f3610",
+   "sha256": "2530121c397acfd716dfb0f92b05473d7a116498f1d1f41073027a9215945ebb",
    "size": 390,
    "course": "BM201",
    "kind": "announcement",
@@ -1052,7 +1052,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-mf-bm-2-sinif"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -1268,7 +1268,7 @@
   },
   {
    "file": "BM207_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "52fd71d723cb609631dbc3c44149504e785f79e7411363ac25c2459b1b8e8d10",
+   "sha256": "a2e9ac282202f29b393bcf3bc9b48223cfa420004f103eefa617fb4bc71e3dc6",
    "size": 2164,
    "course": "BM207",
    "kind": "announcement",
@@ -1279,7 +1279,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -1333,7 +1333,7 @@
   },
   {
    "file": "BM211_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "c35ec1c0b9591502a4f16e6d8284b66f7ee70959670a924110819887a9b59601",
+   "sha256": "aa9ba1af3262c8eb63de757e433a7156c515ee64ce0757d1cffbd2bcc2eb7603",
    "size": 5931,
    "course": "BM211",
    "kind": "announcement",
@@ -1344,7 +1344,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -1943,7 +1943,7 @@
   },
   {
    "file": "BM218_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "001aefb4c2c042706e5d4deeca6fc7bcc4903f22716ee25228bb14db59f0ef89",
+   "sha256": "5e92f999be44f60ef8ef212590b5e9e4820345c832a9033451f04ea7a6a287b7",
    "size": 6270,
    "course": "BM218",
    "kind": "announcement",
@@ -1954,7 +1954,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -2461,7 +2461,7 @@
   },
   {
    "file": "BM222_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "90f4d0d9b52ce2f95df59fa90f844bf3e7888384400785cba79a8b8f1b1ad024",
+   "sha256": "6c51f88df81a143602a7cd572fa6d4cb41c9a22d8c9b0a2625bbadfa3f2fd801",
    "size": 4886,
    "course": "BM222",
    "kind": "announcement",
@@ -2472,7 +2472,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -2751,7 +2751,7 @@
   },
   {
    "file": "BM224_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "080fe9fe6a7ca35d5de01fa72944734d5d6c8b05e8a8428e0cf5d67e81c66016",
+   "sha256": "3436ce30712a4a774c0f18de26ae58553c3619e823696f7d79e8d4ebc33c2018",
    "size": 4185,
    "course": "BM224",
    "kind": "announcement",
@@ -2762,7 +2762,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -2970,7 +2970,7 @@
   },
   {
    "file": "BM303_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "f14f6e7167e552bbf1c8b57c74c279f415a019b881f3daa319628305cc6ae7af",
+   "sha256": "cb0123c4fab909eb9c70409dd6f48905d56d742a0c613c3634610f368d9bcd72",
    "size": 1322,
    "course": "BM303",
    "kind": "announcement",
@@ -2981,7 +2981,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -3175,7 +3175,7 @@
   },
   {
    "file": "BM309_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "876d03ad69a0bcf228e5a3c5d479890ffa971d20d9214f46385fa861463846ae",
+   "sha256": "aecad6b8bb1b2bef35d2217ae8807776b295eae0e9aff42fdc0fea780d468954",
    "size": 3470,
    "course": "BM309",
    "kind": "announcement",
@@ -3186,7 +3186,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif,gaziuni-mf-ceng23,messy-from-you"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -3541,7 +3541,7 @@
   },
   {
    "file": "BM311_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "ac5531f3069645f7f41d48fa5f610574629de059b772796bb59e0103864dd7ad",
+   "sha256": "1cc6a09a873f7a5210f5facf6102889b37cc9be6b9369e92a69236adf13ebb01",
    "size": 2976,
    "course": "BM311",
    "kind": "announcement",
@@ -3552,7 +3552,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -4010,7 +4010,7 @@
   },
   {
    "file": "BM314_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "8527e78b3997cb8f66bebdf74615aa5a791ec1ca46e06268a55ecd5484f76413",
+   "sha256": "2fcee78af363ede4984c8a2f28e36f30b3bac3ea9cf90fa8ed14c6af8d71559c",
    "size": 734,
    "course": "BM314",
    "kind": "announcement",
@@ -4021,7 +4021,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -4232,7 +4232,7 @@
   },
   {
    "file": "BM358_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "514eae62f4b5c007f40afdc4cf50a6e021e82451429cd6eaad7363995822cf16",
+   "sha256": "fcb9cc05d6062263172271a03c9171821e2f2f74890f72e6cc2962c72d9ee3d7",
    "size": 522,
    "course": "BM358",
    "kind": "announcement",
@@ -4243,7 +4243,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -4338,7 +4338,7 @@
   },
   {
    "file": "BM368_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "454fcad45ea1ffbf07f7edd8c7f39ec5c98f2e189b71d4fe207693ec2d36e3ef",
+   "sha256": "91413009cf7e305fd0cdb75335cea4ee120d6c8803a165116f7bd34905335d5c",
    "size": 419,
    "course": "BM368",
    "kind": "announcement",
@@ -4349,7 +4349,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -4551,7 +4551,7 @@
   },
   {
    "file": "BM371_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "e6428c247d0ccd1c752c32e8c15920350578dc2ffe456eb6cf64d97b8517bb3b",
+   "sha256": "5197ad80bccecabe26666a994f359d64eafd3ddf4513c955a83823db20dde1bb",
    "size": 1021,
    "course": "BM371",
    "kind": "announcement",
@@ -4562,7 +4562,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -4881,7 +4881,7 @@
   },
   {
    "file": "BM402_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "6acea97e70a5e8196ec1dbcd4eb3294c43dc82f0d49fe2b1d9aaff32092de941",
+   "sha256": "56e48d8d2a4eadb6d070573f5b9b4c424efa20b103f49310c7be06fcf1b5e65d",
    "size": 1676,
    "course": "BM402",
    "kind": "announcement",
@@ -4892,7 +4892,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021,messy-from-you"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -5047,7 +5047,7 @@
   },
   {
    "file": "BM405_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "a7a112af7d18e1ab49f1ca22c5fd74d8a00306a326beedf7ca7964edd7bde52f",
+   "sha256": "8023311092b9c4d63a462e084ce39a1044c47bc4d5b1fd8e91b444e99e4d601b",
    "size": 862,
    "course": "BM405",
    "kind": "announcement",
@@ -5058,7 +5058,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021,messy-from-you"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -5134,7 +5134,7 @@
   },
   {
    "file": "BM466_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "c464d417ce70e60e952df7746c780e138b93f45fd2f6ac15f1f834264086404d",
+   "sha256": "e24b2be4bfe67de371877d1c8ac1e23b8a38d06d25724aeb347927fb1c4dd934",
    "size": 450,
    "course": "BM466",
    "kind": "announcement",
@@ -5145,7 +5145,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -5288,7 +5288,7 @@
   },
   {
    "file": "CENG106_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "528690ea5d89ec41a2268c329374c2a2d6e0e6c5235591703b5667769fc7c559",
+   "sha256": "b4c6481ebc7c381b4a6bd65b28ddd9a7d79be89d92653928111430638379c7f8",
    "size": 6458,
    "course": "CENG106",
    "kind": "announcement",
@@ -5299,7 +5299,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -6000,7 +6000,7 @@
   },
   {
    "file": "CENG205_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "cdddcca484f13e9c744a0e11e3e81ac47b33878dee42d3a78b65206a33c58dba",
+   "sha256": "0d4c52674b60f9e4593a915814b9baed7384c8391034e873b26e24d93fcb5e9d",
    "size": 4248,
    "course": "CENG205",
    "kind": "announcement",
@@ -6011,7 +6011,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -6145,7 +6145,7 @@
   },
   {
    "file": "CENG206_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "db051767967e1dba9f4cbb3c4cada530703f05613c9868c30d73346abd0f44fa",
+   "sha256": "36b1c82f0566fb3c09c7c6c1ae8dc3ea7be5c8f510e68a516a52d0d74abe99e1",
    "size": 7149,
    "course": "CENG206",
    "kind": "announcement",
@@ -6156,7 +6156,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -6371,7 +6371,7 @@
   },
   {
    "file": "CENG313_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "dc0853da3dc1638423af1e597d8661633a97ffaf20fb1bfb01993e1ef2a8e1b6",
+   "sha256": "b706c96b898959907e49872753da30183eec3f67dd1b4f44bb7f07296e1bd77c",
    "size": 830,
    "course": "CENG313",
    "kind": "announcement",
@@ -6382,7 +6382,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -6482,7 +6482,7 @@
   },
   {
    "file": "CENG316_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "6b0a95eca27fda303bf6a4f90f0849f58b9639679dc244e5915491e9af667618",
+   "sha256": "60dc2b6726053e566ca651b326fdf1ce45842e736c8e4509f422f18f3b127b77",
    "size": 1648,
    "course": "CENG316",
    "kind": "announcement",
@@ -6493,7 +6493,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021,gazi-ceng-2023-muh,messy-from-you"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -6906,7 +6906,7 @@
   },
   {
    "file": "CENG318_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "4cca0acff6ba8526c48c77bcff4f6b48eb3ff4b3c0d3ffc64a8200625d0725e4",
+   "sha256": "a924f915277914a310e3ff3575c4166bf5b7064eac7135be4f7c7e9e2c7a2550",
    "size": 2268,
    "course": "CENG318",
    "kind": "announcement",
@@ -6917,7 +6917,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021,gazi-ceng-2023-muh,messy-from-you"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -7217,7 +7217,7 @@
   },
   {
    "file": "CENG374_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "83dc4aac71f5e8a9f900d88d86aa6e6c4f42e8e5e9944fe25b4c703ef7cd7ea8",
+   "sha256": "f372bea437078cf52b33e9c424ecaaaff6794ad8c4a5d25700578c60dc981e93",
    "size": 860,
    "course": "CENG374",
    "kind": "announcement",
@@ -7228,7 +7228,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -7406,7 +7406,7 @@
   },
   {
    "file": "CENG394_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "e6f8dc1e49fc7b89352da61aecd6d4cf72ea019981267e98c94af9c7799103a5",
+   "sha256": "1755d941a00f4e5e4cba102fdd896b68ce94bd5ad0178d022dc683ddd30052af",
    "size": 1479,
    "course": "CENG394",
    "kind": "announcement",
@@ -7417,7 +7417,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -7608,7 +7608,7 @@
   },
   {
    "file": "CENG442_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "26dc13dd91d898d1006d2a1c6d31f93f4010e62f31442183ec82af8ee8d15b9d",
+   "sha256": "59be175953b11d48e12cb2e0f6d3c6c50b4ced89bd1edd3a7a6cb668e67ccb2e",
    "size": 693,
    "course": "CENG442",
    "kind": "announcement",
@@ -7619,7 +7619,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021,messy-from-you"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -7672,7 +7672,7 @@
   },
   {
    "file": "CENG454_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "0864eb428b82c29ac237aec90f7697126c3b9f8f80425e610931a13de8b88bcc",
+   "sha256": "4f541e30f63d5f0e3b1f2093b86805bf65e4be891211fa88d377d63d795aeaa9",
    "size": 965,
    "course": "CENG454",
    "kind": "announcement",
@@ -7683,7 +7683,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -8306,7 +8306,7 @@
   },
   {
    "file": "CENG483_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "65ca1ac098d4bd447db7ceac556e35a19ddbea7c89cb7f21ccfa632ae14ecc48",
+   "sha256": "fa76a5525bfec45540b04f878871fee82c916085458c1a88c40e604e90514207",
    "size": 1231,
    "course": "CENG483",
    "kind": "announcement",
@@ -8317,7 +8317,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -8545,7 +8545,7 @@
   },
   {
    "file": "COMPUTER-GRAPHICS_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "69c40bc962e2e5f874c4188eba64ddcf07af9c9e257062b28b1a360e181475bf",
+   "sha256": "50dc40a0d99d919d03beae18f9428073bc2bacf49d31b9c0b1c619db3338755a",
    "size": 620,
    "course": "COMPUTER-GRAPHICS",
    "kind": "announcement",
@@ -8556,7 +8556,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -8591,7 +8591,7 @@
   },
   {
    "file": "DISTRIBUTED-SYSTEMS_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "218bb73caeebb9cdd454174e04c3c7383b01e576302bc1b2838815c4b29d7bf8",
+   "sha256": "c3490133ee49c386b73e8eeeec2facc2d1fb654a015623a3b21fb717d9290253",
    "size": 609,
    "course": "DISTRIBUTED-SYSTEMS",
    "kind": "announcement",
@@ -8602,7 +8602,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -8613,7 +8613,7 @@
   },
   {
    "file": "ENG103_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "2510daf94520defada6db1763c3d6ffb94fddb4ae4d73a037b30be09483679b5",
+   "sha256": "734f36410db578ea4b4f4a986eebd74b00cbe4632322e1da89f22248b4cefe0a",
    "size": 376,
    "course": "ENG103",
    "kind": "announcement",
@@ -8624,7 +8624,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -8832,7 +8832,7 @@
   },
   {
    "file": "ENG203_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "1884ed0a6c41d5a1074aba0526d2747570ffb3721c85b2324ed5c3861e56bf7d",
+   "sha256": "aa52803ce6085a5c73d332b22a3246677894aead4d4087d85cf4b745fea815ae",
    "size": 1510,
    "course": "ENG203",
    "kind": "announcement",
@@ -8843,7 +8843,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -9049,7 +9049,7 @@
   },
   {
    "file": "ENG204_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "4c95ca72b447037906c7b032b77ff51a634ebb5a4b1ab2d5241714a208b8443c",
+   "sha256": "92755c0321000dea4b7f534ae6a0083cebd7a692b24fe6951f489c7d1c8f063e",
    "size": 705,
    "course": "ENG204",
    "kind": "announcement",
@@ -9060,7 +9060,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -9471,7 +9471,7 @@
   },
   {
    "file": "FIZ103_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "25a97005c1fac9271869e3f18e50b1d3b479b308518d124ccfbe2646cdb881ca",
+   "sha256": "ed5484b8ed266410916daf9404eedb407dcf22abec7bbe081b0a6fe2fe928fe7",
    "size": 2391,
    "course": "FIZ103",
    "kind": "announcement",
@@ -9482,7 +9482,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -10121,7 +10121,7 @@
   },
   {
    "file": "FIZ156_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "e542f3624dd717ae9e974b4df4c299c8c9ef3fe3196a1c89e6e1f2bcf21a3b98",
+   "sha256": "1e86ffbeae8dc9297003935599a8f9183bc7dd30acbc43f65b74be2a28f64759",
    "size": 856,
    "course": "FIZ156",
    "kind": "announcement",
@@ -10132,7 +10132,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -10186,7 +10186,7 @@
   },
   {
    "file": "ISG401_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "15b688a1778942311871a10415629f17baa201ef02cea52f06e76d5ed13e7a70",
+   "sha256": "cd4fc2f3450bf05175e3f3a999acc5fb8e1695c5407afa4c5948db260dea6444",
    "size": 334,
    "course": "ISG401",
    "kind": "announcement",
@@ -10197,7 +10197,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -10938,7 +10938,7 @@
   },
   {
    "file": "ISG402_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "26bc0a62c9a38f2ac35431dc5294aeec2d00bc3c235334c63933b15576551acd",
+   "sha256": "006c6b7928b37311d335549a7d5c5383aec613d39a99e761c7cea34a5e224a5d",
    "size": 375,
    "course": "ISG402",
    "kind": "announcement",
@@ -10949,7 +10949,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -11225,7 +11225,7 @@
   },
   {
    "file": "MAT102_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "7a15e95bdc1a93473fb4746ed93e86d6c09b7226557d0b82d89420a49065c95e",
+   "sha256": "44d6fdf9d4251590a626449661279d26bc2cb8d72c0e6e2b72642a1b5f8a73e1",
    "size": 2905,
    "course": "MAT102",
    "kind": "announcement",
@@ -11236,7 +11236,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -11653,7 +11653,7 @@
   },
   {
    "file": "MAT199_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "1a82e9fa929c83365270e7d3a20723e42a7464cc3c55fda0b1e68658b417c39b",
+   "sha256": "efe890964bcaf962f021d4a21eace489e79d7609fb3668f7c5e2405f5390c929",
    "size": 2497,
    "course": "MAT199",
    "kind": "announcement",
@@ -11664,7 +11664,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -11962,7 +11962,7 @@
   },
   {
    "file": "MATH101_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "22e88583bc8d87fda732478ad166290a1b4c374698af59cd511e1707f659322b",
+   "sha256": "19dae77100822e89ec64d41313e5d698fa18c7bcde0b7306e200aca5d5d50dae",
    "size": 2304,
    "course": "MATH101",
    "kind": "announcement",
@@ -11973,7 +11973,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -12696,7 +12696,7 @@
   },
   {
    "file": "MATH201_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "aa5e64e7238512fb8de48b8caa676fa767a9f910c2679d820bd10fa492739969",
+   "sha256": "b4c2a51f328d9b4fb2a27951b1a538b04a895cd6ddaf6503dcbc6ae25242370b",
    "size": 2540,
    "course": "MATH201",
    "kind": "announcement",
@@ -12707,7 +12707,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -13026,7 +13026,7 @@
   },
   {
    "file": "PARALLEL-COMPUTER-ARCHITECTURES_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "e6e9be26bd7fdddacba8751518bf3e1d613b9e3e555ea55124097006678421ea",
+   "sha256": "5e39b89c1459bb7d561ed976569a2a4d697654e6018177a17e0e54511f5fb5b9",
    "size": 675,
    "course": "PARALLEL-COMPUTER-ARCHITECTURES",
    "kind": "announcement",
@@ -13037,7 +13037,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -13072,7 +13072,7 @@
   },
   {
    "file": "PHYS104_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "f5d096bdd05e2629dfe4946bff014110a5bd46941b5da5d51e3d964a98fda6d5",
+   "sha256": "0cce24ba99ca5523265ab8c03c90bd03cf139a42a65ef38195f5bb98a1936178",
    "size": 2180,
    "course": "PHYS104",
    "kind": "announcement",
@@ -13083,7 +13083,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh,gaziuni-mf-ceng23"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -13314,7 +13314,7 @@
   },
   {
    "file": "SECURE-CODING_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "974f1d129bc156324feef5707848eb327e011748b80a224cf6c73af40ed84b5e",
+   "sha256": "9f931a0b3f52392ea803dab534607127f30e76da4e833c4546a80674977bfa40",
    "size": 782,
    "course": "SECURE-CODING",
    "kind": "announcement",
@@ -13325,7 +13325,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-bm-2021"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -13380,7 +13380,7 @@
   },
   {
    "file": "TAR101_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "e4be8917dcae1cf9bf2997da4904a285a3f840bfb61ed198d8daa3290b63422e",
+   "sha256": "c6216ae8b41c34d81c6c51111aca86e02f0aba04a62ea61916e413bfe85e67b0",
    "size": 934,
    "course": "TAR101",
    "kind": "announcement",
@@ -13391,7 +13391,7 @@
     "type": "whatsapp",
     "ref": "merged:gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -13919,7 +13919,7 @@
   },
   {
    "file": "TAR102_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "7548273a2dfcc72c9d061026f427ee89ce92e49082d6886ca2928d18bda4d1ed",
+   "sha256": "55b1e3627105921a9629040abe13cb26e314122baa6f1403a1472807c80ef4d7",
    "size": 818,
    "course": "TAR102",
    "kind": "announcement",
@@ -13930,7 +13930,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-ceng-2023-muh"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -14053,7 +14053,7 @@
   },
   {
    "file": "TUR101_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "41a156f42e863e6025a92ba9fd2be9e0d71944c72f2c97fcd0bfe9eaf3b07fa6",
+   "sha256": "2679d765ee352d1a41c71192e009f62bc6ae293b39245fb670ca8eba399ee072",
    "size": 1286,
    "course": "TUR101",
    "kind": "announcement",
@@ -14064,7 +14064,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0,gazi-mf-bm-2-sinif"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",
@@ -14181,7 +14181,7 @@
   },
   {
    "file": "TUR102_announcement_sohbetten-sinav-bilgileri.md",
-   "sha256": "e184981a5a310a469b71c5735521cecf4e9d2a64f893257ed080d9405b7c27d6",
+   "sha256": "f81034af55008f1e33826a51b06d82f0ab89c5fba4067f0bcf0ed8697ae0a4da",
    "size": 329,
    "course": "TUR102",
    "kind": "announcement",
@@ -14192,7 +14192,7 @@
     "type": "whatsapp",
     "ref": "merged:ceng-2-0"
    },
-   "added": "2026-11-09",
+   "added": "2026-11-22",
    "status": "unverified",
    "scan": {
     "verdict": "ok",

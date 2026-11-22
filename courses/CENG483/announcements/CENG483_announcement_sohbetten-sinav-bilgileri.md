@@ -1,7 +1,7 @@
 # CENG483 – Sohbetlerden derlenen sınav bilgileri
 
 Tasarım Kalıpları · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 5 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2025-2026 Güz
 

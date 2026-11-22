@@ -1,5 +1,5 @@
 file: MAT102_announcement_sohbetten-sinav-bilgileri.md
-sha256: 7a15e95bdc1a93473fb4746ed93e86d6c09b7226557d0b82d89420a49065c95e
+sha256: 44d6fdf9d4251590a626449661279d26bc2cb8d72c0e6e2b72642a1b5f8a73e1
 size: 2905
 course: MAT102
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-ceng-2023-muh
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

@@ -1,7 +1,7 @@
 # BM188 – Sohbetlerden derlenen sınav bilgileri
 
 İşletme Ekonomisi ve Yönetimi · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 4 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2023-2024 Bahar
 

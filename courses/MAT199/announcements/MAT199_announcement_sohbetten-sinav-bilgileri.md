@@ -1,7 +1,7 @@
 # MAT199 – Sohbetlerden derlenen sınav bilgileri
 
 Lineer Cebir · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 11 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2023-2024 Güz
 

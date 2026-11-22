@@ -1,7 +1,7 @@
 # CENG106 – Sohbetlerden derlenen sınav bilgileri
 
 Nesne Yönelimli Programlama · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 31 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2025-2026 Bahar
 

@@ -1,5 +1,5 @@
 file: CENG318_announcement_sohbetten-sinav-bilgileri.md
-sha256: 4cca0acff6ba8526c48c77bcff4f6b48eb3ff4b3c0d3ffc64a8200625d0725e4
+sha256: a924f915277914a310e3ff3575c4166bf5b7064eac7135be4f7c7e9e2c7a2550
 size: 2268
 course: CENG318
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021,gazi-ceng-2023-muh,messy-from-you
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

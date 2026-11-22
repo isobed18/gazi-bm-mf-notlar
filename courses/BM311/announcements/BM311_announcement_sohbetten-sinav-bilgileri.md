@@ -1,7 +1,7 @@
 # BM311 – Sohbetlerden derlenen sınav bilgileri
 
 Bilgisayar Mimarisi · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 12 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2025-2026 Güz
 

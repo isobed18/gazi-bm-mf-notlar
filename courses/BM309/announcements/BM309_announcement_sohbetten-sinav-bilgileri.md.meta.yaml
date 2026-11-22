@@ -1,5 +1,5 @@
 file: BM309_announcement_sohbetten-sinav-bilgileri.md
-sha256: 876d03ad69a0bcf228e5a3c5d479890ffa971d20d9214f46385fa861463846ae
+sha256: aecad6b8bb1b2bef35d2217ae8807776b295eae0e9aff42fdc0fea780d468954
 size: 3470
 course: BM309
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-bm-2021,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif,gaziuni-mf-ceng23,messy-from-you
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

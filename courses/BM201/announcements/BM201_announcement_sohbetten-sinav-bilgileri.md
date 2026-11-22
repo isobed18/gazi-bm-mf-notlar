@@ -1,7 +1,7 @@
 # BM201 – Sohbetlerden derlenen sınav bilgileri
 
 İleri Programlama · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 1 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2026-2027 Güz
 

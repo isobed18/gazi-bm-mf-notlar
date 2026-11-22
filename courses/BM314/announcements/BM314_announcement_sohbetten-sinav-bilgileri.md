@@ -1,7 +1,7 @@
 # BM314 – Sohbetlerden derlenen sınav bilgileri
 
 Yazılım Mühendisliği · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 3 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2025-2026 Bahar
 

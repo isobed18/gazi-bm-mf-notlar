@@ -1,5 +1,5 @@
 file: CENG483_announcement_sohbetten-sinav-bilgileri.md
-sha256: 65ca1ac098d4bd447db7ceac556e35a19ddbea7c89cb7f21ccfa632ae14ecc48
+sha256: fa76a5525bfec45540b04f878871fee82c916085458c1a88c40e604e90514207
 size: 1231
 course: CENG483
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

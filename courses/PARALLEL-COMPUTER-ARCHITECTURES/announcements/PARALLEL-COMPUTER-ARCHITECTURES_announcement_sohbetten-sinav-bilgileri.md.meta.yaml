@@ -1,5 +1,5 @@
 file: PARALLEL-COMPUTER-ARCHITECTURES_announcement_sohbetten-sinav-bilgileri.md
-sha256: e6e9be26bd7fdddacba8751518bf3e1d613b9e3e555ea55124097006678421ea
+sha256: 5e39b89c1459bb7d561ed976569a2a4d697654e6018177a17e0e54511f5fb5b9
 size: 675
 course: PARALLEL-COMPUTER-ARCHITECTURES
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

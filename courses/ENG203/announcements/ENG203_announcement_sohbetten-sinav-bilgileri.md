@@ -1,7 +1,7 @@
 # ENG203 – Sohbetlerden derlenen sınav bilgileri
 
 Academic English I · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 6 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2024-2025 Güz
 

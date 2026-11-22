@@ -1,5 +1,5 @@
 file: ENG103_announcement_sohbetten-sinav-bilgileri.md
-sha256: 2510daf94520defada6db1763c3d6ffb94fddb4ae4d73a037b30be09483679b5
+sha256: 734f36410db578ea4b4f4a986eebd74b00cbe4632322e1da89f22248b4cefe0a
 size: 376
 course: ENG103
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-ceng-2023-muh
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

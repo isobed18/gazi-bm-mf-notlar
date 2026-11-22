@@ -1,7 +1,7 @@
 # ENG204 – Sohbetlerden derlenen sınav bilgileri
 
 Academic English II · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 3 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2024-2025 Bahar
 

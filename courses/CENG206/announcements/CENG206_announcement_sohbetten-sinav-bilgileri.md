@@ -1,7 +1,7 @@
 # CENG206 – Sohbetlerden derlenen sınav bilgileri
 
 Sayısal Analiz · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 31 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2024-2025 Bahar
 

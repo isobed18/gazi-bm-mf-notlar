@@ -1,7 +1,7 @@
 # CENG205 – Sohbetlerden derlenen sınav bilgileri
 
 Data Structures · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 17 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2025-2026 Bahar
 

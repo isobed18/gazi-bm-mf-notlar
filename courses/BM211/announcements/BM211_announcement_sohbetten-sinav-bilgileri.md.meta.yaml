@@ -1,5 +1,5 @@
 file: BM211_announcement_sohbetten-sinav-bilgileri.md
-sha256: c35ec1c0b9591502a4f16e6d8284b66f7ee70959670a924110819887a9b59601
+sha256: aa9ba1af3262c8eb63de757e433a7156c515ee64ce0757d1cffbd2bcc2eb7603
 size: 5931
 course: BM211
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-ceng-2023-muh,gazi-mf-bm-2-sinif
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

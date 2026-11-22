@@ -1,5 +1,5 @@
 file: TUR101_announcement_sohbetten-sinav-bilgileri.md
-sha256: 41a156f42e863e6025a92ba9fd2be9e0d71944c72f2c97fcd0bfe9eaf3b07fa6
+sha256: 2679d765ee352d1a41c71192e009f62bc6ae293b39245fb670ca8eba399ee072
 size: 1286
 course: TUR101
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:ceng-2-0,gazi-mf-bm-2-sinif
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

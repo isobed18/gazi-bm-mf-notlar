@@ -1,5 +1,5 @@
 file: MATH101_announcement_sohbetten-sinav-bilgileri.md
-sha256: 22e88583bc8d87fda732478ad166290a1b4c374698af59cd511e1707f659322b
+sha256: 19dae77100822e89ec64d41313e5d698fa18c7bcde0b7306e200aca5d5d50dae
 size: 2304
 course: MATH101
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-ceng-2023-muh,gaziuni-mf-ceng23
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

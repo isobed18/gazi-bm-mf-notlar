@@ -1,5 +1,5 @@
 file: ISG402_announcement_sohbetten-sinav-bilgileri.md
-sha256: 26bc0a62c9a38f2ac35431dc5294aeec2d00bc3c235334c63933b15576551acd
+sha256: 006c6b7928b37311d335549a7d5c5383aec613d39a99e761c7cea34a5e224a5d
 size: 375
 course: ISG402
 kind: announcement
@@ -9,7 +9,7 @@ handwritten: false
 source:
   type: whatsapp
   ref: merged:gazi-bm-2021
-added: '2026-11-09'
+added: '2026-11-22'
 status: unverified
 scan:
   verdict: ok

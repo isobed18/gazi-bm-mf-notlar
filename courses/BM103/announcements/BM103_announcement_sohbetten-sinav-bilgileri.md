@@ -1,7 +1,7 @@
 # BM103 – Sohbetlerden derlenen sınav bilgileri
 
 Bilgisayar Mühendisliğinin Temelleri · Kaynak: sınıf grup sohbetleri · doğrulanmadı (öğrenci aktarımı) · 10 bilgi
-Derleme: 2026-11-09
+Derleme: 2026-11-22
 
 ## 2023-2024 Güz
 
